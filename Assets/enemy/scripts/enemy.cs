@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class enemy : MonoBehaviour
 {
+    public Animator anim;
     public float Speed;
     public Transform Target;
     public float TargetDistance = 5;
@@ -46,7 +47,24 @@ public class enemy : MonoBehaviour
 
         }
 
+        anim.SetFloat("Horizontal", direction.x); // controla as animações
+        anim.SetFloat("Vertical", direction.y);
+        anim.SetFloat("speed", direction.magnitude);
 
+        if (distanceToTarget == TargetDistance)
+        {
+            if (direction.y > 0)
+            {
+                anim.SetInteger("Idle", 1);
+            }
+            if (direction.y < 0) { anim.SetInteger("Idle", -1); }
+
+            if (direction.x > 0)
+            {
+                anim.SetInteger("Idle", 2);
+            }
+            if (direction.x < 0) { anim.SetInteger("Idle", -2); }
+        }
 
 
 

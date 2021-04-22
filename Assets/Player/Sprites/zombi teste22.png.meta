@@ -1,0 +1,1100 @@
+fileFormatVersion: 2
+guid: e0d0cc3dab4869246a9c24b0623d1671
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9197672526513854901
+    second: zombi teste22_0
+  - first:
+      213: 7220044132003794618
+    second: zombi teste22_1
+  - first:
+      213: 5150944130284404432
+    second: zombi teste22_2
+  - first:
+      213: 6879240872741212527
+    second: zombi teste22_3
+  - first:
+      213: 4209859574613149310
+    second: zombi teste22_4
+  - first:
+      213: -7719764509418999433
+    second: zombi teste22_5
+  - first:
+      213: 5226837372202592150
+    second: zombi teste22_6
+  - first:
+      213: 5281732063334259287
+    second: zombi teste22_7
+  - first:
+      213: -160223683874320702
+    second: zombi teste22_8
+  - first:
+      213: -897131355515583081
+    second: zombi teste22_9
+  - first:
+      213: 7374093978343151851
+    second: zombi teste22_10
+  - first:
+      213: 6663434637822456105
+    second: zombi teste22_11
+  - first:
+      213: 7283042564665732364
+    second: zombi teste22_12
+  - first:
+      213: -6263306896766703278
+    second: zombi teste22_13
+  - first:
+      213: -1252079083696764802
+    second: zombi teste22_14
+  - first:
+      213: 1712323481524502939
+    second: zombi teste22_15
+  - first:
+      213: -8572162738036886816
+    second: zombi teste22_16
+  - first:
+      213: 6712749055040231635
+    second: zombi teste22_17
+  - first:
+      213: 2811380104425910350
+    second: zombi teste22_18
+  - first:
+      213: 8326637026430784734
+    second: zombi teste22_19
+  - first:
+      213: -4799382868144814755
+    second: zombi teste22_20
+  - first:
+      213: -5239852651274134014
+    second: zombi teste22_21
+  - first:
+      213: -1068174290624327500
+    second: zombi teste22_22
+  - first:
+      213: 720318897441232919
+    second: zombi teste22_23
+  - first:
+      213: -7398880988276857885
+    second: zombi teste22_24
+  - first:
+      213: 8685945967005293439
+    second: zombi teste22_25
+  - first:
+      213: 2474972401655828164
+    second: zombi teste22_26
+  - first:
+      213: -6595377111366859943
+    second: zombi teste22_27
+  - first:
+      213: 876946601314191874
+    second: zombi teste22_28
+  - first:
+      213: 4118297831994375084
+    second: zombi teste22_29
+  - first:
+      213: 3420838262399658217
+    second: zombi teste22_30
+  - first:
+      213: 2842131464337278060
+    second: zombi teste22_31
+  - first:
+      213: -3710208633780581636
+    second: zombi teste22_32
+  - first:
+      213: 5923255190369237344
+    second: zombi teste22_33
+  - first:
+      213: -6417788775605391007
+    second: zombi teste22_34
+  - first:
+      213: -5857169912707373844
+    second: zombi teste22_35
+  - first:
+      213: -1260767223686925788
+    second: zombi teste22_36
+  - first:
+      213: 6332836737191206756
+    second: zombi teste22_37
+  - first:
+      213: -3397597656069270078
+    second: zombi teste22_38
+  - first:
+      213: 7336734748469689953
+    second: zombi teste22_39
+  - first:
+      213: 172079321101039685
+    second: zombi teste22_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zombi teste22_0
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 517
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b95a377e62b4af70800000000000000
+      internalID: 9197672526513854901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 434
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abecab672efb23460800000000000000
+      internalID: 7220044132003794618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 437
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de3c774564db7740800000000000000
+      internalID: 5150944130284404432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 384
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6196104029f77f50800000000000000
+      internalID: 6879240872741212527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 310
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7608137afc6c6a30800000000000000
+      internalID: 4209859574613149310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 309
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771b96a6413edd490800000000000000
+      internalID: -7719764509418999433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 307
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6972fd4a5e4798840800000000000000
+      internalID: 5226837372202592150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_7
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 310
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a54d9e35b7c4940800000000000000
+      internalID: 5281732063334259287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 315
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce011e8865c6cdf0800000000000000
+      internalID: -160223683874320702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_9
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 315
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79501ad09cfbc83f0800000000000000
+      internalID: -897131355515583081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 314
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be89d77576b065660800000000000000
+      internalID: 7374093978343151851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 313
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921f07baf76497c50800000000000000
+      internalID: 6663434637822456105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 220
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d63f610a0921560800000000000000
+      internalID: 7283042564665732364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 215
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25967f2df834419a0800000000000000
+      internalID: -6263306896766703278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 213
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78ce8905b8bf9ee0800000000000000
+      internalID: -1252079083696764802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_15
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 216
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9104d8522563c710800000000000000
+      internalID: 1712323481524502939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 218
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2b872386f890980800000000000000
+      internalID: -8572162738036886816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_17
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 214
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8130c23b9782d50800000000000000
+      internalID: 6712749055040231635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 214
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4038e44f47040720800000000000000
+      internalID: 2811380104425910350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_19
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 215
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4950652482e8370800000000000000
+      internalID: 8326637026430784734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 117
+        width: 10
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55022ba5ba256db0800000000000000
+      internalID: -4799382868144814755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_21
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 122
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e9a6d86cd4847b0800000000000000
+      internalID: -5239852651274134014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_22
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 93
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0d12164251d21f0800000000000000
+      internalID: -1068174290624327500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_23
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 77
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7185cf688361ff900800000000000000
+      internalID: 720318897441232919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_24
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 60
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3ed5e21f4e15990800000000000000
+      internalID: -7398880988276857885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_25
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 60
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b569d36ddaa8870800000000000000
+      internalID: 8685945967005293439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_26
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 59
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce479d494ed85220800000000000000
+      internalID: 2474972401655828164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_27
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 56
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9538c3506738874a0800000000000000
+      internalID: -6595377111366859943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_28
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 54
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a8152a94a8b2c00800000000000000
+      internalID: 876946601314191874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_29
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 57
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab394bfe02272930800000000000000
+      internalID: 4118297831994375084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_30
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 55
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e865687642497f20800000000000000
+      internalID: 3420838262399658217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_31
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 61
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64c8c03287417720800000000000000
+      internalID: 2842131464337278060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 54
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfacbe4b7e0b28cc0800000000000000
+      internalID: -3710208633780581636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_33
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 22
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06972ff7631a33250800000000000000
+      internalID: 5923255190369237344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 21
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1613d8a8c1f6fe6a0800000000000000
+      internalID: -6417788775605391007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 21
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4a8fb3ff627bea0800000000000000
+      internalID: -5857169912707373844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_36
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 21
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4227fafc3ead08ee0800000000000000
+      internalID: -1260767223686925788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_37
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 18
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f53dca571c2e750800000000000000
+      internalID: 6332836737191206756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_38
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 20
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c59a4cdeee49d0d0800000000000000
+      internalID: -3397597656069270078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_39
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 19
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16efccdc16151d560800000000000000
+      internalID: 7336734748469689953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombi teste22_40
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 19
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548fa671b39536200800000000000000
+      internalID: 172079321101039685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

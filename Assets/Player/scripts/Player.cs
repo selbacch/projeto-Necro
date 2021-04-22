@@ -71,6 +71,7 @@ public class Player : MonoBehaviour
         anim.SetFloat("Horizontal", move.x);
         anim.SetFloat("Vertical", move.y);
         anim.SetFloat("speed", move.magnitude);
+        
         transform.position = transform.position + move * speed * Time.deltaTime;
         if (move.y > 0) {
             anim.SetInteger("Idle", 1);

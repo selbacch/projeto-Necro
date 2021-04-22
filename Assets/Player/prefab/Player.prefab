@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8137956286418356825}
   - component: {fileID: 8137956286418356838}
   - component: {fileID: 8137956286418356839}
-  - component: {fileID: 8137956286418356836}
+  - component: {fileID: 1392254405}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -72,8 +72,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e27dd200bb8952f48a62038ad4f91038, type: 3}
-  m_Color: {r: 0.7655809, g: 0.48406905, b: 0.9245283, a: 1}
+  m_Sprite: {fileID: 6484800239866462426, guid: 1bc4ce36c1d5312428d620bae4d6c1a2,
+    type: 3}
+  m_Color: {r: 0.94467646, g: 0.9303578, b: 0.9528302, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -102,7 +103,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8137956286418356836
+--- !u!114 &1392254405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,7 +117,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 8137956286418356839}
   speed: 5
-  Fantasma: {fileID: 0}
-  Demon: {fileID: 0}
-  Zombi: {fileID: 0}
+  Fantasma: {fileID: 3616692319614573345, guid: 2d3b267d1ebc7a94f8baf2be8e72c730,
+    type: 3}
+  Demon: {fileID: 5958247350948931590, guid: d1e11d830ef83d74bafd317b3577e838, type: 3}
+  Zombi: {fileID: 8431348414312144658, guid: a27d1466ee0d89a4daca1d74b2f7397a, type: 3}
   point: {fileID: 8137956286418356825}
+  atacando: 0
+  combo1: 0

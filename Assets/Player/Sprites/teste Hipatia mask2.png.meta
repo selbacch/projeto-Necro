@@ -1,0 +1,848 @@
+fileFormatVersion: 2
+guid: 9627fbb1db76cf44c80420b579ee029e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4325491882678538748
+    second: teste Hipatia mask2_0
+  - first:
+      213: -4151309498273193217
+    second: teste Hipatia mask2_1
+  - first:
+      213: -3748143942903562044
+    second: teste Hipatia mask2_2
+  - first:
+      213: 597503383801462784
+    second: teste Hipatia mask2_3
+  - first:
+      213: -2157788514249912182
+    second: teste Hipatia mask2_4
+  - first:
+      213: -3584280683632151767
+    second: teste Hipatia mask2_5
+  - first:
+      213: 1749035041171495642
+    second: teste Hipatia mask2_6
+  - first:
+      213: -5444356252742240135
+    second: teste Hipatia mask2_7
+  - first:
+      213: 6603267298742100855
+    second: teste Hipatia mask2_8
+  - first:
+      213: -2291383982226773146
+    second: teste Hipatia mask2_9
+  - first:
+      213: -6798842402684734165
+    second: teste Hipatia mask2_10
+  - first:
+      213: -6820465034118524654
+    second: teste Hipatia mask2_11
+  - first:
+      213: -2803858713041453419
+    second: teste Hipatia mask2_12
+  - first:
+      213: 2343396926441310869
+    second: teste Hipatia mask2_13
+  - first:
+      213: -638176359111635015
+    second: teste Hipatia mask2_14
+  - first:
+      213: -4483606427535094588
+    second: teste Hipatia mask2_15
+  - first:
+      213: -8363776378647163688
+    second: teste Hipatia mask2_16
+  - first:
+      213: 4066047775065558194
+    second: teste Hipatia mask2_17
+  - first:
+      213: 9121535765588163317
+    second: teste Hipatia mask2_18
+  - first:
+      213: -130629208155767938
+    second: teste Hipatia mask2_19
+  - first:
+      213: -6364340531893428196
+    second: teste Hipatia mask2_20
+  - first:
+      213: 8913495958792946790
+    second: teste Hipatia mask2_21
+  - first:
+      213: 2975375526675360174
+    second: teste Hipatia mask2_22
+  - first:
+      213: -3569696061738236665
+    second: teste Hipatia mask2_23
+  - first:
+      213: 4329860826434106906
+    second: teste Hipatia mask2_24
+  - first:
+      213: -6294198368889568854
+    second: teste Hipatia mask2_25
+  - first:
+      213: -3007118303987566856
+    second: teste Hipatia mask2_26
+  - first:
+      213: -2233152400437433907
+    second: teste Hipatia mask2_0
+  - first:
+      213: -2622316549108540495
+    second: teste Hipatia mask2_1
+  - first:
+      213: 4253432966276907443
+    second: teste Hipatia mask2_2
+  - first:
+      213: 7468996524720876506
+    second: teste Hipatia mask2_3
+  - first:
+      213: -5004412312758091501
+    second: teste Hipatia mask2_4
+  - first:
+      213: -1510019004203303322
+    second: teste Hipatia mask2_5
+  - first:
+      213: -3256315314379958062
+    second: teste Hipatia mask2_6
+  - first:
+      213: 6481168413359582675
+    second: teste Hipatia mask2_7
+  - first:
+      213: -3882744926036145298
+    second: teste Hipatia mask2_8
+  - first:
+      213: -3477728718998506227
+    second: teste Hipatia mask2_9
+  - first:
+      213: -4878195503707354195
+    second: teste Hipatia mask2_10
+  - first:
+      213: -4016534043141611792
+    second: teste Hipatia mask2_11
+  - first:
+      213: -243718654889593911
+    second: teste Hipatia mask2_12
+  - first:
+      213: -2383070521468329634
+    second: teste Hipatia mask2_13
+  - first:
+      213: 1716895238409444799
+    second: teste Hipatia mask2_14
+  - first:
+      213: -6225063256557548649
+    second: teste Hipatia mask2_15
+  - first:
+      213: 2022480674893421675
+    second: teste Hipatia mask2_16
+  - first:
+      213: -6380009206382398654
+    second: teste Hipatia mask2_17
+  - first:
+      213: 8320001029474664230
+    second: teste Hipatia mask2_18
+  - first:
+      213: 6635670900080295723
+    second: teste Hipatia mask2_19
+  - first:
+      213: 675791165100360829
+    second: teste Hipatia mask2_20
+  - first:
+      213: -7113065428232408973
+    second: teste Hipatia mask2_21
+  - first:
+      213: 463902888333398688
+    second: teste Hipatia mask2_22
+  - first:
+      213: 6257251442815931298
+    second: teste Hipatia mask2_23
+  - first:
+      213: -6039627288284506569
+    second: teste Hipatia mask2_24
+  - first:
+      213: -5829298428053712916
+    second: teste Hipatia mask2_25
+  - first:
+      213: -5700461371227716598
+    second: teste Hipatia mask2_26
+  - first:
+      213: 3488526892003418531
+    second: teste Hipatia mask2_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: teste Hipatia mask2_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 466
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9ad9a39bf3201e0800000000000000
+      internalID: -2233152400437433907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 469
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbd1c10ef8ab9bd0800000000000000
+      internalID: -2622316549108540495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 468
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b10fd64fba370b30800000000000000
+      internalID: 4253432966276907443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 469
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb6d9c44c437a760800000000000000
+      internalID: 7468996524720876506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 469
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311867c1481cc8ab0800000000000000
+      internalID: -5004412312758091501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 407
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e7f5257b55b0be0800000000000000
+      internalID: -1510019004203303322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_6
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 406
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8d7b9697e3fc2d0800000000000000
+      internalID: -3256315314379958062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_7
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 407
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dda7cf455cb1f950800000000000000
+      internalID: 6481168413359582675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_8
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 407
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b4a2abf08bd1ac0800000000000000
+      internalID: -3882744926036145298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_9
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 418
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d057be6e720acbfc0800000000000000
+      internalID: -3477728718998506227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_10
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 418
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab8d90090b2d4cb0800000000000000
+      internalID: -4878195503707354195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 418
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fed74a71976248c0800000000000000
+      internalID: -4016534043141611792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_12
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 418
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c37b26bc232e9cf0800000000000000
+      internalID: -243718654889593911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_13
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 418
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51ec2d9cf1adeed0800000000000000
+      internalID: -2383070521468329634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_14
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 418
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd54f17f13a3d710800000000000000
+      internalID: 1716895238409444799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_15
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 367
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b0d8033f12c99a0800000000000000
+      internalID: -6225063256557548649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 366
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c5d10557b411c10800000000000000
+      internalID: 2022480674893421675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 365
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243fad5fd67a577a0800000000000000
+      internalID: -6380009206382398654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_18
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 365
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fb8b4ead4967370800000000000000
+      internalID: 8320001029474664230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 332
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fbeadb683a61c50800000000000000
+      internalID: 6635670900080295723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 332
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d748722fb74e06900800000000000000
+      internalID: 675791165100360829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 332
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370781efda0594d90800000000000000
+      internalID: -7113065428232408973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_22
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 333
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2d365183d107600800000000000000
+      internalID: 463902888333398688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_23
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 293
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3185fe80936d650800000000000000
+      internalID: 6257251442815931298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 293
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736db0a0bfeee2ca0800000000000000
+      internalID: -6039627288284506569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 294
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef8d12f6fb2a1fa0800000000000000
+      internalID: -5829298428053712916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teste Hipatia mask2_26
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 291
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04c220d594e3e0b0800000000000000
+      internalID: -5700461371227716598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
