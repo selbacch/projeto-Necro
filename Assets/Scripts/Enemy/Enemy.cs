@@ -1,33 +1,37 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemy : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     public Animator anim;
-    public float Speed;
     public Transform Target;
-    public float TargetDistance = 5;
+    public EnemyAttackArea areaAtaque;
+    public EnemyAggroArea areaPerigo;
+
+    public Int32 vida;
+    public float resfriamento;
+    public Int32 raioAtaque;
+    public Int32 raioPerigo;
+    public Int32 velocidade = 1;
+  
+    private float TargetDistance;
     private float _distanceToTarget;
     private float _distanceWantsToMoveThisFrame;
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.GetComponent<Rigidbody>();
 
-
-    
-
+        TargetDistance = 0;
+        EnemyAggroArea.PlayerEntrouAggro += hunt;
     }
 
     // Update is called once per frame
     void Update()
     {
-        hunt();
+       //Hunt();
     }
-
-
-
 
 
     void hunt()
@@ -66,16 +70,9 @@ public class enemy : MonoBehaviour
             if (direction.x < 0) { anim.SetInteger("Idle", -2); }
         }
 
-
-
-
-
-
-
         // Faz o movimento terminar exatamente em cima do alvo
-        float distanceWantsToMoveThisFrame = Speed * Time.deltaTime;
+        float distanceWantsToMoveThisFrame = velocidade * Time.deltaTime;
         float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
-
         MoveCharacter(actualMovementThisFrame * direction);
     }
 
@@ -83,4 +80,5 @@ public class enemy : MonoBehaviour
     {
         transform.position += frameMovement;
     }
+
 }
