@@ -32,16 +32,5 @@ public class EnemyAggroArea : MonoBehaviour
 
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        
-        if (collision.gameObject.tag.Equals("Player"))
-        {
-            Debug.Log(" está no aggro");
-            PlayerEmAggro?.Invoke();
-        }
-
-    }
     
-
 }
