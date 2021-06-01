@@ -14,7 +14,7 @@ public class EnemyAttackArea : MonoBehaviour
        
         if (collision.gameObject.tag.Equals("Player"))
         {
-            Debug.Log(" PlayerEntrouAttack ");
+           
             PlayerEntrouAttack?.Invoke();
         }
 

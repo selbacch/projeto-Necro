@@ -15,7 +15,7 @@ public class EnemyAggroArea : MonoBehaviour
         
         if (collision.gameObject.tag.Equals("Player"))
         {
-            Debug.Log(" entrou no aggro");
+           
             PlayerEntrouAggro?.Invoke();
         }
 
@@ -26,7 +26,7 @@ public class EnemyAggroArea : MonoBehaviour
        
         if (collision.gameObject.tag.Equals("Player"))
         {
-            Debug.Log(" saiu no aggro");
+          
             PlayerSaiuAggro?.Invoke();
         }
 

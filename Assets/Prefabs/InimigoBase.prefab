@@ -47,7 +47,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 8
+  m_Radius: 5
 --- !u!114 &3799726630603636053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +209,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2.5
 --- !u!114 &8085665327222705829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,43 +222,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09d0f9d0b3d38d42ae45aee23cbec30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1831615094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3687723738588562865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 617c3f0985893784ba09308f1a0bda99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 1028455769}
-  Target: {fileID: 1028455766}
-  areaAtaque: {fileID: 8085665327222705829}
-  areaPerigo: {fileID: 3799726630603636053}
-  vida: 0
-  resfriamento: 0
-  raioAtaque: 0
-  raioPerigo: 0
-  velocidade: 2
---- !u!70 &1831615095
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3687723738588562865}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.025625229, y: -0.06833446}
-  m_Size: {x: 1.0637598, y: 2.3496063}
-  m_Direction: 0
 --- !u!50 &2717714913507700577
 Rigidbody2D:
   serializedVersion: 4
@@ -279,7 +242,43 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!70 &1831615095
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3687723738588562865}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.025625229, y: -0.06833446}
+  m_Size: {x: 1.0637598, y: 2.3496063}
+  m_Direction: 0
+--- !u!114 &1831615094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3687723738588562865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617c3f0985893784ba09308f1a0bda99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
+  Target: {fileID: 0}
+  AreaAtaque: {fileID: 8085665327222705829}
+  AreaPerigo: {fileID: 3799726630603636053}
+  Vida: 100
+  Resfriamento: 2
+  Velocidade: 1
+  Dano: 15
 --- !u!1001 &6404320763877645354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -320,7 +319,7 @@ PrefabInstance:
     - target: {fileID: 7768105717592824294, guid: 3d95581cfc2160740a4af5d364beab6f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.63
+      value: 4.12
       objectReference: {fileID: 0}
     - target: {fileID: 7768105717592824294, guid: 3d95581cfc2160740a4af5d364beab6f,
         type: 3}

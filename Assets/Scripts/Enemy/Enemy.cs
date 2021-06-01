@@ -5,16 +5,19 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public Animator anim;
-    public Transform Target;
-    public EnemyAttackArea areaAtaque;
-    public EnemyAggroArea areaPerigo;
+    public Animator Anim;
+    public Player Target;
+    public EnemyAttackArea AreaAtaque;
+    public EnemyAggroArea AreaPerigo;
 
-    public Int32 vida;
-    public float resfriamento;
-    public Int32 raioAtaque;
-    public Int32 raioPerigo;
-    public Int32 velocidade = 1;
+    public Int32 Vida = 100;
+    public float Resfriamento = 2;
+    //public Int32 RaioAtaque = 2.5;
+    //public Int32 RaioPerigo = 5;
+    public Int32 Velocidade = 1;
+    public Double Dano = 15;
+
+
 
     private float TargetDistance;
     private float _distanceToTarget;
@@ -43,6 +46,7 @@ public class Enemy : MonoBehaviour
     {
         Hunt();
         VoltarPosicaoInicial();
+
     }
 
 
@@ -50,44 +54,28 @@ public class Enemy : MonoBehaviour
     {
         if (!isHuntingPlayer || isAttackingPlayer)
             return;
-        Vector3 direction = Target.position - transform.position;
+        Vector3 direction = Target.transform.position - transform.position;
 
         direction.z = 0;
         float distanceToTarget = direction.magnitude;
 
         direction.Normalize();
 
-        // Mas se ja estiver perto demais, na verdade quero fugir.
-        // Inverte a direção anterior.
-        //if (distanceToTarget < TargetDistance)
-        //{
-        //    direction = -direction;
-
-        //}
-
-        ////    anim.SetFloat("Horizontal", direction.x); // controla as animações
-        // //   anim.SetFloat("Vertical", direction.y);
-        // //   anim.SetFloat("speed", direction.magnitude);
-
-        //    if (distanceToTarget == TargetDistance)
-        //    {
-        //        if (direction.y > 0)
-        //        {
-        //            anim.SetInteger("Idle", 1);
-        //        }
-        //        if (direction.y < 0) { anim.SetInteger("Idle", -1); }
-
-        //        if (direction.x > 0)
-        //        {
-        //            anim.SetInteger("Idle", 2);
-        //        }
-        //        if (direction.x < 0) { anim.SetInteger("Idle", -2); }
-        //    }
 
         // Faz o movimento terminar exatamente em cima do alvo
-        float distanceWantsToMoveThisFrame = velocidade * Time.deltaTime;
+        float distanceWantsToMoveThisFrame = Velocidade * Time.deltaTime;
         float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
         MoveCharacter(actualMovementThisFrame * direction);
+    }
+
+    IEnumerator Atacar()
+    {
+        for (; ; )
+        {
+            Target.SofrerDano(this);
+            Debug.Log("ATAQUEEEEEEI");
+            yield return new WaitForSeconds(2);
+        }
     }
 
     void VoltarPosicaoInicial()
@@ -101,7 +89,7 @@ public class Enemy : MonoBehaviour
         float distanceToTarget = direction.magnitude;
 
         direction.Normalize();
-        float distanceWantsToMoveThisFrame = velocidade * Time.deltaTime;
+        float distanceWantsToMoveThisFrame = Velocidade * Time.deltaTime;
         float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
         MoveCharacter(actualMovementThisFrame * direction);
     }
@@ -124,11 +112,13 @@ public class Enemy : MonoBehaviour
     void PlayerEntrouAttackArea()
     {
         isAttackingPlayer = true;
+        StartCoroutine("Atacar");
     }
 
     void PlayerSaiuAttackArea()
     {
         isAttackingPlayer = false;
+        StopCoroutine("Atacar");
     }
 
 }
