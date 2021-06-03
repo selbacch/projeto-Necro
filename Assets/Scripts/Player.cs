@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     public Transform point;
     public bool atacando;
     public int combo1;
-
+    
 
     
 
