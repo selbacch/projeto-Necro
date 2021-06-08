@@ -79,12 +79,12 @@ PrefabInstance:
     - target: {fileID: 1362151798187229330, guid: fdfbe3cd270d88a43b6ba6f17ed4d180,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.88
+      value: -1.0785055
       objectReference: {fileID: 0}
     - target: {fileID: 1362151798187229330, guid: fdfbe3cd270d88a43b6ba6f17ed4d180,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.315
+      value: -4.791939
       objectReference: {fileID: 0}
     - target: {fileID: 1362151798187229330, guid: fdfbe3cd270d88a43b6ba6f17ed4d180,
         type: 3}
@@ -349,13 +349,18 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 1362151798187229333, guid: fdfbe3cd270d88a43b6ba6f17ed4d180,
         type: 3}
+      propertyPath: m_Color.a
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362151798187229333, guid: fdfbe3cd270d88a43b6ba6f17ed4d180,
+        type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1362151798187229335, guid: fdfbe3cd270d88a43b6ba6f17ed4d180,
         type: 3}
       propertyPath: m_Name
-      value: casa2
+      value: casa2 Variant (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdfbe3cd270d88a43b6ba6f17ed4d180, type: 3}

@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
     //public Int32 RaioAtaque = 2.5;
     //public Int32 RaioPerigo = 5;
     public Int32 Velocidade = 1;
-    public Double Dano = 15;
+    public int Dano = 15;
 
 
 
@@ -72,7 +72,7 @@ public class Enemy : MonoBehaviour
     {
         for (; ; )
         {
-            Target.SofrerDano(this);
+            Target.GetComponent<Health>().DamagePlayer(Dano);
             Debug.Log("ATAQUEEEEEEI");
             yield return new WaitForSeconds(2);
         }
