@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, Atacavel
 {
     public Animator Anim;
     public Player Target;
@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
     //public Int32 RaioAtaque = 2.5;
     //public Int32 RaioPerigo = 5;
     public Int32 Velocidade = 1;
-    public Double Dano = 15;
+    public Int32 Dano = 15;
 
 
 
@@ -48,6 +48,7 @@ public class Enemy : MonoBehaviour
         VoltarPosicaoInicial();
 
     }
+
 
 
     void Hunt()
@@ -94,7 +95,6 @@ public class Enemy : MonoBehaviour
         MoveCharacter(actualMovementThisFrame * direction);
     }
 
-
     void MoveCharacter(Vector3 frameMovement)
     {
         transform.position += frameMovement;
@@ -121,4 +121,22 @@ public class Enemy : MonoBehaviour
         StopCoroutine("Atacar");
     }
 
+    public void CausarDano(Atacavel atacado)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void SofrerDano(Atacavel atacante)
+    {
+        Vida -= atacante.DanoCausado();
+        if (Vida <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    public int DanoCausado()
+    {
+        return this.Dano;
+    }
 }

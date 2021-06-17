@@ -1,9 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour,Atacavel
 {
 
     public Animator anim;
@@ -14,6 +15,14 @@ public class Player : MonoBehaviour
     public Transform point;
     public bool atacando;
     public int combo1;
+
+
+    public Int32 Vida = 500;
+    public float Resfriamento = 2;
+    //public Int32 RaioAtaque = 2.5;
+    //public Int32 RaioPerigo = 5;
+    public Int32 Velocidade = 1;
+    public Int32 Dano = 15;
 
     // Start is called before the first frame update
     void Start()
@@ -114,11 +123,28 @@ public class Player : MonoBehaviour
         combo1 = 0;
     }
 
-    public void SofrerDano(Enemy inimigo)
+    public void Atacar(Atacavel inimigo)
     {
-        Debug.Log("LOGICA DO DANO :D sofreu -"+inimigo.Dano);
+        inimigo.SofrerDano(this);
     }
 
+    public void CausarDano(Atacavel atacado)
+    {
+        throw new System.NotImplementedException();
+    }
 
+    public void SofrerDano(Atacavel atacante)
+    {
+        Vida -= atacante.DanoCausado();
+        if (Vida <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    public int DanoCausado()
+    {
+        return this.Dano;
+    }
 }
 
