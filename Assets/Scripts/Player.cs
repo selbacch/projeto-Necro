@@ -122,15 +122,10 @@ public class Player : MonoBehaviour,Atacavel
         atacando = false;
         combo1 = 0;
     }
-
-    public void Atacar(Atacavel inimigo)
+        
+    public void CausarDano(Atacavel inimigo)
     {
-        inimigo.SofrerDano(this);
-    }
-
-    public void CausarDano(Atacavel atacado)
-    {
-        throw new System.NotImplementedException();
+          inimigo.SofrerDano(this);
     }
 
     public void SofrerDano(Atacavel atacante)

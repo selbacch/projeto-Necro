@@ -9,15 +9,14 @@ public class Enemy : MonoBehaviour, Atacavel
     public Player Target;
     public EnemyAttackArea AreaAtaque;
     public EnemyAggroArea AreaPerigo;
+    public EnemyAI ai;
 
     public Int32 Vida = 100;
     public float Resfriamento = 2;
     //public Int32 RaioAtaque = 2.5;
     //public Int32 RaioPerigo = 5;
-    public Int32 Velocidade = 1;
+    public Int32 Velocidade = 15;
     public Int32 Dano = 15;
-
-
 
     private float TargetDistance;
     private float _distanceToTarget;
@@ -44,29 +43,26 @@ public class Enemy : MonoBehaviour, Atacavel
     // Update is called once per frame
     void Update()
     {
-        Hunt();
-        VoltarPosicaoInicial();
-
+        
     }
 
-
+    void FixedUpdate()
+    {
+        Hunt();
+        VoltarPosicaoInicial();
+    }
 
     void Hunt()
     {
         if (!isHuntingPlayer || isAttackingPlayer)
             return;
-        Vector3 direction = Target.transform.position - transform.position;
+       
+        List<Cell> caminho = ai.AStar(transform.position, Target.transform.position);
+        List<Vector3> cam = ai.CaminhoGridToLocal(caminho);
 
-        direction.z = 0;
-        float distanceToTarget = direction.magnitude;
-
-        direction.Normalize();
-
-
-        // Faz o movimento terminar exatamente em cima do alvo
-        float distanceWantsToMoveThisFrame = Velocidade * Time.deltaTime;
-        float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
-        MoveCharacter(actualMovementThisFrame * direction);
+        Vector3 oldPos = transform.position;
+        transform.position = Vector3.Lerp(oldPos, cam[0], Time.deltaTime * Velocidade);
+       
     }
 
     IEnumerator Atacar()
@@ -92,12 +88,7 @@ public class Enemy : MonoBehaviour, Atacavel
         direction.Normalize();
         float distanceWantsToMoveThisFrame = Velocidade * Time.deltaTime;
         float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
-        MoveCharacter(actualMovementThisFrame * direction);
-    }
-
-    void MoveCharacter(Vector3 frameMovement)
-    {
-        transform.position += frameMovement;
+        transform.position += (actualMovementThisFrame * direction);
     }
 
     void PlayerEntrouAggro()
@@ -139,4 +130,8 @@ public class Enemy : MonoBehaviour, Atacavel
     {
         return this.Dano;
     }
+
+
+
+
 }
