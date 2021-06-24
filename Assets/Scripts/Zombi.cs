@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Zombi : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class Zombi : MonoBehaviour
     private float _distanceToTarget;
     private float _distanceWantsToMoveThisFrame;
     private float timeDestroy;
-   
+    public NavMeshAgent nave;
 
 
 
@@ -30,7 +31,7 @@ public class Zombi : MonoBehaviour
 
     void Update()
     {
-        hunt();
+        navhunt();
         if (Target == null)
             Target = GameObject.FindGameObjectWithTag("enemy").transform;
 
@@ -83,6 +84,11 @@ public class Zombi : MonoBehaviour
         float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
 
         MoveCharacter(actualMovementThisFrame * direction);
+    }
+
+    void navhunt()
+    {
+        nave.SetDestination(Target.transform.position);
     }
 
     void MoveCharacter(Vector3 frameMovement)

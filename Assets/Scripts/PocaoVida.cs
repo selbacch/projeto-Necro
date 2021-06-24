@@ -15,4 +15,15 @@ public class PocaoVida : MonoBehaviour
     {
         
     }
+
+
+    void usar()
+    {
+        Destroy(gameObject, 0f);
+        // player.GetComponent<Health>().curHealth = +50; // adiciona mais 50 de vida
+    }
+
+
+
+
 }

@@ -15,4 +15,14 @@ public class PocaoMana : MonoBehaviour
     {
         
     }
+
+
+
+    void usar()
+    {
+        Destroy(gameObject, 0f);
+        // player.GetComponent<Mana>().curMana = +2; // adiciona mais 2 de mana
+    }
+
+
 }
