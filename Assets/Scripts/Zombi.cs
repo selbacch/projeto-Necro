@@ -23,8 +23,10 @@ public class Zombi : MonoBehaviour
         
         if (Target == null)
            Target = GameObject.FindGameObjectWithTag("enemy").transform; // coloca o inimigo como alvo 
+        var agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
 
-        
         Delete();
 
     }
