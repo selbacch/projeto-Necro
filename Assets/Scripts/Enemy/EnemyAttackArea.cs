@@ -8,10 +8,29 @@ public class EnemyAttackArea : MonoBehaviour
     public static Action PlayerEmAttack;
     public static Action PlayerEntrouAttack;
     public static Action PlayerSaiuAttack;
+    public Collider2D coll;
+
+
+
+    void Start()
+    {
+
+    }
+
+    void Update()
+    {
+        OnTriggerEnter2D(coll);
+        OnTriggerExit2D(coll);
+        OnTriggerStay2D(coll);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       
+        if (collision.gameObject.tag.Equals("sumon"))
+        {
+
+            PlayerEntrouAttack?.Invoke();
+        }
         if (collision.gameObject.tag.Equals("Player"))
         {
            
@@ -22,6 +41,13 @@ public class EnemyAttackArea : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+
+
+        if (collision.gameObject.tag.Equals("sumon"))
+        {
+            PlayerSaiuAttack?.Invoke();
+        }
+
         if (collision.gameObject.tag.Equals("Player"))
         {
             PlayerSaiuAttack?.Invoke();
@@ -31,6 +57,11 @@ public class EnemyAttackArea : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        if (collision.gameObject.tag.Equals("sumon"))
+        {
+            PlayerEmAttack?.Invoke();
+        }
+
         if (collision.gameObject.tag.Equals("Player"))
         {
             PlayerEmAttack?.Invoke();

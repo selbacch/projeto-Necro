@@ -13,12 +13,13 @@ GameObject:
   - component: {fileID: 7411570898252776810}
   - component: {fileID: 7411570898252776725}
   - component: {fileID: 7411570898252776724}
+  - component: {fileID: 5906221838606506927}
   m_Layer: 0
   m_Name: arvore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &7411570898252776808
 Transform:
@@ -174,3 +175,19 @@ MonoBehaviour:
   renderSprite: {fileID: 7411570898252776811}
   padrao: {fileID: 2100000, guid: 04b5fbdaf0d692244b50e2af69137f63, type: 2}
   alter: {fileID: 2100000, guid: ff545fcc1882b4745877117aa0cb9dd6, type: 2}
+--- !u!208 &5906221838606506927
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7411570898252776727}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.14, y: 0.095, z: 0.1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.03, y: -0.66, z: 0}
+  m_TimeToStationary: 0.5

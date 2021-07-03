@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Enemy : MonoBehaviour
     public Player Target;
     public EnemyAttackArea AreaAtaque;
     public EnemyAggroArea AreaPerigo;
+    public UnityEngine.AI.NavMeshAgent nave;
 
     public Int32 Vida = 100;
     public float Resfriamento = 2;
@@ -39,13 +41,17 @@ public class Enemy : MonoBehaviour
         isHuntingPlayer = false;
         isAttackingPlayer = false;
         localInicial = transform.position;
+        var agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+
     }
 
-    // Update is called once per frame
-    void Update()
+        // Update is called once per frame
+        void Update()
     {
         Hunt();
-        VoltarPosicaoInicial();
+        //VoltarPosicaoInicial();
 
     }
 
@@ -54,18 +60,17 @@ public class Enemy : MonoBehaviour
     {
         if (!isHuntingPlayer || isAttackingPlayer)
             return;
-        Vector3 direction = Target.transform.position - transform.position;
 
-        direction.z = 0;
-        float distanceToTarget = direction.magnitude;
+       
+            nave.SetDestination(Target.transform.position);
+            Vector3 direction = Target.transform.position - transform.position;
+            direction.z = 0;
+            float distanceToTarget = direction.magnitude;
 
-        direction.Normalize();
-
-
-        // Faz o movimento terminar exatamente em cima do alvo
-        float distanceWantsToMoveThisFrame = Velocidade * Time.deltaTime;
-        float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
-        MoveCharacter(actualMovementThisFrame * direction);
+            direction.Normalize();
+        
+         
+        
     }
 
     IEnumerator Atacar()
@@ -83,6 +88,7 @@ public class Enemy : MonoBehaviour
 
         if (isHuntingPlayer || isAttackingPlayer)
             return;
+        nave.SetDestination(this.localInicial- transform.position);
         Vector3 direction = this.localInicial - transform.position;
 
         direction.z = 0;
@@ -91,7 +97,7 @@ public class Enemy : MonoBehaviour
         direction.Normalize();
         float distanceWantsToMoveThisFrame = Velocidade * Time.deltaTime;
         float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
-        MoveCharacter(actualMovementThisFrame * direction);
+       MoveCharacter(actualMovementThisFrame * direction);
     }
 
 
@@ -122,3 +128,4 @@ public class Enemy : MonoBehaviour
     }
 
 }
+    
