@@ -16,18 +16,7 @@ public class Mana : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            LostMana(1);
-        }
-        if (curMana > 3)
-        {
-            curMana = 3;
-        }
-        if (curMana < 0)
-        {
-            curMana = 0;
-        }
+      
 
     }
 

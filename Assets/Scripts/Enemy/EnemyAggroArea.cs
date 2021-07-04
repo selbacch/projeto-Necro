@@ -31,12 +31,12 @@ public class EnemyAggroArea : MonoBehaviour
         if (collision.gameObject.tag.Equals("sumon"))
         {
             gameObject.GetComponent<EnemyAI>().Target = collision.gameObject.transform;
-            PlayerEntrouAggro?.Invoke();
+            gameObject.GetComponent<EnemyAI>().PlayerEntrouAggro();
         }
         if (collision.gameObject.tag.Equals("Player"))
         {
             gameObject.GetComponent<EnemyAI>().Target = collision.gameObject.transform;
-            PlayerEntrouAggro?.Invoke();
+            gameObject.GetComponent<EnemyAI>().PlayerEntrouAggro();
         }
 
     }
@@ -46,12 +46,12 @@ public class EnemyAggroArea : MonoBehaviour
         if (collision.gameObject.tag.Equals("sumon"))
         {
 
-            PlayerSaiuAggro?.Invoke();
+            gameObject.GetComponent<EnemyAI>().PlayerSaiuAggro();
         }
         if (collision.gameObject.tag.Equals("Player"))
         {
-           
-            PlayerSaiuAggro?.Invoke();
+
+            gameObject.GetComponent<EnemyAI>().PlayerSaiuAggro();
         }
 
     }

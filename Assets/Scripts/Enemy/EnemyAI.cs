@@ -128,7 +128,7 @@ public class EnemyAI : MonoBehaviour
     void navhunt()
     {
         nave.SetDestination(Target.transform.position);
-        Vector3 direction = Target.transform.position - transform.position;
+        Vector3 direction = Target.position - transform.position;
         direction.z = 0;
         float distanceToTarget = direction.magnitude;
 
@@ -185,30 +185,39 @@ public class EnemyAI : MonoBehaviour
 
     public void Delete() //destroi apos 10
     {
-       
+        OnDestroy();
         Destroy(gameObject, timeDestroy);
+        
     }
 
-    void PlayerEntrouAggro()
+    public void PlayerEntrouAggro()
     {
         isHuntingPlayer = true;
     }
-    void PlayerSaiuAggro()
+    public void PlayerSaiuAggro()
     {
-        isHuntingPlayer = false;
+       // Target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    void PlayerEntrouAttackArea()
+    public void PlayerEntrouAttackArea()
     {
         isAttackingPlayer = true;
         StartCoroutine("Atacar");
     }
 
-    void PlayerSaiuAttackArea()
+    public void PlayerSaiuAttackArea()
     {
         isAttackingPlayer = false;
         StopCoroutine("Atacar");
     }
 
+
+    void OnDestroy()
+    {
+       GameObject.FindGameObjectWithTag("sumon").GetComponent<Zombi>().Target = null;
+
+                
+    }
+    
 
 }

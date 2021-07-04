@@ -14,7 +14,7 @@ public class ZombiatackArea : MonoBehaviour
 
     void Start()
     {
-       
+
     }
 
     void Update()
@@ -27,32 +27,33 @@ public class ZombiatackArea : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-      
+
         if (collision.gameObject.tag == "Enemy")
         {
-            
-            EnemyEntrouAttack?.Invoke();
+            Debug.Log("?");
+            gameObject.GetComponent<Zombi>().EnemyEntrouAttackArea();
         }
 
     }
     private void OnTriggerExit2D(Collider2D other)
     {
-        
-    
+
+
         if (other.gameObject.tag == "Enemy")
         {
-            EnemySaiuAttack?.Invoke();
+            gameObject.GetComponent<Zombi>().EnemySaiuAttackArea();
         }
 
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        
+
         if (collision.gameObject.tag == "Enemy")
         {
-            EnemyEmAttack?.Invoke();
+            gameObject.GetComponent<Zombi>().EnemyEntrouAttackArea();
         }
+
 
     }
 }

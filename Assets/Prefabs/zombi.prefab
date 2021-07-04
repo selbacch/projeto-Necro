@@ -9848,14 +9848,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8468115842305667300}
-  - component: {fileID: 9029575309967320595}
-  - component: {fileID: 359223142059356974}
-  - component: {fileID: 656913347442689806}
   - component: {fileID: 3687458439368799962}
-  - component: {fileID: 1363211192}
-  - component: {fileID: 1431928555}
+  - component: {fileID: 1406703421556923949}
   - component: {fileID: 1431928546}
   - component: {fileID: 1431928547}
+  - component: {fileID: 9029575309967320595}
+  - component: {fileID: 359223142059356974}
+  - component: {fileID: 1363211192}
+  - component: {fileID: 1431928555}
   - component: {fileID: 1431928550}
   m_Layer: 0
   m_Name: zombi
@@ -9883,6 +9883,70 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3687458439368799962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8431348414312144658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcccec0a7f9fea84082ad0f58cccb2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invisivel: {fileID: 2100000, guid: dc2c0a7c18efb824385d9d46cb3188ee, type: 2}
+  runa: {fileID: 2100000, guid: 4a3646f56aba456438071b23a117bf4b, type: 2}
+  quadrado: {fileID: 5326337141246119142}
+--- !u!114 &1406703421556923949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8431348414312144658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca295a459755fd04fbf9140babeb28b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 359223142059356974}
+  Speed: 0
+  Target: {fileID: 0}
+  TargetDistance: 0
+  nave: {fileID: 1363211192}
+  IA: 0
+  AreaAtaque: {fileID: 1431928547}
+  AreaPerigo: {fileID: 1431928546}
+  isAttackingEnemy: 0
+  Vida: 100
+  dano: 5
+--- !u!114 &1431928546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8431348414312144658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca693eb79cfaaa344916c2168d14c2d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coll: {fileID: 493552775}
+--- !u!114 &1431928547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8431348414312144658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d33e62cf1e1a442aa6a72013e0cfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coll: {fileID: 1564411640}
 --- !u!212 &9029575309967320595
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9954,43 +10018,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &656913347442689806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8431348414312144658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca295a459755fd04fbf9140babeb28b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 359223142059356974}
-  Speed: 2
-  Target: {fileID: 0}
-  TargetDistance: 2
-  nave: {fileID: 1363211192}
-  IA: 0
-  AreaAtaque: {fileID: 1431928547}
-  AreaPerigo: {fileID: 1431928546}
-  isAttackingEnemy: 0
-  Vida: 100
---- !u!114 &3687458439368799962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8431348414312144658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcccec0a7f9fea84082ad0f58cccb2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  invisivel: {fileID: 2100000, guid: dc2c0a7c18efb824385d9d46cb3188ee, type: 2}
-  runa: {fileID: 2100000, guid: 4a3646f56aba456438071b23a117bf4b, type: 2}
-  quadrado: {fileID: 5326337141246119142}
 --- !u!195 &1363211192
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -10034,32 +10061,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1431928546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8431348414312144658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca693eb79cfaaa344916c2168d14c2d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coll: {fileID: 493552775}
---- !u!114 &1431928547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8431348414312144658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8d33e62cf1e1a442aa6a72013e0cfbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coll: {fileID: 1564411640}
 --- !u!61 &1431928550
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -29,28 +29,29 @@ public class EnemyAttackArea : MonoBehaviour
         if (collision.gameObject.tag.Equals("sumon"))
         {
 
-            PlayerEntrouAttack?.Invoke();
+            gameObject.GetComponent<EnemyAI>().PlayerEntrouAttackArea();
         }
         if (collision.gameObject.tag.Equals("Player"))
         {
-           
-            PlayerEntrouAttack?.Invoke();
+
+            gameObject.GetComponent<EnemyAI>().PlayerEntrouAttackArea();
         }
 
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        
 
 
         if (collision.gameObject.tag.Equals("sumon"))
         {
-            PlayerSaiuAttack?.Invoke();
+            gameObject.GetComponent<EnemyAI>().PlayerSaiuAttackArea();
         }
 
         if (collision.gameObject.tag.Equals("Player"))
         {
-            PlayerSaiuAttack?.Invoke();
+            gameObject.GetComponent<EnemyAI>().PlayerSaiuAttackArea();
         }
 
     }
@@ -59,12 +60,12 @@ public class EnemyAttackArea : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("sumon"))
         {
-            PlayerEmAttack?.Invoke();
+            gameObject.GetComponent<EnemyAI>().PlayerEntrouAttackArea();
         }
 
         if (collision.gameObject.tag.Equals("Player"))
         {
-            PlayerEmAttack?.Invoke();
+            gameObject.GetComponent<EnemyAI>().PlayerEntrouAttackArea();
         }
 
     }

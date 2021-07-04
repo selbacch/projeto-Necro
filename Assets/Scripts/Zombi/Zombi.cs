@@ -10,7 +10,7 @@ public class Zombi : MonoBehaviour
 
      public Animator anim;
     public float Speed;
-    public Transform Target;
+    public Transform Target =null;
     public float TargetDistance ;
     private float _distanceToTarget;
     private float _distanceWantsToMoveThisFrame;
@@ -27,18 +27,12 @@ public class Zombi : MonoBehaviour
         var agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-       
-
-        if (Target == null)
-           Target = GameObject.FindGameObjectWithTag("Enemy").transform; // coloca o inimigo como alvo 
-        
 
 
-        zombiagroarea.EnemyEmAggro += EnemyEntrouAggro;
-        zombiagroarea.EnemySaiuAggro += EnemySaiuAggro;
+        BuscaInimigo();
 
-        ZombiatackArea.EnemyEntrouAttack += EnemyEntrouAttackArea;
-        ZombiatackArea.EnemySaiuAttack += EnemySaiuAttackArea;
+
+
 
 
         Delete();
@@ -51,74 +45,59 @@ public class Zombi : MonoBehaviour
         {
             navhunt();
         }
-        
-        
-        if (Target == null)
-            Target = GameObject.FindGameObjectWithTag("Enemy").transform;
 
+
+        if (Target == null)
+        {
+            BuscaInimigo();
+            Target = GameObject.FindGameObjectWithTag("Enemy").transform;
+        }
         if(Vida <= 0)
         {
             //anim.SetBool("death"true);
             Delete2();
         }
 
-
+        Debug.Log(Target);
 
     }
 
 
-
-
-    void hunt()   // caça o inimigo
+     void BuscaInimigo()
     {
-        Vector3 direction = Target.position - transform.position;
-
-        direction.z = 0;
-        float distanceToTarget = direction.magnitude;
-
-        direction.Normalize();
+        GameObject[] gos;
+        gos = GameObject.FindGameObjectsWithTag("Enemy");
+        GameObject closest = null;
+        float distance = Mathf.Infinity;
+        Vector3 position = transform.position;
+        foreach (GameObject go in gos)
+        {
+            Vector3 diff = go.transform.position - position;
+            float curDistance = diff.sqrMagnitude;
+            if (curDistance < distance)
+            {
+                closest = go;
+                distance = curDistance;
+            }
+        }
+       
+        Target = closest.transform;
+        if(closest == null)
+        {
+           Target = GameObject.FindGameObjectWithTag("Player").transform;
+        }
+        Debug.Log(Target);
+           
 
         
-        if (distanceToTarget < TargetDistance)
-        {
-            direction = -direction;
-
-        }
-        anim.SetFloat("Horizontal", direction.x); // controla as animações
-        anim.SetFloat("Vertical", direction.y);
-        anim.SetFloat("speed", direction.magnitude);
-
-        if (distanceToTarget == TargetDistance)
-        {
-            if (direction.y > 0)
-            {
-                anim.SetInteger("Idle", 1);
-            }
-            if (direction.y < 0) { anim.SetInteger("Idle", -1); }
-
-            if (direction.x > 0)
-            {
-                anim.SetInteger("Idle", 2);
-            }
-            if (direction.x < 0) { anim.SetInteger("Idle", -2); }
-        }
-
-
-
-
-
-
-        
-        float distanceWantsToMoveThisFrame = Speed * Time.deltaTime;
-        float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
-
-        MoveCharacter(actualMovementThisFrame * direction);
     }
+
+
 
 
     IEnumerator Atacar()
     {
-        
+       
         for (; ; )
         {
             
@@ -174,24 +153,24 @@ public class Zombi : MonoBehaviour
         Destroy(gameObject, timeDestroy);
     }
 
-    void EnemyEntrouAggro()
+   public void EnemyEntrouAggro()
     {
         IA = true;
     }
-    void EnemySaiuAggro()
+    public void EnemySaiuAggro()
     {
-       Target = GameObject.FindGameObjectWithTag("Player").transform;
+       Target = GameObject.FindGameObjectWithTag("Enemy").transform;
 
     }
 
-    void EnemyEntrouAttackArea()
+    public void EnemyEntrouAttackArea()
     {
      
         isAttackingEnemy = true;
         StartCoroutine("Atacar");
     }
 
-    void EnemySaiuAttackArea()
+    public void EnemySaiuAttackArea()
     {
         isAttackingEnemy = false;
         StopCoroutine("Atacar");

@@ -21,8 +21,8 @@ public class zombiagroarea : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
-            
-            EnemyEntrouAggro?.Invoke();
+            Debug.Log("??");
+            gameObject.GetComponent<Zombi>().EnemyEntrouAggro();
         }
 
     }
@@ -32,11 +32,11 @@ public class zombiagroarea : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
+            gameObject.GetComponent<Zombi>().EnemySaiuAggro();
 
-            EnemySaiuAggro?.Invoke();
         }
 
-    }
+          }
 
 
 }
