@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -8,11 +6,11 @@ using UnityEngine.AI;
 public class Zombi : MonoBehaviour
 {
 
-     public Animator anim;
-   
-    public Transform Target =null;
-    public float TargetDistance ;
-    private float timeDestroy= 50;
+    public Animator anim;
+
+    public Transform Target = null;
+    public float TargetDistance;
+    private float timeDestroy = 50;
     public NavMeshAgent nave;
     public bool IA;
     public zombiagroarea AreaAtaque;
@@ -39,7 +37,7 @@ public class Zombi : MonoBehaviour
 
     void Update()
     {
-        if(IA == true)
+        if (IA == true)
         {
             navhunt();
         }
@@ -50,7 +48,7 @@ public class Zombi : MonoBehaviour
             BuscaInimigo();
             Target = GameObject.FindGameObjectWithTag("Enemy").transform;
         }
-        if(Vida <= 0)
+        if (Vida <= 0)
         {
             //anim.SetBool("death"true);
             Delete2();
@@ -61,7 +59,7 @@ public class Zombi : MonoBehaviour
     }
 
 
-     void BuscaInimigo()
+    void BuscaInimigo()
     {
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("Enemy");
@@ -78,16 +76,16 @@ public class Zombi : MonoBehaviour
                 distance = curDistance;
             }
         }
-       
+
         Target = closest.transform;
-        if(closest == null)
+        if (closest == null)
         {
-           Target = GameObject.FindGameObjectWithTag("Player").transform;
+            Target = GameObject.FindGameObjectWithTag("Player").transform;
         }
         Debug.Log(Target);
-           
 
-        
+
+
     }
 
 
@@ -95,12 +93,12 @@ public class Zombi : MonoBehaviour
 
     IEnumerator Atacar()
     {
-       
+
         for (; ; )
         {
-            
+
             anim.SetTrigger("atack");
-           
+
 
             yield return new WaitForSeconds(2);
         }
@@ -114,16 +112,16 @@ public class Zombi : MonoBehaviour
         float distanceToTarget = direction.magnitude;
 
         direction.Normalize();
-        
-        
-            anim.SetFloat("Horizontal", direction.x); // controla as animações
-            anim.SetFloat("Vertical", direction.y);
-            anim.SetFloat("Speed", direction.magnitude);
-          
-        
+
+
+        anim.SetFloat("Horizontal", direction.x); // controla as animações
+        anim.SetFloat("Vertical", direction.y);
+        anim.SetFloat("Speed", direction.magnitude);
+
+
     }
 
-   public void TomaDano(float dano)
+    public void TomaDano(float dano)
     {
         Vida = Vida - dano;
     }
@@ -141,7 +139,7 @@ public class Zombi : MonoBehaviour
 
     public void Delete() //destroi apos 10
     {
-      
+
         Destroy(gameObject, timeDestroy);
     }
 
@@ -151,19 +149,19 @@ public class Zombi : MonoBehaviour
         Destroy(gameObject, timeDestroy);
     }
 
-   public void EnemyEntrouAggro()
+    public void EnemyEntrouAggro()
     {
         IA = true;
     }
     public void EnemySaiuAggro()
     {
-       Target = GameObject.FindGameObjectWithTag("Enemy").transform;
+        Target = GameObject.FindGameObjectWithTag("Enemy").transform;
 
     }
 
     public void EnemyEntrouAttackArea()
     {
-     
+
         isAttackingEnemy = true;
         StartCoroutine("Atacar");
     }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class entradaefect : MonoBehaviour
@@ -16,7 +14,7 @@ public class entradaefect : MonoBehaviour
     void entra()
     {
         quadrado.GetComponent<Renderer>().material = runa;
-        
+
     }
 
     void sai()

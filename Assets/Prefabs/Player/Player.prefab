@@ -169,9 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c104b260608dd8e48bc64b0f8ba063b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curHealth: 0
   maxHealth: 100
-  healthBar: {fileID: 0}
 --- !u!114 &146620538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,9 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8547b94ad7ded4d9946c86100a503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curMana: 0
   maxMana: 3
-  ManaBar: {fileID: 0}
 --- !u!114 &1392254405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,6 +195,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1082650b01e6f9247bcd002954d34a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Vida: {fileID: 146620534}
+  Mana: {fileID: 146620538}
+  DanoAtual: 0
   anim: {fileID: 8137956286418356839}
   speed: 2
   Fantasma: {fileID: 3616692319614573345, guid: 2d3b267d1ebc7a94f8baf2be8e72c730,
@@ -209,7 +208,6 @@ MonoBehaviour:
   atacando: 0
   combo1: 0
   move: {x: 0, y: 0, z: 0}
-  Dano: 5
 --- !u!114 &1347127646
 MonoBehaviour:
   m_ObjectHideFlags: 0

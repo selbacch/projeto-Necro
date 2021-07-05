@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Demonatack : MonoBehaviour
@@ -10,7 +8,7 @@ public class Demonatack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -27,7 +25,7 @@ public class Demonatack : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
-           collision.gameObject.GetComponent<EnemyAI>().LevaDano(15);
+            collision.gameObject.GetComponent<EnemyAI>().LevaDano(15);
 
 
         }

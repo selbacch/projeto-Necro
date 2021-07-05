@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -12,9 +10,7 @@ public class EnemyAI : MonoBehaviour
     public EnemyAggroArea AreaPerigo;
     public Animator anim;
 
-  
-  
-    private float timeDestroy=0;
+    private float timeDestroy = 0;
     public NavMeshAgent nave;
     public bool IA;
     public bool isAttackingEnemy;
@@ -30,50 +26,30 @@ public class EnemyAI : MonoBehaviour
         var agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+        AreaPerigo.PlayerEntrouAggro += PlayerEntrouAggro;
+        AreaPerigo.PlayerSaiuAggro += PlayerSaiuAggro;
 
-
-      
-
-
-        EnemyAggroArea.PlayerEntrouAggro += PlayerEntrouAggro;
-        EnemyAggroArea.PlayerSaiuAggro += PlayerSaiuAggro;
-
-        EnemyAttackArea.PlayerEntrouAttack += PlayerEntrouAttackArea;
-        EnemyAttackArea.PlayerSaiuAttack += PlayerSaiuAttackArea;
-
-
-
-
+        AreaAtaque.PlayerEntrouAttack += PlayerEntrouAttackArea;
+        AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
     }
 
     void Update()
     {
-       
-       
-            navhunt();
+
+        navhunt();
 
         if (Vida <= 0)
         {
             //anim.SetBool("death"true);
             Delete();
         }
-
-        
-
-
     }
-
-
-
-
-  
-
     IEnumerator Atacar()
     {
         for (; ; )
         {
             anim.SetTrigger("atack");
-            
+
 
             yield return new WaitForSeconds(2);
         }
@@ -112,7 +88,7 @@ public class EnemyAI : MonoBehaviour
         float distanceToTarget = direction.magnitude;
 
         direction.Normalize();
-       
+
     }
 
 
@@ -137,27 +113,26 @@ public class EnemyAI : MonoBehaviour
 
     public void Delete() //destroi apos 10
     {
-        OnDestroy();
+
         Destroy(gameObject, timeDestroy);
-        
     }
 
-    public void PlayerEntrouAggro()
+    public void PlayerEntrouAggro(GameObject go)
     {
         isHuntingPlayer = true;
     }
-    public void PlayerSaiuAggro()
+    public void PlayerSaiuAggro(GameObject go)
     {
-       // Target = GameObject.FindGameObjectWithTag("Player").transform;
+        // Target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    public void PlayerEntrouAttackArea()
+    public void PlayerEntrouAttackArea(GameObject go)
     {
         isAttackingPlayer = true;
         StartCoroutine("Atacar");
     }
 
-    public void PlayerSaiuAttackArea()
+    public void PlayerSaiuAttackArea(GameObject go)
     {
         isAttackingPlayer = false;
         StopCoroutine("Atacar");
@@ -166,10 +141,9 @@ public class EnemyAI : MonoBehaviour
 
     void OnDestroy()
     {
-       GameObject.FindGameObjectWithTag("sumon").GetComponent<Zombi>().Target = null;
+        GameObject.FindGameObjectWithTag("sumon").GetComponent<Zombi>().Target = null;
 
-                
     }
-    
+
 
 }

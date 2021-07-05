@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class zombiagroarea : MonoBehaviour
@@ -14,7 +12,7 @@ public class zombiagroarea : MonoBehaviour
     public void Update()
     {
         OnTriggerEnter2D(coll);
-            OnTriggerExit2D(coll);
+        OnTriggerExit2D(coll);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -36,7 +34,7 @@ public class zombiagroarea : MonoBehaviour
 
         }
 
-          }
+    }
 
 
 }

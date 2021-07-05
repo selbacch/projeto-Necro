@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Enemy : MonoBehaviour
+public class Enemy : InterfaceAtacavel
 {
     public Animator Anim;
-    public Player Target;
+    public GameObject Target;
     public EnemyAttackArea AreaAtaque;
     public EnemyAggroArea AreaPerigo;
     public UnityEngine.AI.NavMeshAgent nave;
@@ -17,7 +16,7 @@ public class Enemy : MonoBehaviour
     //public Int32 RaioAtaque = 2.5;
     //public Int32 RaioPerigo = 5;
     public Int32 Velocidade = 1;
-    public int Dano = 15;
+    public int DanoAtual = 15;
 
 
 
@@ -32,11 +31,12 @@ public class Enemy : MonoBehaviour
     {
 
         TargetDistance = 0;
-        EnemyAggroArea.PlayerEntrouAggro += PlayerEntrouAggro;
-        EnemyAggroArea.PlayerSaiuAggro += PlayerSaiuAggro;
 
-        EnemyAttackArea.PlayerEntrouAttack += PlayerEntrouAttackArea;
-        EnemyAttackArea.PlayerSaiuAttack += PlayerSaiuAttackArea;
+        AreaPerigo.PlayerEntrouAggro += PlayerEntrouAggro;
+        AreaPerigo.PlayerSaiuAggro += PlayerSaiuAggro;
+
+        AreaAtaque.PlayerEntrouAttack += PlayerEntrouAttackArea;
+        AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
 
         isHuntingPlayer = false;
         isAttackingPlayer = false;
@@ -47,8 +47,8 @@ public class Enemy : MonoBehaviour
 
     }
 
-        // Update is called once per frame
-        void Update()
+    // Update is called once per frame
+    void Update()
     {
         Hunt();
         //VoltarPosicaoInicial();
@@ -60,24 +60,19 @@ public class Enemy : MonoBehaviour
     {
         if (!isHuntingPlayer || isAttackingPlayer)
             return;
+        nave.SetDestination(Target.transform.position);
+        Vector3 direction = Target.transform.position - transform.position;
+        direction.z = 0;
+        float distanceToTarget = direction.magnitude;
 
-       
-            nave.SetDestination(Target.transform.position);
-            Vector3 direction = Target.transform.position - transform.position;
-            direction.z = 0;
-            float distanceToTarget = direction.magnitude;
-
-            direction.Normalize();
-        
-         
-        
+        direction.Normalize();
     }
 
-    IEnumerator Atacar()
+    IEnumerator Atacar(GameObject gameObject)
     {
         for (; ; )
         {
-            Target.GetComponent<Health>().DamagePlayer(Dano);
+            Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
             Debug.Log("ATAQUEEEEEEI");
             yield return new WaitForSeconds(2);
         }
@@ -88,7 +83,7 @@ public class Enemy : MonoBehaviour
 
         if (isHuntingPlayer || isAttackingPlayer)
             return;
-        nave.SetDestination(this.localInicial- transform.position);
+        nave.SetDestination(this.localInicial - transform.position);
         Vector3 direction = this.localInicial - transform.position;
 
         direction.z = 0;
@@ -97,7 +92,7 @@ public class Enemy : MonoBehaviour
         direction.Normalize();
         float distanceWantsToMoveThisFrame = Velocidade * Time.deltaTime;
         float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
-       MoveCharacter(actualMovementThisFrame * direction);
+        MoveCharacter(actualMovementThisFrame * direction);
     }
 
 
@@ -106,26 +101,41 @@ public class Enemy : MonoBehaviour
         transform.position += frameMovement;
     }
 
-    void PlayerEntrouAggro()
+    void PlayerEntrouAggro(GameObject go)
     {
         isHuntingPlayer = true;
+        Target = go;
     }
-    void PlayerSaiuAggro()
+    void PlayerSaiuAggro(GameObject go)
     {
         isHuntingPlayer = false;
     }
 
-    void PlayerEntrouAttackArea()
+    void PlayerEntrouAttackArea(GameObject go)
     {
         isAttackingPlayer = true;
-        StartCoroutine("Atacar");
+        StartCoroutine(Atacar(go));
     }
 
-    void PlayerSaiuAttackArea()
+    void PlayerSaiuAttackArea( GameObject go)
     {
         isAttackingPlayer = false;
-        StopCoroutine("Atacar");
+        StopCoroutine(Atacar(go));
     }
 
+    public override void Atacar(int danoInflingido)
+    {
+        throw new NotImplementedException();
+    }
+
+    public override void SofrerDano(int danoRecebido)
+    {
+        this.Vida -= danoRecebido;
+    }
+
+    public override int Dano()
+    {
+        return this.DanoAtual;
+    }
 }
-    
+

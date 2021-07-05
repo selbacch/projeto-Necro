@@ -1,13 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Player : MonoBehaviour
+public class Player : InterfaceAtacavel
 {
-    
-        public Animator anim;
-        public float speed;
+
+    public Health Vida;
+    public Mana Mana;
+    public int DanoAtual;
+
+    public Animator anim;
+    public float speed;
     public GameObject Fantasma;
     public GameObject Demon;
     public GameObject Zombi;
@@ -15,10 +18,7 @@ public class Player : MonoBehaviour
     public bool atacando;
     public int combo1;
     public Vector3 move;
-    public float Dano;
-
-
-
+  
 
     // Start is called before the first frame update
     void Start()
@@ -33,16 +33,17 @@ public class Player : MonoBehaviour
     {
         Moviment();
 
-       if( Input.GetKeyDown(KeyCode.Q) && gameObject.GetComponent<Mana>().curMana>0)
+        if (Input.GetKeyDown(KeyCode.Q) && gameObject.GetComponent<Mana>().curMana > 0)
         {
             SumonFantasma();
             anim.SetBool("sumon", true);
         }
-        if(Input.GetKeyDown(KeyCode.E) && gameObject.GetComponent<Mana>().curMana > 0){
+        if (Input.GetKeyDown(KeyCode.E) && gameObject.GetComponent<Mana>().curMana > 0)
+        {
             anim.SetBool("sumon", true);
             SumonZombi();
         }
-       if( Input.GetKeyDown(KeyCode.R) && gameObject.GetComponent<Mana>().curMana > 1)
+        if (Input.GetKeyDown(KeyCode.R) && gameObject.GetComponent<Mana>().curMana > 1)
         {
             anim.SetBool("sumon", true);
             SumonDemon();
@@ -72,13 +73,14 @@ public class Player : MonoBehaviour
 
     void Moviment()//faz os movimentos de andar
     {
-       move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0f);
+        move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0f);
         anim.SetFloat("Horizontal", move.x);
         anim.SetFloat("Vertical", move.y);
         anim.SetFloat("speed", move.magnitude);
-        
+
         transform.position = transform.position + move * speed * Time.deltaTime;
-        if (move.y > 0) {
+        if (move.y > 0)
+        {
             anim.SetInteger("Idle", 1);
         }
         if (move.y < 0) { anim.SetInteger("Idle", -1); }
@@ -91,17 +93,17 @@ public class Player : MonoBehaviour
 
     }
 
-   void sumonsop()//para animação de invocar
+    void sumonsop()//para animação de invocar
     {
         anim.SetBool("sumon", false);
     }
 
-  void combos() //combo atack
+    void combos() //combo atack
     {
         if (Input.GetButtonDown("Fire1") && !atacando)
         {
             atacando = true;
-            anim.SetTrigger(""+combo1);
+            anim.SetTrigger("" + combo1);
         }
     }
     public void start_combo()
@@ -116,16 +118,31 @@ public class Player : MonoBehaviour
     public void finish_anim()//para animação de ataque
     {
         atacando = false;
-        combo1 = 0; 
+        combo1 = 0;
     }
 
 
-   public void DandoDano()
+    public void DandoDano()
     {
-      GameObject inimigo =  gameObject.GetComponent<AtackkZone>().enemy;
+        //     GameObject inimigo = gameObject.GetComponent<AtackkZone>().enemy;
 
-        inimigo.GetComponent<EnemyAI>().LevaDano(Dano);
+        //        inimigo.GetComponent<EnemyAI>().LevaDano(Dano);
     }
 
+    public override void Atacar(int danoInflingido)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public override void SofrerDano(int danoRecebido)
+    {
+        this.Vida.DamagePlayer(danoRecebido);
+       
+    }
+
+    public override int Dano()
+    {
+        return this.DanoAtual;
+    }
 }
 

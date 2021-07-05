@@ -1,31 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class Mana : MonoBehaviour
 {
-    public int curMana = 3;
+    public int curMana { get; private set; }
     public int maxMana = 3;
-    public ManaBar ManaBar;
+    public static Action<int> AtualizarMana;
     // Start is called before the first frame update
     void Start()
     {
         curMana = maxMana;
+        AtualizarMana?.Invoke(curMana);
     }
 
     // Update is called once per frame
     void Update()
     {
-      
+
 
     }
 
 
-    public void LostMana(int damage)
+    public void LostMana(int mana)
     {
-        curMana -= damage;
+        curMana -= mana;
 
-        ManaBar.SetMana(damage);
+        AtualizarMana?.Invoke(curMana);
     }
 
 

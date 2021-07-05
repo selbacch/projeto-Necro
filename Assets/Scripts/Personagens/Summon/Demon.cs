@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
-public class Demon : MonoBehaviour
+public class Demon : Summon
 {
 
     private float timeDestroy;
@@ -18,28 +16,28 @@ public class Demon : MonoBehaviour
         agent.updateUpAxis = false;
         gameObject.GetComponent<Rigidbody>();
         Delete();
-        
-     
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-      
+
 
     }
 
 
- 
+
 
     void Atack()
     {
 
         pilar.gameObject.active = true;
 
-     }
+    }
 
-   
+
     void StopAtack()
     {
         fire.GetComponent<ParticleSystem>().Stop();
@@ -49,9 +47,9 @@ public class Demon : MonoBehaviour
 
     }
 
-  
 
- 
+
+
 
     public void Delete()
     {
