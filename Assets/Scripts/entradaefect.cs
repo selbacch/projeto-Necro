@@ -7,10 +7,11 @@ public class entradaefect : MonoBehaviour
     public Material invisivel;
     public Material runa;
     public GameObject quadrado;
- 
+    public ParticleSystem particule;
+
 
     // Start is called before the first frame update
- 
+
 
     void entra()
     {
@@ -22,7 +23,7 @@ public class entradaefect : MonoBehaviour
     {
         quadrado.GetComponent<Renderer>().material = invisivel;
         gameObject.GetComponent<Zombi>().IA = true;
-        quadrado.GetComponent<ParticleSystem>().Stop();
+        particule.Stop();
     }
 
 }

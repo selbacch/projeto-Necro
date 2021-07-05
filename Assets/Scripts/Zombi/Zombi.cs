@@ -9,11 +9,9 @@ public class Zombi : MonoBehaviour
 {
 
      public Animator anim;
-    public float Speed;
+   
     public Transform Target =null;
     public float TargetDistance ;
-    private float _distanceToTarget;
-    private float _distanceWantsToMoveThisFrame;
     private float timeDestroy= 50;
     public NavMeshAgent nave;
     public bool IA;
@@ -120,7 +118,7 @@ public class Zombi : MonoBehaviour
         
             anim.SetFloat("Horizontal", direction.x); // controla as animações
             anim.SetFloat("Vertical", direction.y);
-            anim.SetFloat("speed", direction.magnitude);
+            anim.SetFloat("Speed", direction.magnitude);
           
         
     }

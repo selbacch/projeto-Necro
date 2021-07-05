@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_portal
-  m_Shader: {fileID: -6465566751694194690, guid: b2ebdb5b319a43b45a48099fc3b0eef3,
+  m_Name: fire
+  m_Shader: {fileID: -6465566751694194690, guid: 3290b6daba391424b97abc2a8213dd95,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_72e2ac6d0f12468484a6949c83fb9eb6:
+    - Texture2D_1DEA466A:
         m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -37,9 +37,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_2349261897044b75807b981d0a229a24: -61.9
-    - Vector1_cc4e6ac06ccf46adad9ea590e89f6b54: -44.7
+    - Vector1_513A17E5: 0
+    - Vector1_5FD77B36: 1.2
+    - Vector1_9C91A495: 0
+    - Vector1_A1231BEA: 1.2
+    - Vector1_FA1ECC98: 2
     m_Colors:
-    - Color_09e433e5d1bd41e88619817d332de016: {r: 5.146628, g: 2.307109, b: 15.972295,
-        a: 0}
+    - Color_2FFD2910: {r: 9.082411, g: 2.9006653, b: 0, a: 0}
+    - Vector2_2A63689: {r: 0, g: -0.1, b: 0, a: 0}
+    - Vector2_C646D0BC: {r: -0.1, g: -0.5, b: 0, a: 0}
   m_BuildTextureStacks: []

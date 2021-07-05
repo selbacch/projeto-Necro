@@ -11,11 +11,10 @@ public class EnemyAI : MonoBehaviour
     public EnemyAttackArea AreaAtaque;
     public EnemyAggroArea AreaPerigo;
     public Animator anim;
-    public float Speed;
-    public float TargetDistance;
-    private float _distanceToTarget;
-    private float _distanceWantsToMoveThisFrame;
-    private float timeDestroy;
+
+  
+  
+    private float timeDestroy=0;
     public NavMeshAgent nave;
     public bool IA;
     public bool isAttackingEnemy;
@@ -67,52 +66,7 @@ public class EnemyAI : MonoBehaviour
 
 
 
-    void hunt()   // caça o inimigo
-    {
-        Vector3 direction = Target.transform.position - transform.position;
-
-        direction.z = 0;
-        float distanceToTarget = direction.magnitude;
-
-        direction.Normalize();
-
-
-        if (distanceToTarget < TargetDistance)
-        {
-            direction = -direction;
-
-        }
-        anim.SetFloat("Horizontal", direction.x); // controla as animações
-        anim.SetFloat("Vertical", direction.y);
-        anim.SetFloat("speed", direction.magnitude);
-
-        if (distanceToTarget == TargetDistance)
-        {
-            if (direction.y > 0)
-            {
-                anim.SetInteger("Idle", 1);
-            }
-            if (direction.y < 0) { anim.SetInteger("Idle", -1); }
-
-            if (direction.x > 0)
-            {
-                anim.SetInteger("Idle", 2);
-            }
-            if (direction.x < 0) { anim.SetInteger("Idle", -2); }
-        }
-
-
-
-
-
-
-
-        float distanceWantsToMoveThisFrame = Speed * Time.deltaTime;
-        float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
-
-        MoveCharacter(actualMovementThisFrame * direction);
-    }
-
+  
 
     IEnumerator Atacar()
     {
@@ -137,7 +91,7 @@ public class EnemyAI : MonoBehaviour
 
         anim.SetFloat("Horizontal", direction.x); // controla as animações
         anim.SetFloat("Vertical", direction.y);
-        anim.SetFloat("speed", direction.magnitude);
+        anim.SetFloat("Speed", direction.magnitude);
 
 
     }
@@ -158,9 +112,7 @@ public class EnemyAI : MonoBehaviour
         float distanceToTarget = direction.magnitude;
 
         direction.Normalize();
-        float distanceWantsToMoveThisFrame = 5 * Time.deltaTime;
-        float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
-        MoveCharacter(actualMovementThisFrame * direction);
+       
     }
 
 

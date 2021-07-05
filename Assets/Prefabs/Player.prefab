@@ -58,13 +58,12 @@ GameObject:
   - component: {fileID: 8137956286418356825}
   - component: {fileID: 8137956286418356838}
   - component: {fileID: 8137956286418356839}
-  - component: {fileID: 1392254405}
   - component: {fileID: 146620534}
   - component: {fileID: 146620538}
+  - component: {fileID: 1392254405}
+  - component: {fileID: 1347127646}
   - component: {fileID: 3202084613094606198}
   - component: {fileID: 6592355117101532545}
-  - component: {fileID: 1347127646}
-  - component: {fileID: 1347127647}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -158,29 +157,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1392254405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8137956286418356837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1082650b01e6f9247bcd002954d34a70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 8137956286418356839}
-  speed: 2
-  Fantasma: {fileID: 3616692319614573345, guid: 2d3b267d1ebc7a94f8baf2be8e72c730,
-    type: 3}
-  Demon: {fileID: 5958247350948931590, guid: d1e11d830ef83d74bafd317b3577e838, type: 3}
-  Zombi: {fileID: 8431348414312144658, guid: a27d1466ee0d89a4daca1d74b2f7397a, type: 3}
-  point: {fileID: 8137956286418356825}
-  atacando: 0
-  combo1: 0
-  move: {x: 0, y: 0, z: 0}
-  Dano: 5
 --- !u!114 &146620534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,6 +187,44 @@ MonoBehaviour:
   curMana: 0
   maxMana: 3
   ManaBar: {fileID: 0}
+--- !u!114 &1392254405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8137956286418356837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1082650b01e6f9247bcd002954d34a70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 8137956286418356839}
+  speed: 2
+  Fantasma: {fileID: 3616692319614573345, guid: 2d3b267d1ebc7a94f8baf2be8e72c730,
+    type: 3}
+  Demon: {fileID: 5958247350948931590, guid: d1e11d830ef83d74bafd317b3577e838, type: 3}
+  Zombi: {fileID: 8431348414312144658, guid: a27d1466ee0d89a4daca1d74b2f7397a, type: 3}
+  point: {fileID: 8137956286418356825}
+  atacando: 0
+  combo1: 0
+  move: {x: 0, y: 0, z: 0}
+  Dano: 5
+--- !u!114 &1347127646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8137956286418356837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0aae783b3dc7704a997536246b2fe26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atackzone: {fileID: 1399594180}
+  coll: {fileID: 1399594183}
+  enemy: {fileID: 0}
 --- !u!61 &3202084613094606198
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -258,40 +272,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1347127646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8137956286418356837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0aae783b3dc7704a997536246b2fe26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  atackzone: {fileID: 1399594180}
-  coll: {fileID: 1399594183}
-  enemy: {fileID: 0}
---- !u!195 &1347127647
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8137956286418356837}
-  m_Enabled: 0
-  m_AgentTypeID: 0
-  m_Radius: 0.06
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.22
-  m_BaseOffset: 0.05
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
