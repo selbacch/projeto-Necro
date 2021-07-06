@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 493552773}
   - component: {fileID: 493552775}
+  - component: {fileID: 4634001014223652134}
   m_Layer: 0
   m_Name: area atack
   m_TagString: Untagged
@@ -47,6 +48,18 @@ CircleCollider2D:
   m_Offset: {x: 0.021659136, y: 0}
   serializedVersion: 2
   m_Radius: 0.57580566
+--- !u!114 &4634001014223652134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493552772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca693eb79cfaaa344916c2168d14c2d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &957425182
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +258,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.72
+      scalar: 0.81
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -298,7 +311,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.6303436
+      scalar: 0.75414765
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -795,8 +808,8 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 0.06668377, y: 0.3743706, z: 0.000000099943}
-    m_Rotation: {x: -0, y: 0, z: 0}
+    m_Position: {x: -0.083960295, y: 0.38120726, z: 0.03898329}
+    m_Rotation: {x: 350.053, y: 0, z: 0}
     m_Scale: {x: 1, y: 0.99999994, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
@@ -876,7 +889,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.4331398
+      value: 0.3907405
       mode: 0
       spread: 0
       speed:
@@ -995,7 +1008,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 15.73
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -4908,7 +4921,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -4944,6 +4957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1564411638}
   - component: {fileID: 1564411640}
+  - component: {fileID: 4242377144170382594}
   m_Layer: 0
   m_Name: areaagro
   m_TagString: Untagged
@@ -4981,6 +4995,18 @@ CircleCollider2D:
   m_Offset: {x: 0.10080314, y: 0}
   serializedVersion: 2
   m_Radius: 0.83841085
+--- !u!114 &4242377144170382594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564411637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d33e62cf1e1a442aa6a72013e0cfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2329817253636665289
 GameObject:
   m_ObjectHideFlags: 0
@@ -9760,7 +9786,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -9878,15 +9904,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8468115842305667300}
-  - component: {fileID: 3687458439368799962}
   - component: {fileID: 1406703421556923949}
-  - component: {fileID: 1431928546}
-  - component: {fileID: 1431928547}
   - component: {fileID: 9029575309967320595}
   - component: {fileID: 359223142059356974}
   - component: {fileID: 1363211192}
   - component: {fileID: 1431928555}
   - component: {fileID: 1431928550}
+  - component: {fileID: 1320881801}
   m_Layer: 0
   m_Name: zombi
   m_TagString: sumon
@@ -9914,22 +9938,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3687458439368799962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8431348414312144658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcccec0a7f9fea84082ad0f58cccb2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  invisivel: {fileID: 2100000, guid: dc2c0a7c18efb824385d9d46cb3188ee, type: 2}
-  runa: {fileID: 2100000, guid: 4a3646f56aba456438071b23a117bf4b, type: 2}
-  quadrado: {fileID: 5326337141246119142}
-  particule: {fileID: 1254019735}
 --- !u!114 &1406703421556923949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9943,42 +9951,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 359223142059356974}
-  Speed: 0
   Target: {fileID: 0}
   TargetDistance: 0
-  nave: {fileID: 1363211192}
   IA: 0
-  AreaAtaque: {fileID: 1431928547}
-  AreaPerigo: {fileID: 1431928546}
+  AreaPerigo: {fileID: 4242377144170382594}
+  AreaAtaque: {fileID: 4634001014223652134}
   isAttackingEnemy: 0
   Vida: 100
-  dano: 5
---- !u!114 &1431928546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8431348414312144658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca693eb79cfaaa344916c2168d14c2d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coll: {fileID: 493552775}
---- !u!114 &1431928547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8431348414312144658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8d33e62cf1e1a442aa6a72013e0cfbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coll: {fileID: 1564411640}
+  DanoAtual: 5
 --- !u!212 &9029575309967320595
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10119,3 +10099,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2991855, y: 0.51785713}
   m_EdgeRadius: 0
+--- !u!114 &1320881801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8431348414312144658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcccec0a7f9fea84082ad0f58cccb2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invisivel: {fileID: 2100000, guid: dc2c0a7c18efb824385d9d46cb3188ee, type: 2}
+  runa: {fileID: 2100000, guid: 4a3646f56aba456438071b23a117bf4b, type: 2}
+  particule: {fileID: 1254019735}
+  square: {fileID: 5326337141246119142}

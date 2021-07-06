@@ -1,34 +1,38 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
 
-public class Zombi : MonoBehaviour
+public class Zombi : InterfaceAtacavel
 {
 
     public Animator anim;
 
-    public Transform Target = null;
+    public GameObject Target;
     public float TargetDistance;
     private float timeDestroy = 50;
-    public NavMeshAgent nave;
+  
     public bool IA;
-    public zombiagroarea AreaAtaque;
-    public ZombiatackArea AreaPerigo;
+    public zombiagroarea AreaPerigo;
+    public ZombiatackArea AreaAtaque;
     public bool isAttackingEnemy;
-    public float Vida = 100;
-    public float dano;
+    public Int32 Vida = 100;
+    public int DanoAtual;
     void Start()
     {
+
         var agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
 
+        AreaPerigo.EnemyEntrouAggro += EnemyEntrouAggro;
+        AreaPerigo.EnemySaiuAggro += EnemySaiuAggro;
+
+        AreaAtaque.EnemyEntrouAttack += EnemyEntrouAttackArea;
+        AreaAtaque.EnemySaiuAttack += EnemySaiuAttackArea;
 
         BuscaInimigo();
-
-
-
 
 
         Delete();
@@ -37,6 +41,11 @@ public class Zombi : MonoBehaviour
 
     void Update()
     {
+
+
+
+
+
         if (IA == true)
         {
             navhunt();
@@ -46,7 +55,7 @@ public class Zombi : MonoBehaviour
         if (Target == null)
         {
             BuscaInimigo();
-            Target = GameObject.FindGameObjectWithTag("Enemy").transform;
+            Target = GameObject.FindGameObjectWithTag("Enemy").gameObject;
         }
         if (Vida <= 0)
         {
@@ -54,7 +63,7 @@ public class Zombi : MonoBehaviour
             Delete2();
         }
 
-        Debug.Log(Target);
+        
 
     }
 
@@ -77,12 +86,12 @@ public class Zombi : MonoBehaviour
             }
         }
 
-        Target = closest.transform;
+        Target = closest.gameObject;
         if (closest == null)
         {
-            Target = GameObject.FindGameObjectWithTag("Player").transform;
+            Target = GameObject.FindGameObjectWithTag("Player").gameObject;
         }
-        Debug.Log(Target);
+        
 
 
 
@@ -91,23 +100,21 @@ public class Zombi : MonoBehaviour
 
 
 
-    IEnumerator Atacar()
+    IEnumerator Atacar(GameObject gameObject)
     {
-
         for (; ; )
         {
-
             anim.SetTrigger("atack");
-
-
-            yield return new WaitForSeconds(2);
+  
+              yield return new WaitForSeconds(2);
         }
     }
+
 
     void navhunt()
     {
-        nave.SetDestination(Target.transform.position);
-        Vector3 direction = Target.position - transform.position;
+        gameObject.GetComponent<NavMeshAgent>().SetDestination(Target.transform.position);
+        Vector3 direction = Target.gameObject.transform.position - transform.position;
         direction.z = 0;
         float distanceToTarget = direction.magnitude;
 
@@ -121,14 +128,12 @@ public class Zombi : MonoBehaviour
 
     }
 
-    public void TomaDano(float dano)
-    {
-        Vida = Vida - dano;
-    }
+  
 
     void Atack()
     {
-        Target.GetComponent<EnemyAI>().LevaDano(dano);
+
+        Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
     }
 
     void MoveCharacter(Vector3 frameMovement)
@@ -137,40 +142,53 @@ public class Zombi : MonoBehaviour
     }
 
 
-    public void Delete() //destroi apos 10
+    void Delete() //destroi apos 10
     {
 
         Destroy(gameObject, timeDestroy);
     }
 
-    public void Delete2() //fim da vida
+     void Delete2() //fim da vida
     {
         timeDestroy = 0f;
         Destroy(gameObject, timeDestroy);
     }
 
-    public void EnemyEntrouAggro()
+    void EnemyEntrouAggro(GameObject go)
+    {
+        IA = true;
+        Target = go;
+    }
+    void EnemySaiuAggro(GameObject go)
     {
         IA = true;
     }
-    public void EnemySaiuAggro()
+
+    void EnemyEntrouAttackArea(GameObject go)
     {
-        Target = GameObject.FindGameObjectWithTag("Enemy").transform;
-
-    }
-
-    public void EnemyEntrouAttackArea()
-    {
-
         isAttackingEnemy = true;
-        StartCoroutine("Atacar");
+        StartCoroutine(Atacar(go));
     }
 
-    public void EnemySaiuAttackArea()
+    void EnemySaiuAttackArea(GameObject go)
     {
         isAttackingEnemy = false;
-        StopCoroutine("Atacar");
+        StopCoroutine(Atacar(go));
     }
 
+    public override void Atacar(int danoInflingido)
+    {
+        throw new NotImplementedException();
+    }
+
+    public override void SofrerDano(int danoRecebido)
+    {
+        this.Vida -= danoRecebido;
+    }
+
+    public override int Dano()
+    {
+        return this.DanoAtual;
+    }
 
 }

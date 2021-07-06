@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class ZombiatackArea : MonoBehaviour
 {
-    public static Action EnemyEmAttack;
-    public static Action EnemyEntrouAttack;
-    public static Action EnemySaiuAttack;
-    public Collider2D coll;
+    public Action<GameObject> EnemyEmAttack;
+    public Action<GameObject> EnemyEntrouAttack;
+    public Action<GameObject> EnemySaiuAttack;
+    // public Collider2D coll;
 
 
 
@@ -17,43 +17,44 @@ public class ZombiatackArea : MonoBehaviour
 
     void Update()
     {
-        OnTriggerEnter2D(coll);
-        OnTriggerExit2D(coll);
-        OnTriggerStay2D(coll);
+      
     }
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag.Equals("Enemy"))
         {
-            Debug.Log("?");
-            gameObject.GetComponent<Zombi>().EnemyEntrouAttackArea();
+            
+
+            this.EnemyEntrouAttack?.Invoke(collision.gameObject);
         }
 
     }
-    private void OnTriggerExit2D(Collider2D other)
+
+    private void OnTriggerExit2D(Collider2D collision)
     {
 
-
-        if (other.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag.Equals("Enemy"))
         {
-            gameObject.GetComponent<Zombi>().EnemySaiuAttackArea();
+
+            this.EnemySaiuAttack?.Invoke(collision.gameObject);
         }
 
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag.Equals("Enemy"))
         {
-            gameObject.GetComponent<Zombi>().EnemyEntrouAttackArea();
+
+            this.EnemyEmAttack?.Invoke(collision.gameObject);
         }
 
-
     }
+
+
 }
+
 
 

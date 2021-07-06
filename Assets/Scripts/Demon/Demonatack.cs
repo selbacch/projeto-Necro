@@ -25,7 +25,7 @@ public class Demonatack : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
-            collision.gameObject.GetComponent<EnemyAI>().LevaDano(15);
+            collision.gameObject.GetComponent<Enemy>().SofrerDano(15);
 
 
         }

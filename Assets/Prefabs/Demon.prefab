@@ -4781,7 +4781,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -4856,7 +4856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2eb1cdd32104f343a35152c83116469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coll: {fileID: 104396574, guid: d1e11d830ef83d74bafd317b3577e838, type: 3}
+  coll: {fileID: 104396574}
   target: {fileID: 0}
 --- !u!1 &553384501
 GameObject:
@@ -4876,7 +4876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &553384502
 Transform:
   m_ObjectHideFlags: 0
@@ -4950,7 +4950,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2a0e5dd1110796343b2cc7b3818523e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5087,7 +5087,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5337140780314548332}
   m_LocalRotation: {x: -0.8280741, y: -0, z: -0, w: 0.56061864}
-  m_LocalPosition: {x: 0.02, y: -0.28, z: 0}
+  m_LocalPosition: {x: -0.13, y: -0.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3022849122445030548}
@@ -9839,11 +9839,11 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
-  m_MaxParticleSize: 0.5
+  m_MaxParticleSize: 1.51
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 2
@@ -9855,7 +9855,7 @@ ParticleSystemRenderer:
   m_Flip: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
-  m_ApplyActiveColorSpace: 1
+  m_ApplyActiveColorSpace: 0
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
@@ -9878,6 +9878,7 @@ GameObject:
   - component: {fileID: 8502243278241625751}
   - component: {fileID: 1709685921977585961}
   - component: {fileID: 3974838139001124126}
+  - component: {fileID: 8603308067275262278}
   - component: {fileID: 132634797}
   m_Layer: 0
   m_Name: Demon
@@ -9915,6 +9916,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9da395e5b5f88498783aa0d8d0898f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Vida: 0
+  DanoAtual: 15
   pilar: {fileID: 553384501}
   fire: {fileID: 104396573}
 --- !u!212 &8502243278241625751
@@ -10002,8 +10005,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   invisivel: {fileID: 2100000, guid: dc2c0a7c18efb824385d9d46cb3188ee, type: 2}
   runa: {fileID: 2100000, guid: 19b9e6fe926c91240ad583e5907fd3fb, type: 2}
-  quadrado: {fileID: 1264198102044075195}
   particule: {fileID: 1414087409482288500}
+  square: {fileID: 1264198102044075195}
+--- !u!114 &8603308067275262278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958247350948931590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcccec0a7f9fea84082ad0f58cccb2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invisivel: {fileID: 2100000, guid: dc2c0a7c18efb824385d9d46cb3188ee, type: 2}
+  runa: {fileID: 2100000, guid: 2d3f382948854be4d866e9e1ded95812, type: 2}
+  particule: {fileID: 1414087409482288500}
+  square: {fileID: 8379694092304039369}
 --- !u!195 &132634797
 NavMeshAgent:
   m_ObjectHideFlags: 0

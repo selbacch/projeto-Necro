@@ -3,35 +3,31 @@ using UnityEngine;
 
 public class zombiagroarea : MonoBehaviour
 {
-    public static Action EnemyEmAggro;
-    public static Action EnemyEntrouAggro;
-    public static Action EnemySaiuAggro;
-    public Collider2D coll;
+    public Action<GameObject> EnemyrEmAggro;
+    public Action<GameObject> EnemyEntrouAggro;
+    public Action<GameObject> EnemySaiuAggro;
+
 
 
     public void Update()
     {
-        OnTriggerEnter2D(coll);
-        OnTriggerExit2D(coll);
+       
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag.Equals("Enemy"))
         {
-            Debug.Log("??");
-            gameObject.GetComponent<Zombi>().EnemyEntrouAggro();
+            
+            EnemyEntrouAggro?.Invoke(collision.gameObject);
         }
 
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag.Equals("Enemy"))
         {
-            gameObject.GetComponent<Zombi>().EnemySaiuAggro();
-
+            this.EnemySaiuAggro?.Invoke(collision.gameObject);
         }
 
     }

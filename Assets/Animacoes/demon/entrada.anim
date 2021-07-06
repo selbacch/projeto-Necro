@@ -22,16 +22,16 @@ AnimationClip:
     - time: 0
       value: {fileID: -5603916059098612184, guid: c0a99965de8419e4c90ea6732d5888ad,
         type: 3}
-    - time: 0.083333336
+    - time: 0.016666668
       value: {fileID: 7329945020597926095, guid: c0a99965de8419e4c90ea6732d5888ad,
         type: 3}
-    - time: 0.16666667
+    - time: 0.033333335
       value: {fileID: -252051329382631955, guid: c0a99965de8419e4c90ea6732d5888ad,
         type: 3}
-    - time: 0.25
+    - time: 0.05
       value: {fileID: -4733423873636502517, guid: c0a99965de8419e4c90ea6732d5888ad,
         type: 3}
-    - time: 0.33333334
+    - time: 0.06666667
       value: {fileID: -8958703830373622484, guid: c0a99965de8419e4c90ea6732d5888ad,
         type: 3}
     attribute: m_Sprite
@@ -63,7 +63,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.35000002
+    m_StopTime: 0.083333336
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -90,7 +90,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.33333334
+  - time: 0.083333336
     functionName: sai
     data: 
     objectReferenceParameter: {fileID: 0}

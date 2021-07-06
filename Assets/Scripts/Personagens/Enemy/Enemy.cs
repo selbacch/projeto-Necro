@@ -78,6 +78,8 @@ public class Enemy : InterfaceAtacavel
         }
     }
 
+   
+
     void VoltarPosicaoInicial()
     {
 

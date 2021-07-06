@@ -1,27 +1,27 @@
 using UnityEngine;
 
-public class entradaefect : MonoBehaviour
+public class EntradaEfect : MonoBehaviour
 {
     public Material invisivel;
     public Material runa;
-    public GameObject quadrado;
     public ParticleSystem particule;
-
+    public GameObject square;
 
     // Start is called before the first frame update
 
 
     void entra()
     {
-        quadrado.GetComponent<Renderer>().material = runa;
+      square.GetComponent<Renderer>().material = runa;
+        ;
 
     }
 
     void sai()
     {
-        quadrado.GetComponent<Renderer>().material = invisivel;
+       square.GetComponent<Renderer>().material = invisivel;
         gameObject.GetComponent<Zombi>().IA = true;
-        particule.Stop();
+        particule.GetComponent<ParticleSystem>().Stop();
     }
 
 }
