@@ -9952,7 +9952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 359223142059356974}
   Target: {fileID: 0}
-  TargetDistance: 0
+  TargetDistance: 5
   IA: 0
   AreaPerigo: {fileID: 4242377144170382594}
   AreaAtaque: {fileID: 4634001014223652134}
