@@ -7,6 +7,7 @@ public class ManaBar : MonoBehaviour
     public int maxValue;
     public int manaCount;
 
+
     // Start is called before the first frame update
     void Start()
     {

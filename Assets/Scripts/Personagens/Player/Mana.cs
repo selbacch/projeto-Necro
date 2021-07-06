@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Mana : MonoBehaviour
 {
+    public float count;
     public int curMana { get; private set; }
     public int maxMana = 3;
     public static Action<int> AtualizarMana;
@@ -16,17 +17,48 @@ public class Mana : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
+        if (curMana < 3)
+        {
+            count += Time.deltaTime;
+            if (count >= 5f) {
+                PlusMana(1);
+                count = 0;
+            }
+        }
     }
+
+        void EncheMana()
+        {
+
+
+            if (count >= 3f)
+            {
+                curMana = +1;
+                count = 0;
+            }
+
+
+
+        }
+
+    public void PlusMana(int mana)
+    {
+       
+            curMana += mana;
+
+            AtualizarMana?.Invoke(curMana);
+        }
+
+    
 
 
     public void LostMana(int mana)
-    {
-        curMana -= mana;
+        {
+            curMana -= mana;
 
-        AtualizarMana?.Invoke(curMana);
-    }
-
-
+            AtualizarMana?.Invoke(curMana);
+        }
+    
 }
+
+
