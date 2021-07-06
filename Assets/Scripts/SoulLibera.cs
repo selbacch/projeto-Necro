@@ -23,9 +23,12 @@ public class SoulLibera : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Player"))
         {
-
+            
 
             this.PlayerEntrouLibera?.Invoke(collision.gameObject);
+
+           
+
         }
 
     }

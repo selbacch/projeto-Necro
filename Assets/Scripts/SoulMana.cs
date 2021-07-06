@@ -1,15 +1,14 @@
-using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-
-public class SoulLife : MonoBehaviour
+public class SoulMana : MonoBehaviour
 {
 
     public SoulArea AreaIdentifica;
     public SoulLibera AreaLibera;
-    public int Nvida;
-    
+    public int NMana;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,19 +19,19 @@ public class SoulLife : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void hunt(GameObject life)
     {
-       
+
         Vector3 direction = life.transform.position - transform.position;
         // direction.y = 0;
         float distanceToTarget = direction.magnitude;
 
         direction.Normalize();
 
-  
+
 
 
 
@@ -53,7 +52,7 @@ public class SoulLife : MonoBehaviour
     void Libera(Transform life)
     {
 
-       life.GetComponent<Health>().Increase(Nvida);
+        life.GetComponent<Mana>().PlusMana(NMana);
     }
 
 
@@ -64,12 +63,10 @@ public class SoulLife : MonoBehaviour
 
     void PlayerEntrouLiberaArea(GameObject go)
     {
-        go.GetComponent<Health>().Increase(Nvida);
+        go.GetComponent<Mana>().PlusMana(NMana);
         float timeDestroy = 0f;
         Destroy(gameObject, timeDestroy);
 
 
     }
-
-
 }

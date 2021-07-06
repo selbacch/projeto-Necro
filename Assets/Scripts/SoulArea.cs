@@ -23,7 +23,7 @@ public class SoulArea : MonoBehaviour
         if (collision.gameObject.tag.Equals("Player"))
         {
 
-
+           
             this.PlayerEntrouSoul?.Invoke(collision.gameObject);
         }
 
