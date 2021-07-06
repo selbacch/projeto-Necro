@@ -12,13 +12,14 @@ public class Zombi : InterfaceAtacavel
     public GameObject Target;
     public float TargetDistance;
     private float timeDestroy = 50;
-  
+    public Player Necromante;
     public bool IA;
     public zombiagroarea AreaPerigo;
     public ZombiatackArea AreaAtaque;
     public bool isAttackingEnemy;
     public Int32 Vida = 100;
     public int DanoAtual;
+
     void Start()
     {
 
@@ -63,7 +64,9 @@ public class Zombi : InterfaceAtacavel
             Delete2();
         }
 
-        
+        VoltaPlayer();
+
+
 
     }
 
@@ -127,8 +130,25 @@ public class Zombi : InterfaceAtacavel
 
 
     }
+    void VoltaPlayer()
+    {
+        Vector3 direction = Necromante.gameObject.transform.position - transform.position;
+        direction.z = 0;
+        float distanceToTarget = direction.magnitude;
 
-  
+        direction.Normalize();
+
+       if(TargetDistance < distanceToTarget)
+        {
+            Target = Necromante.gameObject;
+            if(TargetDistance > distanceToTarget)
+            {
+                BuscaInimigo();
+            }
+        }
+
+    }
+
 
     void Atack()
     {
