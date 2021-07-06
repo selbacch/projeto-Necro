@@ -33,7 +33,7 @@ public class Demon : Summon
     void Atack()
     {
 
-        pilar.gameObject.active = true;
+        pilar.gameObject.SetActive(true);
 
     }
 
@@ -43,7 +43,7 @@ public class Demon : Summon
         fire.GetComponent<ParticleSystem>().Stop();
 
 
-        pilar.gameObject.active = false;
+        pilar.gameObject.SetActive(false);
 
     }
 

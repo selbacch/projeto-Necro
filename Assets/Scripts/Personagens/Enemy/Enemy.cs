@@ -72,13 +72,23 @@ public class Enemy : InterfaceAtacavel
     {
         for (; ; )
         {
-            Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
-            Debug.Log("ATAQUEEEEEEI");
+            if (Target != null)
+            {
+                Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
+                Debug.Log("ATAQUEEEEEEI " + Target.GetHashCode());
+            }
+            {
+                Debug.Log("ATAQUEEEEEEI null ");
+                StopCoroutine("Atacar");
+                isHuntingPlayer = false;
+                isAttackingPlayer = false;
+            }
+
             yield return new WaitForSeconds(2);
         }
     }
 
-   
+
 
     void VoltarPosicaoInicial()
     {
@@ -119,7 +129,7 @@ public class Enemy : InterfaceAtacavel
         StartCoroutine(Atacar(go));
     }
 
-    void PlayerSaiuAttackArea( GameObject go)
+    void PlayerSaiuAttackArea(GameObject go)
     {
         isAttackingPlayer = false;
         StopCoroutine(Atacar(go));
