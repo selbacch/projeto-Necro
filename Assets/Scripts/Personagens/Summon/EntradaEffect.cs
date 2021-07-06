@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EntradaEfect : MonoBehaviour
+public class EntradaEffect : MonoBehaviour
 {
     public Material invisivel;
     public Material runa;

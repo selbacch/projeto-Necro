@@ -43,9 +43,4 @@ public class AttackZone : MonoBehaviour
         }
     }
 
-
-
-
-
-
 }
