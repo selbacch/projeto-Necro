@@ -25,7 +25,7 @@ public class Zombi : InterfaceAtacavel
         var agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-
+        gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
         AreaPerigo.EnemyEntrouAggro += EnemyEntrouAggro;
         AreaPerigo.EnemySaiuAggro += EnemySaiuAggro;
 

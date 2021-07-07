@@ -14,6 +14,10 @@ public class Demon : Summon
         var agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+      
+
+        gameObject.transform.rotation = Quaternion.Euler(0,0,0);
+;
         gameObject.GetComponent<Rigidbody>();
         Delete();
 

@@ -11,7 +11,7 @@
                     "id": "2dffc36a-a32d-4d4d-85fc-afc8320de552",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": "Press"
+                    "interactions": "Press(pressPoint=0.5,behavior=2)"
                 },
                 {
                     "name": "Habilidade1",
@@ -206,10 +206,10 @@
                 {
                     "name": "",
                     "id": "15f67d16-a713-418b-87c0-a956176187d3",
-                    "path": "<Keyboard>/q",
+                    "path": "<Keyboard>/1",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default",
+                    "groups": "",
                     "action": "Habilidade1",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -217,10 +217,10 @@
                 {
                     "name": "",
                     "id": "77e23a5a-da05-47d8-b6d5-f1ece18c7ae0",
-                    "path": "<Keyboard>/e",
+                    "path": "<Keyboard>/2",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default",
+                    "groups": "",
                     "action": "Habilidade2",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -228,10 +228,10 @@
                 {
                     "name": "",
                     "id": "60862eef-59ee-45f8-8386-9730f07fe2ed",
-                    "path": "<Keyboard>/r",
+                    "path": "<Keyboard>/3",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default",
+                    "groups": "",
                     "action": "Habilidade3",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -239,10 +239,10 @@
                 {
                     "name": "",
                     "id": "cc8320ec-1dd9-4eae-b5a2-2a5f24ba7912",
-                    "path": "<Keyboard>/t",
+                    "path": "<Keyboard>/4",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default",
+                    "groups": "",
                     "action": "Habilidade4",
                     "isComposite": false,
                     "isPartOfComposite": false
