@@ -79,9 +79,13 @@ public class Player : InterfaceAtacavel
     {
         if (gameObject.GetComponent<Mana>().curMana < 1)
         { return; }
-        anim.SetBool("sumon", true);
-        GameObject ZombiC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
-        gameObject.GetComponent<Mana>().LostMana(1);
+       
+            anim.SetBool("sumon", true);
+            GameObject ZombiC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
+            gameObject.GetComponent<Mana>().LostMana(1);
+        
+       
+      
     }
 
     public void OnMovimento(InputValue value)//faz os movimentos de andar
