@@ -83,9 +83,11 @@ public class Player : InterfaceAtacavel
             anim.SetBool("sumon", true);
             GameObject ZombiC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
             gameObject.GetComponent<Mana>().LostMana(1);
-        
-       
-      
+        gameObject.GetComponent<VerificaSumon>().Corpi.GetComponent<Corpinho>().Delete();
+
+
+
+
     }
 
     public void OnMovimento(InputValue value)//faz os movimentos de andar

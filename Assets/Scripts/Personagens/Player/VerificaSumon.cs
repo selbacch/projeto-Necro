@@ -5,21 +5,20 @@ using UnityEngine;
 public class VerificaSumon : MonoBehaviour
 {
 
-    public bool sumon ;
+    public bool sumon;
     public GameObject SEnemy;
     public Collider2D coll;
+    public GameObject Corpi;
     public GameObject Zombi;
+    // public GameObject 
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()
     {
         OnTriggerStay2D(coll);
-        if(sumon == false)
+        if (sumon == false)
         {
             gameObject.GetComponent<Player>().Zombi = Zombi;
         }
@@ -27,18 +26,28 @@ public class VerificaSumon : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-      
-        if(collision.gameObject.tag == "body"){
+
+        if (collision.gameObject.tag == "body")
+        {
             Debug.Log(collision.tag);
             sumon = true;
+            Corpi = collision.gameObject;
             SEnemy = collision.gameObject.GetComponent<Corpinho>().SumonMorto;
-           gameObject.GetComponent<Player>().Zombi = SEnemy;
+            gameObject.GetComponent<Player>().Zombi = SEnemy;
         }
-        if (collision.gameObject.tag != "body")
+
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "body")
         {
-            
-            sumon = false;
-            
+            {
+                SEnemy = null;
+                sumon = false;
+                gameObject.GetComponent<Player>().Zombi = Zombi;
+            }
         }
     }
 }
+    
+

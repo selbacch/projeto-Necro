@@ -11,4 +11,13 @@ public class Corpinho : MonoBehaviour
     {
         
     }
+
+
+
+
+    public void Delete() //fim da vida
+    {
+       float timeDestroy = 0f;
+        Destroy(gameObject, timeDestroy);
+    }
 }
