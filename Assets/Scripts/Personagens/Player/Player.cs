@@ -19,7 +19,10 @@ public class Player : InterfaceAtacavel
     public int combo1;
     public Vector3 move;
     public Rigidbody2D rig;
-
+    public bool mask1;
+    public bool mask2;
+    public bool mask3;
+    public bool mask4;
 
     // Start is called before the first frame update
     void Start()
@@ -89,6 +92,47 @@ public class Player : InterfaceAtacavel
 
 
     }
+
+
+    public void OnHabilidade4(InputValue value)//especcial mutavel
+    {
+
+        if (mask1 == false&&mask2==false&&mask3==false&&mask4==false && gameObject.GetComponent<Mana>().curMana > 2) {
+        
+        //espinhos de ossos saem do chão emvolta do jogador dando dano em quem acertar 
+        
+        }
+
+            if (mask1 == true&& gameObject.GetComponent<Mana>().curMana > 2)//sumona a assassina zumbi  com a lança(dano alto ) um arqueiro esquelto(atira flechas e fica perto do player ) e um cavaleiro putrifo(dano medio + -1 de veneno) 
+        {
+            anim.SetBool("sumon", true);
+            GameObject AssassinC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
+            GameObject ArcherC = Instantiate(Fantasma, point.position, point.rotation, transform.parent);
+            GameObject MageC = Instantiate(Demon, point.position, point.rotation, transform.parent);
+            gameObject.GetComponent<Mana>().LostMana(3);
+        }
+
+        if (mask2 == true && gameObject.GetComponent<Mana>().curMana > 2)
+        { return; }
+        // dragão esqueleto ou zumbi que potege ela com o corpo gospe fogo ou veneno ou ossos e bate em bixo  
+
+
+
+        if (mask3 == true && gameObject.GetComponent<Mana>().curMana > 2)
+        { return; }
+        // dança fantasmagorica fantasmas passam sirculam em volta e dão dano nos inimigos 
+
+
+        if (mask4 == true && gameObject.GetComponent<Mana>().curMana > 2)
+        { return; }
+        //mundo dos mortos inimigos em determinada area ficam paralizados  e tem parte da vida drenada e recupera a do jogador 
+
+    }
+
+
+
+
+
 
     public void OnMovimento(InputValue value)//faz os movimentos de andar
     {
