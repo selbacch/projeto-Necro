@@ -77,7 +77,8 @@ public class Enemy : InterfaceAtacavel
         {
             if (Target != null)
             {
-                Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
+                Anim.SetTrigger("atack");
+                
                 Debug.Log("ATAQUEEEEEEI " + Target.GetHashCode());
             }
             {
@@ -109,7 +110,10 @@ public class Enemy : InterfaceAtacavel
         float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
         MoveCharacter(actualMovementThisFrame * direction);
     }
-
+    void AtackAnim()
+    {
+        Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
+    }
 
     void MoveCharacter(Vector3 frameMovement)
     {
