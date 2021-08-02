@@ -58,13 +58,14 @@ public class Enemy : InterfaceAtacavel
 
     void Hunt()
     {
+        if (Target == null)
+            return;
         gameObject.GetComponent<NavMeshAgent>().SetDestination(Target.transform.position);
         Vector3 direction = Target.gameObject.transform.position - transform.position;
         direction.z = 0;
         float distanceToTarget = direction.magnitude;
 
         direction.Normalize();
-
 
         Anim.SetFloat("Horizontal", direction.x); // controla as animações
         Anim.SetFloat("Vertical", direction.y);
@@ -78,11 +79,9 @@ public class Enemy : InterfaceAtacavel
             if (Target != null)
             {
                 Anim.SetTrigger("atack");
-                
-                Debug.Log("ATAQUEEEEEEI " + Target.GetHashCode());
             }
             {
-                Debug.Log("ATAQUEEEEEEI null ");
+              
                 StopCoroutine("Atacar");
                 isHuntingPlayer = false;
                 isAttackingPlayer = false;

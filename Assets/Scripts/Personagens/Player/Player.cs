@@ -37,35 +37,18 @@ public class Player : InterfaceAtacavel
     void Update()
     {
         Mover();
-        /*Moviment();
 
-        if (Input.GetKeyDown(KeyCode.Q) && gameObject.GetComponent<Mana>().curMana > 0)
-        {
-            SumonFantasma();
-            anim.SetBool("sumon", true);
-        }
-        if (Input.GetKeyDown(KeyCode.E) && gameObject.GetComponent<Mana>().curMana > 0)
-        {
-            anim.SetBool("sumon", true);
-            SumonZombi();
-        }
-        if (Input.GetKeyDown(KeyCode.R) && gameObject.GetComponent<Mana>().curMana > 1)
-        {
-            
-            SumonDemon();
-        }
-        combos();
-        */
     }
 
     public void OnHabilidade1(InputValue value)//void SumonFantasma()
     {
         if (gameObject.GetComponent<Mana>().curMana < 1)
-        { return; }
+        {
+            return;
+        }
         anim.SetBool("sumon", true);
         GameObject FantasmaC = Instantiate(Fantasma, point.position, point.rotation) as GameObject; FantasmaC.transform.SetParent(point);
         gameObject.GetComponent<Mana>().LostMana(1);
-
 
     }
 
@@ -82,28 +65,25 @@ public class Player : InterfaceAtacavel
     {
         if (gameObject.GetComponent<Mana>().curMana < 1)
         { return; }
-       
-            anim.SetBool("sumon", true);
-            GameObject ZombiC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
-            gameObject.GetComponent<Mana>().LostMana(1);
+
+        anim.SetBool("sumon", true);
+        GameObject ZombiC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
+        gameObject.GetComponent<Mana>().LostMana(1);
         gameObject.GetComponent<VerificaSumon>().Corpi.GetComponent<Corpinho>().Delete();
 
-
-
-
     }
-
 
     public void OnHabilidade4(InputValue value)//especcial mutavel
     {
 
-        if (mask1 == false&&mask2==false&&mask3==false&&mask4==false && gameObject.GetComponent<Mana>().curMana > 2) {
-        
-        //espinhos de ossos saem do chão emvolta do jogador dando dano em quem acertar 
-        
+        if (mask1 == false && mask2 == false && mask3 == false && mask4 == false && gameObject.GetComponent<Mana>().curMana > 2)
+        {
+
+            //espinhos de ossos saem do chão emvolta do jogador dando dano em quem acertar 
+
         }
 
-            if (mask1 == true&& gameObject.GetComponent<Mana>().curMana > 2)//sumona a assassina zumbi  com a lança(dano alto ) um arqueiro esquelto(atira flechas e fica perto do player ) e um cavaleiro putrifo(dano medio + -1 de veneno) 
+        if (mask1 == true && gameObject.GetComponent<Mana>().curMana > 2)//sumona a assassina zumbi  com a lança(dano alto ) um arqueiro esquelto(atira flechas e fica perto do player ) e um cavaleiro putrifo(dano medio + -1 de veneno) 
         {
             anim.SetBool("sumon", true);
             GameObject AssassinC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
