@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: runa2
-  m_Shader: {fileID: -6465566751694194690, guid: 3290b6daba391424b97abc2a8213dd95,
+  m_Name: water
+  m_Shader: {fileID: -6465566751694194690, guid: b1fc801ff11534a42a8abc26071f37d5,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -20,8 +20,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_1DEA466A:
-        m_Texture: {fileID: 2800000, guid: 14aea2a34f04ece4c826d7b71abe74b7, type: 3}
+    - Texture2D_C8166FAC:
+        m_Texture: {fileID: 2800000, guid: 38c678232a686f849ab175947d0f0c30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_DFC6C7D4:
+        m_Texture: {fileID: 2800000, guid: 38c678232a686f849ab175947d0f0c30, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -37,13 +41,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_513A17E5: 0.1
-    - Vector1_5FD77B36: 1.2
-    - Vector1_9C91A495: 0
-    - Vector1_A1231BEA: 1.2
-    - Vector1_FA1ECC98: 2
+    - Vector1_30471233: 0.2
     m_Colors:
-    - Color_2FFD2910: {r: 191.74902, g: 20.078432, b: 27.105883, a: 0}
-    - Vector2_2A63689: {r: 0, g: -0.1, b: 0, a: 0}
-    - Vector2_C646D0BC: {r: 0.1, g: -0.5, b: 0, a: 0}
+    - Color_25B1A14: {r: 0.34251514, g: 0.36099666, b: 0.4056604, a: 0}
+    - Color_C41AA095: {r: 0.5741812, g: 0.57968605, b: 0.6509434, a: 0.05490196}
   m_BuildTextureStacks: []

@@ -1048,7 +1048,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "3b1164799a84a58ea1bda6070c666f0c",
     "m_Id": 0,
-    "m_DisplayName": "MainTex",
+    "m_DisplayName": "_MainTex",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1567,7 +1567,7 @@
 }
 
 {
-    "m_SGVersion": 2,
+    "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
     "m_ObjectId": "752f4b697c871e89a2cfe6bc28b7a7f7",
     "m_Guid": {
@@ -1587,7 +1587,7 @@
         "b": 0.9339622855186462,
         "a": 0.0
     },
-    "m_ColorMode": 1
+    "m_ColorMode": 0
 }
 
 {
@@ -1973,7 +1973,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "94f0356199d5228c8d687def16d9618f",
     "m_Id": 0,
-    "m_DisplayName": "MainTex",
+    "m_DisplayName": "_MainTex",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2713,7 +2713,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "d81eb4849d7ead8abafc929e8945b8c0",
     "m_Id": 0,
-    "m_DisplayName": "MainTex",
+    "m_DisplayName": "_MainTex",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2752,7 +2752,7 @@
     "m_Guid": {
         "m_GuidSerialized": "09bf38ed-d459-4678-9f73-1804881a8470"
     },
-    "m_Name": "MainTex",
+    "m_Name": "_MainTex",
     "m_DefaultReferenceName": "Texture2D_7464D928",
     "m_OverrideReferenceName": "_MainTex",
     "m_GeneratePropertyBlock": true,
