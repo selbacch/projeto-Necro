@@ -23,6 +23,8 @@ public class Player : InterfaceAtacavel
     public bool mask2;
     public bool mask3;
     public bool mask4;
+    public bool NoMask;
+     
 
     // Start is called before the first frame update
     void Start()
@@ -37,7 +39,11 @@ public class Player : InterfaceAtacavel
     void Update()
     {
         Mover();
-
+        if (mask1 == false && mask2 == false && mask3 == false && mask4 == false)
+        {
+            NoMask = true;
+        }
+        else { NoMask = false; }
     }
 
     public void OnHabilidade1(InputValue value)//void SumonFantasma()
@@ -76,10 +82,10 @@ public class Player : InterfaceAtacavel
     public void OnHabilidade4(InputValue value)//especcial mutavel
     {
 
-        if (mask1 == false && mask2 == false && mask3 == false && mask4 == false && gameObject.GetComponent<Mana>().curMana > 2)
+        if (NoMask==true && gameObject.GetComponent<Mana>().curMana > 2)
         {
 
-            //espinhos de ossos saem do chão emvolta do jogador dando dano em quem acertar 
+            this.transform.Find("EspecialnoMask").GetComponent<SpriteRenderer>().gameObject.SetActive(true);
 
         }
 
