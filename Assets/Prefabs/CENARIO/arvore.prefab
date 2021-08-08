@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7411570898252776810}
   - component: {fileID: 7411570898252776725}
   - component: {fileID: 7411570898252776724}
-  - component: {fileID: 5906221838606506927}
+  - component: {fileID: 211780403}
   m_Layer: 0
   m_Name: arvore
   m_TagString: Untagged
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -1
   m_Sprite: {fileID: -2144329234367100646, guid: 8bed7a925a8761a4492935d2fe8a4d05,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.8}
@@ -175,7 +175,7 @@ MonoBehaviour:
   renderSprite: {fileID: 7411570898252776811}
   padrao: {fileID: 2100000, guid: 04b5fbdaf0d692244b50e2af69137f63, type: 2}
   alter: {fileID: 2100000, guid: ff545fcc1882b4745877117aa0cb9dd6, type: 2}
---- !u!208 &5906221838606506927
+--- !u!208 &211780403
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,9 +185,9 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 0.14, y: 0.095, z: 0.1}
+  m_Extents: {x: 0.643, y: 0.9620001, z: 0.1}
   m_MoveThreshold: 0.1
   m_Carve: 0
   m_CarveOnlyStationary: 1
-  m_Center: {x: -0.03, y: -0.66, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5

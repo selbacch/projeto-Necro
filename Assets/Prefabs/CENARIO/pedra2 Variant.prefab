@@ -48,6 +48,22 @@ PolygonCollider2D:
       - {x: 0.090265736, y: 0.029726908}
       - {x: 0.20040014, y: 0.046797693}
       - {x: 0.2541342, y: 0.06879929}
+--- !u!208 &198701151
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6330084409481947589}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.273, y: 0.21300001, z: 0.1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &5192620636078471747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -315,12 +331,12 @@ PrefabInstance:
     - target: {fileID: 854544594583049142, guid: 6bbd3f373c4c3d04db94e254c3858fe1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.36
+      value: -5.836213
       objectReference: {fileID: 0}
     - target: {fileID: 854544594583049142, guid: 6bbd3f373c4c3d04db94e254c3858fe1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.54
+      value: 0.008656979
       objectReference: {fileID: 0}
     - target: {fileID: 854544594583049142, guid: 6bbd3f373c4c3d04db94e254c3858fe1,
         type: 3}
@@ -335,17 +351,17 @@ PrefabInstance:
     - target: {fileID: 854544594583049142, guid: 6bbd3f373c4c3d04db94e254c3858fe1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 854544594583049142, guid: 6bbd3f373c4c3d04db94e254c3858fe1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 854544594583049142, guid: 6bbd3f373c4c3d04db94e254c3858fe1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 854544594583049142, guid: 6bbd3f373c4c3d04db94e254c3858fe1,
         type: 3}
@@ -365,7 +381,12 @@ PrefabInstance:
     - target: {fileID: 2294336411785565062, guid: 6bbd3f373c4c3d04db94e254c3858fe1,
         type: 3}
       propertyPath: m_Name
-      value: pedra2
+      value: pedra2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294336411785565062, guid: 6bbd3f373c4c3d04db94e254c3858fe1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4945948827204597377, guid: 6bbd3f373c4c3d04db94e254c3858fe1,
         type: 3}
@@ -393,6 +414,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -7856210644490039255, guid: 8bed7a925a8761a4492935d2fe8a4d05,
         type: 3}
+    - target: {fileID: 6583149417144125002, guid: 6bbd3f373c4c3d04db94e254c3858fe1,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bbd3f373c4c3d04db94e254c3858fe1, type: 3}
 --- !u!1 &6330084409481947589 stripped
