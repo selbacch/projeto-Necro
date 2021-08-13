@@ -182,9 +182,9 @@ public class Player : InterfaceAtacavel
     }
     public void DandoDano()
     {
-        //     GameObject inimigo = gameObject.GetComponent<AtackkZone>().enemy;
+             GameObject inimigo = gameObject.GetComponent<AttackZone>().enemy;
 
-        //        inimigo.GetComponent<EnemyAI>().LevaDano(Dano);
+              inimigo.GetComponent<Enemy>().SofrerDano(DanoAtual);
     }
 
     public override void Atacar(int danoInflingido)

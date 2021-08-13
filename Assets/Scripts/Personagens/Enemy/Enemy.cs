@@ -81,7 +81,7 @@ public class Enemy : InterfaceAtacavel
                 Anim.SetTrigger("atack");
             }
             {
-              
+
                 StopCoroutine("Atacar");
                 isHuntingPlayer = false;
                 isAttackingPlayer = false;
@@ -109,6 +109,19 @@ public class Enemy : InterfaceAtacavel
         float actualMovementThisFrame = Mathf.Min(Mathf.Abs(distanceToTarget - TargetDistance), distanceWantsToMoveThisFrame);
         MoveCharacter(actualMovementThisFrame * direction);
     }
+
+
+    
+    IEnumerator Poison(int Dano, int Tempo)
+    {
+        for (int i = 0; i < Tempo; i++)
+        {
+            Debug.Log("veneno");
+            SofrerDano(Dano);
+            yield return new WaitForSeconds(2);
+        }
+    
+}
     void AtackAnim()
     {
         Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
@@ -140,7 +153,10 @@ public class Enemy : InterfaceAtacavel
         isAttackingPlayer = false;
         StopCoroutine(Atacar(go));
     }
-
+    public void Poisoned(int Dano, int Tempo)
+    {
+        StartCoroutine(Poison(Dano, Tempo));
+    }
     public override void Atacar(int danoInflingido)
     {
         throw new NotImplementedException();

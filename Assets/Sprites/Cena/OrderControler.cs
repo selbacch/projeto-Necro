@@ -26,7 +26,7 @@ public class OrderControler : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("entrou");
+        
             other.GetComponent<SpriteRenderer>().sortingOrder = -1;
             other.GetComponent<SpriteRenderer>().material = alter;
 
@@ -36,7 +36,7 @@ public class OrderControler : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("saiu");
+            
             other.GetComponent<SpriteRenderer>().sortingOrder = 0;
             other.GetComponent<SpriteRenderer>().material = padrao;
         }
