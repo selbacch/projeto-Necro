@@ -11,7 +11,7 @@
                     "id": "2dffc36a-a32d-4d4d-85fc-afc8320de552",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": "Press(pressPoint=0.5,behavior=2)"
+                    "interactions": ""
                 },
                 {
                     "name": "Habilidade1",
@@ -74,7 +74,7 @@
                 {
                     "name": "",
                     "id": "99b1b903-5239-4a09-96c3-be9b972c5592",
-                    "path": "<Gamepad>/leftStick",
+                    "path": "<XInputController>/leftStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "Controle;Default",
@@ -85,7 +85,7 @@
                 {
                     "name": "WASD",
                     "id": "a96f2c34-8276-4195-a1e4-199af3b0d06c",
-                    "path": "2DVector",
+                    "path": "2DVector(mode=2)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -99,7 +99,7 @@
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
                     "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -110,7 +110,7 @@
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
                     "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -121,7 +121,7 @@
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
                     "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -132,7 +132,7 @@
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
                     "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -140,7 +140,7 @@
                 {
                     "name": "setas",
                     "id": "07f4f373-1e9c-4c28-acf6-657568318f97",
-                    "path": "2DVector",
+                    "path": "2DVector(mode=2)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -154,7 +154,7 @@
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
                     "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -165,7 +165,7 @@
                     "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
                     "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -176,7 +176,7 @@
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
                     "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -187,7 +187,7 @@
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
                     "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -198,7 +198,18 @@
                     "path": "<Keyboard>/enter",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
+                    "action": "Ataque",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6197f990-b9b9-4f2d-8c9c-1b921c855a84",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle;Default",
                     "action": "Ataque",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -209,7 +220,18 @@
                     "path": "<Keyboard>/1",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default;Controle",
+                    "action": "Habilidade1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d7b1f902-2dd8-436c-b0d4-b1f055dc90af",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle;Default",
                     "action": "Habilidade1",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -220,7 +242,18 @@
                     "path": "<Keyboard>/2",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
+                    "action": "Habilidade2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3a6c4407-b048-43a5-924d-70d7c1f879cd",
+                    "path": "<XInputController>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle;Default",
                     "action": "Habilidade2",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -231,7 +264,18 @@
                     "path": "<Keyboard>/3",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
+                    "action": "Habilidade3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6665e373-2e32-4a8d-b105-7030a4d459c4",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle;Default",
                     "action": "Habilidade3",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -242,7 +286,18 @@
                     "path": "<Keyboard>/4",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
+                    "action": "Habilidade4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d79429ae-b360-4cf7-b640-82f5eb5ef9e5",
+                    "path": "<XInputController>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle;Default",
                     "action": "Habilidade4",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -253,7 +308,18 @@
                     "path": "<Keyboard>/enter",
                     "interactions": "MultiTap",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
+                    "action": "Combo1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7ff2456b-ab4c-4095-899b-f2b6c14edede",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "MultiTap",
+                    "processors": "",
+                    "groups": "Controle;Default",
                     "action": "Combo1",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -264,7 +330,18 @@
                     "path": "<Keyboard>/enter",
                     "interactions": "MultiTap(tapCount=3)",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Default",
+                    "action": "Combo2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "32bf2feb-aaa3-42e2-8f76-c920aa8baa82",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "MultiTap(tapCount=3)",
+                    "processors": "",
+                    "groups": "Controle;Default",
                     "action": "Combo2",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -296,6 +373,17 @@
                 {
                     "name": "",
                     "id": "8283ce51-0d13-482d-a2f0-9afddb818430",
+                    "path": "<XInputController>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle;Default",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8cb749eb-876d-4f1d-ada5-c88eed330512",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
@@ -314,6 +402,17 @@
                     "action": "Inventario",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d9aa0e08-1718-4b9c-bc07-c641e7837ed6",
+                    "path": "<XInputController>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle;Default",
+                    "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
@@ -327,11 +426,6 @@
                     "devicePath": "<Keyboard>",
                     "isOptional": false,
                     "isOR": false
-                },
-                {
-                    "devicePath": "<Mouse>",
-                    "isOptional": false,
-                    "isOR": false
                 }
             ]
         },
@@ -342,6 +436,16 @@
                 {
                     "devicePath": "<Gamepad>",
                     "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<DualShockGamepad>",
+                    "isOptional": true,
                     "isOR": false
                 }
             ]
