@@ -124,6 +124,10 @@ public class Enemy : InterfaceAtacavel
 }
     void AtackAnim()
     {
+        if (Target == null)
+        {
+            return;
+        }
         Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
     }
 

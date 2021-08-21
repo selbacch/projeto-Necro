@@ -7,6 +7,8 @@ public class MenuFaseController : MonoBehaviour
     public GameObject menuPause;
     public GameObject menuMorte;
     public GameObject panelEscureBackground;
+    public GameObject componenteInventario;
+
     private float timeScale;
     private bool isOpen = false;
     // Start is called before the first frame update
@@ -42,10 +44,26 @@ public class MenuFaseController : MonoBehaviour
         Time.timeScale = this.timeScale;
         isOpen = false;
     }
-    public void OnInventario(InputValue value)
+    public void AbrirInventario()
     {
 
+        if (componenteInventario.activeSelf)
+        {
+            componenteInventario.SetActive(false);
+        }
+        else
+        {
+            componenteInventario.SetActive(true);
+            InventarioController.Instance.RenderizaInventario();
+        }
+
     }
+    public void OnInventario(InputValue value)
+    {
+        AbrirInventario();
+    }
+
+
 
     public void OnPause(InputValue value)
     {

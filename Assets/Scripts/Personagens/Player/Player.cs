@@ -24,7 +24,7 @@ public class Player : InterfaceAtacavel
     public bool mask3;
     public bool mask4;
     public bool NoMask;
-     
+
 
     // Start is called before the first frame update
     void Start()
@@ -82,7 +82,7 @@ public class Player : InterfaceAtacavel
     public void OnHabilidade4(InputValue value)//especcial mutavel
     {
 
-        if (NoMask==true && gameObject.GetComponent<Mana>().curMana > 2)
+        if (NoMask == true && gameObject.GetComponent<Mana>().curMana > 2)
         {
 
             this.transform.Find("EspecialnoMask").GetComponent<SpriteRenderer>().gameObject.SetActive(true);
@@ -182,9 +182,13 @@ public class Player : InterfaceAtacavel
     }
     public void DandoDano()
     {
-             GameObject inimigo = gameObject.GetComponent<AttackZone>().enemy;
 
-              inimigo.GetComponent<Enemy>().SofrerDano(DanoAtual);
+        GameObject inimigo = gameObject.GetComponent<AttackZone>().enemy;
+        if (inimigo == null)
+        {
+            return;
+        }
+        inimigo.GetComponent<Enemy>().SofrerDano(DanoAtual);
     }
 
     public override void Atacar(int danoInflingido)

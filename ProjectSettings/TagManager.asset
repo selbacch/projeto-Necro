@@ -8,6 +8,7 @@ TagManager:
   - sumon
   - body
   - EspecialAtack
+  - item
   layers:
   - Default
   - TransparentFX
