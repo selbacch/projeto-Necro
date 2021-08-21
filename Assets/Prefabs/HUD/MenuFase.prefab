@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aa6e67413224784daeec7da3be67221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textoItens: {fileID: 0}
+  textoItens: {fileID: 1552722197}
 --- !u!1 &938279099
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,7 +682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 347416973493586408}
   - component: {fileID: 697032905}
-  - component: {fileID: 697032906}
+  - component: {fileID: 6481295494479502294}
   m_Layer: 5
   m_Name: MenuFase
   m_TagString: Untagged
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_DefaultActionMap: UIGameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &697032906
+--- !u!114 &6481295494479502294
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2256,7 +2256,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 697032906}
+      - m_Target: {fileID: 697032906, guid: 1368e4bcf43f2cd499bdb6761b29f1b3, type: 3}
         m_TargetAssemblyTypeName: MenuFaseController, Assembly-CSharp
         m_MethodName: AbrirInventario
         m_Mode: 1

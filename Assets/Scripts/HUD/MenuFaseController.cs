@@ -49,10 +49,12 @@ public class MenuFaseController : MonoBehaviour
 
         if (componenteInventario.activeSelf)
         {
+            Time.timeScale = this.timeScale;
             componenteInventario.SetActive(false);
         }
         else
         {
+            Time.timeScale = 0;
             componenteInventario.SetActive(true);
             InventarioController.Instance.RenderizaInventario();
         }
