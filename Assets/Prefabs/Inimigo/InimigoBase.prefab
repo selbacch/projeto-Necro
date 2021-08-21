@@ -23,6 +23,22 @@ PrefabInstance:
       propertyPath: AreaPerigo
       value: 
       objectReference: {fileID: 4750555808078905256}
+    - target: {fileID: 6980545717484365831, guid: 3d95581cfc2160740a4af5d364beab6f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.42857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980545717484365831, guid: 3d95581cfc2160740a4af5d364beab6f,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980545717484365831, guid: 3d95581cfc2160740a4af5d364beab6f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5684683056698814123, guid: ffb8f09c7a1a462418b9c60b37c81802,
+        type: 3}
     - target: {fileID: 7768105717592824219, guid: 3d95581cfc2160740a4af5d364beab6f,
         type: 3}
       propertyPath: m_Name
@@ -36,12 +52,12 @@ PrefabInstance:
     - target: {fileID: 7768105717592824294, guid: 3d95581cfc2160740a4af5d364beab6f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.2168293
+      value: -3.038
       objectReference: {fileID: 0}
     - target: {fileID: 7768105717592824294, guid: 3d95581cfc2160740a4af5d364beab6f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.0494237
+      value: -3.021
       objectReference: {fileID: 0}
     - target: {fileID: 7768105717592824294, guid: 3d95581cfc2160740a4af5d364beab6f,
         type: 3}
