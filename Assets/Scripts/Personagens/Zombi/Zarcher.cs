@@ -65,7 +65,10 @@ public class Zarcher : InterfaceAtacavel
             Delete2();
         }
 
-
+        if (Direct.magnitude >  4)
+        {
+            EnemyEntrouAttackArea2(Target);
+        }
 
     }
 
@@ -104,10 +107,21 @@ public class Zarcher : InterfaceAtacavel
         {
             anim.SetTrigger("atack");
 
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(10f);
         }
     }
 
+
+
+    IEnumerator Atacar2(GameObject gameObject)
+    {
+        for (; ; )
+        {
+            anim.SetTrigger("atack2");
+
+            yield return new WaitForSeconds(0.5f);
+        }
+    }
 
     void navhunt()
     {
@@ -146,6 +160,12 @@ public class Zarcher : InterfaceAtacavel
         // Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
         GameObject CloneTiro = Instantiate(tiro1, point.position, point.rotation);
     }
+    void Atack2()
+    {
+
+        Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
+        
+    }
 
     void MoveCharacter(Vector3 frameMovement)
     {
@@ -178,14 +198,23 @@ public class Zarcher : InterfaceAtacavel
     void EnemyEntrouAttackArea(GameObject go)
     {
         isAttackingEnemy = true;
+        StartCoroutine(Atacar2(go));
+    }
+
+    void EnemyEntrouAttackArea2(GameObject go)
+    {
+        isAttackingEnemy = true;
         StartCoroutine(Atacar(go));
     }
+
+
 
     void EnemySaiuAttackArea(GameObject go)
     {
         isAttackingEnemy = false;
-        StopCoroutine(Atacar(go));
+        StopCoroutine(Atacar2(go));
     }
+
 
     public override void Atacar(int danoInflingido)
     {
