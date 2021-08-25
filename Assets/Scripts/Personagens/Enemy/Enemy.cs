@@ -37,6 +37,7 @@ public class Enemy : InterfaceAtacavel
 
         AreaAtaque.PlayerEntrouAttack += PlayerEntrouAttackArea;
         AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
+        AreaAtaque.PlayerEmAttack += PlayerEmAttack;
 
         isHuntingPlayer = false;
         isAttackingPlayer = false;
@@ -44,6 +45,7 @@ public class Enemy : InterfaceAtacavel
         var agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+        BuscaInimigo();
 
     }
 
@@ -52,7 +54,8 @@ public class Enemy : InterfaceAtacavel
     {
         Hunt();
         //VoltarPosicaoInicial();
-
+        
+            BuscaInimigo(); 
     }
 
 
@@ -71,6 +74,40 @@ public class Enemy : InterfaceAtacavel
         Anim.SetFloat("Vertical", direction.y);
         Anim.SetFloat("Speed", direction.magnitude);
     }
+
+
+    void BuscaInimigo()
+    {
+        if (Target == null)
+            return;
+        GameObject[] gos;
+        gos = GameObject.FindGameObjectsWithTag("sumon");
+        
+        GameObject closest = null;
+        float distance = Mathf.Infinity;
+        Vector3 position = transform.position;
+        foreach (GameObject go in gos)
+        {
+            Vector3 diff = go.transform.position - position;
+            float curDistance = diff.sqrMagnitude;
+            if (curDistance < distance)
+            {
+                closest = go;
+                distance = curDistance;
+            }
+        }
+        
+        Target = closest.gameObject;
+        if (closest == null)
+        {
+            Target = GameObject.FindGameObjectWithTag("Player").gameObject;
+        }
+
+
+
+    }
+
+
 
     IEnumerator Atacar(GameObject gameObject)
     {
@@ -124,10 +161,7 @@ public class Enemy : InterfaceAtacavel
 }
     void AtackAnim()
     {
-        if (Target == null)
-        {
-            return;
-        }
+       
         Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
     }
 
@@ -137,6 +171,11 @@ public class Enemy : InterfaceAtacavel
     }
 
     void PlayerEntrouAggro(GameObject go)
+    {
+        isHuntingPlayer = true;
+        Target = go;
+    }
+    void PlayerEmAttack(GameObject go)
     {
         isHuntingPlayer = true;
         Target = go;

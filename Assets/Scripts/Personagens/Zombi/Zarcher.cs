@@ -75,10 +75,12 @@ public class Zarcher : InterfaceAtacavel
 
     void BuscaInimigo()
     {
+        if (Target == null)
+            return;
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("Enemy");
         GameObject closest = null;
-        float distance = Mathf.Infinity;
+        float distance = 5f;//Mathf.Infinity;
         Vector3 position = transform.position;
         foreach (GameObject go in gos)
         {
@@ -143,14 +145,16 @@ public class Zarcher : InterfaceAtacavel
     }
     void Ponta()
     {
-        Vector3 direction = Target.gameObject.transform.position - transform.position;
-        direction.z = 0;
-        float distanceToTarget = direction.magnitude;
+        if (Target == null)
+            return;
+        Vector3 direction1 = Target.gameObject.transform.position - transform.position;
+        direction1.z = 0;
+        float distanceToTarget = direction1.magnitude;
 
-        Direct = direction;
-        anim.SetFloat("Horizontal", direction.x); // controla as animações
-        anim.SetFloat("Vertical", direction.y);
-        anim.SetFloat("Speed", direction.magnitude);
+        Direct = Target.gameObject.transform.position - transform.position; ;
+        anim.SetFloat("Horizontal", direction1.x); // controla as animações
+        anim.SetFloat("Vertical", direction1.y);
+        anim.SetFloat("Speed", direction1.magnitude);
     }
 
 
@@ -159,6 +163,8 @@ public class Zarcher : InterfaceAtacavel
 
         // Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
         GameObject CloneTiro = Instantiate(tiro1, point.position, point.rotation);
+        CloneTiro.GetComponent<arrow>().direct = Direct ;
+
     }
     void Atack2()
     {

@@ -9,7 +9,7 @@ public class Zombi : InterfaceAtacavel
 
     public Animator anim;
 
-    public GameObject Target;
+    public GameObject Target = null;
     public float TargetDistance;
     private float timeDestroy = 50;
   
@@ -55,7 +55,7 @@ public class Zombi : InterfaceAtacavel
         if (Target == null)
         {
             BuscaInimigo();
-            Target = GameObject.FindGameObjectWithTag("Enemy").gameObject;
+           // Target = GameObject.FindGameObjectWithTag("Enemy").gameObject;
         }
         if (Vida <= 0)
         {
@@ -63,17 +63,19 @@ public class Zombi : InterfaceAtacavel
             Delete2();
         }
 
-        
+     
 
     }
 
 
     void BuscaInimigo()
     {
+        if(Target == null)
+            return;
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("Enemy");
         GameObject closest = null;
-        float distance = Mathf.Infinity;
+        float distance = 5f;
         Vector3 position = transform.position;
         foreach (GameObject go in gos)
         {
@@ -113,6 +115,8 @@ public class Zombi : InterfaceAtacavel
 
     void navhunt()
     {
+        if (Target == null)
+            return;
         gameObject.GetComponent<NavMeshAgent>().SetDestination(Target.transform.position);
         Vector3 direction = Target.gameObject.transform.position - transform.position;
         direction.z = 0;
@@ -132,7 +136,8 @@ public class Zombi : InterfaceAtacavel
 
     void Atack()
     {
-
+        if(Target == null)
+            return;
         Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
     }
 

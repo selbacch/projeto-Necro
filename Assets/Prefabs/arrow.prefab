@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3252904710632720305}
   - component: {fileID: 3252904710632720304}
   - component: {fileID: 1489995234467481233}
+  - component: {fileID: 4051214549653882091}
+  - component: {fileID: 964705426500673632}
   m_Layer: 0
   m_Name: arrow
   m_TagString: Untagged
@@ -97,3 +99,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aljava: {fileID: 6198674169456746686, guid: 0f5ec55d61de68a488f5771041a0a691, type: 3}
+--- !u!50 &4051214549653882091
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252904710632720307}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!68 &964705426500673632
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252904710632720307}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.22333333, y: 0}
+  - {x: 0.22333333, y: 0}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
