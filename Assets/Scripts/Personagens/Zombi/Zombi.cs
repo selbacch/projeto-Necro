@@ -52,10 +52,10 @@ public class Zombi : InterfaceAtacavel
         }
 
 
-        if (Target == null)
+        if (Target == null || Target.tag=="Player")
         {
             BuscaInimigo();
-           // Target = GameObject.FindGameObjectWithTag("Enemy").gameObject;
+          // Target = GameObject.FindGameObjectWithTag("Enemy").gameObject;
         }
         if (Vida <= 0)
         {
@@ -70,12 +70,11 @@ public class Zombi : InterfaceAtacavel
 
     void BuscaInimigo()
     {
-        if(Target == null)
-            return;
+        
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("Enemy");
         GameObject closest = null;
-        float distance = 5f;
+        float distance = Mathf.Infinity;
         Vector3 position = transform.position;
         foreach (GameObject go in gos)
         {
@@ -85,14 +84,12 @@ public class Zombi : InterfaceAtacavel
             {
                 closest = go;
                 distance = curDistance;
+                Target = closest.gameObject;
             }
+            if(diff.magnitude > 10f)
+            { Target = GameObject.FindGameObjectWithTag("Player").gameObject; }
         }
-
-        Target = closest.gameObject;
-        if (closest == null)
-        {
-            Target = GameObject.FindGameObjectWithTag("Player").gameObject;
-        }
+    
         
 
 

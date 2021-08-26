@@ -37,7 +37,7 @@ public class Enemy : InterfaceAtacavel
 
         AreaAtaque.PlayerEntrouAttack += PlayerEntrouAttackArea;
         AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
-        AreaAtaque.PlayerEmAttack += PlayerEmAttack;
+        
 
         isHuntingPlayer = false;
         isAttackingPlayer = false;
@@ -45,17 +45,22 @@ public class Enemy : InterfaceAtacavel
         var agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-        BuscaInimigo();
+        
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        Hunt();
+        if (isHuntingPlayer == true)
+        {
+
+
+            Hunt();
+        }
         //VoltarPosicaoInicial();
         
-            BuscaInimigo(); 
+            
     }
 
 
@@ -76,36 +81,7 @@ public class Enemy : InterfaceAtacavel
     }
 
 
-    void BuscaInimigo()
-    {
-        if (Target == null)
-            return;
-        GameObject[] gos;
-        gos = GameObject.FindGameObjectsWithTag("sumon");
-        
-        GameObject closest = null;
-        float distance = Mathf.Infinity;
-        Vector3 position = transform.position;
-        foreach (GameObject go in gos)
-        {
-            Vector3 diff = go.transform.position - position;
-            float curDistance = diff.sqrMagnitude;
-            if (curDistance < distance)
-            {
-                closest = go;
-                distance = curDistance;
-            }
-        }
-        
-        Target = closest.gameObject;
-        if (closest == null)
-        {
-            Target = GameObject.FindGameObjectWithTag("Player").gameObject;
-        }
-
-
-
-    }
+    
 
 
 

@@ -57,7 +57,7 @@ public class Zarcher : InterfaceAtacavel
         if (Target == null)
         {
             BuscaInimigo();
-            Target = GameObject.FindGameObjectWithTag("Enemy").gameObject;
+           // Target = GameObject.FindGameObjectWithTag("Enemy").gameObject;
         }
         if (Vida <= 0)
         {
@@ -75,12 +75,12 @@ public class Zarcher : InterfaceAtacavel
 
     void BuscaInimigo()
     {
-        if (Target == null)
-            return;
+
+
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("Enemy");
         GameObject closest = null;
-        float distance = 5f;//Mathf.Infinity;
+        float distance = Mathf.Infinity;
         Vector3 position = transform.position;
         foreach (GameObject go in gos)
         {
@@ -90,15 +90,22 @@ public class Zarcher : InterfaceAtacavel
             {
                 closest = go;
                 distance = curDistance;
+                Target = closest.gameObject;
             }
+            if (diff.magnitude > 10f)
+            { Target = null; }
         }
 
-        Target = closest.gameObject;
-        
+
 
 
 
     }
+
+
+
+
+
 
 
 
