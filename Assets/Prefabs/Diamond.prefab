@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 6980545717484365831}
   - component: {fileID: 110787718379353394}
   - component: {fileID: 1120809142}
+  - component: {fileID: 6525181828764808301}
   - component: {fileID: 1831615094}
   m_Layer: 0
   m_Name: Diamond
@@ -288,6 +289,27 @@ NavMeshAgent:
   m_BaseOffset: 0.29
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &6525181828764808301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7768105717592824219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669882ee8e85a644a890c96ded12b69d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  Target: {fileID: 0}
+  TargetDistance: 0
+  IA: 0
+  AreaAtaque: {fileID: 0}
+  AreaPerigo: {fileID: 0}
+  isAttackingEnemy: 0
+  Vida: 100
+  DanoAtual: 0
 --- !u!114 &1831615094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,4 +330,4 @@ MonoBehaviour:
   Vida: 100
   Resfriamento: 2
   Velocidade: 1
-  Dano: 15
+  DanoAtual: 15

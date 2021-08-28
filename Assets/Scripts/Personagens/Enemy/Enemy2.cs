@@ -1,21 +1,21 @@
-ï»¿using System;
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
 
-public class Zombi : InterfaceAtacavel
+public class Enemy2 : InterfaceAtacavel
 {
 
     public Animator anim;
 
     public GameObject Target = null;
     public float TargetDistance;
-    private float timeDestroy = 50;
+
     public bool death = false;
     public bool IA;
-    public zombiagroarea AreaPerigo;
-    public ZombiatackArea AreaAtaque;
+    public EnemyAttackArea AreaAtaque;
+    public EnemyAggroArea AreaPerigo;
     public bool isAttackingEnemy;
     public Int32 Vida = 100;
     public int DanoAtual;
@@ -26,16 +26,16 @@ public class Zombi : InterfaceAtacavel
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
-        AreaPerigo.EnemyEntrouAggro += EnemyEntrouAggro;
-        AreaPerigo.EnemySaiuAggro += EnemySaiuAggro;
+        AreaPerigo.PlayerEntrouAggro += PlayerEntrouAggro;
+        AreaPerigo.PlayerSaiuAggro += PlayerSaiuAggro;
 
-        AreaAtaque.EnemyEntrouAttack += EnemyEntrouAttackArea;
-        AreaAtaque.EnemySaiuAttack += EnemySaiuAttackArea;
+        AreaAtaque.PlayerEntrouAttack += PlayerEntrouAttackArea;
+        AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
 
-        BuscaInimigo();
+       
 
 
-        Delete();
+        
 
     }
 
@@ -51,30 +51,27 @@ public class Zombi : InterfaceAtacavel
             navhunt();
         }
 
-        if(Target == null)
-        {
-            Target = GameObject.FindGameObjectWithTag("Player").gameObject;
-        }
-        if ( Target.tag=="Player")
-        {
-            isAttackingEnemy = false;
-            BuscaInimigo();
-          // Target = GameObject.FindGameObjectWithTag("Enemy").gameObject;
-        }
+
+       
         if (Vida <= 0)
-        {
+        { 
             death = true;
             anim.SetBool("death",true);
-         
+           
+            gameObject.tag = "Default";
         }
-      if(Target.GetComponent<Enemy2>().death==true)
+
+        
+
+        if (Target.GetComponent<Zombi>().death == true)
         {
-          
+           
             isAttackingEnemy = false;
             Target = null;
-           
+            BuscaInimigo2();
+            BuscaInimigo();
         }
-     
+
 
     }
 
@@ -83,9 +80,9 @@ public class Zombi : InterfaceAtacavel
     {
         
         GameObject[] gos;
-        gos = GameObject.FindGameObjectsWithTag("Enemy");
+        gos = GameObject.FindGameObjectsWithTag("Player");
         GameObject closest = null;
-        float distance = Mathf.Infinity;
+        float distance = 20f;
         Vector3 position = transform.position;
         foreach (GameObject go in gos)
         {
@@ -97,29 +94,50 @@ public class Zombi : InterfaceAtacavel
                 distance = curDistance;
                 Target = closest.gameObject;
             }
-            if(diff.magnitude > 10f)
-            { Target = GameObject.FindGameObjectWithTag("Player").gameObject; }
+            
         }
-    
-        
+
+
+
+
+
+    }
+
+    void BuscaInimigo2()
+    {
+
+        GameObject[] gos;
+        gos = GameObject.FindGameObjectsWithTag("sumon");
+        GameObject closest = null;
+        float distance = 20f;
+        Vector3 position = transform.position;
+        foreach (GameObject go in gos)
+        {
+            Vector3 diff = go.transform.position - position;
+            float curDistance = diff.sqrMagnitude;
+            if (curDistance < distance)
+            {
+                closest = go;
+                distance = curDistance;
+                Target = closest.gameObject;
+            }
+
+        }
+
+
 
 
 
     }
 
 
-
-
     IEnumerator Atacar(GameObject gameObject)
     {
-        if (isAttackingEnemy == true)
+        for (; ; )
         {
-            for (; ; )
-            {
-                anim.SetTrigger("atack");
+            anim.SetTrigger("atack");
 
-                yield return new WaitForSeconds(0.5f);
-            }
+            yield return new WaitForSeconds(0.5f);
         }
     }
 
@@ -136,18 +154,18 @@ public class Zombi : InterfaceAtacavel
         direction.Normalize();
 
 
-        anim.SetFloat("Horizontal", direction.x); // controla as animaÃ§Ãµes
+        anim.SetFloat("Horizontal", direction.x); // controla as animações
         anim.SetFloat("Vertical", direction.y);
         anim.SetFloat("Speed", direction.magnitude);
 
 
     }
 
-  
+
 
     void Atack()
     {
-        if(Target == null)
+        if (Target == null)
             return;
         Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
     }
@@ -158,35 +176,30 @@ public class Zombi : InterfaceAtacavel
     }
 
 
-    void Delete() //destroi apos 10
-    {
+ 
 
-        Destroy(gameObject, timeDestroy);
+    void Delete2() //fim da vida
+    {
+        GameObject.Destroy(gameObject);
     }
 
-     void Delete2() //fim da vida
-    {
-        timeDestroy = 0f;
-        Destroy(gameObject, timeDestroy);
-    }
-
-    void EnemyEntrouAggro(GameObject go)
+    void PlayerEntrouAggro(GameObject go)
     {
         IA = true;
         Target = go;
     }
-    void EnemySaiuAggro(GameObject go)
+    void PlayerSaiuAggro(GameObject go)
     {
         IA = true;
     }
 
-    void EnemyEntrouAttackArea(GameObject go)
+    void PlayerEntrouAttackArea(GameObject go)
     {
         isAttackingEnemy = true;
         StartCoroutine(Atacar(go));
     }
 
-    void EnemySaiuAttackArea(GameObject go)
+    void PlayerSaiuAttackArea(GameObject go)
     {
         isAttackingEnemy = false;
         StopCoroutine(Atacar(go));
