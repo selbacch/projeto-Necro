@@ -10,7 +10,7 @@ public class InventarioController : MonoBehaviour
 
     private Dictionary<ItemInterface.Item, int> itens;
 
-    public TMP_Text textoItens;
+    public InventarioSlot[] slots;
 
     private void Awake()
     {
@@ -18,13 +18,20 @@ public class InventarioController : MonoBehaviour
     }
     void Start()
     {
-        itens = new Dictionary<ItemInterface.Item, int> ();
+        itens = new Dictionary<ItemInterface.Item, int>();
+        InventarioSlot.ItemUtilizado += AtualizaGUIInventarioOnUtilizacao;
+
+    }
+
+    private void OnDestroy()
+    {
+        InventarioSlot.ItemUtilizado -= AtualizaGUIInventarioOnUtilizacao;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void AdicionarAoInventario(ItemInterface.Item itemTipo)
@@ -54,19 +61,38 @@ public class InventarioController : MonoBehaviour
                 itens.Remove(itemTipo);
             }
 
-        }       
+        }
+    }
+
+    public void ResetaInventarioSlots()
+    {
+        for (int i = 0; i < slots.Length; i++)
+        {
+            slots[i].RenderizaItem(ItemInterface.Item.None, 0);
+        }
     }
 
     public void RenderizaInventario()
     {
-        textoItens.text = "";
+
         StringBuilder sb = new StringBuilder();
+        ResetaInventarioSlots();
+        int slotIndex = 0;
+
         foreach (KeyValuePair<ItemInterface.Item, int> item in this.itens)
         {
-            sb.AppendLine(item.Key.ToString()+" :: "+item.Value.ToString());
+            sb.Append(item.Key.ToString() + " :: " + item.Value.ToString()+';');
+            this.slots[slotIndex++].RenderizaItem(item.Key, item.Value);
+
         }
 
-        textoItens.text = sb.ToString();
+        Debug.Log(sb.ToString());
+    }
+
+
+    public void AtualizaGUIInventarioOnUtilizacao()
+    {
+        RenderizaInventario();
     }
 
 }

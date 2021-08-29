@@ -9,6 +9,7 @@ TagManager:
   - body
   - EspecialAtack
   - item
+  - UI
   layers:
   - Default
   - TransparentFX

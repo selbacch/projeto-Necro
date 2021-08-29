@@ -46,7 +46,7 @@ public class MenuFaseController : MonoBehaviour
     }
     public void AbrirInventario()
     {
-
+        this.FecharMenus();
         if (componenteInventario.activeSelf)
         {
             Time.timeScale = this.timeScale;
