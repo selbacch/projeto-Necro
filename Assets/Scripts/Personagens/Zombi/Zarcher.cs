@@ -57,7 +57,7 @@ public class Zarcher : InterfaceAtacavel
         if (Target == null)
         {
             BuscaInimigo();
-           // Target = GameObject.FindGameObjectWithTag("Enemy").gameObject;
+          
         }
         if (Vida <= 0)
         {
@@ -73,7 +73,7 @@ public class Zarcher : InterfaceAtacavel
     }
 
 
-    void BuscaInimigo()
+    void BuscaInimigo()//busca inimigo 
     {
 
 
@@ -110,7 +110,7 @@ public class Zarcher : InterfaceAtacavel
 
 
 
-    IEnumerator Atacar(GameObject gameObject)
+    IEnumerator Atacar(GameObject gameObject)//atira
     {
         for (; ; )
         {
@@ -122,7 +122,7 @@ public class Zarcher : InterfaceAtacavel
 
 
 
-    IEnumerator Atacar2(GameObject gameObject)
+    IEnumerator Atacar2(GameObject gameObject)//ataca de perto
     {
         for (; ; )
         {
@@ -132,7 +132,7 @@ public class Zarcher : InterfaceAtacavel
         }
     }
 
-    void navhunt()
+    void navhunt()//pesegue o jogador
     {
         gameObject.GetComponent<NavMeshAgent>().SetDestination(Player.transform.position);
         Vector3 direction = Player.gameObject.transform.position - transform.position;
@@ -150,7 +150,7 @@ public class Zarcher : InterfaceAtacavel
         else { Ponta(); }
 
     }
-    void Ponta()
+    void Ponta() // vira para o lado que esta o inimigo
     {
         if (Target == null)
             return;
@@ -158,7 +158,7 @@ public class Zarcher : InterfaceAtacavel
         direction1.z = 0;
         float distanceToTarget = direction1.magnitude;
 
-        Direct = Target.gameObject.transform.position - transform.position; ;
+        Direct = Target.gameObject.transform.position - transform.position; 
         anim.SetFloat("Horizontal", direction1.x); // controla as animações
         anim.SetFloat("Vertical", direction1.y);
         anim.SetFloat("Speed", direction1.magnitude);

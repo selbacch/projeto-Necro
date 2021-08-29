@@ -58,25 +58,26 @@ public class Enemy2 : InterfaceAtacavel
             death = true;
             anim.SetBool("death",true);
            
-            gameObject.tag = "Default";
+            gameObject.tag = "Untagged";
         }
 
-        
 
-        if (Target.GetComponent<Zombi>().death == true)
+        if (Target.tag == "sumon")
         {
-           
-            isAttackingEnemy = false;
-            Target = null;
-            BuscaInimigo2();
-            BuscaInimigo();
-        }
+            if (Target.GetComponent<Zombi>().death == true)//verifica se esta morto
+            {
 
+                isAttackingEnemy = false;
+                Target = null;
+                BuscaInimigo2();
+                BuscaInimigo();
+            }
+        }
 
     }
 
 
-    void BuscaInimigo()
+    void BuscaInimigo()//busca player
     {
         
         GameObject[] gos;
@@ -103,7 +104,7 @@ public class Enemy2 : InterfaceAtacavel
 
     }
 
-    void BuscaInimigo2()
+    void BuscaInimigo2()//busca sumon
     {
 
         GameObject[] gos;
@@ -181,6 +182,8 @@ public class Enemy2 : InterfaceAtacavel
     void Delete2() //fim da vida
     {
         GameObject.Destroy(gameObject);
+        gameObject.GetComponentInChildren<DropRItens>().DropObgItem();
+        gameObject.GetComponentInChildren<DropRItens>().DropRandItem();
     }
 
     void PlayerEntrouAggro(GameObject go)
