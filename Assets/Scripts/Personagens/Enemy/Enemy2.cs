@@ -83,7 +83,7 @@ public class Enemy2 : InterfaceAtacavel
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("Player");
         GameObject closest = null;
-        float distance = 20f;
+        float distance = 10f;
         Vector3 position = transform.position;
         foreach (GameObject go in gos)
         {
@@ -110,7 +110,7 @@ public class Enemy2 : InterfaceAtacavel
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("sumon");
         GameObject closest = null;
-        float distance = 20f;
+        float distance = 10f;
         Vector3 position = transform.position;
         foreach (GameObject go in gos)
         {
@@ -182,7 +182,7 @@ public class Enemy2 : InterfaceAtacavel
     void Delete2() //fim da vida
     {
         GameObject.Destroy(gameObject);
-        gameObject.GetComponentInChildren<DropRItens>().DropObgItem();
+        //gameObject.GetComponentInChildren<DropRItens>().DropObgItem();
         gameObject.GetComponentInChildren<DropRItens>().DropRandItem();
     }
 
@@ -193,7 +193,7 @@ public class Enemy2 : InterfaceAtacavel
     }
     void PlayerSaiuAggro(GameObject go)
     {
-        IA = true;
+        IA = false;
     }
 
     void PlayerEntrouAttackArea(GameObject go)

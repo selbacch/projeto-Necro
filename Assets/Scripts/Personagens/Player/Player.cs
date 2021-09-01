@@ -14,6 +14,7 @@ public class Player : InterfaceAtacavel
     public GameObject Fantasma;
     public GameObject Demon;
     public GameObject Zombi;
+    public GameObject ZArcher;
     public Transform point;
     public bool atacando;
     public int combo1;
@@ -93,8 +94,12 @@ public class Player : InterfaceAtacavel
         {
             anim.SetBool("sumon", true);
             GameObject AssassinC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
-            GameObject ArcherC = Instantiate(Fantasma, point.position, point.rotation, transform.parent);
-            GameObject MageC = Instantiate(Demon, point.position, point.rotation, transform.parent);
+            GameObject ArcherC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
+            GameObject MageC = Instantiate(ZArcher, point.position, point.rotation, transform.parent);
+            //GameObject Felipe = Instantiate(Zombi, point.position, point.rotation, transform.parent);
+            //Felipe.GetComponent<Animator>().runtimeAnimatorController = Resources.Load("controller felipe") as RuntimeAnimatorController;
+            //GameObject Winie = Instantiate(Zombi, point.position, point.rotation, transform.parent);
+            //GameObject Cassiano = Instantiate(Zombi, point.position, point.rotation, transform.parent);
             gameObject.GetComponent<Mana>().LostMana(3);
         }
 

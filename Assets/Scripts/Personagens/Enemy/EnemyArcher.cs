@@ -42,11 +42,6 @@ public class EnemyArcher : InterfaceAtacavel
 
     void Update()
     {
-
-
-
-
-
         if (IA == true)
         {
             navhunt();
@@ -72,8 +67,11 @@ public class EnemyArcher : InterfaceAtacavel
             BuscaInimigo2();
             BuscaInimigo();
         }
-
-
+        if (Direct.magnitude > 1)
+        {
+            PlayerEntrouAttackArea2(Target);
+        }
+        Debug.Log(Direct.magnitude);
     }
 
 
@@ -98,10 +96,6 @@ public class EnemyArcher : InterfaceAtacavel
 
         }
 
-
-
-
-
     }
 
     void BuscaInimigo2()//busca inimigo
@@ -125,10 +119,6 @@ public class EnemyArcher : InterfaceAtacavel
 
         }
 
-
-
-
-
     }
 
 
@@ -149,7 +139,7 @@ public class EnemyArcher : InterfaceAtacavel
         for (; ; )
         {
             anim.SetTrigger("atack2");
-
+            gameObject.GetComponent<NavMeshAgent>().stoppingDistance = 0;
             yield return new WaitForSeconds(0.5f);
         }
     }
@@ -214,6 +204,8 @@ public class EnemyArcher : InterfaceAtacavel
     void PlayerSaiuAggro(GameObject go)
     {
         IA = true;
+        StopCoroutine(Atacar2(go));
+        gameObject.GetComponent<NavMeshAgent>().stoppingDistance = 2;
     }
 
     void PlayerEntrouAttackArea(GameObject go)
@@ -234,6 +226,7 @@ public class EnemyArcher : InterfaceAtacavel
     {
         isAttackingEnemy = false;
         StopCoroutine(Atacar2(go));
+        gameObject.GetComponent<NavMeshAgent>().stoppingDistance = 2;
     }
 
 

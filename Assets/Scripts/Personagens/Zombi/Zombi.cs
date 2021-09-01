@@ -87,7 +87,7 @@ public class Zombi : InterfaceAtacavel
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("Enemy");
         GameObject closest = null;
-        float distance = Mathf.Infinity;
+        float distance = 8f;//Mathf.Infinity;
         Vector3 position = transform.position;
         foreach (GameObject go in gos)
         {
