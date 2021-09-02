@@ -11,7 +11,7 @@ public class Enemy2 : InterfaceAtacavel
 
     public GameObject Target = null;
     public float TargetDistance;
-
+    public bool Gritou= false;
     public bool death = false;
     public bool IA;
     public EnemyAttackArea AreaAtaque;
@@ -73,6 +73,8 @@ public class Enemy2 : InterfaceAtacavel
                 BuscaInimigo();
             }
         }
+        else { return; }
+      
 
     }
 
@@ -138,7 +140,7 @@ public class Enemy2 : InterfaceAtacavel
         {
             anim.SetTrigger("atack");
 
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2f);
         }
     }
 
@@ -176,7 +178,30 @@ public class Enemy2 : InterfaceAtacavel
         transform.position += frameMovement;
     }
 
+    public void ScreamComander()
+    {
+        GameObject[] gos;
+        gos = GameObject.FindGameObjectsWithTag("Enemy");
+        GameObject closest = null;
+        float distance = Mathf.Infinity;;
+        Vector3 position = transform.position;
+        foreach (GameObject go in gos)
+        {
+            Vector3 diff = go.transform.position - position;
+            float curDistance = diff.sqrMagnitude;
+            if (curDistance < distance && go.name!= "Enemy Comander")
+            {
+                closest = go;
+                distance = curDistance;
+                 closest.gameObject.GetComponent<Enemy>().Target=Target;
+                
+            }
 
+        }
+        
+        Gritou = true;
+        anim.SetBool("Grito", false);
+    }
  
 
     void Delete2() //fim da vida
@@ -188,12 +213,17 @@ public class Enemy2 : InterfaceAtacavel
 
     void PlayerEntrouAggro(GameObject go)
     {
+
+        if (Gritou == false)
+        {
+            anim.SetBool("Grito", true);
+        }
         IA = true;
         Target = go;
     }
     void PlayerSaiuAggro(GameObject go)
     {
-        IA = false;
+        IA = true;
     }
 
     void PlayerEntrouAttackArea(GameObject go)
@@ -206,6 +236,7 @@ public class Enemy2 : InterfaceAtacavel
     {
         isAttackingEnemy = false;
         StopCoroutine(Atacar(go));
+        
     }
 
     public override void Atacar(int danoInflingido)

@@ -52,12 +52,11 @@ public class Enemy : InterfaceAtacavel
     // Update is called once per frame
     void Update()
     {
-        if (isHuntingPlayer == true)
-        {
+        
 
 
             Hunt();
-        }
+        
         //VoltarPosicaoInicial();
         
             
