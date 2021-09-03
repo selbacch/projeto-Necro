@@ -43,9 +43,6 @@ public class Enemy2 : InterfaceAtacavel
     {
 
 
-
-
-
         if (IA == true)
         {
             navhunt();
@@ -62,7 +59,7 @@ public class Enemy2 : InterfaceAtacavel
         }
 
 
-        if (Target.tag == "sumon")
+        if (Target!=null && Target.tag == "sumon")
         {
             if (Target.GetComponent<Zombi>().death == true)//verifica se esta morto
             {

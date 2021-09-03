@@ -52,13 +52,14 @@ public class Enemy : InterfaceAtacavel
     // Update is called once per frame
     void Update()
     {
-        
-
 
             Hunt();
-        
+
         //VoltarPosicaoInicial();
-        
+        if (Vida <1)
+        {
+            Destroy(this.gameObject);
+        }
             
     }
 
@@ -79,11 +80,6 @@ public class Enemy : InterfaceAtacavel
         Anim.SetFloat("Speed", direction.magnitude);
     }
 
-
-    
-
-
-
     IEnumerator Atacar(GameObject gameObject)
     {
         for (; ; )
@@ -102,8 +98,6 @@ public class Enemy : InterfaceAtacavel
             yield return new WaitForSeconds(2);
         }
     }
-
-
 
     void VoltarPosicaoInicial()
     {

@@ -120,11 +120,6 @@ public class Player : InterfaceAtacavel
 
     }
 
-
-
-
-
-
     public void OnMovimento(InputValue value)//faz os movimentos de andar
     {
         Vector2 val = value.Get<Vector2>(); // InputValue.get

@@ -39,7 +39,13 @@ public class EspecialNoMask : MonoBehaviour
         if (collider.gameObject.tag == "Enemy")
         {
             Debug.Log("entrou");
-             collider.gameObject.GetComponent<Enemy>().Poisoned(1, 4);
+            Enemy enemy = null;
+
+            if (collider.gameObject.TryGetComponent<Enemy> (out enemy))
+            {
+                enemy.Poisoned(1,4);
+            }
+            //collider.gameObject.GetComponent<Enemy>().Poisoned(1, 4);
 
         }
     }
