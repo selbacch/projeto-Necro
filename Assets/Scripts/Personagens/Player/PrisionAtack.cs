@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.AI;
 
 public class PrisionAtack : MonoBehaviour
 {
     public GameObject temp;
-    public int DanoAtual; 
+    public int DanoAtual;
+   private GameObject eneMy;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class PrisionAtack : MonoBehaviour
     
         if (!temp.activeSelf)
         {
+            eneMy.GetComponent<NavMeshAgent>().enabled = true;
             float timeDestroy = 0f;
             Destroy(gameObject, timeDestroy);
         }
@@ -31,9 +34,17 @@ public class PrisionAtack : MonoBehaviour
         if (other.gameObject.tag.Equals("Enemy"))
         {
 
-            other.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
+            eneMy = other.gameObject;
+            other.GetComponent<NavMeshAgent>().enabled = false;
 
         }
 
+    }
+
+
+
+   public void atack()
+    {
+        eneMy.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
     }
 }
