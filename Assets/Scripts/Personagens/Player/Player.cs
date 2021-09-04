@@ -63,8 +63,9 @@ public class Player : InterfaceAtacavel
     {
         if (gameObject.GetComponent<Mana>().curMana < 2)
         { return; }
-        anim.SetBool("sumon", true);
-        GameObject DemonC = Instantiate(Demon, point.position, point.rotation, transform.parent);
+               // anim.SetTrigger("area");
+        GetComponent<PlayerInput>().actions.Disable();
+        this.transform.Find("PrisaoArea").gameObject.SetActive(true);
         gameObject.GetComponent<Mana>().LostMana(2);
     }
 
@@ -86,28 +87,28 @@ public class Player : InterfaceAtacavel
         if (NoMask == true && gameObject.GetComponent<Mana>().curMana > 2)
         {
 
-            this.transform.Find("EspecialnoMask").GetComponent<SpriteRenderer>().gameObject.SetActive(true);
-
+            this.transform.Find("EspecialnoMask").gameObject.SetActive(true);
+           
         }
 
         if (mask1 == true && gameObject.GetComponent<Mana>().curMana > 2)//sumona a assassina zumbi  com a lança(dano alto ) um arqueiro esquelto(atira flechas e fica perto do player ) e um cavaleiro putrifo(dano medio + -1 de veneno) 
         {
             anim.SetBool("sumon", true);
-            GameObject AssassinC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
-            GameObject ArcherC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
-            GameObject MageC = Instantiate(ZArcher, point.position, point.rotation, transform.parent);
-            //GameObject Felipe = Instantiate(Zombi, point.position, point.rotation, transform.parent);
+           
+            GameObject Felipe = Instantiate(Zombi, point.position, point.rotation, transform.parent);
             //Felipe.GetComponent<Animator>().runtimeAnimatorController = Resources.Load("controller felipe") as RuntimeAnimatorController;
-            //GameObject Winie = Instantiate(Zombi, point.position, point.rotation, transform.parent);
-            //GameObject Cassiano = Instantiate(Zombi, point.position, point.rotation, transform.parent);
+            GameObject Winie = Instantiate(Zombi, point.position, point.rotation, transform.parent);
+            GameObject Cassiano = Instantiate(Zombi, point.position, point.rotation, transform.parent);
             gameObject.GetComponent<Mana>().LostMana(3);
         }
 
         if (mask2 == true && gameObject.GetComponent<Mana>().curMana > 2)
-        { return; }
-        // dragão esqueleto ou zumbi que potege ela com o corpo gospe fogo ou veneno ou ossos e bate em bixo  
-
-
+        {
+            
+            anim.SetBool("sumon", true);
+            GameObject DemonC = Instantiate(Demon, point.position, point.rotation, transform.parent);
+            gameObject.GetComponent<Mana>().LostMana(2);
+        }
 
         if (mask3 == true && gameObject.GetComponent<Mana>().curMana > 2)
         { return; }
@@ -119,7 +120,13 @@ public class Player : InterfaceAtacavel
         //mundo dos mortos inimigos em determinada area ficam paralizados  e tem parte da vida drenada e recupera a do jogador 
 
     }
+    public void DaArea() //desabilita a habilidade 3 e habilita novamente os controles
+    {
+        GetComponent<PlayerInput>().actions.Enable();
 
+
+        GetComponentInChildren<AprisionaEnemy>().gameObject.SetActive(false);
+    }
     public void OnMovimento(InputValue value)//faz os movimentos de andar
     {
         Vector2 val = value.Get<Vector2>(); // InputValue.get
