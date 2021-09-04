@@ -86,7 +86,15 @@ public class Enemy : InterfaceAtacavel
         {
             if (Target != null)
             {
-                Anim.SetTrigger("atack");
+                // Anim.SetTrigger("atack");
+                InterfaceAtacavel atacavel;
+
+               if( gameObject.TryGetComponent<InterfaceAtacavel>(out atacavel))
+                {
+                    atacavel.SofrerDano(this.Dano());
+                }
+
+               
             }
             {
 
@@ -95,7 +103,7 @@ public class Enemy : InterfaceAtacavel
                 isAttackingPlayer = false;
             }
 
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(Resfriamento);
         }
     }
 

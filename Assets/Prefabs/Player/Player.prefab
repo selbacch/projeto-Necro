@@ -123,8 +123,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783763714}
-  m_LocalRotation: {x: -0, y: -0.0070080906, z: -0, w: 0.99997544}
-  m_LocalPosition: {x: 0.7468292, y: 1.0442557, z: -0.98962975}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8137956286418356825}
@@ -381,8 +381,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132907198}
-  m_LocalRotation: {x: -0, y: -0.0070080906, z: 0, w: 0.99997544}
-  m_LocalPosition: {x: 9, y: 0, z: -660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8137956286418356825}
@@ -5525,6 +5525,7 @@ MonoBehaviour:
     type: 3}
   Demon: {fileID: 5958247350948931590, guid: d1e11d830ef83d74bafd317b3577e838, type: 3}
   Zombi: {fileID: 8431348414312144658, guid: a27d1466ee0d89a4daca1d74b2f7397a, type: 3}
+  ZArcher: {fileID: 0}
   point: {fileID: 8137956286418356825}
   atacando: 0
   combo1: 0
