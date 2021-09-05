@@ -8,4 +8,6 @@ public abstract class InterfaceAtacavel: MonoBehaviour
     public abstract void SofrerDano(int danoRecebido);
 
     public abstract int Dano();
+
+    
 }

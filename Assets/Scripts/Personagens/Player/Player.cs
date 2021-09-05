@@ -63,7 +63,7 @@ public class Player : InterfaceAtacavel
     {
         if (gameObject.GetComponent<Mana>().curMana < 2)
         { return; }
-                anim.SetBool("area",true);
+                anim.SetTrigger("area");
         GetComponent<PlayerInput>().actions.Disable();
         this.transform.Find("PrisaoArea").gameObject.SetActive(true);
         gameObject.GetComponent<Mana>().LostMana(2);
@@ -122,7 +122,7 @@ public class Player : InterfaceAtacavel
     }
     public void DaArea() //desabilita a habilidade 3 e habilita novamente os controles
     {
-        anim.SetBool("area", false);
+        //anim.SetBool("area", false);
         GetComponent<PlayerInput>().actions.Enable();
 
 
@@ -133,7 +133,7 @@ public class Player : InterfaceAtacavel
         Vector2 val = value.Get<Vector2>(); // InputValue.get
         move = new Vector3(val.x, val.y, 0); // new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0f);
 
-        float Horizontal = move.x;
+       float Horizontal = move.x;
         float Vertical = move.y;
 
         anim.SetFloat("Horizontal", Horizontal);
@@ -145,34 +145,35 @@ public class Player : InterfaceAtacavel
         if (move.y > 0)
         {
             anim.SetInteger("Idle", 1);
-            Vertical = 0f;
+            
         }
-        if (move.y < 0) { anim.SetInteger("Idle", -1); Vertical = 0f; }
+        if (move.y < 0) { anim.SetInteger("Idle", -1);  }
+        if (move.y > 0) { anim.SetInteger("Idle", 1);  }
 
         if (move.x > 0)
         {
-            anim.SetInteger("Idle", 2); Horizontal = 0f;
+            anim.SetInteger("Idle", 2); 
         }
 
         if (move.x < 0 && move.y<0)
         {
-            anim.SetInteger("Idle", -4); Horizontal = 0f; Vertical = 0f;
+            anim.SetInteger("Idle", -4); 
         }
         if (move.x > 0 && move.y > 0)
         {
-            anim.SetInteger("Idle",3); Horizontal = 0f; Vertical = 0f;
+            anim.SetInteger("Idle",3); 
         }
         if (move.x < 0 && move.y > 0)
         {
-            anim.SetInteger("Idle", -3); Horizontal = 0f; Vertical = 0f;
+            anim.SetInteger("Idle",-3); 
         }
         if (move.x > 0 && move.y < 0)
         {
-            anim.SetInteger("Idle", 4); Horizontal = 0f; Vertical = 0f;
+            anim.SetInteger("Idle", 4); 
         }
-        if (move.x > 0)
+        if (move.x < 0)
         {
-            anim.SetInteger("Idle", 2); Horizontal = 0f;
+            anim.SetInteger("Idle", -2); 
         }
 
 

@@ -1,11 +1,12 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ManaBar : MonoBehaviour
 {
- 
-    public Animator anim;
+
+    public Slider ManasBar;
     public int maxValue;
-    public int manaCount;
+    
 
 
     // Start is called before the first frame update
@@ -13,10 +14,10 @@ public class ManaBar : MonoBehaviour
     {
         Mana.AtualizarMana += SetMana;
         Mana playermana = GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>();
+        ManasBar = GetComponent<Slider>();
         maxValue = playermana.maxMana;
+        ManasBar.maxValue = playermana.maxMana;
 
-
-        anim.GetComponent<Animator>();
     }
     private void OnDestroy()
     {
@@ -26,29 +27,11 @@ public class ManaBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (manaCount == 3)
-
-        {
-            anim.SetInteger("cheio", 3);
-        }
-        if (manaCount == 2)
-        {
-            anim.SetInteger("cheio", 2);
-        }
-        if (manaCount == 1)
-        {
-            anim.SetInteger("cheio", 1);
-
-        }
-        if (manaCount <= 0)
-        {
-            anim.SetInteger("cheio", 0);
-        }
-
+        
     }
 
     public void SetMana(int hp)
     {
-        manaCount = hp;
+        ManasBar.value = hp;
     }
 }

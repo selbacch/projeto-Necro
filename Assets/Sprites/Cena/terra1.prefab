@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7921312820563511661}
   - component: {fileID: 3331652100168464810}
   - component: {fileID: 8433961098302695874}
-  m_Layer: 31
+  m_Layer: 0
   m_Name: Layer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,6 +41,26 @@ Tilemap:
   m_GameObject: {fileID: 2244244065158584714}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: -5, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -6, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -2, y: -3, z: 0}
     second:
       serializedVersion: 2
@@ -91,6 +111,10 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: c937fab6ef56eab43b23d3c951672258, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 59b1cb387b5da0b4e89da8d56d3422d4, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: a1eee225ca5638942843c0b8b6241f49, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 77bd1773fc545f3428219ae0aae63bb5, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: 5604896032847171645, guid: 8bed7a925a8761a4492935d2fe8a4d05,
@@ -104,8 +128,14 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -3562913506027399902, guid: 8bed7a925a8761a4492935d2fe8a4d05,
       type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -257898391094699722, guid: 8bed7a925a8761a4492935d2fe8a4d05,
+      type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 5928165169668120885, guid: 8bed7a925a8761a4492935d2fe8a4d05,
+      type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 4
+  - m_RefCount: 6
     m_Data:
       e00: 1
       e01: 0
@@ -124,13 +154,13 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 4
+  - m_RefCount: 6
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -4, y: -3, z: 0}
-  m_Size: {x: 7, y: 7, z: 1}
+  m_Origin: {x: -6, y: -5, z: 0}
+  m_Size: {x: 9, y: 9, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -157,7 +187,7 @@ TilemapRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2244244065158584714}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 0
@@ -165,6 +195,7 @@ TilemapRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -208,7 +239,7 @@ GameObject:
   - component: {fileID: 5810663616509717259}
   - component: {fileID: 7298012751496267778}
   - component: {fileID: -5963464401720206014}
-  m_Layer: 31
+  m_Layer: 0
   m_Name: terra1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,7 +280,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7033743689423187578}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 0
@@ -257,6 +288,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -293,7 +325,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5972650722805094909
+--- !u!114 &1412001810042422796
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -306,3 +338,5 @@ MonoBehaviour:
   m_Name: Palette Settings
   m_EditorClassIdentifier: 
   cellSizing: 100
+  m_TransparencySortMode: 0
+  m_TransparencySortAxis: {x: 0, y: 0, z: 1}
