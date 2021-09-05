@@ -54,7 +54,7 @@ public class Player : InterfaceAtacavel
             return;
         }
         anim.SetBool("sumon", true);
-        GameObject FantasmaC = Instantiate(Fantasma, point.position, point.rotation) as GameObject; FantasmaC.transform.SetParent(point);
+        GameObject FantasmaC = Instantiate(Fantasma, point.position, point.rotation, transform.parent);
         gameObject.GetComponent<Mana>().LostMana(1);
 
     }

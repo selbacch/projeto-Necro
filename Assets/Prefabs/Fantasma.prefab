@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5124244172831668413}
   - component: {fileID: 8810447542143043050}
   - component: {fileID: 6339497247313552796}
+  - component: {fileID: 8402922016951079491}
   m_Layer: 0
   m_Name: Fantasma
   m_TagString: Untagged
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c3f225931d3f3094d81bbb4d7921d7a5, type: 3}
   m_Color: {r: 0.6482905, g: 0.8207547, b: 0.42973477, a: 1}
   m_FlipX: 0
@@ -115,4 +116,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480aea0b60fbb5544aacd758b0c425d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  necro: {fileID: 8137956286418356837, guid: f29d22e84c2664845809a7875ee900c8, type: 3}
+  Vida: 100
+  DanoAtual: 1
+  anim: {fileID: 8810447542143043050}
+  speed: 1
+  time: 10
+  Target: {fileID: 0}
+--- !u!70 &8402922016951079491
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3616692319614573345}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.029822104, y: 0.002023138}
+  m_Size: {x: 0.15193869, y: 0.15193869}
+  m_Direction: 0
