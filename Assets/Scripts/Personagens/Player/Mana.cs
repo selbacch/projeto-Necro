@@ -25,6 +25,13 @@ public class Mana : MonoBehaviour
                 count = 0;
             }
         }
+        if (curMana > maxMana)
+        {
+            curMana = maxMana;
+        }
+
+
+
     }
 
         void EncheMana()

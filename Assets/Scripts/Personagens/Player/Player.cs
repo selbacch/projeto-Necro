@@ -40,12 +40,22 @@ public class Player : InterfaceAtacavel
     void Update()
     {
         Mover();
+        MaskControler();
+        if (mask3 == false) { NormalStatus(); }
+      
+    }
+    private void MaskControler()
+    {
         if (mask1 == false && mask2 == false && mask3 == false && mask4 == false)
         {
             NoMask = true;
         }
-        else { NoMask = false; }
-    }
+        if(mask1 == true) { mask2 = false; mask3 = false; mask4 = false; NoMask = false; }
+        if (mask2 == true) { mask1 = false; mask3 = false; mask4 = false; NoMask = false; }
+        if (mask3 == true) { mask2 = false; mask1 = false; mask4 = false; NoMask = false; }
+        if (mask4 == true) { mask2 = false; mask3 = false; mask1 = false; NoMask = false; }
+        if (NoMask == true) { mask2 = false; mask3 = false; mask4 = false; mask1 = false; }
+    } 
 
     public void OnHabilidade1(InputValue value)//void SumonFantasma()
     {
@@ -107,18 +117,34 @@ public class Player : InterfaceAtacavel
             
             anim.SetBool("sumon", true);
             GameObject DemonC = Instantiate(Demon, point.position, point.rotation, transform.parent);
-            gameObject.GetComponent<Mana>().LostMana(2);
+            gameObject.GetComponent<Mana>().LostMana(3);
         }
 
         if (mask3 == true && gameObject.GetComponent<Mana>().curMana > 2)
-        { return; }
-        // dança fantasmagorica fantasmas passam sirculam em volta e dão dano nos inimigos 
-
-
+        {
+            DanoAtual = 40;
+            speed = 4;
+            GetComponentInChildren<Health>().maxHealth = 300;
+            GetComponentInChildren<Mana>().maxMana = 0;
+            anim.speed = 2;
+            gameObject.GetComponent<Mana>().LostMana(3);
+        }
+        else
+        {
+            NormalStatus();
+        }
         if (mask4 == true && gameObject.GetComponent<Mana>().curMana > 2)
         { return; }
         //mundo dos mortos inimigos em determinada area ficam paralizados  e tem parte da vida drenada e recupera a do jogador 
 
+    }
+    private void NormalStatus()
+    {
+        DanoAtual = 20;
+        speed = 2;
+        GetComponentInChildren<Health>().maxHealth = 100;
+        GetComponentInChildren<Mana>().maxMana = 3;
+        anim.speed = 0.5f;
     }
 
     public void OnAction(InputValue value)
