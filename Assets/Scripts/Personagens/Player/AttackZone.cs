@@ -41,6 +41,26 @@ public class AttackZone : MonoBehaviour
             enemy = collision.gameObject;
 
         }
+
+
+        if (collision.gameObject.tag == "Opn")
+        {
+            enemy = collision.gameObject;
+
+        }
+        if (collision.gameObject.tag == "Leitura")
+        {
+            enemy = collision.gameObject;
+
+        }
+        if (collision.gameObject.tag == "Conversa")
+        {
+            enemy = collision.gameObject;
+
+        }
+
+
+
     }
 
 }

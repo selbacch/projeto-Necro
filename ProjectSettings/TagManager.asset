@@ -10,6 +10,9 @@ TagManager:
   - EspecialAtack
   - item
   - UI
+  - Opn
+  - Leitura
+  - Conversa
   layers:
   - Default
   - TransparentFX

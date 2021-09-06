@@ -68,6 +68,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Action",
+                    "type": "Button",
+                    "id": "942b6fc4-c437-4543-8fea-dfce4fb0d400",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -343,6 +351,17 @@
                     "processors": "",
                     "groups": "Controle;Default",
                     "action": "Combo2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "763e5e74-d2a8-4d7c-918e-67d333c09045",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "Action",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

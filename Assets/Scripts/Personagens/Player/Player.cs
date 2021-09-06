@@ -120,6 +120,23 @@ public class Player : InterfaceAtacavel
         //mundo dos mortos inimigos em determinada area ficam paralizados  e tem parte da vida drenada e recupera a do jogador 
 
     }
+
+    public void OnAction(InputValue value)
+    {
+
+        GameObject Interaction = gameObject.GetComponent<AttackZone>().enemy;
+        if (Interaction.tag == "Opn")
+        {
+            Interaction.GetComponent<InteFaceInterativa>().Abrir(true);
+        }
+
+
+        if(Interaction.tag =="Conversa") { }
+
+        if(Interaction.tag == "Leitura") { }
+    }
+
+
     public void DaArea() //desabilita a habilidade 3 e habilita novamente os controles
     {
         //anim.SetBool("area", false);
