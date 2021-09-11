@@ -8,7 +8,7 @@ public class Enemy2 : InterfaceAtacavel
 {
 
     public Animator anim;
-
+    public int MdanoRecebido;
     public GameObject Target = null;
     public float TargetDistance;
     public bool Gritou= false;
@@ -243,9 +243,11 @@ public class Enemy2 : InterfaceAtacavel
 
     public override void SofrerDano(int danoRecebido)
     {
+        MdanoRecebido=danoRecebido;
+        this.transform.Find("Dano").gameObject.SetActive(true);
         this.Vida -= danoRecebido;
     }
-
+  
     public override int Dano()
     {
         return this.DanoAtual;

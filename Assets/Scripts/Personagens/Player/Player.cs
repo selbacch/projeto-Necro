@@ -87,7 +87,7 @@ public class Player : InterfaceAtacavel
         anim.SetBool("sumon", true);
         GameObject ZombiC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
         gameObject.GetComponent<Mana>().LostMana(1);
-        gameObject.GetComponent<VerificaSumon>().Corpi.GetComponent<Corpinho>().Delete();
+        
 
     }
 
@@ -122,6 +122,7 @@ public class Player : InterfaceAtacavel
 
         if (mask3 == true && gameObject.GetComponent<Mana>().curMana > 2)
         {
+            this.transform.Find("RetornoHabilidade4").gameObject.SetActive(true);
             DanoAtual = 40;
             speed = 4;
             GetComponentInChildren<Health>().maxHealth = 300;
@@ -140,6 +141,7 @@ public class Player : InterfaceAtacavel
     }
     private void NormalStatus()
     {
+        this.transform.Find("RetornoHabilidade4").gameObject.SetActive(false);
         DanoAtual = 20;
         speed = 2;
         GetComponentInChildren<Health>().maxHealth = 100;
@@ -268,7 +270,7 @@ public class Player : InterfaceAtacavel
         {
             return;
         }
-        inimigo.GetComponent<Enemy>().SofrerDano(DanoAtual);
+        inimigo.GetComponent<Enemy2>().SofrerDano(DanoAtual);
     }
 
     public override void Atacar(int danoInflingido)

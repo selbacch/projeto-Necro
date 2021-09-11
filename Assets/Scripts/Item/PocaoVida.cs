@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class PocaoVida : ItemInterface
 {
-
+    public GameObject Player;
+    public int vida;
     private void Awake()
     {
         base.tipoTipo = Item.PocaoHP;
@@ -19,5 +20,12 @@ public class PocaoVida : ItemInterface
     {
 
     }
-   
+    public override void Utilizar()
+    {
+        InventarioController.Instance.RemoverDoInventario(this.tipoTipo);
+        Player.GetComponent<Health>().Increase(vida);
+
+
+    }
+
 }

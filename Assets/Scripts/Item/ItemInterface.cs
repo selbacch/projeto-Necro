@@ -7,11 +7,13 @@ public abstract class ItemInterface : MonoBehaviour
     public string Nome;
     public string Descricao;
     public Item tipoTipo;
-
+    
     public enum Item { PocaoMP = 1001, PocaoHP = 1002, MascaraUm = 2001, None = -1 }
     public virtual void Utilizar()
     {
-        InventarioController.Instance.RemoverDoInventario(this.tipoTipo);
+   //InventarioController.Instance.RemoverDoInventario(this.tipoTipo);
+        
+
     }
 
     public virtual void Coletar()
@@ -24,6 +26,7 @@ public abstract class ItemInterface : MonoBehaviour
     {
         if (col.tag == "Player")
         {
+            
             Coletar();
         }
 

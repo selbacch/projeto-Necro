@@ -132,6 +132,8 @@ MonoBehaviour:
   Nome: 
   Descricao: 
   tipoTipo: 1002
+  Player: {fileID: 8137956286418356837, guid: f29d22e84c2664845809a7875ee900c8, type: 3}
+  vida: 20
 --- !u!212 &363928977614009362
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PocaoMana : ItemInterface
 {
+    public GameObject Player;
+    public int mana;
     private void Awake()
     {
         base.tipoTipo = Item.PocaoMP;
@@ -17,4 +19,17 @@ public class PocaoMana : ItemInterface
     {
 
     }
+
+
+    public override void Utilizar()
+    {
+        InventarioController.Instance.RemoverDoInventario(this.tipoTipo);
+        Player.GetComponent<Mana>().PlusMana(mana);
+
+
+    }
+
+
+
+
 }

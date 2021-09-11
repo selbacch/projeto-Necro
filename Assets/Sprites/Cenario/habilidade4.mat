@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: alma
+  m_Name: habilidade4
   m_Shader: {fileID: -6465566751694194690, guid: 3290b6daba391424b97abc2a8213dd95,
     type: 3}
   m_ShaderKeywords: 
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_1DEA466A:
-        m_Texture: {fileID: 2800000, guid: c3f225931d3f3094d81bbb4d7921d7a5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4cbaa21ff44a18e42b950e006db9042e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -38,12 +38,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_513A17E5: 0
-    - Vector1_5FD77B36: 1.2
-    - Vector1_9C91A495: 5
-    - Vector1_A1231BEA: 1.2
-    - Vector1_FA1ECC98: -1
+    - Vector1_5FD77B36: 0.1
+    - Vector1_9C91A495: 20
+    - Vector1_A1231BEA: 0.1
+    - Vector1_FA1ECC98: 1
     m_Colors:
-    - Color_2FFD2910: {r: 184.72157, g: 766.9961, b: 666.60394, a: 0}
+    - Color_2FFD2910: {r: 64.250984, g: 566.2118, b: 1024, a: 0}
     - Vector2_2A63689: {r: 0, g: -0.1, b: 0, a: 0}
-    - Vector2_C646D0BC: {r: 1, g: -1, b: 0, a: 1}
+    - Vector2_C646D0BC: {r: 1, g: -1, b: 0, a: 0.1}
   m_BuildTextureStacks: []
