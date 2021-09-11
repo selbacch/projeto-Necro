@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: fire
+  m_Name: fire gosth
   m_Shader: {fileID: -6465566751694194690, guid: 3290b6daba391424b97abc2a8213dd95,
     type: 3}
   m_ShaderKeywords: 
@@ -39,11 +39,11 @@ Material:
     m_Floats:
     - Vector1_513A17E5: 0
     - Vector1_5FD77B36: 1.2
-    - Vector1_9C91A495: 0
+    - Vector1_9C91A495: 5
     - Vector1_A1231BEA: 1.2
     - Vector1_FA1ECC98: 2
     m_Colors:
-    - Color_2FFD2910: {r: 766.9961, g: 261.01962, b: 60.235294, a: 1}
+    - Color_2FFD2910: {r: 422.89133, g: 1469.7208, b: 1153.4912, a: 1}
     - Vector2_2A63689: {r: 0, g: -0.1, b: 0, a: 0}
-    - Vector2_C646D0BC: {r: -0.1, g: -0.5, b: 0, a: 1}
+    - Vector2_C646D0BC: {r: -0.1, g: -0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
