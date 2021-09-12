@@ -28,7 +28,7 @@ public class EspecialNoMask : MonoBehaviour
 
             //this.transform.Find("EspecialnoMask").gameObject.SetActive(false);
             // gameObject.SetActive(false);
-            this.transform.Find("EspecialnoMask").gameObject.SetActive(false);
+            this.transform.gameObject.SetActive(false);
             
             temp = 0;
         }

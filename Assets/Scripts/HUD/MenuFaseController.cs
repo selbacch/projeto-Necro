@@ -8,6 +8,7 @@ public class MenuFaseController : MonoBehaviour
     public GameObject menuMorte;
     public GameObject panelEscureBackground;
     public GameObject componenteInventario;
+    public GameObject componenteStatus;
 
     private float timeScale;
     private bool isOpen = false;
@@ -60,11 +61,38 @@ public class MenuFaseController : MonoBehaviour
         }
 
     }
+
+
+
+    public void AbrirStatus()
+    {
+        this.FecharMenus();
+        if (componenteStatus.activeSelf)
+        {
+            Time.timeScale = this.timeScale;
+            componenteStatus.SetActive(false);
+        }
+        else
+        {
+            Time.timeScale = 0;
+            componenteStatus.SetActive(true);
+            
+        }
+
+
+    }
+
+
     public void OnInventario(InputValue value)
     {
         AbrirInventario();
     }
 
+
+    public void OnStatus(InputValue value)
+    {
+        AbrirStatus();
+    }
 
 
     public void OnPause(InputValue value)

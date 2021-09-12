@@ -386,6 +386,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Status",
+                    "type": "Button",
+                    "id": "1abbe9f0-0d79-4de3-b578-04771f4e1f4b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -430,6 +438,17 @@
                     "processors": "",
                     "groups": "Controle;Default",
                     "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ae239ee7-24ab-43fc-8188-59d61bd2aa0e",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Status",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -25,7 +25,10 @@ public class Player : InterfaceAtacavel
     public bool mask3;
     public bool mask4;
     public bool NoMask;
-
+    public bool Pmask1;
+    public bool Pmask2;
+    public bool Pmask3;
+    public bool Pmask4;
 
     // Start is called before the first frame update
     void Start()
