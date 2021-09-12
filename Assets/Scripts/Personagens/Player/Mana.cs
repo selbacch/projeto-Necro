@@ -4,7 +4,7 @@ using UnityEngine;
 public class Mana : MonoBehaviour
 {
     public float count;
-    public int curMana { get; private set; }
+    public int curMana { get; set; }
     public int maxMana = 3;
     public static Action<int> AtualizarMana;
     // Start is called before the first frame update

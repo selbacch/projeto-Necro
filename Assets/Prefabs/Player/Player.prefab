@@ -75,9 +75,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.10007895, y: 0.0071317563}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1.1471597
 --- !u!95 &189581995
 Animator:
   serializedVersion: 3
@@ -86,7 +86,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189581994}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b29c9856325a2c3428525cb916fe26bf, type: 2}
   m_CullingMode: 0
@@ -161,7 +161,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 503
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -271,13 +271,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1726543613}
   - component: {fileID: 1726543615}
+  - component: {fileID: 371680989}
   m_Layer: 0
-  m_Name: SumonEnemyDeath
+  m_Name: PrisaoArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1726543613
 Transform:
   m_ObjectHideFlags: 0
@@ -308,6 +309,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.13
+--- !u!114 &371680989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726543612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6900fa91d8dfcc48854c900879139f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Point: {fileID: 0}
+  Prisao: {fileID: 8141367438406125836, guid: c0b1ecc5ec970784297bdabc16ada997, type: 3}
 --- !u!1 &1989325147
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,14 +332,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1989325148}
-  - component: {fileID: 1989325149}
+  - component: {fileID: 1268362107}
   m_Layer: 7
-  m_Name: GameObject
+  m_Name: RetornoHabilidade4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1989325148
 Transform:
   m_ObjectHideFlags: 0
@@ -333,28 +348,64 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989325147}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.007, y: 0.483, z: -0}
+  m_LocalPosition: {x: 0.023, y: 0.483, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8137956286418356825}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &1989325149
-CircleCollider2D:
+--- !u!212 &1268362107
+SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989325147}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.3918479}
-  serializedVersion: 2
-  m_Radius: 0.10815209
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8c6d365c191be6c4b9644ef81f742f15, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7329640329231164576, guid: 1871f45ddd43df241b50e1b90798ca98,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.15, y: 1.71}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &2132907198
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,11 +466,11 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.619189
+  orthographic size: 3.2647085
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 768
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: cdf8c750ec396ac44bd6dab02316c6a0, type: 2}
   m_TargetDisplay: 0
@@ -5285,13 +5336,14 @@ GameObject:
   m_Component:
   - component: {fileID: 3744235478415472772}
   - component: {fileID: 1298801771}
+  - component: {fileID: 1298801772}
   m_Layer: 0
   m_Name: EspecialnoMask
   m_TagString: EspecialAtack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3744235478415472772
 Transform:
   m_ObjectHideFlags: 0
@@ -5359,6 +5411,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1298801772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6479636223066346991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee8ee7c9d66618748953170ac11e6ac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coll: {fileID: 189581996}
+  smoke: {fileID: 3452335392708250507}
+  temp: 0
+  enemy: {fileID: 0}
 --- !u!1 &8137956286418356837
 GameObject:
   m_ObjectHideFlags: 0
@@ -5378,7 +5446,7 @@ GameObject:
   - component: {fileID: 6592355117101532545}
   - component: {fileID: 270996781}
   - component: {fileID: 270996787}
-  - component: {fileID: 270996790}
+  - component: {fileID: 1871896470}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5525,7 +5593,7 @@ MonoBehaviour:
     type: 3}
   Demon: {fileID: 5958247350948931590, guid: d1e11d830ef83d74bafd317b3577e838, type: 3}
   Zombi: {fileID: 8431348414312144658, guid: a27d1466ee0d89a4daca1d74b2f7397a, type: 3}
-  ZArcher: {fileID: 0}
+  ZArcher: {fileID: 6198674169456746686, guid: 0f5ec55d61de68a488f5771041a0a691, type: 3}
   point: {fileID: 8137956286418356825}
   atacando: 0
   combo1: 0
@@ -5535,7 +5603,7 @@ MonoBehaviour:
   mask2: 0
   mask3: 0
   mask4: 0
-  NoMask: 0
+  NoMask: 1
 --- !u!114 &1347127646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5625,7 +5693,7 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
+  m_DefaultControlScheme: Default
   m_DefaultActionMap: Personagem
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
@@ -5651,7 +5719,7 @@ NavMeshAgent:
   m_BaseOffset: 0.23214285
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &270996790
+--- !u!114 &1871896470
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5660,11 +5728,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8137956286418356837}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38616084c853fa849895383d3ff18617, type: 3}
+  m_Script: {fileID: 11500000, guid: ee8ee7c9d66618748953170ac11e6ac7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sumon: 0
-  SEnemy: {fileID: 0}
-  coll: {fileID: 1726543615}
-  Corpi: {fileID: 0}
-  Zombi: {fileID: 8431348414312144658, guid: a27d1466ee0d89a4daca1d74b2f7397a, type: 3}
+  coll: {fileID: 189581996}
+  smoke: {fileID: 3452335392708250507}
+  temp: 0
+  enemy: {fileID: 0}

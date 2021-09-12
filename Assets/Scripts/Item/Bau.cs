@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class Bau : InteFaceInterativa
 {
     private GameObject Player;
-    private bool check= false;
+    public bool check= false;
     // Start is called before the first frame update
     void Start()
     {

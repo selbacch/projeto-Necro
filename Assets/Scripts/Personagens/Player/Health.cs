@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public int curHealth { get; private set; }
+    public int curHealth { get; set; }
     public int maxHealth = 100;
     public static Action<int> AtualizarVida;
 
