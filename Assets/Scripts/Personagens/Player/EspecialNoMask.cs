@@ -17,7 +17,7 @@ public class EspecialNoMask : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        OnTriggerEnter2D(coll);
+      
         temp += Time.deltaTime;
         if (temp >= 3.258669f)
         {
@@ -41,12 +41,14 @@ public class EspecialNoMask : MonoBehaviour
         {
             Debug.Log("entrou");
             Enemy enemy = null;
+           
 
             if (collider.gameObject.TryGetComponent<Enemy> (out enemy))
             {
                 enemy.Poisoned(1,4);
             }
-            //collider.gameObject.GetComponent<Enemy>().Poisoned(1, 4);
+            
+            //collider.gameObject.GetComponent<Enemy2>().Poisoned(1, 4);
 
         }
     }

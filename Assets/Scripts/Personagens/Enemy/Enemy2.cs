@@ -190,18 +190,27 @@ public class Enemy2 : InterfaceAtacavel
             {
                 closest = go;
                 distance = curDistance;
-                 closest.gameObject.GetComponent<Enemy>().Target=Target;
-                
+                 closest.gameObject.GetComponent<Enemy2>().Target=Target;
+                Gritou = true;
+                anim.SetBool("Grito", false);
+
             }
 
         }
         
-        Gritou = true;
-        anim.SetBool("Grito", false);
+       
     }
- 
+    IEnumerator Poison(int Dano, int Tempo)
+    {
+        for (int i = 0; i < Tempo; i++)
+        {
+            Debug.Log("veneno");
+            SofrerDano(Dano);
+            yield return new WaitForSeconds(2);
+        }
+    }
 
-    void Delete2() //fim da vida
+        void Delete2() //fim da vida
     {
         GameObject.Destroy(gameObject);
         //gameObject.GetComponentInChildren<DropRItens>().DropObgItem();
@@ -235,7 +244,7 @@ public class Enemy2 : InterfaceAtacavel
         StopCoroutine(Atacar(go));
         
     }
-
+       
     public override void Atacar(int danoInflingido)
     {
         throw new NotImplementedException();
@@ -247,7 +256,10 @@ public class Enemy2 : InterfaceAtacavel
         this.transform.Find("Dano").gameObject.SetActive(true);
         this.Vida -= danoRecebido;
     }
-  
+   public void Poisoned(int Dano, int Tempo)
+        {
+            StartCoroutine(Poison(Dano, Tempo));
+        }
     public override int Dano()
     {
         return this.DanoAtual;
