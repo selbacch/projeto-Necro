@@ -25,7 +25,6 @@ public class PocaoVida : ItemInterface
         InventarioController.Instance.RemoverDoInventario(this.tipoTipo);
         Player.GetComponent<Health>().Increase(vida);
 
-
     }
 
 }
