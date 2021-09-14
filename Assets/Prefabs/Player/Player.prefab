@@ -69,7 +69,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189581994}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -5337,6 +5337,7 @@ GameObject:
   - component: {fileID: 3744235478415472772}
   - component: {fileID: 1298801771}
   - component: {fileID: 1298801772}
+  - component: {fileID: 989434594}
   m_Layer: 0
   m_Name: EspecialnoMask
   m_TagString: EspecialAtack
@@ -5427,6 +5428,22 @@ MonoBehaviour:
   smoke: {fileID: 3452335392708250507}
   temp: 0
   enemy: {fileID: 0}
+--- !u!58 &989434594
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6479636223066346991}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000047683716, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &8137956286418356837
 GameObject:
   m_ObjectHideFlags: 0
@@ -5446,7 +5463,6 @@ GameObject:
   - component: {fileID: 6592355117101532545}
   - component: {fileID: 270996781}
   - component: {fileID: 270996787}
-  - component: {fileID: 1871896470}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5604,6 +5620,10 @@ MonoBehaviour:
   mask3: 0
   mask4: 0
   NoMask: 1
+  Pmask1: 1
+  Pmask2: 1
+  Pmask3: 1
+  Pmask4: 0
 --- !u!114 &1347127646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5719,19 +5739,3 @@ NavMeshAgent:
   m_BaseOffset: 0.23214285
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &1871896470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8137956286418356837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee8ee7c9d66618748953170ac11e6ac7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coll: {fileID: 189581996}
-  smoke: {fileID: 3452335392708250507}
-  temp: 0
-  enemy: {fileID: 0}

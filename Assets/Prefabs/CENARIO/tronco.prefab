@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 297099868392838007}
   - component: {fileID: 297099868392838004}
   - component: {fileID: 297099868392838005}
-  - component: {fileID: 2073429237}
+  - component: {fileID: 1200630159}
   m_Layer: 8
   m_Name: tronco
   m_TagString: Untagged
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 297099868392838010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.104, y: -4.098, z: -0.6850162}
-  m_LocalScale: {x: 1.4715, y: 1.4715, z: 1.4715}
+  m_LocalScale: {x: 1.4715, y: 1.4715, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 2462092934817554465, guid: 8bed7a925a8761a4492935d2fe8a4d05,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca2337b309765248bdf2610ef2f5e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderSprite: {fileID: 0}
+  renderSprite: {fileID: 297099868392838006}
   padrao: {fileID: 2100000, guid: 04b5fbdaf0d692244b50e2af69137f63, type: 2}
   alter: {fileID: 2100000, guid: 04b5fbdaf0d692244b50e2af69137f63, type: 2}
 --- !u!68 &297099868392838005
@@ -155,7 +155,7 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
---- !u!208 &2073429237
+--- !u!208 &1200630159
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

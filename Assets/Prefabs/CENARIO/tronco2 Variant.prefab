@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!208 &7697620307197135050
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7984022473661582791}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.26700002, y: 0.18, z: 0.1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &7697620308014620349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25,7 +41,7 @@ PrefabInstance:
     - target: {fileID: 297099868392838001, guid: c9bf130ea8d6e8245aa0e5fa2d2a95df,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.6850162
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 297099868392838001, guid: c9bf130ea8d6e8245aa0e5fa2d2a95df,
         type: 3}
@@ -35,17 +51,17 @@ PrefabInstance:
     - target: {fileID: 297099868392838001, guid: c9bf130ea8d6e8245aa0e5fa2d2a95df,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 297099868392838001, guid: c9bf130ea8d6e8245aa0e5fa2d2a95df,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 297099868392838001, guid: c9bf130ea8d6e8245aa0e5fa2d2a95df,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 297099868392838001, guid: c9bf130ea8d6e8245aa0e5fa2d2a95df,
         type: 3}
@@ -200,3 +216,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9bf130ea8d6e8245aa0e5fa2d2a95df, type: 3}
+--- !u!1 &7984022473661582791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 297099868392838010, guid: c9bf130ea8d6e8245aa0e5fa2d2a95df,
+    type: 3}
+  m_PrefabInstance: {fileID: 7697620308014620349}
+  m_PrefabAsset: {fileID: 0}

@@ -101,7 +101,7 @@ public class Player : InterfaceAtacavel
         {
 
             this.transform.Find("EspecialnoMask").gameObject.SetActive(true);
-           
+          
         }
 
         if (mask1 == true && gameObject.GetComponent<Mana>().curMana > 2)//sumona a assassina zumbi  com a lança(dano alto ) um arqueiro esquelto(atira flechas e fica perto do player ) e um cavaleiro putrifo(dano medio + -1 de veneno) 

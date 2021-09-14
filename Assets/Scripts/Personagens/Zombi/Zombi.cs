@@ -67,17 +67,17 @@ public class Zombi : InterfaceAtacavel
             anim.SetBool("death",true);
          
         }
-       // if (Target.tag == "Enemy")
-        //{
-           // if (Target.GetComponent<Enemy2>().death == true)
-            //{
+        if (Target.tag == "Enemy")
+        {
+            if (Target.GetComponent<Enemy2>().death == true)
+            {
 
-              //  isAttackingEnemy = false;
-               // Target = null;
+                isAttackingEnemy = false;
+                Target = null;
 
-     //       }
+           }
 
-       // }
+       }
 
     }
 

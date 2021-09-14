@@ -26,6 +26,20 @@ public class PrisionAtack : MonoBehaviour
             float timeDestroy = 0f;
             Destroy(gameObject, timeDestroy);
         }
+
+        if (eneMy.tag == "Enemy")
+        {
+            if (eneMy.GetComponent<Enemy2>().death == true)
+            {
+
+                float timeDestroy = 0f;
+                Destroy(gameObject, timeDestroy);
+
+            }
+           
+        }
+
+
     }
 
 
