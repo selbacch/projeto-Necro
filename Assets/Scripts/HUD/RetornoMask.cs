@@ -16,7 +16,7 @@ public class RetornoMask : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -27,25 +27,21 @@ public class RetornoMask : MonoBehaviour
 
     void mask()
     {
-        if(Player.GetComponent<Player>().mask1 == true)
+        switch (this.Player.GetComponent<Player>().MascaraEquipada)
         {
-            Indicador.sprite = mask1;
+            case ItemInterface.Item.MascaraUm:
+                Indicador.sprite = mask1;
+                break;
+            case ItemInterface.Item.MascaraDois:
+                Indicador.sprite = mask2;
+                break;
+            case ItemInterface.Item.MascaraTres:
+                Indicador.sprite = mask3;
+                break;
+            default:
+                Indicador.sprite = hipatia;
+                break;
         }
-
-       
-        if (Player.GetComponent<Player>().mask2 == true)
-        {
-            Indicador.sprite = mask2;
-        }
-        if (Player.GetComponent<Player>().mask3 == true)
-        {
-            Indicador.sprite = mask3;
-        }
-        if (Player.GetComponent<Player>().NoMask == true)
-        {
-            Indicador.sprite = hipatia;
-        }
-
 
     }
 

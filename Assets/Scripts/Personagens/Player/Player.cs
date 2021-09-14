@@ -20,19 +20,12 @@ public class Player : InterfaceAtacavel
     public int combo1;
     public Vector3 move;
     public Rigidbody2D rig;
-    public bool mask1;
-    public bool mask2;
-    public bool mask3;
-    public bool mask4;
-    public bool NoMask;
-    public bool Pmask1;
-    public bool Pmask2;
-    public bool Pmask3;
-    public bool Pmask4;
+    public ItemInterface.Item MascaraEquipada;
 
     // Start is called before the first frame update
     void Start()
     {
+        this.MascaraEquipada = ItemInterface.Item.None;
         var agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
@@ -43,22 +36,10 @@ public class Player : InterfaceAtacavel
     void Update()
     {
         Mover();
-        MaskControler();
-        if (mask3 == false) { NormalStatus(); }
+        NormalStatus();
       
     }
-    private void MaskControler()
-    {
-        if (mask1 == false && mask2 == false && mask3 == false && mask4 == false)
-        {
-            NoMask = true;
-        }
-        if(mask1 == true) { mask2 = false; mask3 = false; mask4 = false; NoMask = false; }
-        if (mask2 == true) { mask1 = false; mask3 = false; mask4 = false; NoMask = false; }
-        if (mask3 == true) { mask2 = false; mask1 = false; mask4 = false; NoMask = false; }
-        if (mask4 == true) { mask2 = false; mask3 = false; mask1 = false; NoMask = false; }
-        if (NoMask == true) { mask2 = false; mask3 = false; mask4 = false; mask1 = false; }
-    } 
+
 
     public void OnHabilidade1(InputValue value)//void SumonFantasma()
     {
@@ -96,15 +77,19 @@ public class Player : InterfaceAtacavel
 
     public void OnHabilidade4(InputValue value)//especcial mutavel
     {
+        if(gameObject.GetComponent<Mana>().curMana < 2)
+        {
+            return;
+        }
 
-        if (NoMask == true && gameObject.GetComponent<Mana>().curMana > 2)
+        if (this.MascaraEquipada == ItemInterface.Item.None )
         {
 
             this.transform.Find("EspecialnoMask").gameObject.SetActive(true);
           
         }
 
-        if (mask1 == true && gameObject.GetComponent<Mana>().curMana > 2)//sumona a assassina zumbi  com a lança(dano alto ) um arqueiro esquelto(atira flechas e fica perto do player ) e um cavaleiro putrifo(dano medio + -1 de veneno) 
+        if (this.MascaraEquipada == ItemInterface.Item.MascaraUm)//sumona a assassina zumbi  com a lança(dano alto ) um arqueiro esquelto(atira flechas e fica perto do player ) e um cavaleiro putrifo(dano medio + -1 de veneno) 
         {
             anim.SetBool("sumon", true);
            
@@ -115,7 +100,7 @@ public class Player : InterfaceAtacavel
             gameObject.GetComponent<Mana>().LostMana(3);
         }
 
-        if (mask2 == true && gameObject.GetComponent<Mana>().curMana > 2)
+        if (this.MascaraEquipada == ItemInterface.Item.MascaraDois)
         {
             
             anim.SetBool("sumon", true);
@@ -123,7 +108,7 @@ public class Player : InterfaceAtacavel
             gameObject.GetComponent<Mana>().LostMana(3);
         }
 
-        if (mask3 == true && gameObject.GetComponent<Mana>().curMana > 2)
+        if (this.MascaraEquipada == ItemInterface.Item.MascaraTres)
         {
             this.transform.Find("RetornoHabilidade4").gameObject.SetActive(true);
             DanoAtual = 40;
@@ -133,12 +118,7 @@ public class Player : InterfaceAtacavel
             anim.speed = 2;
             gameObject.GetComponent<Mana>().LostMana(3);
         }
-        else
-        {
-            NormalStatus();
-        }
-        if (mask4 == true && gameObject.GetComponent<Mana>().curMana > 2)
-        { return; }
+       
         //mundo dos mortos inimigos em determinada area ficam paralizados  e tem parte da vida drenada e recupera a do jogador 
 
     }

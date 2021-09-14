@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dabed5c11deedea4692b0d2cd40d15a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Nome: 
+  Nome: "Po\xE7\xE3o MP"
   Descricao: 
   tipoTipo: 1001
   Player: {fileID: 8137956286418356837, guid: f29d22e84c2664845809a7875ee900c8, type: 3}

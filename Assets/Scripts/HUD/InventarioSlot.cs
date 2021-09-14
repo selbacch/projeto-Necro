@@ -14,6 +14,7 @@ public class InventarioSlot : MonoBehaviour
     public Image imgItem;
     public TMP_Text quantidade;
     public Button botao;
+    public bool equipado;
 
     public GameObject itemNoSlot;
     private ItemInterface itemNoSlotInterface;
@@ -43,6 +44,7 @@ public class InventarioSlot : MonoBehaviour
                 prefab = this.pocaoMpPrefab;
                 break;
             case ItemInterface.Item.MascaraUm:
+                prefab = this.mascaraUmPrefab;
                 break;
 
             case ItemInterface.Item.None:
@@ -59,16 +61,19 @@ public class InventarioSlot : MonoBehaviour
             itemNoSlotInterface = prefab.GetComponent<ItemInterface>();           
             imgItem.sprite = prefab.GetComponent<SpriteRenderer>().sprite;
             imgItem.color = Color.white;
+            imgItem.type = Image.Type.Simple;
+            imgItem.preserveAspect = true;
             if (qnt> 1)
             {
                 this.quantidade.text = qnt.ToString();
             }
+           
 
         }
         else
         {
             imgItem.sprite = null;
-            imgItem.color = Color.white;
+            imgItem.color = new Color(0, 0, 0, 0);
         }
         
 
