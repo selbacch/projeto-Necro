@@ -41,11 +41,6 @@ public class Zombi : InterfaceAtacavel
 
     void Update()
     {
-
-
-
-
-
         if (IA == true)
         {
             navhunt();
@@ -69,12 +64,10 @@ public class Zombi : InterfaceAtacavel
         }
         if (Target.tag == "Enemy")
         {
-            if (Target.GetComponent<Enemy2>().death == true)
+            if (Target.GetComponent<EnemyCommander>().death == true)
             {
-
                 isAttackingEnemy = false;
                 Target = null;
-
            }
 
        }
@@ -169,6 +162,7 @@ public class Zombi : InterfaceAtacavel
 
      void Delete2() //fim da vida
     {
+        IA = false;
         timeDestroy = 0f;
         Destroy(gameObject, timeDestroy);
     }

@@ -15,7 +15,7 @@ public class retono : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int danoso = GetComponent<Enemy2>().Vida - 100;
+        int danoso = GetComponent<EnemyCommander>().Vida - 100;
         dano.text = danoso.ToString();
     }
 }

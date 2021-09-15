@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class Enemy : InterfaceAtacavel
 {
@@ -10,6 +11,7 @@ public class Enemy : InterfaceAtacavel
     public EnemyAttackArea AreaAtaque;
     public EnemyAggroArea AreaPerigo;
     public UnityEngine.AI.NavMeshAgent nave;
+    public Text DanoText;
 
     public Int32 Vida = 100;
     public float Resfriamento = 2;
@@ -17,6 +19,7 @@ public class Enemy : InterfaceAtacavel
     //public Int32 RaioPerigo = 5;
     public Int32 Velocidade = 1;
     public int DanoAtual = 15;
+    public int TempoDestruicao = 1;
 
 
 
@@ -29,7 +32,8 @@ public class Enemy : InterfaceAtacavel
     // Start is called before the first frame update
     void Start()
     {
-
+      //  DanoText = this.transform.Find("DanoTexto").gameObject.GetComponent<Text>();
+        
         TargetDistance = 0;
 
         AreaPerigo.PlayerEntrouAggro += PlayerEntrouAggro;
@@ -53,12 +57,12 @@ public class Enemy : InterfaceAtacavel
     void Update()
     {
 
-            Hunt();
+        Hunt();
 
         //VoltarPosicaoInicial();
         if (Vida <1)
         {
-            Destroy(this.gameObject);
+            Destroy(this.gameObject, TempoDestruicao);
         }
             
     }
@@ -182,9 +186,23 @@ public class Enemy : InterfaceAtacavel
         throw new NotImplementedException();
     }
 
+
     public override void SofrerDano(int danoRecebido)
     {
+        if (this.Vida <= 0 || !this.gameObject.activeSelf)
+            return;
         this.Vida -= danoRecebido;
+        
+        StartCoroutine(TextoDeDano(danoRecebido));
+    }
+
+    IEnumerator TextoDeDano(int danoRecebido)
+    {
+        DanoText.text = danoRecebido.ToString();
+        DanoText.gameObject.transform.parent.gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.15f);
+        DanoText.gameObject.transform.parent.gameObject.SetActive(false);
+
     }
 
     public override int Dano()

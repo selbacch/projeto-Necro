@@ -4,21 +4,15 @@ using UnityEngine;
 using UnityEngine.AI;
 
 
-public class Enemy2 : InterfaceAtacavel
+public class EnemyCommander : Enemy
 {
 
     public Animator anim;
-    public int MdanoRecebido;
-    public GameObject Target = null;
     public float TargetDistance;
-    public bool Gritou= false;
+    public bool Gritou = false;
     public bool death = false;
     public bool IA;
-    public EnemyAttackArea AreaAtaque;
-    public EnemyAggroArea AreaPerigo;
     public bool isAttackingEnemy;
-    public Int32 Vida = 100;
-    public int DanoAtual;
     void Start()
     {
 
@@ -31,35 +25,24 @@ public class Enemy2 : InterfaceAtacavel
 
         AreaAtaque.PlayerEntrouAttack += PlayerEntrouAttackArea;
         AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
-
-       
-
-
-        
-
     }
 
     void Update()
     {
-
 
         if (IA == true)
         {
             navhunt();
         }
 
-
-       
         if (Vida <= 0)
-        { 
+        {
             death = true;
-            anim.SetBool("death",true);
-           
+            anim.SetBool("death", true);
+
             gameObject.tag = "Untagged";
         }
-
-
-        if (Target!=null && Target.tag == "sumon")
+        if (Target != null && Target.tag == "sumon")
         {
             if (Target.GetComponent<Zombi>().death == true)//verifica se esta morto
             {
@@ -70,15 +53,13 @@ public class Enemy2 : InterfaceAtacavel
                 BuscaInimigo();
             }
         }
-        else { return; }
-      
 
     }
 
 
     void BuscaInimigo()//busca player
     {
-        
+
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("Player");
         GameObject closest = null;
@@ -94,12 +75,8 @@ public class Enemy2 : InterfaceAtacavel
                 distance = curDistance;
                 Target = closest.gameObject;
             }
-            
+
         }
-
-
-
-
 
     }
 
@@ -123,10 +100,6 @@ public class Enemy2 : InterfaceAtacavel
             }
 
         }
-
-
-
-
 
     }
 
@@ -158,10 +131,7 @@ public class Enemy2 : InterfaceAtacavel
         anim.SetFloat("Vertical", direction.y);
         anim.SetFloat("Speed", direction.magnitude);
 
-
     }
-
-
 
     void Atack()
     {
@@ -180,25 +150,25 @@ public class Enemy2 : InterfaceAtacavel
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("Enemy");
         GameObject closest = null;
-        float distance = Mathf.Infinity;;
+        float distance = Mathf.Infinity; ;
         Vector3 position = transform.position;
         foreach (GameObject go in gos)
         {
             Vector3 diff = go.transform.position - position;
             float curDistance = diff.sqrMagnitude;
-            if (curDistance < distance && go.name!= "Enemy Comander")
+            if (curDistance < distance && go.name != "Enemy Comander")
             {
                 closest = go;
                 distance = curDistance;
-                 closest.gameObject.GetComponent<Enemy2>().Target=Target;
+                closest.gameObject.GetComponent<Enemy>().Target = Target;
                 Gritou = true;
                 anim.SetBool("Grito", false);
 
             }
 
         }
-        
-       
+
+
     }
     IEnumerator Poison(int Dano, int Tempo)
     {
@@ -210,7 +180,7 @@ public class Enemy2 : InterfaceAtacavel
         }
     }
 
-        void Delete2() //fim da vida
+    void Delete2() //fim da vida
     {
         GameObject.Destroy(gameObject);
         //gameObject.GetComponentInChildren<DropRItens>().DropObgItem();
@@ -242,24 +212,15 @@ public class Enemy2 : InterfaceAtacavel
     {
         isAttackingEnemy = false;
         StopCoroutine(Atacar(go));
-        
+
     }
-       
+
     public override void Atacar(int danoInflingido)
     {
         throw new NotImplementedException();
     }
 
-    public override void SofrerDano(int danoRecebido)
-    {
-        MdanoRecebido=danoRecebido;
-        this.transform.Find("Dano").gameObject.SetActive(true);
-        this.Vida -= danoRecebido;
-    }
-   public void Poisoned(int Dano, int Tempo)
-        {
-            StartCoroutine(Poison(Dano, Tempo));
-        }
+
     public override int Dano()
     {
         return this.DanoAtual;

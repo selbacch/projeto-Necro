@@ -29,7 +29,7 @@ public class PrisionAtack : MonoBehaviour
 
         if (eneMy.tag == "Enemy")
         {
-            if (eneMy.GetComponent<Enemy2>().death == true)
+            if (eneMy.GetComponent<EnemyCommander>().death == true)
             {
 
                 float timeDestroy = 0f;

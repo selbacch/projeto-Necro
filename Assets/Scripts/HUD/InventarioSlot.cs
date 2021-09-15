@@ -70,6 +70,7 @@ public class InventarioSlot : MonoBehaviour
             imgItem.color = Color.white;
             imgItem.type = Image.Type.Simple;
             imgItem.preserveAspect = true;
+            imgItem.enabled = true;
             if (qnt> 1)
             {
                 this.quantidade.text = qnt.ToString();

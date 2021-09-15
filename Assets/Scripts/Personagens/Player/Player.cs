@@ -146,7 +146,6 @@ public class Player : InterfaceAtacavel
         if(Interaction.tag == "Leitura") { }
     }
 
-
     public void DaArea() //desabilita a habilidade 3 e habilita novamente os controles
     {
         //anim.SetBool("area", false);
@@ -252,7 +251,7 @@ public class Player : InterfaceAtacavel
         {
             return;
         }
-        inimigo.GetComponent<Enemy2>().SofrerDano(DanoAtual);
+        inimigo.GetComponent<Enemy>().SofrerDano(DanoAtual);
     }
 
     public override void Atacar(int danoInflingido)
