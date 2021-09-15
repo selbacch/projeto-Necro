@@ -34,17 +34,24 @@ public class InventarioController : MonoBehaviour
 
     }
 
-    public void AdicionarAoInventario(ItemInterface.Item itemTipo)
+    public int AdicionarAoInventario(ItemInterface.Item itemTipo)
     {
-        if (itens.ContainsKey(itemTipo))
+        if (itemTipo == ItemInterface.Item.None)
+        {
+            return 0;
+        }
+
+        //não adicionar mais de uma mascara do mesmo tipo ao inventario
+        if (itens.ContainsKey(itemTipo) && 
+            itemTipo != ItemInterface.Item.MascaraUm && itemTipo != ItemInterface.Item.MascaraDois && itemTipo != ItemInterface.Item.MascaraTres )
         {
             itens[itemTipo] += 1;
         }
-        else
+        else if(!itens.ContainsKey(itemTipo))
         {
             itens.Add(itemTipo, 1);
         }
-
+        return itens[itemTipo];
     }
 
     public void RemoverDoInventario(ItemInterface.Item itemTipo)

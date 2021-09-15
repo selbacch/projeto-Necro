@@ -40,7 +40,6 @@ public class Player : InterfaceAtacavel
       
     }
 
-
     public void OnHabilidade1(InputValue value)//void SumonFantasma()
     {
         if (gameObject.GetComponent<Mana>().curMana < 1)
@@ -267,6 +266,14 @@ public class Player : InterfaceAtacavel
     public override int Dano()
     {
         return this.DanoAtual;
+    }
+
+    public ItemInterface.Item EquiparMascara(ItemInterface.Item  tipomascara)
+    {
+        ItemInterface.Item mascaraAnterior = this.MascaraEquipada;
+        this.MascaraEquipada = tipomascara;
+
+        return mascaraAnterior;
     }
 }
 

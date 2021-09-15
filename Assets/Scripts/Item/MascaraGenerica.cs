@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MascaraUm : ItemInterface
+public class MascaraGenerica : ItemInterface
 {
     private Player player;
     // Start is called before the first frame update
     void Start()
     {
-        base.tipoTipo = Item.MascaraUm;
+       
         
     }
 
@@ -23,6 +23,7 @@ public class MascaraUm : ItemInterface
         InventarioController.Instance.RemoverDoInventario(this.tipoTipo);
         GameObject pl = GameObject.FindGameObjectWithTag("Player");
         player = pl.GetComponent<Player>();
-        player.MascaraEquipada = this.tipoTipo;
+        ItemInterface.Item mascaraAnterior = player.EquiparMascara(this.tipoTipo);
+        InventarioController.Instance.AdicionarAoInventario(mascaraAnterior);
     }
 }

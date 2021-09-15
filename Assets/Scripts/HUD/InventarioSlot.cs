@@ -10,7 +10,8 @@ public class InventarioSlot : MonoBehaviour
     public GameObject pocaoMpPrefab;
     public GameObject pocaoHPPrefab;
     public GameObject mascaraUmPrefab;
-
+    public GameObject mascaraDoisPrefab;
+    public GameObject mascaraTresPrefab;
     public Image imgItem;
     public TMP_Text quantidade;
     public Button botao;
@@ -45,6 +46,12 @@ public class InventarioSlot : MonoBehaviour
                 break;
             case ItemInterface.Item.MascaraUm:
                 prefab = this.mascaraUmPrefab;
+                break;
+            case ItemInterface.Item.MascaraDois:
+                prefab = this.mascaraDoisPrefab;
+                break;
+            case ItemInterface.Item.MascaraTres:
+                prefab = this.mascaraTresPrefab;
                 break;
 
             case ItemInterface.Item.None:
