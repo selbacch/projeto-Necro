@@ -28,30 +28,30 @@ public class ControleScenas : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name == cena)
         {
-            ColocaValores();
+          //  ColocaValores();
             //Destroy(gameObject);
         }
     }
 
     void ColocaValores()
     {
-        Player = this.transform.Find("Player").gameObject;
+        //Player = this.transform.Find("Player").gameObject;
 
-        this.transform.Find("BAU_0").gameObject.GetComponent<Bau>().check = checkB1;
-        Player.gameObject.GetComponent<Health>().curHealth = Vida;
-        Player.gameObject.GetComponent<Mana>().curMana = mana;
-        Player.gameObject.GetComponent<Player>().MascaraEquipada = mascaraEquipada;
+        //this.transform.Find("BAU_0").gameObject.GetComponent<Bau>().check = checkB1;
+        //Player.gameObject.GetComponent<Health>().curHealth = Vida;
+        //Player.gameObject.GetComponent<Mana>().curMana = mana;
+        //Player.gameObject.GetComponent<Player>().MascaraEquipada = mascaraEquipada;
         //this.transform.Find("Inventario").gameObject.GetComponent<InventarioController>().itens = itens;
 
 
     }
     void GuardaValores()
     {
-        mascaraEquipada = Player.gameObject.GetComponent<Player>().MascaraEquipada;
-        Vida = Player.GetComponent<Health>().curHealth;
-        mana = Player.GetComponent<Mana>().curMana;
+        //mascaraEquipada = Player.gameObject.GetComponent<Player>().MascaraEquipada;
+      //  Vida = Player.GetComponent<Health>().curHealth;
+       // mana = Player.GetComponent<Mana>().curMana;
         //itens = this.transform.Find("Canvas").GetComponentInChildren<InventarioController>().itens;
-        checkB1 = this.transform.Find("BAU_0").gameObject.GetComponent<Bau>().check;
+    //    checkB1 = this.transform.Find("BAU_0").gameObject.GetComponent<Bau>().check;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

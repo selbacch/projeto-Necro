@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.InputSystem;
 
@@ -30,13 +31,14 @@ public class Player : InterfaceAtacavel
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         rig = GetComponent<Rigidbody2D>();
+        NormalStatus();
     }
 
     // Update is called once per frame
     void Update()
     {
         Mover();
-        NormalStatus();
+        
       
     }
 
@@ -96,7 +98,7 @@ public class Player : InterfaceAtacavel
             //Felipe.GetComponent<Animator>().runtimeAnimatorController = Resources.Load("controller felipe") as RuntimeAnimatorController;
             GameObject Winie = Instantiate(Zombi, point.position, point.rotation, transform.parent);
             GameObject Cassiano = Instantiate(Zombi, point.position, point.rotation, transform.parent);
-            gameObject.GetComponent<Mana>().LostMana(3);
+           
         }
 
         if (this.MascaraEquipada == ItemInterface.Item.MascaraDois)
@@ -104,7 +106,7 @@ public class Player : InterfaceAtacavel
             
             anim.SetBool("sumon", true);
             GameObject DemonC = Instantiate(Demon, point.position, point.rotation, transform.parent);
-            gameObject.GetComponent<Mana>().LostMana(3);
+            
         }
 
         if (this.MascaraEquipada == ItemInterface.Item.MascaraTres)
@@ -112,12 +114,13 @@ public class Player : InterfaceAtacavel
             this.transform.Find("RetornoHabilidade4").gameObject.SetActive(true);
             DanoAtual = 40;
             speed = 4;
-            GetComponentInChildren<Health>().maxHealth = 300;
-            GetComponentInChildren<Mana>().maxMana = 0;
+            Vida.SetMaxHealth(300);
+            Mana.SetMaxMana(6);
             anim.speed = 2;
-            gameObject.GetComponent<Mana>().LostMana(3);
+            StartCoroutine(DesativaEfeitoMascara());
+           
         }
-       
+        gameObject.GetComponent<Mana>().LostMana(3);
         //mundo dos mortos inimigos em determinada area ficam paralizados  e tem parte da vida drenada e recupera a do jogador 
 
     }
@@ -126,9 +129,15 @@ public class Player : InterfaceAtacavel
         this.transform.Find("RetornoHabilidade4").gameObject.SetActive(false);
         DanoAtual = 20;
         speed = 2;
-        GetComponentInChildren<Health>().maxHealth = 100;
-        GetComponentInChildren<Mana>().maxMana = 3;
+        Vida.SetMaxHealth(100);
+        Mana.SetMaxMana(3);
         anim.speed = 0.5f;
+    }
+
+    IEnumerator DesativaEfeitoMascara()
+    {
+        yield return new WaitForSeconds(10);
+        NormalStatus();
     }
 
     public void OnAction(InputValue value)

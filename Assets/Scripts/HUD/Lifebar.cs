@@ -4,23 +4,32 @@ using UnityEngine.UI;
 public class Lifebar : MonoBehaviour
 {
     public Slider healthBar;
-    public int maxValue;
+    Health playerHealth;
 
     private void Start()
     {
-        Health.AtualizarVida += SetHealth;
-        Health playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
+     
+        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
+        playerHealth.AtualizarVida += SetHealth;
+        playerHealth.AtualizarVidaMaxima += AtualizarVidaMaxima;
+
         healthBar = GetComponent<Slider>();
-        maxValue = playerHealth.maxHealth;
-        healthBar.maxValue = playerHealth.maxHealth;
+        healthBar.maxValue = 100;
     }
     private void OnDestroy()
     {
-        Health.AtualizarVida -= SetHealth;
+        playerHealth.AtualizarVida -= SetHealth;
+        playerHealth.AtualizarVidaMaxima -= AtualizarVidaMaxima;
     }
 
     public void SetHealth(int hp)
     {
         healthBar.value = hp;
+    }
+
+    public void AtualizarVidaMaxima(int vidaMax, int vidaAtual)
+    {
+        healthBar.value = vidaAtual;
+        healthBar.maxValue = vidaMax;
     }
 }

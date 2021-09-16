@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PocaoVida : ItemInterface
 {
-    public GameObject Player;
+    public Health playerHealth;
     public int vida;
     private void Awake()
     {
@@ -22,9 +22,9 @@ public class PocaoVida : ItemInterface
     }
     public override void Utilizar()
     {
+        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
         InventarioController.Instance.RemoverDoInventario(this.tipoTipo);
-        Player.GetComponent<Health>().Increase(vida);
-
+        playerHealth.Increase(vida);
     }
 
 }

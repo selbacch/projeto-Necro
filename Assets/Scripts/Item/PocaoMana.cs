@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class PocaoMana : ItemInterface
 {
-    public GameObject Player;
     public int mana;
     private void Awake()
     {
@@ -24,7 +23,8 @@ public class PocaoMana : ItemInterface
     public override void Utilizar()
     {
         InventarioController.Instance.RemoverDoInventario(this.tipoTipo);
-        Player.GetComponent<Mana>().PlusMana(mana);
+        Mana manaComp = GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>();
+        manaComp.Increase(mana);
 
 
     }

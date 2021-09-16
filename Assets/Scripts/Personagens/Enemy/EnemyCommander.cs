@@ -8,7 +8,6 @@ public class EnemyCommander : Enemy
 {
 
     public Animator anim;
-    public float TargetDistance;
     public bool Gritou = false;
     public bool death = false;
     public bool IA;
