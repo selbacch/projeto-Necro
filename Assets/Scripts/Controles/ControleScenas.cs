@@ -47,8 +47,6 @@ public class ControleScenas : MonoBehaviour
     }
     void GuardaValores()
     {
-
-
         mascaraEquipada = Player.gameObject.GetComponent<Player>().MascaraEquipada;
         Vida = Player.GetComponent<Health>().curHealth;
         mana = Player.GetComponent<Mana>().curMana;

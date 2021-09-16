@@ -56,8 +56,6 @@ public class Mana : MonoBehaviour
             AtualizarMana?.Invoke(curMana);
         }
 
-    
-
 
     public void LostMana(int mana)
         {
