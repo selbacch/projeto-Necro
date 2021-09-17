@@ -7,9 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UI mana
-  m_Shader: {fileID: -6465566751694194690, guid: 3290b6daba391424b97abc2a8213dd95,
-    type: 3}
+  m_Name: UI MANA
+  m_Shader: {fileID: 4800000, guid: 8ed82f91f7baa03429335d2fd762dcc4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -40,10 +39,17 @@ Material:
     - Vector1_513A17E5: 0
     - Vector1_5FD77B36: 1.2
     - Vector1_9C91A495: 0
+    - Vector1_9d8cdff47a2d4d8296101a44f8b8cd90: 0
     - Vector1_A1231BEA: 1.2
     - Vector1_FA1ECC98: 2
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
     m_Colors:
-    - Color_2FFD2910: {r: 70.27809, g: 16.327234, b: 138.42654, a: 0}
+    - Color_2FFD2910: {r: 100.39216, g: 156.61177, b: 766.9961, a: 0}
     - Vector2_2A63689: {r: 0, g: -0.1, b: 0, a: 0}
-    - Vector2_C646D0BC: {r: -1, g: 0, b: 0, a: 0}
+    - Vector2_C646D0BC: {r: -0.1, g: -0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
