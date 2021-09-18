@@ -148,9 +148,10 @@ public class Player : InterfaceAtacavel
         {
             Interaction.GetComponent<InteFaceInterativa>().Abrir(true);
         }
+        
 
 
-        if(Interaction.tag =="Conversa") { }
+        if (Interaction.tag =="Conversa") { }
 
         if(Interaction.tag == "Leitura") { }
     }

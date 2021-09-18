@@ -97,6 +97,11 @@ public class InventarioController : MonoBehaviour
     }
 
 
+
+
+
+
+
     public void AtualizaGUIInventarioOnUtilizacao()
     {
         RenderizaInventario();

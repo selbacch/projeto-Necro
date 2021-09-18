@@ -27,14 +27,11 @@ public class Mana : MonoBehaviour
                 count = 0;
             }
         }
-        if (curMana > maxMana)
-        {
-            curMana = maxMana;
-        }
+    
 
 
     }
-
+  
     public void Increase(int mana)
     {
         int novoValor = curMana + mana;

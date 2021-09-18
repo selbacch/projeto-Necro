@@ -19,11 +19,11 @@ public class ManaBar : MonoBehaviour
         ManasBar = GetComponent<Slider>();
 
     }
-    private void OnDestroy()
+     private void OnDestroy()
     {
-        playermana.AtualizarMana -= SetMana;
-        playermana.AtualizarManaMaxima -= AtualizarManaMaxima;
-    }
+      playermana.AtualizarMana -= SetMana;
+       playermana.AtualizarManaMaxima -= AtualizarManaMaxima;
+   }
 
     // Update is called once per frame
     void Update()
