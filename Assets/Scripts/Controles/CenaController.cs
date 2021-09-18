@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class ControleCena : MonoBehaviour
+public class CenaController : MonoBehaviour
 {
-    public static ControleCena Instance;
+    public static CenaController Instance;
+    public InfoSessao infoSessao;
     // Start is called before the first frame update
 
     private void Awake()
@@ -18,35 +16,30 @@ public class ControleCena : MonoBehaviour
         }
 
         Instance = this;
-
-        DontDestroyOnLoad(this);
+        infoSessao = new InfoSessao();
+        DontDestroyOnLoad(this.gameObject);
     }
     void Start()
     {
-
-
-        //  CenaAtual = SceneManager.GetActiveScene().name;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        //CenaAtual = SceneManager.GetActiveScene().name;
-        //if (SceneManager.GetActiveScene().name == cena)
-        //{
 
-
-        //}
     }
 
     public void PlayerEntrouPortal(GameObject player, string Cena)
     {
-        InfoSessao.Instance.SalvaValores();
+        SalvarJogo();
         SceneManager.LoadScene(Cena);
-
     }
 
+    public void SalvarJogo()
+    {
+        infoSessao.SalvaStatusJogo();
 
+    }
 
 }

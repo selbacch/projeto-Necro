@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 5313154770076120796}
   - component: {fileID: 3774149275992789284}
   - component: {fileID: 5849944850880270209}
+  - component: {fileID: 2048262916341826776}
   m_Layer: 0
-  m_Name: RpisionAtack (1)
+  m_Name: SegundaCaveira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130,6 +131,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.25714287}
   m_EdgeRadius: 0
+--- !u!114 &2048262916341826776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3829072414081274079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3db34311b50d38c4591a27d22d3c2738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  habilidadeGameobject: {fileID: 0}
+  DanoAtual: 1
 --- !u!1 &8141367438406125836
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,7 +159,7 @@ GameObject:
   - component: {fileID: 8571656514977074167}
   - component: {fileID: 7364264244856171473}
   m_Layer: 0
-  m_Name: RpisionAtack
+  m_Name: PrisionAtack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -229,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3db34311b50d38c4591a27d22d3c2738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  temp: {fileID: 0}
+  habilidadeGameobject: {fileID: 0}
   DanoAtual: 1
 --- !u!61 &8571656514977074167
 BoxCollider2D:

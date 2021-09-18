@@ -36,6 +36,7 @@ public class InventarioSlot : MonoBehaviour
     {
         GameObject itemNoSlot = null;
         GameObject prefab = null;
+        
         switch (tipoItem)
         {
             case ItemInterface.Item.PocaoHP:
@@ -61,6 +62,7 @@ public class InventarioSlot : MonoBehaviour
         Destroy(itemNoSlot);
 
         this.quantidade.text = string.Empty;
+        
         if (tipoItem != ItemInterface.Item.None)
         {
             
@@ -76,14 +78,13 @@ public class InventarioSlot : MonoBehaviour
                 this.quantidade.text = qnt.ToString();
             }
            
-
         }
         else
         {
+            itemNoSlotInterface = null;
             imgItem.sprite = null;
             imgItem.color = new Color(0, 0, 0, 0);
         }
-        
 
     }
 

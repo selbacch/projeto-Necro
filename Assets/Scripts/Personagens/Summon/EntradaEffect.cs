@@ -20,7 +20,7 @@ public class EntradaEffect : MonoBehaviour
     void sai()
     {
        square.GetComponent<Renderer>().material = invisivel;
-        gameObject.GetComponent<Zombi>().IA = true;
+        gameObject.GetComponent<Zombie>().IA = true;
         particule.GetComponent<ParticleSystem>().Stop();
     }
 

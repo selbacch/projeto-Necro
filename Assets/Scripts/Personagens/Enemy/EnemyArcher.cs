@@ -12,7 +12,6 @@ public class EnemyArcher : InterfaceAtacavel
     public float TargetDistance;
     public Transform point;
     public GameObject tiro1;
-    public bool death = false;
     public bool IA;
     public EnemyAttackArea AreaAtaque;
     public EnemyAggroArea AreaPerigo;
@@ -22,7 +21,6 @@ public class EnemyArcher : InterfaceAtacavel
     public Vector3 Direct;
     void Start()
     {
-
         var agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
@@ -32,12 +30,6 @@ public class EnemyArcher : InterfaceAtacavel
 
         AreaAtaque.PlayerEntrouAttack += PlayerEntrouAttackArea;
         AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
-
-
-
-
-
-
     }
 
     void Update()
@@ -47,19 +39,13 @@ public class EnemyArcher : InterfaceAtacavel
             navhunt();
         }
 
-
-
         if (Vida <= 0)
         {
-            death = true;
+            Death = true;
             anim.SetBool("death", true);
-
-            gameObject.tag = "Default";
         }
 
-
-
-        if (Target.GetComponent<Zombi>().death == true)
+        if (Target.GetComponent<Zombie>().Death == true)
         {
 
             isAttackingEnemy = false;

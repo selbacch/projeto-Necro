@@ -9,13 +9,13 @@ public class EnemyCommander : Enemy
 
     public Animator anim;
     public bool Gritou = false;
-    public bool death = false;
     public bool IA;
     public bool isAttackingEnemy;
+   
     void Start()
     {
 
-        var agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
@@ -36,25 +36,19 @@ public class EnemyCommander : Enemy
 
         if (Vida <= 0)
         {
-            death = true;
+            Death = true;
             anim.SetBool("death", true);
-
-            gameObject.tag = "Untagged";
+                        
         }
-        if (Target != null && Target.tag == "sumon")
+        if (Target != null && Target.tag == "sumon" && Target.GetComponent<InterfaceAtacavel>().Death)
         {
-            if (Target.GetComponent<Zombi>().death == true)//verifica se esta morto
-            {
-
-                isAttackingEnemy = false;
-                Target = null;
-                BuscaInimigo2();
-                BuscaInimigo();
-            }
+            isAttackingEnemy = false;
+            Target = null;
+            BuscaInimigo2();
+            BuscaInimigo();
         }
 
     }
-
 
     void BuscaInimigo()//busca player
     {
@@ -113,11 +107,14 @@ public class EnemyCommander : Enemy
         }
     }
 
-
     void navhunt()
     {
         if (Target == null)
             return;
+        if (!agent.enabled)
+        {
+            return;
+        }
         gameObject.GetComponent<NavMeshAgent>().SetDestination(Target.transform.position);
         Vector3 direction = Target.gameObject.transform.position - transform.position;
         direction.z = 0;
@@ -178,14 +175,7 @@ public class EnemyCommander : Enemy
             yield return new WaitForSeconds(2);
         }
     }
-
-    void Delete2() //fim da vida
-    {
-        GameObject.Destroy(gameObject);
-        //gameObject.GetComponentInChildren<DropRItens>().DropObgItem();
-        gameObject.GetComponentInChildren<DropRItens>().DropRandItem();
-    }
-
+       
     void PlayerEntrouAggro(GameObject go)
     {
 

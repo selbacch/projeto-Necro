@@ -38,8 +38,8 @@ public class Player : InterfaceAtacavel
     void Update()
     {
         Mover();
-        
-      
+
+
     }
 
     public void OnHabilidade1(InputValue value)//void SumonFantasma()
@@ -58,10 +58,12 @@ public class Player : InterfaceAtacavel
     {
         if (gameObject.GetComponent<Mana>().CurMana < 2)
         { return; }
-                anim.SetTrigger("area");
+
+       // anim.SetTrigger("area");
         GetComponent<PlayerInput>().actions.Disable();
         this.transform.Find("PrisaoArea").gameObject.SetActive(true);
         gameObject.GetComponent<Mana>().LostMana(2);
+        StartCoroutine(DesativaHabilidade3());        
     }
 
     public void OnHabilidade2(InputValue value)//
@@ -72,41 +74,41 @@ public class Player : InterfaceAtacavel
         anim.SetBool("sumon", true);
         GameObject ZombiC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
         gameObject.GetComponent<Mana>().LostMana(1);
-        
+
 
     }
 
     public void OnHabilidade4(InputValue value)//especcial mutavel
     {
-        if(gameObject.GetComponent<Mana>().CurMana < 2)
+        if (gameObject.GetComponent<Mana>().CurMana < 2)
         {
             return;
         }
 
-        if (this.MascaraEquipada == ItemInterface.Item.None )
+        if (this.MascaraEquipada == ItemInterface.Item.None)
         {
 
             this.transform.Find("EspecialnoMask").gameObject.SetActive(true);
-          
+
         }
 
         if (this.MascaraEquipada == ItemInterface.Item.MascaraUm)//sumona a assassina zumbi  com a lança(dano alto ) um arqueiro esquelto(atira flechas e fica perto do player ) e um cavaleiro putrifo(dano medio + -1 de veneno) 
         {
             anim.SetBool("sumon", true);
-           
+
             GameObject Felipe = Instantiate(Zombi, point.position, point.rotation, transform.parent);
             //Felipe.GetComponent<Animator>().runtimeAnimatorController = Resources.Load("controller felipe") as RuntimeAnimatorController;
             GameObject Winie = Instantiate(Zombi, point.position, point.rotation, transform.parent);
             GameObject Cassiano = Instantiate(Zombi, point.position, point.rotation, transform.parent);
-           
+
         }
 
         if (this.MascaraEquipada == ItemInterface.Item.MascaraDois)
         {
-            
+
             anim.SetBool("sumon", true);
             GameObject DemonC = Instantiate(Demon, point.position, point.rotation, transform.parent);
-            
+
         }
 
         if (this.MascaraEquipada == ItemInterface.Item.MascaraTres)
@@ -118,7 +120,7 @@ public class Player : InterfaceAtacavel
             Mana.SetMaxMana(6);
             anim.speed = 2;
             StartCoroutine(DesativaEfeitoMascara());
-           
+
         }
         gameObject.GetComponent<Mana>().LostMana(3);
         //mundo dos mortos inimigos em determinada area ficam paralizados  e tem parte da vida drenada e recupera a do jogador 
@@ -154,21 +156,19 @@ public class Player : InterfaceAtacavel
         {
             Interaction.GetComponent<InterativaAbstract>().Abrir(true);
         }
-        
-        
 
 
-        if (Interaction.tag =="Conversa") { } 
 
-        if (Interaction.tag == "Leitura") { } 
+
+        if (Interaction.tag == "Conversa") { }
+
+        if (Interaction.tag == "Leitura") { }
     }
 
-    public void DaArea() //desabilita a habilidade 3 e habilita novamente os controles
+    IEnumerator DesativaHabilidade3() //desabilita a habilidade 3 e habilita novamente os controles
     {
-        //anim.SetBool("area", false);
+        yield return new WaitForSeconds(4);
         GetComponent<PlayerInput>().actions.Enable();
-
-
         GetComponentInChildren<AprisionaEnemy>().gameObject.SetActive(false);
     }
     public void OnMovimento(InputValue value)//faz os movimentos de andar
@@ -176,7 +176,7 @@ public class Player : InterfaceAtacavel
         Vector2 val = value.Get<Vector2>(); // InputValue.get
         move = new Vector3(val.x, val.y, 0); // new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0f);
 
-       float Horizontal = move.x;
+        float Horizontal = move.x;
         float Vertical = move.y;
 
         anim.SetFloat("Horizontal", Horizontal);
@@ -188,35 +188,35 @@ public class Player : InterfaceAtacavel
         if (move.y > 0)
         {
             anim.SetInteger("Idle", 1);
-            
+
         }
-        if (move.y < 0) { anim.SetInteger("Idle", -1);  }
-        if (move.y > 0) { anim.SetInteger("Idle", 1);  }
+        if (move.y < 0) { anim.SetInteger("Idle", -1); }
+        if (move.y > 0) { anim.SetInteger("Idle", 1); }
 
         if (move.x > 0)
         {
-            anim.SetInteger("Idle", 2); 
+            anim.SetInteger("Idle", 2);
         }
 
-        if (move.x < 0 && move.y<0)
+        if (move.x < 0 && move.y < 0)
         {
-            anim.SetInteger("Idle", -4); 
+            anim.SetInteger("Idle", -4);
         }
         if (move.x > 0 && move.y > 0)
         {
-            anim.SetInteger("Idle",3); 
+            anim.SetInteger("Idle", 3);
         }
         if (move.x < 0 && move.y > 0)
         {
-            anim.SetInteger("Idle",-3); 
+            anim.SetInteger("Idle", -3);
         }
         if (move.x > 0 && move.y < 0)
         {
-            anim.SetInteger("Idle", 4); 
+            anim.SetInteger("Idle", 4);
         }
         if (move.x < 0)
         {
-            anim.SetInteger("Idle", -2); 
+            anim.SetInteger("Idle", -2);
         }
 
 
@@ -284,7 +284,7 @@ public class Player : InterfaceAtacavel
         return this.DanoAtual;
     }
 
-    public ItemInterface.Item EquiparMascara(ItemInterface.Item  tipomascara)
+    public ItemInterface.Item EquiparMascara(ItemInterface.Item tipomascara)
     {
         ItemInterface.Item mascaraAnterior = this.MascaraEquipada;
         this.MascaraEquipada = tipomascara;

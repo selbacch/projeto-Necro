@@ -21,7 +21,7 @@ public class Enemy : InterfaceAtacavel
     public int DanoAtual = 15;
     public int TempoDestruicao = 1;
 
-
+  
 
     private float TargetDistance;
     private float _distanceToTarget;
@@ -29,6 +29,7 @@ public class Enemy : InterfaceAtacavel
     private Vector3 localInicial;
     private bool isHuntingPlayer;
     private bool isAttackingPlayer;
+    protected NavMeshAgent agent;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,7 +47,7 @@ public class Enemy : InterfaceAtacavel
         isHuntingPlayer = false;
         isAttackingPlayer = false;
         localInicial = transform.position;
-        var agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         
@@ -60,18 +61,24 @@ public class Enemy : InterfaceAtacavel
         Hunt();
 
         //VoltarPosicaoInicial();
-        if (Vida <1)
+        if (Vida <= 0)
         {
-            Destroy(this.gameObject, TempoDestruicao);
-        }
-            
-    }
+            Death = true;
+            Anim.SetBool("death", true);
 
+        }
+
+    }
 
     void Hunt()
     {
         if (Target == null)
             return;
+
+        if (!agent.enabled)
+        {
+            return;
+        }
         gameObject.GetComponent<NavMeshAgent>().SetDestination(Target.transform.position);
         Vector3 direction = Target.gameObject.transform.position - transform.position;
         direction.z = 0;
@@ -186,6 +193,12 @@ public class Enemy : InterfaceAtacavel
         throw new NotImplementedException();
     }
 
+    public void Delete2() //fim da vida
+    {
+        DeathEvent?.Invoke();
+        GetComponentInChildren<DropRItens>().DropRandItem();
+        Destroy(this.gameObject);          
+    }
 
     public override void SofrerDano(int danoRecebido)
     {

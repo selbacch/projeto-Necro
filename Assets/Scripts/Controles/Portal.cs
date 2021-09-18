@@ -10,14 +10,14 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
+
 
 
         if (other.tag == "Player")
         {
-         if(!String.IsNullOrEmpty(ProximaCena))   
-            ControleCena.Instance.PlayerEntrouPortal(other.gameObject, ProximaCena);
-            
+            if (!String.IsNullOrEmpty(ProximaCena))
+                CenaController.Instance.PlayerEntrouPortal(other.gameObject, ProximaCena);
+
         }
     }
 }

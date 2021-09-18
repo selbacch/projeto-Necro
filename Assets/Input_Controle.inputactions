@@ -453,6 +453,90 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "MenuInicial",
+            "id": "bee3af2a-0bb3-4783-9693-47d2495ee88a",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "7e26d718-c62a-4de0-8a1c-200e69c5a606",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "70184bcc-4f65-4895-9583-b7995f4381da",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "FinalFase",
+            "id": "b474e4ba-bf74-4764-a2ee-f9287ebe6070",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "5a570a09-cd77-4961-aef4-58f63eebb233",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Continuar",
+                    "type": "Button",
+                    "id": "9984b3e0-0209-43be-ba58-4a773ebbbdac",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c8bd20a5-d6e2-42ee-b3a3-306f32a94a8c",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9d4f441b-9a3b-4b41-8a05-e84c53465d4e",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Continuar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "737228a7-371b-410e-b24e-ab8bd7609287",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Continuar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
