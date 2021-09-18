@@ -13,6 +13,8 @@ TagManager:
   - Opn
   - Leitura
   - Conversa
+  - placeholder_fase_inicio
+  - placeholder_fase_fim
   layers:
   - Default
   - TransparentFX

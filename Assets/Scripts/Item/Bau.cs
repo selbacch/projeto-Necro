@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Bau : InteFaceInterativa
+public class Bau : InterativaAbstract
 {
     private GameObject Player;
     public bool check= false;

@@ -4,10 +4,14 @@ using UnityEngine;
 public class Mana : MonoBehaviour
 {
     public float count;
-    public int curMana { get; set; }
-    public int maxMana = 3;
+   private int curMana;
+    private  int maxMana;
     public Action<int> AtualizarMana;
     public Action<int, int> AtualizarManaMaxima;
+
+    public int CurMana { get => curMana;}
+    public int MaxMana { get => maxMana;}
+
     // Start is called before the first frame update
     void Start()
     {

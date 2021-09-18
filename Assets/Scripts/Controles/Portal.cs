@@ -4,22 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Portal : MonoBehaviour
-{  
-    
-   
-    public string Cena;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-}
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+{
+    public string ProximaCena;
 
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -29,8 +15,8 @@ public class Portal : MonoBehaviour
 
         if (other.tag == "Player")
         {
-            
-            ControleScenas.instance.PlayerEntrouPortal(other.gameObject, Cena);
+         if(!String.IsNullOrEmpty(ProximaCena))   
+            ControleCena.Instance.PlayerEntrouPortal(other.gameObject, ProximaCena);
             
         }
     }

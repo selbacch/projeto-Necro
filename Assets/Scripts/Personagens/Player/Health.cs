@@ -3,10 +3,13 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public int curHealth;
-    public int maxHealth;
+    private int curHealth;
+    private int maxHealth;
     public Action<int> AtualizarVida;
     public Action<int,int> AtualizarVidaMaxima;
+
+    public int CurHealth { get => curHealth; }
+    public int MaxHealth { get => maxHealth; }
 
     // Start is called before the first frame update 
     void Start()

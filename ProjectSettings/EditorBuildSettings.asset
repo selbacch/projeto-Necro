@@ -12,8 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/HOUSETST.unity
     guid: e9c5a53ec29b875438b07b9cd4035645
   - enabled: 1
-    path: Assets/Scenes/Menu inicial.unity
+    path: Assets/Scenes/menu_inicial.unity
     guid: af7724dd78c482a46b8e3ce63c5de43d
+  - enabled: 1
+    path: Assets/Scenes/teste2_3.unity
+    guid: 7504f1b85986d1941b351095e2a83e2f
+  - enabled: 1
+    path: Assets/Scenes/final_fase.unity
+    guid: a0450431f237bea42b6d82018cc38d2b
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0a5dc2c98adc63a4f9def4a0deffcaa2,
       type: 2}

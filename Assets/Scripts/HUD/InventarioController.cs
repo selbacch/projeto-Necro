@@ -12,6 +12,9 @@ public class InventarioController : MonoBehaviour
 
     public InventarioSlot[] slots;
 
+    [SerializeField]
+    public Dictionary<ItemInterface.Item, int> Itens { get => itens; }
+
     private void Awake()
     {
         Instance = this;

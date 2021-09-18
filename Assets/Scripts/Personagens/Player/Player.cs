@@ -44,7 +44,7 @@ public class Player : InterfaceAtacavel
 
     public void OnHabilidade1(InputValue value)//void SumonFantasma()
     {
-        if (gameObject.GetComponent<Mana>().curMana < 1)
+        if (gameObject.GetComponent<Mana>().CurMana < 1)
         {
             return;
         }
@@ -56,7 +56,7 @@ public class Player : InterfaceAtacavel
 
     public void OnHabilidade3(InputValue value)//
     {
-        if (gameObject.GetComponent<Mana>().curMana < 2)
+        if (gameObject.GetComponent<Mana>().CurMana < 2)
         { return; }
                 anim.SetTrigger("area");
         GetComponent<PlayerInput>().actions.Disable();
@@ -66,7 +66,7 @@ public class Player : InterfaceAtacavel
 
     public void OnHabilidade2(InputValue value)//
     {
-        if (gameObject.GetComponent<Mana>().curMana < 1)
+        if (gameObject.GetComponent<Mana>().CurMana < 1)
         { return; }
 
         anim.SetBool("sumon", true);
@@ -78,7 +78,7 @@ public class Player : InterfaceAtacavel
 
     public void OnHabilidade4(InputValue value)//especcial mutavel
     {
-        if(gameObject.GetComponent<Mana>().curMana < 2)
+        if(gameObject.GetComponent<Mana>().CurMana < 2)
         {
             return;
         }
@@ -152,7 +152,7 @@ public class Player : InterfaceAtacavel
 
         if (Interaction.tag == "Opn")
         {
-            Interaction.GetComponent<InteFaceInterativa>().Abrir(true);
+            Interaction.GetComponent<InterativaAbstract>().Abrir(true);
         }
         
         
