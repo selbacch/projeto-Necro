@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UI LIFE
+  m_Name: UI LIfe
   m_Shader: {fileID: 4800000, guid: 8ed82f91f7baa03429335d2fd762dcc4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
