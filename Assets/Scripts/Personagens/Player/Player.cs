@@ -144,16 +144,23 @@ public class Player : InterfaceAtacavel
     {
 
         GameObject Interaction = gameObject.GetComponent<AttackZone>().enemy;
+
+        if (Interaction == null)
+        {
+            return;
+        }
+
         if (Interaction.tag == "Opn")
         {
             Interaction.GetComponent<InteFaceInterativa>().Abrir(true);
         }
         
+        
 
 
-        if (Interaction.tag =="Conversa") { }
+        if (Interaction.tag =="Conversa") { } 
 
-        if(Interaction.tag == "Leitura") { }
+        if (Interaction.tag == "Leitura") { } 
     }
 
     public void DaArea() //desabilita a habilidade 3 e habilita novamente os controles
