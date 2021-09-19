@@ -55,6 +55,7 @@ public class MenuFaseController : MonoBehaviour
         }
         else
         {
+            isOpen = true;
             Time.timeScale = 0;
             componenteInventario.SetActive(true);
             InventarioController.Instance.RenderizaInventario();
@@ -82,6 +83,15 @@ public class MenuFaseController : MonoBehaviour
 
     }
 
+
+    public void DesequiparMascaraButton()
+    {
+        Player pl = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        ItemInterface.Item mascaraAnterior = pl.EquiparMascara(ItemInterface.Item.None);
+
+        InventarioController.Instance.AdicionarAoInventario(mascaraAnterior);
+        InventarioController.Instance.RenderizaInventario();
+    }
 
     public void OnInventario(InputValue value)
     {
