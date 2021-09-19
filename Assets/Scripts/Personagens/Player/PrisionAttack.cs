@@ -4,15 +4,18 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.AI;
 
-public class PrisionAtack : MonoBehaviour
+public class PrisionAttack : MonoBehaviour
 {
     public GameObject habilidadeGameobject;
     public int DanoAtual;
     private GameObject eneMy;
+    private bool estaAtivo;
+    private InterfaceAtacavel atacavelEnemy;
     // Start is called before the first frame update
     void Start()
     {
-
+        estaAtivo = false;
+        atacavelEnemy = null;
     }
 
     // Update is called once per frame
@@ -27,27 +30,34 @@ public class PrisionAtack : MonoBehaviour
         if (!habilidadeGameobject.activeSelf)
         {
             eneMy.GetComponent<NavMeshAgent>().enabled = true;
-            Destroy(gameObject);
+            MorteInimigo();
+        }
+
+        if (estaAtivo &&(eneMy == null || atacavelEnemy.Death))
+        {
+            MorteInimigo();
         }
 
     }
 
     private void OnDestroy()
     {
-        if (eneMy)
+        Debug.Log("prisao destruida");
+        if (atacavelEnemy)
         {
-            eneMy.GetComponent<Enemy>().DeathEvent -= MorteInimigo;
+            atacavelEnemy.DeathEvent -= MorteInimigo;
         }
     }
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.tag.Equals("Enemy"))
+        if (other.gameObject.tag.Equals("Enemy") && !estaAtivo)
         {
-
             eneMy = other.gameObject;
             other.GetComponent<NavMeshAgent>().enabled = false;
-            eneMy.GetComponent<Enemy>().DeathEvent += MorteInimigo;
+            atacavelEnemy = eneMy.GetComponent<InterfaceAtacavel>();
+            atacavelEnemy.DeathEvent += MorteInimigo;
+            estaAtivo = true;
         }
 
     }
@@ -55,14 +65,16 @@ public class PrisionAtack : MonoBehaviour
     void MorteInimigo()
     {
         Destroy(this.gameObject);
+       
     }
 
 
     public void atack()
     {
-        if (eneMy != null && eneMy.tag == "Enemy" && !eneMy.GetComponent<Enemy>().Death)
+        if (atacavelEnemy != null && eneMy.tag == "Enemy" && !atacavelEnemy.Death)
         {
             eneMy.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
+            
         }
     }
 

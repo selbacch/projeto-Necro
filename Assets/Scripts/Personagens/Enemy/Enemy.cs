@@ -54,6 +54,12 @@ public class Enemy : InterfaceAtacavel
 
     }
 
+    private void OnDestroy()
+    {
+        DeathEvent?.Invoke();
+        Debug.Log("Inimigo: base " + this.GetHashCode() + " destroy ");
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -90,6 +96,7 @@ public class Enemy : InterfaceAtacavel
         Anim.SetFloat("Vertical", direction.y);
         Anim.SetFloat("Speed", direction.magnitude);
     }
+
 
     IEnumerator Atacar(GameObject gameObject)
     {
@@ -195,7 +202,7 @@ public class Enemy : InterfaceAtacavel
 
     public void Delete2() //fim da vida
     {
-        DeathEvent?.Invoke();
+        
         GetComponentInChildren<DropRItens>().DropRandItem();
         Destroy(this.gameObject);          
     }

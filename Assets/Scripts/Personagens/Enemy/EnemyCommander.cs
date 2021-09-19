@@ -26,6 +26,12 @@ public class EnemyCommander : Enemy
         AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
     }
 
+    private void OnDestroy()
+    { Debug.Log("Inimigo: commander " + this.GetHashCode() + " destroy ");
+        DeathEvent?.Invoke();
+       
+    }
+
     void Update()
     {
 

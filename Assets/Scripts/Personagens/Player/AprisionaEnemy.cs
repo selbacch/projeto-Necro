@@ -27,7 +27,7 @@ public class AprisionaEnemy : MonoBehaviour
             Debug.Log("vim do chao");
             Transform enemyPos = collider.transform;
             GameObject JAULA = Instantiate(Prisao, enemyPos.position, enemyPos.rotation, transform.parent);
-            JAULA.GetComponent<PrisionAtack>().habilidadeGameobject = this.gameObject;
+            JAULA.GetComponent<PrisionAttack>().habilidadeGameobject = this.gameObject;
         }
 
     }
