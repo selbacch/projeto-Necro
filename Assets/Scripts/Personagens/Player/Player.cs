@@ -22,6 +22,8 @@ public class Player : InterfaceAtacavel
     public Vector3 move;
     public Rigidbody2D rig;
     public ItemInterface.Item MascaraEquipada;
+    public bool ImmortalMode;
+
 
     // Start is called before the first frame update
     void Start()
@@ -33,18 +35,30 @@ public class Player : InterfaceAtacavel
         rig = GetComponent<Rigidbody2D>();
         NormalStatus();
     }
+    
 
     // Update is called once per frame
     void Update()
     {
         Mover();
 
+        if (!Death && !ImmortalMode && this.Vida.CurHealth < 1)
+        {
+            MortePlayer();
+        }
 
+    }
+
+   private void MortePlayer()
+    {
+        Debug.Log("morte player");
+        Death = true;
+        DeathEvent?.Invoke();
     }
 
     public void OnHabilidade1(InputValue value)//void SumonFantasma()
     {
-        if (gameObject.GetComponent<Mana>().CurMana < 1)
+        if (gameObject.GetComponent<Mana>().CurMana < 1 || Death)
         {
             return;
         }
@@ -56,7 +70,7 @@ public class Player : InterfaceAtacavel
 
     public void OnHabilidade3(InputValue value)//
     {
-        if (gameObject.GetComponent<Mana>().CurMana < 2)
+        if (gameObject.GetComponent<Mana>().CurMana < 2 || Death)
         { return; }
 
        // anim.SetTrigger("area");
@@ -68,7 +82,7 @@ public class Player : InterfaceAtacavel
 
     public void OnHabilidade2(InputValue value)//
     {
-        if (gameObject.GetComponent<Mana>().CurMana < 1)
+        if (gameObject.GetComponent<Mana>().CurMana < 1  || Death)
         { return; }
 
         anim.SetBool("sumon", true);
@@ -80,7 +94,7 @@ public class Player : InterfaceAtacavel
 
     public void OnHabilidade4(InputValue value)//especcial mutavel
     {
-        if (gameObject.GetComponent<Mana>().CurMana < 2)
+        if (gameObject.GetComponent<Mana>().CurMana < 2 || Death)
         {
             return;
         }
@@ -147,7 +161,7 @@ public class Player : InterfaceAtacavel
 
         GameObject Interaction = gameObject.GetComponent<AttackZone>().enemy;
 
-        if (Interaction == null)
+        if (Interaction == null|| Death)
         {
             return;
         }
@@ -173,6 +187,10 @@ public class Player : InterfaceAtacavel
     }
     public void OnMovimento(InputValue value)//faz os movimentos de andar
     {
+        if (Death)
+        {
+            return;
+        }
         Vector2 val = value.Get<Vector2>(); // InputValue.get
         move = new Vector3(val.x, val.y, 0); // new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0f);
 
@@ -230,6 +248,10 @@ public class Player : InterfaceAtacavel
 
     public void OnAtaque(InputValue value)
     {
+        if (Death)
+        {
+            return;
+        }
         atacando = true;
         anim.SetTrigger("" + combo1);
     }
@@ -262,6 +284,10 @@ public class Player : InterfaceAtacavel
     }
     public void DandoDano()
     {
+        if (Death)
+        {
+            return;
+        }
 
         GameObject inimigo = gameObject.GetComponent<AttackZone>().enemy;
         if (inimigo == null)
@@ -286,6 +312,10 @@ public class Player : InterfaceAtacavel
 
     public ItemInterface.Item EquiparMascara(ItemInterface.Item tipomascara)
     {
+        if (Death)
+        {
+            return ItemInterface.Item.None;
+        }
         ItemInterface.Item mascaraAnterior = this.MascaraEquipada;
         this.MascaraEquipada = tipomascara;
 

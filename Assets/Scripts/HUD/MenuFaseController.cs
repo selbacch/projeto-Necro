@@ -17,6 +17,7 @@ public class MenuFaseController : MonoBehaviour
     {
         timeScale = Time.timeScale;
         FecharMenus();
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().DeathEvent += AbrirMenuMorte;
     }
 
     public void AbrirMenuPause()
@@ -118,5 +119,6 @@ public class MenuFaseController : MonoBehaviour
 
 
     }
+
 
 }
