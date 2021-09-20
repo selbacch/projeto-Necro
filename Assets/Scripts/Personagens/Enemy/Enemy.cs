@@ -219,9 +219,9 @@ public class Enemy : InterfaceAtacavel
     IEnumerator TextoDeDano(int danoRecebido)
     {
         DanoText.text = danoRecebido.ToString();
-        DanoText.gameObject.transform.parent.gameObject.SetActive(true);
+        DanoText.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.15f);
-        DanoText.gameObject.transform.parent.gameObject.SetActive(false);
+        DanoText.gameObject.SetActive(false);
 
     }
 

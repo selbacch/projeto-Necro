@@ -54,6 +54,7 @@ public class Zombie : InterfaceAtacavel
         if (Target.tag == "Player")
         {
             isAttackingEnemy = false;
+            EnemySaiuAttackArea(Target);
             BuscaInimigo();           
         }
         
@@ -103,7 +104,7 @@ public class Zombie : InterfaceAtacavel
             {
                 anim.SetTrigger("atack");
 
-                yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSeconds(1f);
             }
         }
     }
@@ -129,7 +130,8 @@ public class Zombie : InterfaceAtacavel
 
     void Atack()
     {
-        if (Target == null)
+       
+        if (Target == null || Target.tag == "Player")
             return;
         Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
     }
