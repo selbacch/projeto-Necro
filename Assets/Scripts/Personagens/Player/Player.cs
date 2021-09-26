@@ -246,6 +246,9 @@ public class Player : InterfaceAtacavel
         transform.position = transform.position + (move * speed * Time.deltaTime);
     }
 
+   
+
+
     public void OnAtaque(InputValue value)
     {
         if (Death)
