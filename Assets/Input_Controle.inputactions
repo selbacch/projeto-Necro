@@ -76,6 +76,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Ataque2",
+                    "type": "Value",
+                    "id": "31ef0594-304d-4793-9ab9-cdc111f00e6d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -217,7 +225,7 @@
                     "path": "<XInputController>/buttonSouth",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Controle;Default",
+                    "groups": "Controle",
                     "action": "Ataque",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -327,7 +335,7 @@
                     "path": "<XInputController>/buttonSouth",
                     "interactions": "MultiTap",
                     "processors": "",
-                    "groups": "Controle;Default",
+                    "groups": "Controle",
                     "action": "Combo1",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -349,7 +357,7 @@
                     "path": "<XInputController>/buttonSouth",
                     "interactions": "MultiTap(tapCount=3)",
                     "processors": "",
-                    "groups": "Controle;Default",
+                    "groups": "Controle",
                     "action": "Combo2",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -362,6 +370,17 @@
                     "processors": "",
                     "groups": "Default",
                     "action": "Action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b1ad1b38-5738-4593-b9a4-02656b7e04e8",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "Ataque2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

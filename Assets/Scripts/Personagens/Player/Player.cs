@@ -258,6 +258,17 @@ public class Player : InterfaceAtacavel
         atacando = true;
         anim.SetTrigger("" + combo1);
     }
+
+    public void OnAtaque2(InputValue value)
+    {
+        if (Death)
+        {
+            return;
+        }
+        Debug.Log("combo2");
+        //atacando = true;
+       // anim.SetTrigger("" + combo1);
+    }
     void sumonsop()//para animação de invocar
     {
         anim.SetBool("sumon", false);
