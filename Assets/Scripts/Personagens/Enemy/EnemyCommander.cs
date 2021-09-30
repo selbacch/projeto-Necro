@@ -9,9 +9,10 @@ public class EnemyCommander : Enemy
 
     public Animator anim;
     public bool Gritou = false;
-    public bool IA;
+    public bool IA = false;
     public bool isAttackingEnemy;
-   
+ private GameObject[] points;
+    private int destPoint = 0;
     void Start()
     {
 
@@ -24,6 +25,7 @@ public class EnemyCommander : Enemy
 
         AreaAtaque.PlayerEntrouAttack += PlayerEntrouAttackArea;
         AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
+        points = GameObject.FindGameObjectsWithTag("Respawn");
     }
 
     private void OnDestroy()
@@ -35,10 +37,15 @@ public class EnemyCommander : Enemy
     void Update()
     {
 
-        if (IA == true)
+        if (IA != true)
         {
-            navhunt();
+            patrol();
+           
         }
+        else { navhunt(); }
+
+        
+            
 
         if (Vida <= 0)
         {
@@ -55,7 +62,7 @@ public class EnemyCommander : Enemy
         }
 
     }
-
+ 
     void BuscaInimigo()//busca player
     {
 
@@ -112,6 +119,30 @@ public class EnemyCommander : Enemy
             yield return new WaitForSeconds(2f);
         }
     }
+    void patrol()
+    {
+        
+        
+        
+
+        if (points.Length == 0)
+            return;
+
+        agent.destination = points[destPoint].transform.position;
+        float distance = 1.1f;
+
+        float distObj = Vector3.Distance(transform.position, points[destPoint].transform.position);
+        Debug.Log(distObj);
+        if (distObj <= distance)
+            
+        {
+            
+            NextPoint();
+        }
+        
+       
+    }
+    void NextPoint() { destPoint = (destPoint + 1) % points.Length; }
 
     void navhunt()
     {
