@@ -38,7 +38,7 @@ public class InfoSessao
         this.vidaMax = pl.Vida.MaxHealth;
         this.manaMax = pl.Mana.MaxMana;
         this.mascaraEquipada = pl.MascaraEquipada;
-        this.inventario = JsonUtility.ToJson( InventarioController.Instance.Itens);
+        this.inventario = InventarioController.Instance.ToJson();
         this.dataHoraGravacao = DateTime.Now;
 
         string info = JsonUtility.ToJson(this);

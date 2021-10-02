@@ -99,15 +99,29 @@ public class InventarioController : MonoBehaviour
         Debug.Log(sb.ToString());
     }
 
-
-
-
-
-
-
     public void AtualizaGUIInventarioOnUtilizacao()
     {
         RenderizaInventario();
+    }
+
+    public string ToJson()
+    {
+
+        StringBuilder sb = new StringBuilder(); 
+        
+        foreach (KeyValuePair<ItemInterface.Item, int> item in this.itens)
+        {
+            sb.Append("{ item: "+((int)item.Key) + ", qnt:" + item.Value.ToString() + "}");
+            
+        }
+
+       string newjs = "[" + string.Join(",",sb) +"]";
+        return newjs;
+    }
+
+    public void FromJson()
+    {
+
     }
 
 }
