@@ -73,7 +73,7 @@ public class Enemy : InterfaceAtacavel
             Anim.SetBool("death", true);
 
         }
-        if (Target.tag == "sumon"&& Target.GetComponent<InterfaceAtacavel>().Death == true)
+        if (Target != null && Target.tag == "sumon"&& Target.GetComponent<InterfaceAtacavel>().Death == true)
         {
            
                 Target = null;
