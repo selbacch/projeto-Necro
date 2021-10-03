@@ -13,6 +13,7 @@ public class CenaController : MonoBehaviour
         {
             Debug.Log("INSTANCE ALREADY IN SCENE! LET'S DESTROY OURSELVES!");
             Destroy(this.gameObject);
+            return;
         }
 
         Instance = this;
@@ -40,6 +41,11 @@ public class CenaController : MonoBehaviour
     {
         infoSessao.SalvaStatusJogo();
 
+    }
+
+    public void CarregarJogoSalvo()
+    {
+        infoSessao.CarregarStatusJogo();
     }
 
 }

@@ -119,9 +119,9 @@ public class InventarioController : MonoBehaviour
         return newjs;
     }
 
-    public void FromJson()
+    public void FromJson(string sjson)
     {
-
+        Dictionary<int, int> valores = JsonUtility.FromJson<Dictionary<int, int>>(sjson);
     }
 
 }

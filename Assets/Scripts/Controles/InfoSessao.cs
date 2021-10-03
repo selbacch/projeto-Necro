@@ -14,9 +14,6 @@ public class InfoSessao
     private ItemInterface.Item mascaraEquipada;
 
     [SerializeField]
-    private String inventario;
-
-    [SerializeField]
     private int manaMax;
 
     [SerializeField]
@@ -29,7 +26,10 @@ public class InfoSessao
     private string infoCena;
 
     [SerializeField]
-    private DateTime dataHoraGravacao;
+    private DateTime dataHoraGravacao; 
+    
+    [SerializeField]
+    private String inventario;
 
     public void SalvaStatusJogo()
     {
@@ -48,13 +48,19 @@ public class InfoSessao
 
     public void CarregarStatusJogo()
     {
-        if (File.Exists(Application.persistentDataPath + "/gamesave.save"))
+        if (File.Exists(Application.persistentDataPath + "/save.json"))
         {
 
             BinaryFormatter bf = new BinaryFormatter();
-            FileStream file = File.Open(Application.persistentDataPath + "/gamesave.save", FileMode.Open);
-            InfoSessao save = (InfoSessao)bf.Deserialize(file);
-            file.Close();
+            String sJson = System.IO.File.ReadAllText(Application.persistentDataPath + "/save.json");
+            InfoSessao info = JsonUtility.FromJson<InfoSessao>(sJson);
+
+            this.danoAtual = info.danoAtual;
+            this.vidaMax = info.vidaMax;
+            this.manaMax = info.manaMax;
+            this.mascaraEquipada = info.mascaraEquipada;
+            this.inventario = info.inventario;
+            this.dataHoraGravacao = info.dataHoraGravacao;
 
 
         }
