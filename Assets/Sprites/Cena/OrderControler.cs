@@ -27,7 +27,7 @@ public class OrderControler : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
         
-            other.GetComponent<SpriteRenderer>().sortingOrder = -1;
+            other.GetComponent<SpriteRenderer>().sortingOrder = -2;
             other.GetComponent<SpriteRenderer>().material = alter;
 
         }

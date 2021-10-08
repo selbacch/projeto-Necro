@@ -16,7 +16,7 @@ public class Portal : MonoBehaviour
         if (other.tag == "Player")
         {
             if (!String.IsNullOrEmpty(ProximaCena))
-                CenaController.Instance.PlayerEntrouPortal(other.gameObject, ProximaCena);
+                CenaController.Instance.PlayerEntrouPortal(other.gameObject, ProximaCena,other.transform.position);
 
         }
     }

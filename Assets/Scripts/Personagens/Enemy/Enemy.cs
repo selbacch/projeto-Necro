@@ -71,6 +71,7 @@ public class Enemy : InterfaceAtacavel
         {
             Death = true;
             Anim.SetBool("death", true);
+            Target = null;
 
         }
         if (Target != null && Target.tag == "sumon"&& Target.GetComponent<InterfaceAtacavel>().Death == true)
@@ -110,13 +111,8 @@ public class Enemy : InterfaceAtacavel
         {
             if (Target != null)
             {
-                // Anim.SetTrigger("atack");
-                InterfaceAtacavel atacavel;
-
-               if( gameObject.TryGetComponent<InterfaceAtacavel>(out atacavel))
-                {
-                    atacavel.SofrerDano(this.Dano());
-                }
+                 Anim.SetTrigger("atack");
+               
 
                
             }
@@ -160,7 +156,7 @@ public class Enemy : InterfaceAtacavel
         }
     
 }
-    void AtackAnim()
+    void Atack()
     {
        
         Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);

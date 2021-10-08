@@ -31,7 +31,7 @@ public class CenaController : MonoBehaviour
 
     }
 
-    public void PlayerEntrouPortal(GameObject player, string Cena)
+    public void PlayerEntrouPortal(GameObject player, string Cena,Vector3 positionE)
     {
         SalvarJogo();
         SceneManager.LoadScene(Cena);

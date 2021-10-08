@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+
 public class MenuFaseController : MonoBehaviour
 {
     public GameObject menuPause;
@@ -9,6 +11,7 @@ public class MenuFaseController : MonoBehaviour
     public GameObject panelEscureBackground;
     public GameObject componenteInventario;
     public GameObject componenteStatus;
+    
 
     private float timeScale;
     private bool isOpen = false;
@@ -83,6 +86,10 @@ public class MenuFaseController : MonoBehaviour
 
 
     }
+   public void teste()
+    {
+        Debug.Log("teste");
+    }
 
 
     public void DesequiparMascaraButton()
@@ -100,10 +107,7 @@ public class MenuFaseController : MonoBehaviour
     }
 
 
-    public void OnStatus(InputValue value)
-    {
-        AbrirStatus();
-    }
+  
 
 
     public void OnPause(InputValue value)

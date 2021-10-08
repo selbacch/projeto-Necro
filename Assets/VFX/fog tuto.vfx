@@ -31,7 +31,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: fog
+  m_Name: fog tuto
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_ImportDependencies: []
   m_GraphVersion: 6
   m_ResourceVersion: 1
-  m_saved: 0
+  m_saved: 1
   m_SubgraphDependencies: []
   m_CategoryPath: 
 --- !u!2058629511 &8926484042661614527
@@ -192,7 +192,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: fog
+  m_Name: fog tuto
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -1238,7 +1238,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614600}
   - {fileID: 8926484042661614604}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614599}
   m_MasterData:
@@ -1247,7 +1247,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.AABox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":-0.45195016264915469,"y":2.918304443359375,"z":0.0},"size":{"x":21.375099182128908,"y":14.730098724365235,"z":1.0}}'
+      m_SerializableObject: '{"center":{"x":-0.45195016264915469,"y":2.918304443359375,"z":0.0},"size":{"x":55.0,"y":26.899999618530275,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: Box
@@ -1275,7 +1275,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614602}
   - {fileID: 8926484042661614603}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614599}
   m_MasterData:
@@ -1410,7 +1410,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614606}
   - {fileID: 8926484042661614607}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614599}
   m_MasterData:
@@ -2004,7 +2004,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.1
+      m_SerializableObject: 1
     m_Space: 2147483647
   m_Property:
     name: A
@@ -3302,7 +3302,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614798}
   - {fileID: 8926484042661614799}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -3636,7 +3636,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614808}
   - {fileID: 8926484042661614809}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -3970,7 +3970,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614818}
   - {fileID: 8926484042661614819}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -4304,7 +4304,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614828}
   - {fileID: 8926484042661614829}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -4638,7 +4638,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614839}
   - {fileID: 8926484042661614840}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -5006,7 +5006,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614850}
   - {fileID: 8926484042661614851}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -5374,7 +5374,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614861}
   - {fileID: 8926484042661614862}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -5742,7 +5742,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614872}
   - {fileID: 8926484042661614873}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -6110,7 +6110,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614883}
   - {fileID: 8926484042661614884}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -6478,7 +6478,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614893}
   - {fileID: 8926484042661614894}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -6812,7 +6812,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614903}
   - {fileID: 8926484042661614904}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -7146,7 +7146,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614913}
   - {fileID: 8926484042661614914}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -7480,7 +7480,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614924}
   - {fileID: 8926484042661614925}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -7848,7 +7848,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614934}
   - {fileID: 8926484042661614935}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -8182,7 +8182,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614945}
   - {fileID: 8926484042661614946}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -8550,7 +8550,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614956}
   - {fileID: 8926484042661614957}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -8918,7 +8918,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614966}
   - {fileID: 8926484042661614967}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -9252,7 +9252,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614976}
   - {fileID: 8926484042661614977}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -9586,7 +9586,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614986}
   - {fileID: 8926484042661614987}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -9920,7 +9920,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614997}
   - {fileID: 8926484042661614998}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -10288,7 +10288,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615010}
   - {fileID: 8926484042661615011}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0
@@ -10724,7 +10724,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615023}
   - {fileID: 8926484042661615024}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 0
   radiusMode: 1
   roughSurface: 0

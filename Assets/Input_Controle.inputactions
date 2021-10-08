@@ -92,8 +92,8 @@
                     "id": "99b1b903-5239-4a09-96c3-be9b972c5592",
                     "path": "<XInputController>/leftStick",
                     "interactions": "",
-                    "processors": "",
-                    "groups": "Controle;Default",
+                    "processors": "NormalizeVector2",
+                    "groups": "Controle",
                     "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -209,6 +209,61 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "2D Vector",
+                    "id": "72e4fa44-6eef-47f8-ba72-3bfcb8d5d418",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimento",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "7effa9f6-929a-48fb-9744-5e5052d8710a",
+                    "path": "<XInputController>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Movimento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "1e44dc69-ec41-45d2-9df1-52997dea4b7b",
+                    "path": "<XInputController>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Movimento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "30679ce0-dd69-4036-92fc-cea2a10e0e68",
+                    "path": "<XInputController>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Movimento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "6973fc62-7baf-4afb-8b85-5eb6db6cb69b",
+                    "path": "<XInputController>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Movimento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "953ea697-ce74-4756-aa44-0005c2162d5b",
                     "path": "<Keyboard>/enter",
@@ -226,6 +281,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Controle",
+                    "action": "Ataque",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "33a39e2e-7280-448e-a650-ccd3aa332431",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
                     "action": "Ataque",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -254,6 +320,17 @@
                 },
                 {
                     "name": "",
+                    "id": "ceafd802-f7cb-40d6-b7de-87b7dddcca9a",
+                    "path": "<XInputController>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Habilidade1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "77e23a5a-da05-47d8-b6d5-f1ece18c7ae0",
                     "path": "<Keyboard>/2",
                     "interactions": "",
@@ -270,6 +347,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Controle;Default",
+                    "action": "Habilidade2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a05c9066-f5cc-4e79-8979-778cd1d5d162",
+                    "path": "<XInputController>/leftTrigger",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Xbox Controle",
                     "action": "Habilidade2",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -298,6 +386,17 @@
                 },
                 {
                     "name": "",
+                    "id": "8a91f5d6-502f-461e-84c0-ddaf43cdd27c",
+                    "path": "<XInputController>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Habilidade3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "cc8320ec-1dd9-4eae-b5a2-2a5f24ba7912",
                     "path": "<Keyboard>/4",
                     "interactions": "",
@@ -314,6 +413,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Controle;Default",
+                    "action": "Habilidade4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "448edfac-92b8-4242-a288-8acfe4540af3",
+                    "path": "<XInputController>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
                     "action": "Habilidade4",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -342,6 +452,17 @@
                 },
                 {
                     "name": "",
+                    "id": "7208c1e7-1e73-4f04-9a41-27ed20232f7d",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Combo1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "54f142d3-b8fa-491b-abdd-07d68ae71e41",
                     "path": "<Keyboard>/enter",
                     "interactions": "MultiTap(tapCount=3)",
@@ -364,11 +485,33 @@
                 },
                 {
                     "name": "",
+                    "id": "bd0b2832-7b46-40a6-a040-5d5317b6a836",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Combo2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "763e5e74-d2a8-4d7c-918e-67d333c09045",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "Default",
+                    "action": "Action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ec7959a-e579-4221-9a04-9afe6379eea3",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
                     "action": "Action",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -407,10 +550,18 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Status",
+                    "name": "ActionUI",
                     "type": "Button",
                     "id": "1abbe9f0-0d79-4de3-b578-04771f4e1f4b",
                     "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveUI",
+                    "type": "Value",
+                    "id": "a51f1b8d-e563-41bc-9241-318a515c578a",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
                 }
@@ -440,6 +591,17 @@
                 },
                 {
                     "name": "",
+                    "id": "bbf53f18-8a7d-432d-8792-e9e5600b3e33",
+                    "path": "<XInputController>/start",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "d72736e5-a9d8-473d-8e3f-22cb6618e05c",
                     "path": "<Keyboard>/i",
                     "interactions": "",
@@ -462,12 +624,34 @@
                 },
                 {
                     "name": "",
+                    "id": "6d67453e-ae2c-44f4-a2f7-b3e23d016021",
+                    "path": "<XInputController>/select",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ae239ee7-24ab-43fc-8188-59d61bd2aa0e",
-                    "path": "<Keyboard>/h",
+                    "path": "<XInputController>/buttonSouth",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
-                    "action": "Status",
+                    "groups": "Xbox Controle",
+                    "action": "ActionUI",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5cb0938d-344f-4be4-bf0c-964165dc0515",
+                    "path": "<XInputController>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "MoveUI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -587,6 +771,17 @@
                 {
                     "devicePath": "<DualShockGamepad>",
                     "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Xbox Controle",
+            "bindingGroup": "Xbox Controle",
+            "devices": [
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": false,
                     "isOR": false
                 }
             ]

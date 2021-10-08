@@ -6,6 +6,7 @@ using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class InfoSessao
@@ -30,7 +31,11 @@ public class InfoSessao
     
     [SerializeField]
     private String inventario;
+    [SerializeField]
+    private Vector3 positionE;
 
+    [SerializeField]
+    private string Cena;
     public void SalvaStatusJogo()
     {
         Player pl = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
@@ -40,7 +45,7 @@ public class InfoSessao
         this.mascaraEquipada = pl.MascaraEquipada;
         this.inventario = InventarioController.Instance.ToJson();
         this.dataHoraGravacao = DateTime.Now;
-
+        this.Cena = Cena;
         string info = JsonUtility.ToJson(this);
         System.IO.File.WriteAllText(Application.persistentDataPath + "/save.json", info);
 
@@ -61,7 +66,7 @@ public class InfoSessao
             this.mascaraEquipada = info.mascaraEquipada;
             this.inventario = info.inventario;
             this.dataHoraGravacao = info.dataHoraGravacao;
-
+            SceneManager.LoadScene(Cena);
 
         }
     }
