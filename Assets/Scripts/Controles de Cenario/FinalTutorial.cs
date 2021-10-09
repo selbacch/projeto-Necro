@@ -32,7 +32,7 @@ public class FinalTutorial : MonoBehaviour
 
         if (other.tag == "Player")
         {
-            bool caiu = true;
+            
             Raio1.SetActive(true);
             Raio2.SetActive(true);
           
