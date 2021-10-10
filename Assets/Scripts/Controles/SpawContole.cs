@@ -132,9 +132,9 @@ public class SpawContole : MonoBehaviour
     void MiniBOss()
     {
         GameObject[] tos;
-     
-       
-        if (os.Length == 0)
+        gos = GameObject.FindGameObjectsWithTag("Enemy");
+
+        if (gos.Length == 0)
         {
             Debug.Log("hum boss...");
             GameObject[] gos;
