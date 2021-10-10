@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class SpawContole : MonoBehaviour
 {
-
+    private GameObject[] gos;
     public GameObject[] points;
     public GameObject Enemy;
     public GameObject EnemyC;
-    
-    private bool orda2 =false;
-    public bool orda3;
+    public GameObject Enemy3;
 
+    private bool orda2 = false;
+    public bool orda3;
+    public bool MIniboss;
     // Start is called before the first frame update
     void Start()
     {
-        
+
         if (points.Length == 0)
         {
             points = GameObject.FindGameObjectsWithTag("Respawn");
@@ -26,25 +27,25 @@ public class SpawContole : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (orda2 != true)
-        {
-            Enemyonda2();
-        }
-        if (orda3 == true && orda2 == true)
-        {
-            Enemyonda3();
-        }
+       
+                
+
+
+
+
+       
+       
     }
 
     void Enemyonda1()
     {
         Debug.Log("hum...");
-        GameObject[] gos;
+       
         GameObject closest = null;
         gos = GameObject.FindGameObjectsWithTag("Enemy");
         if (gos.Length == 0)
         {
-            Debug.Log("hum2...");
+            
             for (int i = 0; i < points.Length; i++)
             {
 
@@ -52,14 +53,14 @@ public class SpawContole : MonoBehaviour
                 {
                     closest = point;
                     GameObject enemy = Instantiate(Enemy, point.transform.position, point.transform.rotation, transform.parent);
-               
-                   
+
+
 
                 }
-               
+
 
             }
-                gos = GameObject.FindGameObjectsWithTag("Enemy");
+            gos = GameObject.FindGameObjectsWithTag("Enemy");
             if (closest != null)
             {
                 GameObject enemyc = Instantiate(EnemyC, closest.transform.position, closest.transform.rotation, transform.parent);
@@ -67,17 +68,17 @@ public class SpawContole : MonoBehaviour
 
         }
 
-        }
+    }
 
     void Enemyonda2()
     {
-      
-        GameObject[] gos;
+        Debug.Log("hum2...");
+        
         GameObject closest = null;
         gos = GameObject.FindGameObjectsWithTag("Enemy");
         if (gos.Length == 0)
         {
-            
+
             for (int i = 0; i < points.Length * 3; i++)
             {
 
@@ -90,9 +91,10 @@ public class SpawContole : MonoBehaviour
 
                 }
 
-
+                
             }
             orda2 = true;
+            
         }
 
     }
@@ -100,13 +102,13 @@ public class SpawContole : MonoBehaviour
 
     void Enemyonda3()
     {
-        
-        GameObject[] gos;
+        Debug.Log("hum3...");
+      
         GameObject closest = null;
         gos = GameObject.FindGameObjectsWithTag("Enemy");
         if (gos.Length == 0)
         {
-            
+
             for (int i = 0; i < points.Length * 3; i++)
             {
 
@@ -122,12 +124,48 @@ public class SpawContole : MonoBehaviour
 
             }
             orda3 = false;
+          
         }
-       
+
     }
 
+    void MiniBOss()
+    {
+        GameObject[] tos;
+     
+       
+        if (os.Length == 0)
+        {
+            Debug.Log("hum boss...");
+            GameObject[] gos;
+            GameObject closest = null;
+            gos = GameObject.FindGameObjectsWithTag("Respawn");
+            float distance = Mathf.Infinity;
+            Vector3 position = this.transform.Find("Player").gameObject.transform.position;
+            foreach (GameObject go in gos)
+            {
+                Vector3 diff = go.transform.position - position;
+                float curDistance = diff.sqrMagnitude;
+                if (curDistance < distance && MIniboss == true)
+                {
+
+                    {
 
 
+                        closest = go;
+                        GameObject miNiBoss = Instantiate(Enemy3, closest.transform.position, closest.transform.rotation, transform.parent).GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
+
+
+
+
+
+                    }
+                    MIniboss = false;
+                }
+
+            }
+        }
+    }
 }
 
 

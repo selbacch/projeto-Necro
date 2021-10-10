@@ -59,33 +59,33 @@ public class MiniBoss : Enemy
             Anim.SetBool("death", true);
 
         }
-        if (Target != null && Target.tag == "sumon" && Target.GetComponent<InterfaceAtacavel>().Death)
+        if (Target == null )
         {
             isAttackingEnemy = false;
             Target = null;
             BuscaInimigo2();
-            BuscaInimigo();
+            AlvoProx();
         }
 
     }
 
-    void BuscaInimigo()//busca player
+    void AlvoProx()//busca player
     {
         Debug.Log("hello player");
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("Player");
         GameObject closest = null;
-        float distance = Mathf.Infinity;
+        float distance = 10f;//Mathf.Infinity;
         Vector3 position = transform.position;
         foreach (GameObject go in gos)
         {
             Vector3 diff = go.transform.position - position;
             float curDistance = diff.sqrMagnitude;
-            if (curDistance < distance)
+            if (curDistance == distance)
             {
                 closest = go;
                 distance = curDistance;
-                AtaqueDistance(closest.gameObject);
+                StartCoroutine(AtaqueDistance(closest));
             }
 
         }
@@ -100,7 +100,7 @@ public class MiniBoss : Enemy
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("sumon");
         GameObject closest = null;
-        float distance = 80f;
+        float distance = 10f;
         Vector3 position = transform.position;
         foreach (GameObject go in gos)
         {
@@ -110,7 +110,7 @@ public class MiniBoss : Enemy
             {
                 closest = go;
                 distance = curDistance;
-                AtaqueDistance(closest.gameObject);
+                StartCoroutine(AtaqueDistance(closest));
             }
 
         }
@@ -162,7 +162,7 @@ public class MiniBoss : Enemy
     { combo1 = 0; }
     void PEnergy()
     {
-        StartCoroutine(PlusEnergy(3f));
+        StartCoroutine(PlusEnergy(5f));
     }
 
     IEnumerator PlusEnergy(float tempo)
@@ -204,34 +204,53 @@ public class MiniBoss : Enemy
     {
         transform.position += frameMovement;
     }
-    public void AtaqueDistance(GameObject alvo)
+    IEnumerator AtaqueDistance(GameObject alvo)
     {
-        if (Energy < 2 || Death)
+        yield return new WaitForSeconds(5f);
+        if (Energy < 0)
         {
-            return;
+
         }
+        else { 
+
         Debug.Log("segura");
         GameObject CloneTiro = Instantiate(Projetil, point.position, point.rotation);
         CloneTiro.GetComponent<arrow>().direct = alvo.transform.position - transform.position; ;
 
-        Energy = Energy - 2;
-
+        Energy--;
+        Energy--;
+    }
     }
     IEnumerator ScreamComander()
     {
 
         yield return new WaitForSeconds(3f);
-        if (Energy< 2 || Death)
+        if (Energy > 0)
         {
-            
+
+            GameObject[] gos;
+            gos = GameObject.FindGameObjectsWithTag("Player");
+            GameObject closest = null;
+            float distance = 20f;//Mathf.Infinity;
+            Vector3 position = transform.position;
+            foreach (GameObject go in gos)
+            {
+                Vector3 diff = go.transform.position - position;
+                float curDistance = diff.sqrMagnitude;
+                if (curDistance > distance)
+                {
+
+
+
+                    GameObject Lacaio1 = Instantiate(Lacaio0, point.position, point.rotation, transform.parent);
+                    Lacaio1.GetComponent<Enemy>().Vida = 1;
+                    GameObject Lacaio2 = Instantiate(Lacaio3, point.position, point.rotation, transform.parent);
+                    Lacaio2.GetComponent<Enemy>().Vida = 1;
+                    Energy--;
+                    Energy--;
+                }
+            }
         }
-
-        GameObject Lacaio1 = Instantiate(Lacaio0, point.position, point.rotation, transform.parent);
-        Lacaio1.GetComponent<Enemy>().Vida = 1;
-        GameObject Lacaio2 = Instantiate(Lacaio3, point.position, point.rotation, transform.parent);
-        Lacaio2.GetComponent<Enemy>().Vida = 1;
-        Energy = Energy- 2;
-
     }
     IEnumerator Poison(int Dano, int Tempo)
     {
@@ -245,8 +264,9 @@ public class MiniBoss : Enemy
 
     void PlayerEntrouAggro(GameObject go)
     {
+        
 
-     
+
         Target = go;
     }
     void PlayerSaiuAggro(GameObject go)
