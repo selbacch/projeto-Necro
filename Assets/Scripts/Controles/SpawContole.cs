@@ -10,7 +10,7 @@ public class SpawContole : MonoBehaviour
     public GameObject EnemyC;
     public GameObject Enemy3;
 
-    private bool orda2 = false;
+    public bool orda2 = false;
     public bool orda3;
     public bool MIniboss;
     // Start is called before the first frame update
@@ -28,13 +28,22 @@ public class SpawContole : MonoBehaviour
     void Update()
     {
        
-                
+         if(orda2 != true)
+        {
+            Enemyonda2();
+        }
+
+        if (orda2 == true && orda3 == true)
+        {
+            Enemyonda3();
+        }
+
+        if (orda3 == false && MIniboss == true)
+        {
+            MiniBOss();
+        }
 
 
-
-
-       
-       
     }
 
     void Enemyonda1()
@@ -79,7 +88,7 @@ public class SpawContole : MonoBehaviour
         if (gos.Length == 0)
         {
 
-            for (int i = 0; i < points.Length * 3; i++)
+            for (int i = 0; i < points.Length * 2; i++)
             {
 
                 foreach (GameObject point in points)
@@ -94,6 +103,8 @@ public class SpawContole : MonoBehaviour
                 
             }
             orda2 = true;
+
+         
             
         }
 
@@ -102,18 +113,19 @@ public class SpawContole : MonoBehaviour
 
     void Enemyonda3()
     {
-        Debug.Log("hum3...");
+        
       
         GameObject closest = null;
         gos = GameObject.FindGameObjectsWithTag("Enemy");
         if (gos.Length == 0)
         {
-
-            for (int i = 0; i < points.Length * 3; i++)
+        orda3 = false;
+            for (int i = 0; i < points.Length ; i++)
             {
 
                 foreach (GameObject point in points)
                 {
+                 
                     closest = point;
                     GameObject enemy = Instantiate(Enemy, point.transform.position, point.transform.rotation, transform.parent).GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
                     enemy.GetComponent<Enemy>().DanoAtual = +5;
@@ -121,50 +133,31 @@ public class SpawContole : MonoBehaviour
 
                 }
 
-
             }
-            orda3 = false;
-          
-        }
+            
+         }
 
     }
 
     void MiniBOss()
     {
-        GameObject[] tos;
+
         gos = GameObject.FindGameObjectsWithTag("Enemy");
 
         if (gos.Length == 0)
         {
-            Debug.Log("hum boss...");
-            GameObject[] gos;
-            GameObject closest = null;
-            gos = GameObject.FindGameObjectsWithTag("Respawn");
-            float distance = Mathf.Infinity;
-            Vector3 position = this.transform.Find("Player").gameObject.transform.position;
-            foreach (GameObject go in gos)
-            {
-                Vector3 diff = go.transform.position - position;
-                float curDistance = diff.sqrMagnitude;
-                if (curDistance < distance && MIniboss == true)
-                {
-
-                    {
+           
+              
 
 
-                        closest = go;
-                        GameObject miNiBoss = Instantiate(Enemy3, closest.transform.position, closest.transform.rotation, transform.parent).GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
+                        
+                        GameObject miNiBoss = Instantiate(Enemy3, gameObject.transform.position, gameObject.transform.rotation, transform.parent).GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
+                       
+               
+                
 
-
-
-
-
-                    }
-                    MIniboss = false;
-                }
-
-            }
-        }
+         MIniboss = false;
+        }    
     }
 }
 

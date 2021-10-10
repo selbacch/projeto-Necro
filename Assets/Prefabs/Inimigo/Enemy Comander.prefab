@@ -52,7 +52,7 @@ MonoBehaviour:
   Vida: 100
   Resfriamento: 2
   Velocidade: 1
-  DanoAtual: 15
+  DanoAtual: 10
   TempoDestruicao: 1
   anim: {fileID: 4871110717452625594}
   Gritou: 0

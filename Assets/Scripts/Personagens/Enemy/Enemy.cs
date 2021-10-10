@@ -74,7 +74,7 @@ public class Enemy : InterfaceAtacavel
             Target = null;
 
         }
-        if (Target != null && Target.tag == "sumon"&& Target.GetComponent<InterfaceAtacavel>().Death == true)
+        if ( Target.tag == "sumon"&& Target.GetComponent<InterfaceAtacavel>().Death == true)
         {
            
                 Target = null;

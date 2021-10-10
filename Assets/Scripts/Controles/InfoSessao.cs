@@ -45,7 +45,7 @@ public class InfoSessao
         this.mascaraEquipada = pl.MascaraEquipada;
         this.inventario = InventarioController.Instance.ToJson();
         this.dataHoraGravacao = DateTime.Now;
-        this.Cena = SceneManager.GetActiveScene().name;
+        this.Cena = Cena;
         string info = JsonUtility.ToJson(this);
         System.IO.File.WriteAllText(Application.persistentDataPath + "/save.json", info);
 

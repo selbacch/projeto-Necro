@@ -300,6 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 617c3f0985893784ba09308f1a0bda99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Death: 0
   Anim: {fileID: 6442732532154755352}
   Target: {fileID: 0}
   AreaAtaque: {fileID: 8766642046580584796}
@@ -309,7 +310,7 @@ MonoBehaviour:
   Vida: 100
   Resfriamento: 2
   Velocidade: 1
-  DanoAtual: 15
+  DanoAtual: 5
   TempoDestruicao: 1
 --- !u!1 &6404320763669625020
 GameObject:
