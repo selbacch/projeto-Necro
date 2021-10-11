@@ -130,7 +130,7 @@ public class MiniBoss : Enemy
         else { return; }
     }
 
-    IEnumerator Atacar(GameObject gameObject)
+    public override IEnumerator Atacar(GameObject gameObject)
     {
         for (; ; )
         {
@@ -230,7 +230,6 @@ public class MiniBoss : Enemy
 
             GameObject[] gos;
             gos = GameObject.FindGameObjectsWithTag("Player");
-            GameObject closest = null;
             float distance = 20f;//Mathf.Infinity;
             Vector3 position = transform.position;
             foreach (GameObject go in gos)
@@ -250,15 +249,6 @@ public class MiniBoss : Enemy
                     Energy--;
                 }
             }
-        }
-    }
-    IEnumerator Poison(int Dano, int Tempo)
-    {
-        for (int i = 0; i < Tempo; i++)
-        {
-            Debug.Log("veneno");
-            SofrerDano(Dano);
-            yield return new WaitForSeconds(2);
         }
     }
 

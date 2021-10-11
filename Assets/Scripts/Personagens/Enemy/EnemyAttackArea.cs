@@ -1,15 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(CircleCollider2D))]
 public class EnemyAttackArea : MonoBehaviour
 {
     public Action<GameObject> PlayerEmAttack;
     public Action<GameObject> PlayerEntrouAttack;
     public Action<GameObject> PlayerSaiuAttack;
+    public float Raio { get; private set; }
+   
 
     void Start()
     {
-
+        Raio = this.GetComponent<CircleCollider2D>().radius;
     }
 
     void Update()
@@ -23,6 +27,8 @@ public class EnemyAttackArea : MonoBehaviour
         {
 
             this.PlayerEntrouAttack?.Invoke(collision.gameObject);
+            
+           
         }
 
     }
@@ -34,6 +40,7 @@ public class EnemyAttackArea : MonoBehaviour
         {
 
             this.PlayerSaiuAttack?.Invoke(collision.gameObject);
+            
         }
 
     }

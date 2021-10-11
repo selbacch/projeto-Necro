@@ -21,37 +21,19 @@ public class Enemy : InterfaceAtacavel
     public int DanoAtual = 15;
     public int TempoDestruicao = 1;
 
-  
 
-    private float TargetDistance;
-    private float _distanceToTarget;
-    private float _distanceWantsToMoveThisFrame;
-    private Vector3 localInicial;
-    private bool isHuntingPlayer;
-    private bool isAttackingPlayer;
+
+    protected float TargetDistance;
+    protected float _distanceToTarget;
+    protected float _distanceWantsToMoveThisFrame;
+    protected Vector3 localInicial;
+    protected bool isHuntingPlayer;
+    protected bool isAttackingPlayer;
     protected NavMeshAgent agent;
     // Start is called before the first frame update
     void Start()
     {
-      //  DanoText = this.transform.Find("DanoTexto").gameObject.GetComponent<Text>();
-        
-        TargetDistance = 0;
-
-        AreaPerigo.PlayerEntrouAggro += PlayerEntrouAggro;
-        AreaPerigo.PlayerSaiuAggro += PlayerSaiuAggro;
-
-        AreaAtaque.PlayerEntrouAttack += PlayerEntrouAttackArea;
-        AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
-        
-
-        isHuntingPlayer = false;
-        isAttackingPlayer = false;
-        localInicial = transform.position;
-        agent = GetComponent<NavMeshAgent>();
-        agent.updateRotation = false;
-        agent.updateUpAxis = false;
-        
-
+        ConfigStart();
     }
 
     private void OnDestroy()
@@ -64,8 +46,6 @@ public class Enemy : InterfaceAtacavel
     void Update()
     {
 
-        Hunt();
-
         //VoltarPosicaoInicial();
         if (Vida <= 0)
         {
@@ -74,16 +54,38 @@ public class Enemy : InterfaceAtacavel
             Target = null;
 
         }
-        if ( Target.tag == "sumon"&& Target.GetComponent<InterfaceAtacavel>().Death == true)
+        if (Target != null && Target.tag == "sumon" && Target.GetComponent<InterfaceAtacavel>().Death == true)
         {
-           
-                Target = null;
-            
+            Target = null;
         }
 
-    }
+        if (Target == null)
+        {
+            Target = this.AreaPerigo.ObterProximoTarget();
+        }
 
-    void Hunt()
+        Cacar();
+
+    }
+    protected void ConfigStart()
+    {
+        TargetDistance = 0;
+
+        AreaPerigo.PlayerEntrouAggro += PlayerEntrouAggro;
+        AreaPerigo.PlayerSaiuAggro += PlayerSaiuAggro;
+
+        AreaAtaque.PlayerEntrouAttack += PlayerEntrouAttackArea;
+        AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
+
+
+        isHuntingPlayer = false;
+        isAttackingPlayer = false;
+        localInicial = transform.position;
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+    }
+   protected void Cacar()
     {
         if (Target == null)
             return;
@@ -92,7 +94,7 @@ public class Enemy : InterfaceAtacavel
         {
             return;
         }
-        gameObject.GetComponent<NavMeshAgent>().SetDestination(Target.transform.position);
+        agent.SetDestination(Target.transform.position);
         Vector3 direction = Target.gameObject.transform.position - transform.position;
         direction.z = 0;
         float distanceToTarget = direction.magnitude;
@@ -104,25 +106,20 @@ public class Enemy : InterfaceAtacavel
         Anim.SetFloat("Speed", direction.magnitude);
     }
 
-
-    IEnumerator Atacar(GameObject gameObject)
+   public virtual IEnumerator Atacar(GameObject gameObject)
     {
         for (; ; )
         {
-            if (Target != null)
+            if (Target != null && agent.remainingDistance < 30)
             {
-                 Anim.SetTrigger("atack");
-               
+                Anim.SetTrigger("atack");
 
-               
             }
             {
-
                 StopCoroutine("Atacar");
                 isHuntingPlayer = false;
                 isAttackingPlayer = false;
             }
-
             yield return new WaitForSeconds(Resfriamento);
         }
     }
@@ -144,9 +141,7 @@ public class Enemy : InterfaceAtacavel
         MoveCharacter(actualMovementThisFrame * direction);
     }
 
-
-    
-    IEnumerator Poison(int Dano, int Tempo)
+    public IEnumerator Poison(int Dano, int Tempo)
     {
         for (int i = 0; i < Tempo; i++)
         {
@@ -154,14 +149,8 @@ public class Enemy : InterfaceAtacavel
             SofrerDano(Dano);
             yield return new WaitForSeconds(2);
         }
-    
-}
-    void Atack()
-    {
-       
-        Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
-    }
 
+    }
     void MoveCharacter(Vector3 frameMovement)
     {
         transform.position += frameMovement;
@@ -204,9 +193,9 @@ public class Enemy : InterfaceAtacavel
 
     public void Delete2() //fim da vida
     {
-        
+
         GetComponentInChildren<DropRItens>().DropRandItem();
-        Destroy(this.gameObject);          
+        Destroy(this.gameObject);
     }
 
     public override void SofrerDano(int danoRecebido)
@@ -214,8 +203,18 @@ public class Enemy : InterfaceAtacavel
         if (this.Vida <= 0 || !this.gameObject.activeSelf)
             return;
         this.Vida -= danoRecebido;
-        
+
         StartCoroutine(TextoDeDano(danoRecebido));
+    }
+
+    public void callbackAnimacaoAtaque()
+    {
+        if (Target != null && agent.remainingDistance < 30)
+        {
+            Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
+
+        }
+       
     }
 
     IEnumerator TextoDeDano(int danoRecebido)
