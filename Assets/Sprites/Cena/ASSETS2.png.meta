@@ -26,6 +26,18 @@ TextureImporter:
   - first:
       213: -2629979304993867617
     second: ASSETS2_18
+  - first:
+      213: 2285848537129081287
+    second: ASSETS2_0
+  - first:
+      213: 6732165776076124993
+    second: ASSETS2_5
+  - first:
+      213: -4228246926967560472
+    second: ASSETS2_6
+  - first:
+      213: 2478468771073717747
+    second: ASSETS2_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,8 +130,8 @@ TextureImporter:
       name: ASSETS2_1
       rect:
         serializedVersion: 2
-        x: 702
-        y: 851
+        x: 933
+        y: 889
         width: 186
         height: 133
       alignment: 0
@@ -139,10 +151,10 @@ TextureImporter:
       name: ASSETS2_2
       rect:
         serializedVersion: 2
-        x: 1346
-        y: 773
-        width: 360
-        height: 277
+        x: 1457
+        y: 787
+        width: 416
+        height: 282
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,27 +206,6 @@ TextureImporter:
       bones: []
       spriteID: c1c88f5a1093856b0800000000000000
       internalID: -5307429481613849572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ASSETS2_10
-      rect:
-        serializedVersion: 2
-        x: 1371
-        y: 436
-        width: 185
-        height: 187
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b50decc2f68becd70800000000000000
-      internalID: 9065385887576019035
       vertices: []
       indices: 
       edges: []
@@ -278,6 +269,90 @@ TextureImporter:
       bones: []
       spriteID: f98363f91cf608bd0800000000000000
       internalID: -2629979304993867617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS2_0
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 579
+        width: 348
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9dce13227f8bf10800000000000000
+      internalID: 2285848537129081287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS2_5
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 59
+        width: 278
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1433f04da157d6d50800000000000000
+      internalID: 6732165776076124993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS2_6
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 416
+        width: 209
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6267772df3255c0800000000000000
+      internalID: -4228246926967560472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS2_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 794
+        width: 287
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f57fbe373a456220800000000000000
+      internalID: 2478468771073717747
       vertices: []
       indices: 
       edges: []

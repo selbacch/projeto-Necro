@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: water
-  m_Shader: {fileID: -6465566751694194690, guid: 35bf7dd0716c1ea4c8d9bebc4ae20ea6,
+  m_Name: onda 1
+  m_Shader: {fileID: -6465566751694194690, guid: 3372ea9a3c17e084ca884bf2af7a226b,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,14 +20,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_b64d6cffc5fd4a2ca08a5995dc165099:
-        m_Texture: {fileID: 2800000, guid: 14a79469267ecf144a9d7d2230686d24, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 95b9651c626d3e64e9dc6c180a2e3f95, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -41,8 +33,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_295fbf561495416792079a519a018704: 1
+    - Vector1_2941df2a56d94f6ebabfb1097d76a941: 0.96
+    - Vector1_6ce762bab48e4d80b39d9530d7de6d9a: 2.1
+    - Vector1_7c502d954c714c88b18a8c5f32d432a6: 22.05
+    - Vector1_ba558347fddd4c279be681199c55dd69: 0.2
+    - Vector1_c6c2284e6b094ce59bb414241c8c5660: 0.61
     m_Colors:
-    - Vector2_4302c9ed511c4ce29ae77fca1ecd0252: {r: 0, g: 0.05, b: 0, a: 0}
-    - Vector3_79c1d135010f448c954a8591d26eb075: {r: -1, g: 0, b: 0, a: 0}
+    - Color_5c4f1c802bf449858317760f0ffea030: {r: 0.549923, g: 0.8248845, b: 2.917647,
+        a: 0}
   m_BuildTextureStacks: []
