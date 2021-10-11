@@ -38,6 +38,9 @@ TextureImporter:
   - first:
       213: 2478468771073717747
     second: ASSETS2_7
+  - first:
+      213: -2404821813246335800
+    second: ASSETS2_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,10 +133,10 @@ TextureImporter:
       name: ASSETS2_1
       rect:
         serializedVersion: 2
-        x: 933
-        y: 889
-        width: 186
-        height: 133
+        x: 1023
+        y: 859
+        width: 277
+        height: 177
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,9 +176,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 68
-        y: 643
-        width: 319
-        height: 209
+        y: 641
+        width: 320
+        height: 217
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,6 +356,27 @@ TextureImporter:
       bones: []
       spriteID: 3f57fbe373a456220800000000000000
       internalID: 2478468771073717747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS2_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 380
+        width: 274
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c467595d4b50aed0800000000000000
+      internalID: -2404821813246335800
       vertices: []
       indices: 
       edges: []
