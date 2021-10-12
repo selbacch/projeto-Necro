@@ -176,7 +176,7 @@ public class Player : InterfaceAtacavel
 
         if (Interaction.tag == "Conversa") { }
 
-        if (Interaction.tag == "Leitura") { }
+        if (Interaction.tag == "Leitura") { Interaction.GetComponent<InterativaAbstract>().Ler(true); }
     }
 
     IEnumerator DesativaHabilidade3() //desabilita a habilidade 3 e habilita novamente os controles
