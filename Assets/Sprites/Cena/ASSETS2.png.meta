@@ -41,6 +41,9 @@ TextureImporter:
   - first:
       213: -2404821813246335800
     second: ASSETS2_8
+  - first:
+      213: 4202596193929590605
+    second: ASSETS2_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -377,6 +380,27 @@ TextureImporter:
       bones: []
       spriteID: 8c467595d4b50aed0800000000000000
       internalID: -2404821813246335800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSETS2_9
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 853
+        width: 171
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47f499d8fe925a30800000000000000
+      internalID: 4202596193929590605
       vertices: []
       indices: 
       edges: []
