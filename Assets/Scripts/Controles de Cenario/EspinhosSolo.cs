@@ -10,7 +10,7 @@ public class EspinhosSolo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Anim = gameObject.GetComponent<tilemapRender>();
+        Anim = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
