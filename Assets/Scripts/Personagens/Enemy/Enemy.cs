@@ -22,8 +22,6 @@ public class Enemy : InterfaceAtacavel
     public int DanoAtual = 15;
     public int TempoDestruicao = 1;
 
-
-
     protected float TargetDistance;
     protected float _distanceToTarget;
     protected float _distanceWantsToMoveThisFrame;
@@ -157,7 +155,7 @@ public class Enemy : InterfaceAtacavel
         transform.position += frameMovement;
     }
 
-    void PlayerEntrouAggro(GameObject go)
+    public virtual void PlayerEntrouAggro(GameObject go)
     {
         isHuntingPlayer = true;
         Target = go;
@@ -167,23 +165,23 @@ public class Enemy : InterfaceAtacavel
         isHuntingPlayer = true;
         Target = go;
     }
-    void PlayerSaiuAggro(GameObject go)
+    public virtual void PlayerSaiuAggro(GameObject go)
     {
         isHuntingPlayer = false;
     }
 
-    void PlayerEntrouAttackArea(GameObject go)
+    public virtual void PlayerEntrouAttackArea(GameObject go)
     {
         isAttackingPlayer = true;
         StartCoroutine(Atacar(go));
     }
 
-    void PlayerSaiuAttackArea(GameObject go)
+    public virtual void PlayerSaiuAttackArea(GameObject go)
     {
         isAttackingPlayer = false;
         StopCoroutine(Atacar(go));
     }
-    public void Poisoned(int Dano, int Tempo)
+    public virtual void Poisoned(int Dano, int Tempo)
     {
         StartCoroutine(Poison(Dano, Tempo));
     }
@@ -208,7 +206,7 @@ public class Enemy : InterfaceAtacavel
         StartCoroutine(TextoDeDano(danoRecebido));
     }
 
-    public void callbackAnimacaoAtaque()
+    public virtual void callbackAnimacaoAtaque()
     {
         if (Target != null && agent.remainingDistance < 30)
         {
