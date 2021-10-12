@@ -17,7 +17,13 @@ public class InventarioController : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance != null)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
         Instance = this;
+
     }
     void Start()
     {
@@ -45,12 +51,12 @@ public class InventarioController : MonoBehaviour
         }
 
         //não adicionar mais de uma mascara do mesmo tipo ao inventario
-        if (itens.ContainsKey(itemTipo) && 
-            itemTipo != ItemInterface.Item.MascaraUm && itemTipo != ItemInterface.Item.MascaraDois && itemTipo != ItemInterface.Item.MascaraTres )
+        if (itens.ContainsKey(itemTipo) &&
+            itemTipo != ItemInterface.Item.MascaraUm && itemTipo != ItemInterface.Item.MascaraDois && itemTipo != ItemInterface.Item.MascaraTres)
         {
             itens[itemTipo] += 1;
         }
-        else if(!itens.ContainsKey(itemTipo))
+        else if (!itens.ContainsKey(itemTipo))
         {
             itens.Add(itemTipo, 1);
         }
@@ -91,7 +97,7 @@ public class InventarioController : MonoBehaviour
 
         foreach (KeyValuePair<ItemInterface.Item, int> item in this.itens)
         {
-            sb.Append(item.Key.ToString() + " :: " + item.Value.ToString()+';');
+            sb.Append(item.Key.ToString() + " :: " + item.Value.ToString() + ';');
             this.slots[slotIndex++].RenderizaItem(item.Key, item.Value);
 
         }
@@ -107,15 +113,15 @@ public class InventarioController : MonoBehaviour
     public string ToJson()
     {
 
-        StringBuilder sb = new StringBuilder(); 
-        
+        StringBuilder sb = new StringBuilder();
+
         foreach (KeyValuePair<ItemInterface.Item, int> item in this.itens)
         {
-            sb.Append("{ item: "+((int)item.Key) + ", qnt:" + item.Value.ToString() + "}");
-            
+            sb.Append("{ item: " + ((int)item.Key) + ", qnt:" + item.Value.ToString() + "}");
+
         }
 
-       string newjs = "[" + string.Join(",",sb) +"]";
+        string newjs = "[" + string.Join(",", sb) + "]";
         return newjs;
     }
 

@@ -93,7 +93,7 @@
                     "path": "<XInputController>/leftStick",
                     "interactions": "",
                     "processors": "NormalizeVector2",
-                    "groups": "Controle",
+                    "groups": "Controle;Xbox Controle",
                     "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -280,7 +280,7 @@
                     "path": "<XInputController>/buttonSouth",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Controle",
+                    "groups": "Controle;Default;Xbox Controle",
                     "action": "Ataque",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -291,7 +291,7 @@
                     "path": "<XInputController>/buttonEast",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Xbox Controle",
+                    "groups": "Xbox Controle;Controle;Default",
                     "action": "Ataque",
                     "isComposite": false,
                     "isPartOfComposite": false

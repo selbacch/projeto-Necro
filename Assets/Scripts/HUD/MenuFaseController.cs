@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class MenuFaseController : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class MenuFaseController : MonoBehaviour
     public GameObject panelEscureBackground;
     public GameObject componenteInventario;
     public GameObject componenteStatus;
-    
+
 
     private float timeScale;
     private bool isOpen = false;
@@ -67,8 +68,6 @@ public class MenuFaseController : MonoBehaviour
 
     }
 
-
-
     public void AbrirStatus()
     {
         this.FecharMenus();
@@ -81,16 +80,15 @@ public class MenuFaseController : MonoBehaviour
         {
             Time.timeScale = 0;
             componenteStatus.SetActive(true);
-            
+
         }
 
 
     }
-   public void teste()
+    public void teste()
     {
         Debug.Log("teste");
     }
-
 
     public void DesequiparMascaraButton()
     {
@@ -106,10 +104,6 @@ public class MenuFaseController : MonoBehaviour
         AbrirInventario();
     }
 
-
-  
-
-
     public void OnPause(InputValue value)
     {
         if (isOpen)
@@ -121,7 +115,11 @@ public class MenuFaseController : MonoBehaviour
             this.AbrirMenuPause();
         }
 
+    }
 
+    public void RegarregarCena(){
+        string sceneName = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(sceneName);
     }
 
 

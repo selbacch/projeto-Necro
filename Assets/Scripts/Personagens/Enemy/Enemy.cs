@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
@@ -11,7 +12,7 @@ public class Enemy : InterfaceAtacavel
     public EnemyAttackArea AreaAtaque;
     public EnemyAggroArea AreaPerigo;
     public UnityEngine.AI.NavMeshAgent nave;
-    public Text DanoText;
+    public TMP_Text DanoText;
 
     public Int32 Vida = 100;
     public float Resfriamento = 2;
@@ -217,9 +218,10 @@ public class Enemy : InterfaceAtacavel
        
     }
 
-    IEnumerator TextoDeDano(int danoRecebido)
+    protected IEnumerator TextoDeDano(int danoRecebido)
     {
         DanoText.text = danoRecebido.ToString();
+        DanoText.color = Color.red;
         DanoText.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.15f);
         DanoText.gameObject.SetActive(false);

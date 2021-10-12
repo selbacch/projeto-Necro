@@ -48,7 +48,7 @@ MonoBehaviour:
   AreaAtaque: {fileID: 7158990609905303294}
   AreaPerigo: {fileID: 6565644828775116810}
   nave: {fileID: 4760359455880160062}
-  DanoText: {fileID: 642805572071430616}
+  DanoText: {fileID: 2378969499141598569}
   Vida: 100
   Resfriamento: 2
   Velocidade: 1
@@ -56,7 +56,6 @@ MonoBehaviour:
   TempoDestruicao: 1
   anim: {fileID: 4871110717452625594}
   Gritou: 0
-  IA: 0
   isAttackingEnemy: 0
 --- !u!1001 &1941199297919012770
 PrefabInstance:
@@ -257,15 +256,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e8d1751af9b5f945b2a19448cc77ecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &642805572071430616 stripped
+--- !u!114 &2378969499141598569 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1304691745640339066, guid: 6e0434aa9c3a3e845a4961b992172536,
+  m_CorrespondingSourceObject: {fileID: 4319878236396954315, guid: 6e0434aa9c3a3e845a4961b992172536,
     type: 3}
   m_PrefabInstance: {fileID: 1941199297919012770}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
