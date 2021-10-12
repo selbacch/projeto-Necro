@@ -20,7 +20,7 @@ MonoBehaviour:
     x: 712
     y: -190
     width: 667
-    height: 6141
+    height: 6161
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_ImportDependencies: []
   m_GraphVersion: 6
   m_ResourceVersion: 1
-  m_saved: 1
+  m_saved: 0
   m_SubgraphDependencies: []
   m_CategoryPath: 
 --- !u!2058629511 &8926484042661614527
@@ -1238,7 +1238,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614600}
   - {fileID: 8926484042661614604}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614599}
   m_MasterData:
@@ -1247,7 +1247,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.AABox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":-0.45195016264915469,"y":2.918304443359375,"z":0.0},"size":{"x":55.0,"y":26.899999618530275,"z":0.0}}'
+      m_SerializableObject: '{"center":{"x":-0.41999998688697817,"y":2.918303966522217,"z":0.0},"size":{"x":21.375099182128908,"y":14.73009967803955,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: Box
@@ -2251,7 +2251,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614640}
       inputSlot: {fileID: 8926484042661614698}
-    position: {x: 820.55005, y: 1394.5001}
+    position: {x: 774, y: 1389}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614640
@@ -2763,7 +2763,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614670}
       inputSlot: {fileID: 8926484042661614686}
-    position: {x: 780.3889, y: 1219.8007}
+    position: {x: 758, y: 1226}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614670
