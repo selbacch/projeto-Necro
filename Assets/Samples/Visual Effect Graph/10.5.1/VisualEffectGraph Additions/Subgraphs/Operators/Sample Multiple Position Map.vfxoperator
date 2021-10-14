@@ -165,7 +165,7 @@ MonoBehaviour:
   m_ResourceVersion: 1
   m_saved: 1
   m_SubgraphDependencies:
-  - {fileID: 5371698745253816930, guid: 6e99b30cf4c48734ba804fe89447c0b6, type: 3}
+  - {fileID: 0}
   m_CategoryPath: Sampling
 --- !u!114 &3
 MonoBehaviour:
@@ -4283,6 +4283,7 @@ MonoBehaviour:
   m_Type:
     m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  safeNormalize: 0
 --- !u!114 &350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6569,6 +6570,7 @@ MonoBehaviour:
   m_Type:
     m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  safeNormalize: 0
 --- !u!114 &465
 MonoBehaviour:
   m_ObjectHideFlags: 0

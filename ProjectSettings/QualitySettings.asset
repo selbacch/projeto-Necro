@@ -149,7 +149,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: 6de54fe8857df794ab84a361751aa329,
+    customRenderPipeline: {fileID: 11400000, guid: 676fbbe7f67434c4486509dc42a7c71b,
       type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
@@ -186,7 +186,8 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: 6de54fe8857df794ab84a361751aa329,
+      type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Ultra

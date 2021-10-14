@@ -145,6 +145,7 @@ MonoBehaviour:
   m_InputFlowSlot: []
   m_OutputFlowSlot:
   - link: []
+  m_SuitableContexts: 26
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1334,6 +1335,7 @@ MonoBehaviour:
   m_Type:
     m_SerializableType: UnityEditor.VFX.DirectionType, Unity.VisualEffectGraph.Editor,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  safeNormalize: 0
 --- !u!114 &171
 MonoBehaviour:
   m_ObjectHideFlags: 0

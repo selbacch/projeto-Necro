@@ -90,9 +90,9 @@ MonoBehaviour:
   m_ImportDependencies: []
   m_GraphVersion: 6
   m_ResourceVersion: 1
-  m_saved: 0
+  m_saved: 1
   m_SubgraphDependencies:
-  - {fileID: 5371698748595113096, guid: 1d36f4a0de4f27f41981a0247778f698, type: 3}
+  - {fileID: 0}
   m_CategoryPath: 
 --- !u!2058629511 &8926484042661614527
 VisualEffectResource:

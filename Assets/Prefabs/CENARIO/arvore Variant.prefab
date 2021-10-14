@@ -76,7 +76,7 @@ PrefabInstance:
     - target: {fileID: 7411570898252776727, guid: d1df1a974ae141a479e9802c46ce34b0,
         type: 3}
       propertyPath: m_Name
-      value: arvore Variant (6)
+      value: arvore Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7411570898252776727, guid: d1df1a974ae141a479e9802c46ce34b0,
         type: 3}
@@ -489,6 +489,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 7411570898252776811, guid: d1df1a974ae141a479e9802c46ce34b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e7cb22e782bbefe4bbb7c68e8c85e4b6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1df1a974ae141a479e9802c46ce34b0, type: 3}
 --- !u!1 &6604628176661751079 stripped

@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4427643276314827426, guid: 3f2201f9a42e3634498c05a7e869f758,
+        type: 3}
+      propertyPath: padrao
+      value: 
+      objectReference: {fileID: 2100000, guid: a6071804ac92ad341b35302d67b032aa, type: 2}
     - target: {fileID: 4427643276314827427, guid: 3f2201f9a42e3634498c05a7e869f758,
         type: 3}
       propertyPath: m_Points.Array.data[0].x
@@ -448,6 +453,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 7cbeb77b9a827c94ba9ff2cb4e63c0db,
         type: 3}
+    - target: {fileID: 4427643276314827485, guid: 3f2201f9a42e3634498c05a7e869f758,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e7cb22e782bbefe4bbb7c68e8c85e4b6, type: 2}
     - target: {fileID: 4427643276314827486, guid: 3f2201f9a42e3634498c05a7e869f758,
         type: 3}
       propertyPath: m_LocalPosition.x
