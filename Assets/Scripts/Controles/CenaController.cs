@@ -5,7 +5,8 @@ public class CenaController : MonoBehaviour
 {
     public static CenaController Instance;
     public InfoSessao infoSessao;
-    // Start is called before the first frame update
+    private bool EhTrocaCenaPortal = false;
+    private string IdPortalDestino = null;
 
     private void Awake()
     {
@@ -19,6 +20,8 @@ public class CenaController : MonoBehaviour
         Instance = this;
         infoSessao = new InfoSessao();
         DontDestroyOnLoad(this.gameObject);
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
     void Start()
     {
@@ -37,6 +40,14 @@ public class CenaController : MonoBehaviour
         SceneManager.LoadScene(Cena);
     }
 
+    public void PlayerEntrouPortal(PortalControle portal)
+    {
+        SalvarJogo();
+        SceneManager.LoadScene(portal.nomeCenaDestino);
+        EhTrocaCenaPortal = true;
+        IdPortalDestino = portal.idPortalDestino;
+    }
+
     public void SalvarJogo()
     {
         infoSessao.SalvaStatusJogo();
@@ -46,6 +57,20 @@ public class CenaController : MonoBehaviour
     public void CarregarJogoSalvo()
     {
         infoSessao.CarregarStatusJogo();
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log("OnSceneLoaded: " + scene.name);
+        Debug.Log(mode);
+
+        if (EhTrocaCenaPortal)
+        {
+            EhTrocaCenaPortal = false;
+            GameObject portal = GameObject.Find(IdPortalDestino);
+            portal.GetComponent<PortalControle>().PosicionarPersonagemSpawnPoint();
+        }
+
     }
 
 }
