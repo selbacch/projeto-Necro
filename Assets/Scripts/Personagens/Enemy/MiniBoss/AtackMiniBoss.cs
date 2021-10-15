@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MiniBossAgro : MonoBehaviour
+public class AtackMiniBoss : MonoBehaviour
 {
 
-    public Action<GameObject> PlayerEmAggro;
-    public Action<GameObject> PlayerEntrouAggro;
-    public Action<GameObject> PlayerSaiuAggro;
+    public Action<GameObject> Atacke;
+    public Action<GameObject> AtackeOut;
+
 
     void Start()
     {
@@ -25,7 +25,7 @@ public class MiniBossAgro : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("sumon") || collision.gameObject.tag.Equals("Player"))
         {
-            PlayerEntrouAggro?.Invoke(collision.gameObject);
+            Atacke?.Invoke(collision.gameObject);
         }
 
     }
@@ -34,7 +34,7 @@ public class MiniBossAgro : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("sumon") || collision.gameObject.tag.Equals("Player"))
         {
-            this.PlayerSaiuAggro?.Invoke(collision.gameObject);
+            this.AtackeOut?.Invoke(collision.gameObject);
         }
 
     }

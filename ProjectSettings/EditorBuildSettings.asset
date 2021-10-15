@@ -5,25 +5,31 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/teste2.unity
     guid: 161fd9f4b22ae244e947c1ef237d5588
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HOUSETST.unity
     guid: e9c5a53ec29b875438b07b9cd4035645
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/menu_inicial.unity
     guid: af7724dd78c482a46b8e3ce63c5de43d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/teste2_3.unity
     guid: 7504f1b85986d1941b351095e2a83e2f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/final_fase.unity
     guid: a0450431f237bea42b6d82018cc38d2b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/selecao_fase.unity
     guid: 17ef1104fb4db854a8605750d00495f5
   - enabled: 1
+    path: Assets/Scenes/floresta/Floresta.unity
+    guid: 739cc2048ebc04d4cb0930a473fde0ac
+  - enabled: 1
+    path: Assets/Scenes/caverna/Caverna.unity
+    guid: 0308215306d57384196de3dae5eae03e
+  - enabled: 0
     path: Assets/Scenes/teste2_2.unity
     guid: 45599655e10cfb14b85aa00794f420b2
   m_configObjects:

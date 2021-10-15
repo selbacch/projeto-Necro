@@ -34,6 +34,7 @@ public class PortalControle : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(collision.tag =="Player")
         CenaController.Instance.PlayerEntrouPortal(this);
     }
 

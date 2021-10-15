@@ -7,11 +7,11 @@ using UnityEngine.UI;
 public class MiniBoss : Enemy
 {
 
-    
-  
-    
+
+
+    private GameObject alvo;
     public bool isAttackingEnemy;
-    
+    public AtackMiniBoss AtackMiniBoss;
     public int Energy = 2;
     public Transform point;
     public GameObject Lacaio0;
@@ -27,7 +27,8 @@ public class MiniBoss : Enemy
         gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
         AreaPerigo.PlayerEntrouAggro += PlayerEntrouAggro;
         AreaPerigo.PlayerSaiuAggro += PlayerSaiuAggro;
-
+        AtackMiniBoss.Atacke += Atacke;
+        AtackMiniBoss.AtackeOut += AtackeOut;
         AreaAtaque.PlayerEntrouAttack += PlayerEntrouAttackArea;
         AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
         
@@ -193,11 +194,10 @@ public class MiniBoss : Enemy
 
     }
 
-    void Atack()
+    void Atack(GameObject go)
     {
-        if (Target == null)
-            return;
-        Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
+        alvo = go;
+        alvo.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
     }
 
     void MoveCharacter(Vector3 frameMovement)
@@ -282,6 +282,18 @@ public class MiniBoss : Enemy
         StopCoroutine(Atacar(go));
 
     }
+
+    void Atacke(GameObject go)
+    {
+        Atack(go);
+    }
+    void AtackeOut(GameObject go)
+    {
+        alvo = null;
+    }
+
+
+
 
     public override void Atacar(int danoInflingido)
     {
