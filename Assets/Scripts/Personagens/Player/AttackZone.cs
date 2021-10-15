@@ -63,4 +63,37 @@ public class AttackZone : MonoBehaviour
 
     }
 
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            enemy = null;
+
+        }
+
+
+        if (collision.gameObject.tag == "Opn")
+        {
+            enemy = null;
+
+        }
+        if (collision.gameObject.tag == "Leitura")
+        {
+            enemy = null;
+
+        }
+        if (collision.gameObject.tag == "Conversa")
+        {
+            enemy = null;
+
+        }
+
+
+
+    }
+
+
+
+
 }

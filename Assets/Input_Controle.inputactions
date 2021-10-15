@@ -88,17 +88,6 @@
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "99b1b903-5239-4a09-96c3-be9b972c5592",
-                    "path": "<XInputController>/leftStick",
-                    "interactions": "",
-                    "processors": "NormalizeVector2",
-                    "groups": "Controle;Xbox Controle",
-                    "action": "Movimento",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "WASD",
                     "id": "a96f2c34-8276-4195-a1e4-199af3b0d06c",
                     "path": "2DVector(mode=2)",
@@ -280,7 +269,7 @@
                     "path": "<XInputController>/buttonSouth",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Controle;Default;Xbox Controle",
+                    "groups": "Controle",
                     "action": "Ataque",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -291,7 +280,7 @@
                     "path": "<XInputController>/buttonEast",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Xbox Controle;Controle;Default",
+                    "groups": "Xbox Controle",
                     "action": "Ataque",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -313,7 +302,7 @@
                     "path": "<XInputController>/buttonWest",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Controle;Default",
+                    "groups": "Controle",
                     "action": "Habilidade1",
                     "isComposite": false,
                     "isPartOfComposite": false

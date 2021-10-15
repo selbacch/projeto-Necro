@@ -15,12 +15,12 @@ PrefabInstance:
     - target: {fileID: 452689785763675088, guid: 3279ac9e21377e54c8011f5daf8b2325,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -44.01
+      value: -102.81518
       objectReference: {fileID: 0}
     - target: {fileID: 452689785763675088, guid: 3279ac9e21377e54c8011f5daf8b2325,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.62
+      value: 3.033159
       objectReference: {fileID: 0}
     - target: {fileID: 452689785763675088, guid: 3279ac9e21377e54c8011f5daf8b2325,
         type: 3}
@@ -35,17 +35,17 @@ PrefabInstance:
     - target: {fileID: 452689785763675088, guid: 3279ac9e21377e54c8011f5daf8b2325,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 452689785763675088, guid: 3279ac9e21377e54c8011f5daf8b2325,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 452689785763675088, guid: 3279ac9e21377e54c8011f5daf8b2325,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 452689785763675088, guid: 3279ac9e21377e54c8011f5daf8b2325,
         type: 3}
@@ -71,7 +71,7 @@ PrefabInstance:
     - target: {fileID: 2532459306323123872, guid: 3279ac9e21377e54c8011f5daf8b2325,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 2532459306323123873, guid: 3279ac9e21377e54c8011f5daf8b2325,
         type: 3}
@@ -446,7 +446,7 @@ PrefabInstance:
     - target: {fileID: 7023019697496138834, guid: 3279ac9e21377e54c8011f5daf8b2325,
         type: 3}
       propertyPath: m_Name
-      value: Arvore 3
+      value: Arvore 3 Variant (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3279ac9e21377e54c8011f5daf8b2325, type: 3}

@@ -243,7 +243,8 @@ public class Player : InterfaceAtacavel
 
     void Mover()
     {
-        transform.position = transform.position + (move * speed * Time.deltaTime);
+        // transform.position = transform.position + (move * speed * Time.deltaTime);
+        rig.velocity = move * speed;
     }
 
    
@@ -311,6 +312,11 @@ public class Player : InterfaceAtacavel
         inimigo.GetComponent<Enemy>().SofrerDano(DanoAtual);
     }
 
+    void sting()
+    {
+        speed = 2;
+    }
+   
     public override void Atacar(int danoInflingido)
     {
         throw new System.NotImplementedException();
@@ -335,5 +341,15 @@ public class Player : InterfaceAtacavel
 
         return mascaraAnterior;
     }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        Debug.Log("colidiu");
+        NormalStatus();
+    }
+
+
+
 }
+
 
