@@ -23,6 +23,10 @@ public class EnemyAggroArea : MonoBehaviour
 
     public GameObject ObterProximoTarget()
     {
+        if (this.ObjColisao == null)
+        {
+            return null;
+        }
         foreach(GameObject g in this.ObjColisao)
         {
             if (g != null && !g.GetComponent<InterfaceAtacavel>().Death)
