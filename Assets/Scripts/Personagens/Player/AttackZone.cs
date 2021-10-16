@@ -31,10 +31,10 @@ public class AttackZone : MonoBehaviour
         {
             atackzone.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, 0));
         }
-        OnTriggerStay2D(coll);
+        OnTriggerEnter2D(coll);
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
         {

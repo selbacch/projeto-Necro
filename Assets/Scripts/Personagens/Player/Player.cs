@@ -314,7 +314,8 @@ public class Player : InterfaceAtacavel
 
     void sting()
     {
-        speed = 2;
+        GameObject inimigo = gameObject.GetComponent<AttackZone>().enemy;
+        inimigo.GetComponent<Rigidbody2D>().AddForce(move * 1);
     }
    
     public override void Atacar(int danoInflingido)
@@ -342,11 +343,7 @@ public class Player : InterfaceAtacavel
         return mascaraAnterior;
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        Debug.Log("colidiu");
-        NormalStatus();
-    }
+   
 
 
 

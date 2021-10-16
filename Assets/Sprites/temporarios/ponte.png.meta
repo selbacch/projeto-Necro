@@ -1,0 +1,1788 @@
+fileFormatVersion: 2
+guid: 5dfeb307567889e4891c8f6c4b48f922
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8560617246047094629
+    second: ponte_0
+  - first:
+      213: 2762475459411327446
+    second: ponte_1
+  - first:
+      213: 538128012143291448
+    second: ponte_2
+  - first:
+      213: -7453876307455078410
+    second: ponte_3
+  - first:
+      213: -2628118610192035858
+    second: ponte_4
+  - first:
+      213: -4634640688251822854
+    second: ponte_5
+  - first:
+      213: -4456613260973842665
+    second: ponte_6
+  - first:
+      213: 7552045469587761721
+    second: ponte_7
+  - first:
+      213: 1510846526140160025
+    second: ponte_8
+  - first:
+      213: 5760908616210907248
+    second: ponte_9
+  - first:
+      213: 1013965376658159094
+    second: ponte_10
+  - first:
+      213: 6617008723712802433
+    second: ponte_11
+  - first:
+      213: 9147814089028332584
+    second: ponte_12
+  - first:
+      213: 8428109451404668157
+    second: ponte_13
+  - first:
+      213: 1578536204508888315
+    second: ponte_14
+  - first:
+      213: 579855349560097448
+    second: ponte_15
+  - first:
+      213: 1353060992068649322
+    second: ponte_16
+  - first:
+      213: 364109778890462565
+    second: ponte_17
+  - first:
+      213: 3444274580484147434
+    second: ponte_18
+  - first:
+      213: 6057714996213298808
+    second: ponte_19
+  - first:
+      213: -8081867000767623793
+    second: ponte_20
+  - first:
+      213: -165932382585440448
+    second: ponte_21
+  - first:
+      213: -5057517713071635496
+    second: ponte_22
+  - first:
+      213: 8856803888633029362
+    second: ponte_23
+  - first:
+      213: -8347872693245748336
+    second: ponte_24
+  - first:
+      213: 4456748389353968763
+    second: ponte_25
+  - first:
+      213: -1726314286397187368
+    second: ponte_26
+  - first:
+      213: -1909906320556694593
+    second: ponte_27
+  - first:
+      213: 2880574499837251839
+    second: ponte_28
+  - first:
+      213: 1720698978220282080
+    second: ponte_29
+  - first:
+      213: -9055465554376154914
+    second: ponte_30
+  - first:
+      213: 8497207746213731248
+    second: ponte_31
+  - first:
+      213: -5575130003018554077
+    second: ponte_32
+  - first:
+      213: 652838469621807260
+    second: ponte_33
+  - first:
+      213: 1677664682304720956
+    second: ponte_34
+  - first:
+      213: 5326443735223050849
+    second: ponte_35
+  - first:
+      213: -3297547588883613289
+    second: ponte_36
+  - first:
+      213: -2562862315484345424
+    second: ponte_37
+  - first:
+      213: -3696920818258768034
+    second: ponte_38
+  - first:
+      213: 12545284252405620
+    second: ponte_39
+  - first:
+      213: 4832085728062931322
+    second: ponte_40
+  - first:
+      213: -4611175919132083161
+    second: ponte_41
+  - first:
+      213: 4838660030560942438
+    second: ponte_42
+  - first:
+      213: -5569615480572630634
+    second: ponte_43
+  - first:
+      213: -7741195685856264653
+    second: ponte_44
+  - first:
+      213: -4020751898161789741
+    second: ponte_45
+  - first:
+      213: -837602699864424729
+    second: ponte_46
+  - first:
+      213: 1013070150381694903
+    second: ponte_47
+  - first:
+      213: 6040501749530763018
+    second: ponte_48
+  - first:
+      213: 5519605318728272752
+    second: ponte_49
+  - first:
+      213: 8429914875980882640
+    second: ponte_50
+  - first:
+      213: 1330566738466438050
+    second: ponte_51
+  - first:
+      213: 3977080580732076481
+    second: ponte_52
+  - first:
+      213: 7046206220074681727
+    second: ponte_53
+  - first:
+      213: 3470581739442287869
+    second: ponte_54
+  - first:
+      213: 4099869071445582562
+    second: ponte_55
+  - first:
+      213: -8919314653773264967
+    second: ponte_56
+  - first:
+      213: -3919869029968078656
+    second: ponte_57
+  - first:
+      213: -2810894370229511776
+    second: ponte_58
+  - first:
+      213: 3672737681780678371
+    second: ponte_59
+  - first:
+      213: 5061824962508393709
+    second: ponte_60
+  - first:
+      213: -4881749452323695667
+    second: ponte_61
+  - first:
+      213: 6855416382010027721
+    second: ponte_62
+  - first:
+      213: 2180521231770270602
+    second: ponte_63
+  - first:
+      213: -5328992266892660635
+    second: ponte_64
+  - first:
+      213: 1286145609669927323
+    second: ponte_65
+  - first:
+      213: -2748219760091436244
+    second: ponte_66
+  - first:
+      213: 147150215082569606
+    second: ponte_67
+  - first:
+      213: 8714568192333760649
+    second: ponte_68
+  - first:
+      213: -4972576096802227182
+    second: ponte_69
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ponte_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56748b8770c6dc670800000000000000
+      internalID: 8560617246047094629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 369
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d932fa4bc8465620800000000000000
+      internalID: 2762475459411327446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 369
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cec7f6390d77700800000000000000
+      internalID: 538128012143291448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 369
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff807e9df28e8890800000000000000
+      internalID: -7453876307455078410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 369
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef09e36c0c078bd0800000000000000
+      internalID: -2628118610192035858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_5
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 369
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc9d2379d27eafb0800000000000000
+      internalID: -4634640688251822854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_6
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 369
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fdb5ee9dde622c0800000000000000
+      internalID: -4456613260973842665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a606697514ec860800000000000000
+      internalID: 7552045469587761721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 328
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91897b429ea97f410800000000000000
+      internalID: 1510846526140160025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 328
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0700db42ddbd2ff40800000000000000
+      internalID: 5760908616210907248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_10
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 328
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5314a4324521e00800000000000000
+      internalID: 1013965376658159094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_11
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 328
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18eff84306654db50800000000000000
+      internalID: 6617008723712802433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 328
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ce8df527093fe70800000000000000
+      internalID: 9147814089028332584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_13
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 328
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc661b54e8a6f470800000000000000
+      internalID: 8428109451404668157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc78d6805618e510800000000000000
+      internalID: 1578536204508888315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_15
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 287
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aab3a34e5f0c0800800000000000000
+      internalID: 579855349560097448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 287
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6180bfadc907c210800000000000000
+      internalID: 1353060992068649322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_17
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 287
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565130e2ae39d0500800000000000000
+      internalID: 364109778890462565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_18
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 287
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae84aae7b758ccf20800000000000000
+      internalID: 3444274580484147434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_19
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 287
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876b9d3a1b3511450800000000000000
+      internalID: 6057714996213298808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_20
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 287
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d4b4948c077df80800000000000000
+      internalID: -8081867000767623793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 246
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047b24f806d72bdf0800000000000000
+      internalID: -165932382585440448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 246
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d38e139f6610d9b0800000000000000
+      internalID: -5057517713071635496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 246
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2254b1630b9ea70800000000000000
+      internalID: 8856803888633029362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_24
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 246
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b57e0b306662c80800000000000000
+      internalID: -8347872693245748336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_25
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 246
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74dcb81c0d89dd30800000000000000
+      internalID: 4456748389353968763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_26
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 246
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da1d9c8d46ea08e0800000000000000
+      internalID: -1726314286397187368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_27
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 246
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3e1f01256ae75e0800000000000000
+      internalID: -1909906320556694593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff019d3ee3bd9f720800000000000000
+      internalID: 2880574499837251839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_29
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 205
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e09232aa9621e710800000000000000
+      internalID: 1720698978220282080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_30
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 205
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0af936e06845280800000000000000
+      internalID: -9055465554376154914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_31
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 205
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb54cfcc652ce570800000000000000
+      internalID: 8497207746213731248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_32
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 205
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325e471fcc821a2b0800000000000000
+      internalID: -5575130003018554077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_33
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 205
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98748511295f0900800000000000000
+      internalID: 652838469621807260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_34
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 205
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30ddf0d323484710800000000000000
+      internalID: 1677664682304720956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16223124b545be940800000000000000
+      internalID: 5326443735223050849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_36
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 164
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79975a660f1cc32d0800000000000000
+      internalID: -3297547588883613289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_37
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 164
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb025d7d42ee6cd0800000000000000
+      internalID: -2562862315484345424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_38
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 164
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f80f85a16e1bcc0800000000000000
+      internalID: -3696920818258768034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_39
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 164
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f887b9ed19c2000800000000000000
+      internalID: 12545284252405620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_40
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 164
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a710d614e540f0340800000000000000
+      internalID: 4832085728062931322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_41
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 164
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cfb4fbeefc100c0800000000000000
+      internalID: -4611175919132083161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669377659af562340800000000000000
+      internalID: 4838660030560942438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_43
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 123
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699a3f0ca30c4b2b0800000000000000
+      internalID: -5569615480572630634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_44
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 123
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e30cfc98fb19490800000000000000
+      internalID: -7741195685856264653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_45
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 123
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4c614937b6338c0800000000000000
+      internalID: -4020751898161789741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_46
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 123
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee3ca348cc3064f0800000000000000
+      internalID: -837602699864424729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_47
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 123
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf6d0e2fe52f0e00800000000000000
+      internalID: 1013070150381694903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_48
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 123
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f18e5565c24d350800000000000000
+      internalID: 6040501749530763018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bc7231bc3999c40800000000000000
+      internalID: 5519605318728272752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_50
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 82
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d22f958ae21df470800000000000000
+      internalID: 8429914875980882640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_51
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 82
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abfd34266f177210800000000000000
+      internalID: 1330566738466438050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_52
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 82
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1c3a977bd613730800000000000000
+      internalID: 3977080580732076481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_53
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 82
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7503b9893729c160800000000000000
+      internalID: 7046206220074681727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_54
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 82
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df43a6f34bbf92030800000000000000
+      internalID: 3470581739442287869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_55
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 82
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2ef1dc239a5e830800000000000000
+      internalID: 4099869071445582562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b788e5349a383480800000000000000
+      internalID: -8919314653773264967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_57
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 41
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c892b6b2e3d999c0800000000000000
+      internalID: -3919869029968078656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 41
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a913598672bdf8d0800000000000000
+      internalID: -2810894370229511776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_59
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 41
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee9abb667f28f230800000000000000
+      internalID: 3672737681780678371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_60
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 41
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec84851cf63f3640800000000000000
+      internalID: 5061824962508393709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_61
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 41
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3d9cbdcba804cb0800000000000000
+      internalID: -4881749452323695667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_62
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 41
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cee91db0e4532f50800000000000000
+      internalID: 6855416382010027721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b3dd4e184c24e10800000000000000
+      internalID: 2180521231770270602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_64
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5603f0974cd9b06b0800000000000000
+      internalID: -5328992266892660635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_65
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91edc12e9e49d110800000000000000
+      internalID: 1286145609669927323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_66
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 0
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b6a0b50bc5cd9d0800000000000000
+      internalID: -2748219760091436244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_67
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 0
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f6e9a4758ca0200800000000000000
+      internalID: 147150215082569606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_68
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 0
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988c8f2699d50f870800000000000000
+      internalID: 8714568192333760649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_69
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 0
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c3183c26cddfab0800000000000000
+      internalID: -4972576096802227182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

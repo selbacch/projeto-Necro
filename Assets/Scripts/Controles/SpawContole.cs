@@ -2,22 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class SpawContole : MonoBehaviour
 {
     private GameObject[] gos;
     public GameObject[] points;
     public GameObject Enemy;
     public GameObject EnemyC;
-    public GameObject Enemy3;
-
-    public bool orda2 = false;
+    public GameObject MiNiBoss;
+    public RuntimeAnimatorController SpriteEnemy;
+    public RuntimeAnimatorController SpriteComander;
+       public RuntimeAnimatorController SpriteMiniBoss;
+    public bool orda2 = true;
     public bool orda3;
     public bool MIniboss;
+    public bool Fim = false;
     // Start is called before the first frame update
     void Start()
     {
 
-        if (points.Length == 0)
+        if (points.Length == 0 && Fim  !=true)
         {
             points = GameObject.FindGameObjectsWithTag("Respawn");
         }
@@ -27,23 +31,24 @@ public class SpawContole : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-         if(orda2 != true)
+        if (Fim != true)
         {
-            Enemyonda2();
+            if (orda2 != false)
+            {
+                Enemyonda2();
+            }
+
+            if (orda2 == true && orda3 == true)
+            {
+                Enemyonda3();
+            }
+
+            if (orda3 == false && MIniboss == true)
+            {
+                MiniBOss();
+            }
+
         }
-
-        if (orda2 == true && orda3 == true)
-        {
-            Enemyonda3();
-        }
-
-        if (orda3 == false && MIniboss == true)
-        {
-            MiniBOss();
-        }
-
-
     }
 
     void Enemyonda1()
@@ -62,7 +67,7 @@ public class SpawContole : MonoBehaviour
                 {
                     closest = point;
                     GameObject enemy = Instantiate(Enemy, point.transform.position, point.transform.rotation, transform.parent);
-
+                    enemy.GetComponent<Animator>().runtimeAnimatorController = SpriteEnemy;
 
 
                 }
@@ -73,6 +78,7 @@ public class SpawContole : MonoBehaviour
             if (closest != null)
             {
                 GameObject enemyc = Instantiate(EnemyC, closest.transform.position, closest.transform.rotation, transform.parent);
+                enemyc.GetComponent<Animator>().runtimeAnimatorController = SpriteComander;
             }
 
         }
@@ -95,7 +101,7 @@ public class SpawContole : MonoBehaviour
                 {
                     closest = point;
                     GameObject enemy = Instantiate(Enemy, point.transform.position, point.transform.rotation, transform.parent).GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
-
+                    enemy.GetComponent<Animator>().runtimeAnimatorController = SpriteEnemy;
 
 
                 }
@@ -129,7 +135,7 @@ public class SpawContole : MonoBehaviour
                     closest = point;
                     GameObject enemy = Instantiate(Enemy, point.transform.position, point.transform.rotation, transform.parent).GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
                     enemy.GetComponent<Enemy>().DanoAtual = +5;
-
+                    enemy.GetComponent<Animator>().runtimeAnimatorController = SpriteEnemy;
 
                 }
 
@@ -151,12 +157,13 @@ public class SpawContole : MonoBehaviour
 
 
                         
-                        GameObject miNiBoss = Instantiate(Enemy3, gameObject.transform.position, gameObject.transform.rotation, transform.parent).GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
-                       
-               
-                
+                        GameObject miNiBoss = Instantiate(MiNiBoss, gameObject.transform.position, gameObject.transform.rotation, transform.parent).GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
+            miNiBoss.GetComponent<Animator>().runtimeAnimatorController = SpriteMiniBoss;
 
-         MIniboss = false;
+
+
+            MIniboss = false;
+            Fim = true;
         }    
     }
 }

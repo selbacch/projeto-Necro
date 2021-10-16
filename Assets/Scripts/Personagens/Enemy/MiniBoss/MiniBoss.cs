@@ -124,7 +124,7 @@ public class MiniBoss : Enemy
         gos = GameObject.FindGameObjectsWithTag("Enemy");
        
        
-        if (gos.Length <= 0)
+        if (gos.Length <= 1)
         {
             StartCoroutine(ScreamComander());
         }
@@ -263,6 +263,7 @@ public class MiniBoss : Enemy
     {
       
         Target = null;
+        
         if (go.gameObject.tag == "Player"&& isAttackingEnemy !=true)
         {
             VeriLacaio();
