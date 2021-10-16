@@ -11,13 +11,16 @@ public class Health : MonoBehaviour
     public int CurHealth { get => curHealth; }
     public int MaxHealth { get => maxHealth; }
 
+    private void Awake()
+    {
+        this.SetMaxHealth(100);
+        this.SetCurrentHealth(100);
+    }
+
     // Start is called before the first frame update 
     void Start()
     {
-        SetMaxHealth(100);
-        SetCurrentHealth(MaxHealth);
-
-
+        
     }
 
     // Update is called once per frame 
@@ -64,7 +67,7 @@ public class Health : MonoBehaviour
         {
             value = 0;
         }
- Debug.Log("Muda vida para: " + value + "atual: " + this.curHealth);
+ Debug.Log("set curr de "+this.curHealth+" para "+value);
         curHealth = value;
        
         AtualizarVida?.Invoke(this.curHealth);

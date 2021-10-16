@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class MenuInicial : MonoBehaviour
 {
 
-    private string CENA_NOVO_JOGO = "selecao_fase";
-    private string CENA_CONTINUAR = "selecao_fase";
+    private string CENA_NOVO_JOGO = "IN_selecao_fase";
+    private string CENA_CONTINUAR = "IN_selecao_fase";
 
     public void CriarNovoJogo()
     {

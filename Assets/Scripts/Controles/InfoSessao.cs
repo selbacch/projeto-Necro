@@ -12,40 +12,57 @@ using UnityEngine.SceneManagement;
 public class InfoSessao
 {
     [SerializeField]
-    private ItemInterface.Item mascaraEquipada;
+    public ItemInterface.Item mascaraEquipada { get; private set; }
 
     [SerializeField]
-    private int manaMax;
+    public int manaMax { get; private set; }
 
     [SerializeField]
-    private int vidaMax;
+    public int vidaMax { get; private set; }
 
     [SerializeField]
-    private int danoAtual;
+    public int manaAtual { get; private set; }
 
     [SerializeField]
-    private string infoCena;
+    public int vidaAtual { get; private set; }
 
     [SerializeField]
-    private DateTime dataHoraGravacao; 
-    
-    [SerializeField]
-    private String inventario;
-    [SerializeField]
-    private Vector3 positionE;
+    public int danoAtual { get; private set; }
 
     [SerializeField]
-    private string Cena;
+    public string infoCena { get; private set; }
+
+    [SerializeField]
+    public DateTime dataHoraGravacao { get; private set; }
+
+    [SerializeField]
+    public String inventario { get; private set; }
+
+    [SerializeField]
+    public Vector3 positionE { get; private set; }
+
+    [SerializeField]
+    public string Cena { get; private set; }
     public void SalvaStatusJogo()
     {
         Player pl = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        this.danoAtual = pl.DanoAtual;
-        this.vidaMax = pl.Vida.MaxHealth;
-        this.manaMax = pl.Mana.MaxMana;
-        this.mascaraEquipada = pl.MascaraEquipada;
+
+        if (pl != null)
+        {
+            this.danoAtual = pl.DanoAtual;
+            this.vidaMax = pl.Vida.MaxHealth;
+            this.manaMax = pl.Mana.MaxMana;
+            this.mascaraEquipada = pl.MascaraEquipada;
+            this.manaAtual = pl.Mana.CurMana;
+            this.vidaAtual = pl.Vida.CurHealth;
+        }
+
+
         this.inventario = InventarioController.Instance.ToJson();
         this.dataHoraGravacao = DateTime.Now;
         this.Cena = SceneManager.GetActiveScene().name;
+
+
         string info = JsonUtility.ToJson(this);
         System.IO.File.WriteAllText(Application.persistentDataPath + "/save.json", info);
 
@@ -60,6 +77,8 @@ public class InfoSessao
             String sJson = System.IO.File.ReadAllText(Application.persistentDataPath + "/save.json");
             InfoSessao info = JsonUtility.FromJson<InfoSessao>(sJson);
 
+            this.manaAtual = info.manaAtual;
+            this.vidaAtual = info.vidaAtual;
             this.danoAtual = info.danoAtual;
             this.vidaMax = info.vidaMax;
             this.manaMax = info.manaMax;

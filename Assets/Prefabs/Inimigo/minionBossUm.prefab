@@ -334,7 +334,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6440456543315929452
 Transform:
   m_ObjectHideFlags: 0
@@ -520,6 +520,7 @@ MonoBehaviour:
   DanoText: {fileID: 5890495520636849771}
   Vida: 100
   Resfriamento: 2
+  RaioAtaque: 3
   Velocidade: 1
   DanoAtual: 5
   TempoDestruicao: 1

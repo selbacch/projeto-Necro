@@ -15,8 +15,7 @@ public class Mana : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        curMana = maxMana;
-        AtualizarMana?.Invoke(curMana);
+        
     }
 
     // Update is called once per frame
@@ -61,6 +60,16 @@ public class Mana : MonoBehaviour
             this.curMana = this.maxMana;
         }
         AtualizarManaMaxima?.Invoke(maxMana, curMana);
+    }
+
+    public void SetCurrMana(int value)
+    {
+        this.maxMana = value;
+        if (this.curMana > this.maxMana)
+        {
+            this.curMana = this.maxMana;
+        }
+        AtualizarMana?.Invoke(curMana);
     }
 
 

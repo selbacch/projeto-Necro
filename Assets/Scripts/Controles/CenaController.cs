@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,6 +8,7 @@ public class CenaController : MonoBehaviour
     public InfoSessao infoSessao;
     private bool EhTrocaCenaPortal = false;
     private string IdPortalDestino = null;
+    private Player player;
 
     private void Awake()
     {
@@ -22,6 +24,7 @@ public class CenaController : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
 
         SceneManager.sceneLoaded += OnSceneLoaded;
+        SceneManager.sceneUnloaded += OnSceneUnloaded;
     }
     void Start()
     {
@@ -34,15 +37,13 @@ public class CenaController : MonoBehaviour
 
     }
 
-    public void PlayerEntrouPortal(GameObject player, string Cena,Vector3 positionE)
+    public void PlayerEntrouPortal(GameObject player, string Cena, Vector3 positionE)
     {
-        SalvarJogo();
         SceneManager.LoadScene(Cena);
     }
 
     public void PlayerEntrouPortal(PortalControle portal)
     {
-        SalvarJogo();
         SceneManager.LoadScene(portal.nomeCenaDestino);
         EhTrocaCenaPortal = true;
         IdPortalDestino = portal.idPortalDestino;
@@ -62,15 +63,58 @@ public class CenaController : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         Debug.Log("OnSceneLoaded: " + scene.name);
-        Debug.Log(mode);
+
+        Regex rx = new Regex(@"\bIN_*");
+        if (rx.IsMatch(scene.name))
+        {
+            return;
+        }
+
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+
+
 
         if (EhTrocaCenaPortal)
         {
             EhTrocaCenaPortal = false;
             GameObject portal = GameObject.Find(IdPortalDestino);
             portal.GetComponent<PortalControle>().PosicionarPersonagemSpawnPoint();
+            player.Vida.SetCurrentHealth(infoSessao.vidaAtual);
+            player.Mana.SetCurrMana(infoSessao.vidaAtual);
+            player.Vida.SetMaxHealth(infoSessao.vidaMax);
+            player.Mana.SetMaxMana(infoSessao.manaMax);
+
+        }
+        else
+        {
+            if (infoSessao.dataHoraGravacao == null)
+            {
+                player.Vida.SetMaxHealth(1000);
+                player.Mana.SetMaxMana(1000);
+                player.Vida.SetCurrentHealth(1000);
+                player.Mana.SetCurrMana(1000);
+            }
+            else
+            {
+                //player.Vida.SetMaxHealth(infoSessao.vidaMax);
+                //player.Mana.SetMaxMana(infoSessao.manaMax);
+                //player.Vida.SetCurrentHealth(infoSessao.manaMax);
+                //player.Mana.SetCurrMana(infoSessao.manaMax);
+
+                player.Vida.SetMaxHealth(1000);
+                player.Mana.SetMaxMana(1000);
+                player.Vida.SetCurrentHealth(1000);
+                player.Mana.SetCurrMana(1000);
+
+            }
+
         }
 
     }
 
+    void OnSceneUnloaded(Scene scene)
+    {
+
+        SalvarJogo();
+    }
 }

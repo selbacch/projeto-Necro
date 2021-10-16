@@ -104,7 +104,7 @@
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default",
+                    "groups": "Default;Controle",
                     "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -291,7 +291,7 @@
                     "path": "<Keyboard>/1",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default;Controle",
+                    "groups": "Default",
                     "action": "Habilidade1",
                     "isComposite": false,
                     "isPartOfComposite": false

@@ -69,7 +69,7 @@ public class EnemyCommander : Enemy
         float distance = 1.1f;
 
         float distObj = Vector3.Distance(transform.position, points[destPoint].transform.position);
-        Debug.Log(distObj);
+
         if (distObj <= distance)
 
         {

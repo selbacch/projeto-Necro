@@ -400,8 +400,9 @@ MonoBehaviour:
   DanoText: {fileID: 4319878236396954315}
   Vida: 100
   Resfriamento: 2
+  RaioAtaque: 3
   Velocidade: 1
-  DanoAtual: 5
+  DanoAtual: 1
   TempoDestruicao: 1
 --- !u!1 &6404320763669625020
 GameObject:
