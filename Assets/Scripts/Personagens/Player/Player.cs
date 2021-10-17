@@ -35,7 +35,7 @@ public class Player : InterfaceAtacavel
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         rig = GetComponent<Rigidbody2D>();
-        //NormalStatus();
+        NormalStatus();
     }
 
 
