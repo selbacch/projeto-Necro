@@ -44,6 +44,7 @@ public class CenaController : MonoBehaviour
 
     public void PlayerEntrouPortal(PortalControle portal)
     {
+        SalvarJogo();
         SceneManager.LoadScene(portal.nomeCenaDestino);
         EhTrocaCenaPortal = true;
         IdPortalDestino = portal.idPortalDestino;
@@ -79,10 +80,11 @@ public class CenaController : MonoBehaviour
             EhTrocaCenaPortal = false;
             GameObject portal = GameObject.Find(IdPortalDestino);
             portal.GetComponent<PortalControle>().PosicionarPersonagemSpawnPoint();
-            player.Vida.SetCurrentHealth(infoSessao.vidaAtual);
-            player.Mana.SetCurrMana(infoSessao.vidaAtual);
             player.Vida.SetMaxHealth(infoSessao.vidaMax);
             player.Mana.SetMaxMana(infoSessao.manaMax);
+            player.Vida.SetCurrentHealth(infoSessao.vidaAtual);
+            player.Mana.SetCurrMana(infoSessao.vidaAtual);
+            
 
         }
         else

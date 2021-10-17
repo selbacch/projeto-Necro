@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.InputSystem;
@@ -23,6 +24,7 @@ public class Player : InterfaceAtacavel
     public Rigidbody2D rig;
     public ItemInterface.Item MascaraEquipada;
     public bool ImmortalMode;
+    public AttackZone attackCollider;
 
 
     // Start is called before the first frame update
@@ -35,7 +37,7 @@ public class Player : InterfaceAtacavel
         rig = GetComponent<Rigidbody2D>();
         //NormalStatus();
     }
-    
+
 
     // Update is called once per frame
     void Update()
@@ -49,7 +51,7 @@ public class Player : InterfaceAtacavel
 
     }
 
-   private void MortePlayer()
+    private void MortePlayer()
     {
         Debug.Log("morte player");
         Death = true;
@@ -73,16 +75,16 @@ public class Player : InterfaceAtacavel
         if (gameObject.GetComponent<Mana>().CurMana < 2 || Death)
         { return; }
 
-       // anim.SetTrigger("area");
+        // anim.SetTrigger("area");
         GetComponent<PlayerInput>().actions.Disable();
         this.transform.Find("PrisaoArea").gameObject.SetActive(true);
         gameObject.GetComponent<Mana>().LostMana(2);
-        StartCoroutine(DesativaHabilidade3());        
+        StartCoroutine(DesativaHabilidade3());
     }
 
     public void OnHabilidade2(InputValue value)//
     {
-        if (gameObject.GetComponent<Mana>().CurMana < 1  || Death)
+        if (gameObject.GetComponent<Mana>().CurMana < 1 || Death)
         { return; }
 
         anim.SetBool("sumon", true);
@@ -159,9 +161,9 @@ public class Player : InterfaceAtacavel
     public void OnAction(InputValue value)
     {
 
-        GameObject Interaction = gameObject.GetComponent<AttackZone>().enemy;
+        GameObject Interaction = attackCollider.target;
 
-        if (Interaction == null|| Death)
+        if (Interaction == null || Death)
         {
             return;
         }
@@ -171,21 +173,21 @@ public class Player : InterfaceAtacavel
             if (Interaction.GetComponent<InterativaAbstract>().Abra != false) { return; }
             Interaction.GetComponent<InterativaAbstract>().Abrir(true);
         }
-        
 
+        if (Interaction.tag == "Conversa")
+        {
 
-
-
-        if (Interaction.tag == "Conversa") {
-            
             if (Interaction.GetComponent<InterativaAbstract>().Fala != false) { return; }
-            
-            Interaction.GetComponent<InterativaAbstract>().Falar(true); } 
 
-        if (Interaction.tag == "Leitura") {
+            Interaction.GetComponent<InterativaAbstract>().Falar(true);
+        }
+
+        if (Interaction.tag == "Leitura")
+        {
             if (Interaction.GetComponent<InterativaAbstract>().Lido != false) { return; }
 
-            Interaction.GetComponent<InterativaAbstract>().Ler(true); } 
+            Interaction.GetComponent<InterativaAbstract>().Ler(true);
+        }
     }
 
     IEnumerator DesativaHabilidade3() //desabilita a habilidade 3 e habilita novamente os controles
@@ -256,9 +258,6 @@ public class Player : InterfaceAtacavel
         rig.velocity = move * speed;
     }
 
-   
-
-
     public void OnAtaque(InputValue value)
     {
         if (Death)
@@ -269,29 +268,11 @@ public class Player : InterfaceAtacavel
         anim.SetTrigger("" + combo1);
     }
 
-    public void OnAtaque2(InputValue value)
-    {
-        if (Death)
-        {
-            return;
-        }
-        Debug.Log("combo2");
-        //atacando = true;
-       // anim.SetTrigger("" + combo1);
-    }
     void sumonsop()//para animação de invocar
     {
         anim.SetBool("sumon", false);
     }
 
-    void combos() //combo atack
-    {
-        if (Input.GetButtonDown("Fire1") && !atacando)
-        {
-            atacando = true;
-            anim.SetTrigger("" + combo1);
-        }
-    }
     public void start_combo()
     {
         atacando = false;
@@ -313,24 +294,33 @@ public class Player : InterfaceAtacavel
             return;
         }
 
-        GameObject inimigo = gameObject.GetComponent<AttackZone>().enemy;
-        if (inimigo == null ||inimigo.tag!="enemy")
+        List<GameObject> obs = attackCollider.ObterTargetsValidos();
+
+        foreach (GameObject inimigo in obs)
         {
-            return;
+            if (inimigo != null && inimigo.tag == "Enemy")
+            {
+               inimigo.GetComponent<Enemy>().SofrerDano(DanoAtual);
+            }
+            
         }
-        inimigo.GetComponent<Enemy>().SofrerDano(DanoAtual);
     }
 
     void sting()
     {
-        GameObject inimigo = gameObject.GetComponent<AttackZone>().enemy;
-        if (inimigo == null || inimigo.tag != "enemy")
+        List<GameObject> obs = attackCollider.ObterTargetsValidos();
+
+        foreach (GameObject inimigo in obs)
         {
-            return;
+            if (inimigo != null && inimigo.tag == "Enemy")
+            {
+                inimigo.GetComponent<Rigidbody2D>().AddForce(move * 1);
+            }
+            
         }
-        inimigo.GetComponent<Rigidbody2D>().AddForce(move * 1);
+
     }
-   
+
     public override void Atacar(int danoInflingido)
     {
         throw new System.NotImplementedException();
@@ -356,7 +346,7 @@ public class Player : InterfaceAtacavel
         return mascaraAnterior;
     }
 
-   
+
 
 
 

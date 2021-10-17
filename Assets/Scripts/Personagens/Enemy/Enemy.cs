@@ -51,6 +51,7 @@ public class Enemy : InterfaceAtacavel
             Death = true;
             Anim.SetBool("death", true);
             Target = null;
+            return;
 
         }
         if (Target != null && Target.tag == "sumon" && Target.GetComponent<InterfaceAtacavel>().Death == true)
@@ -190,9 +191,8 @@ public class Enemy : InterfaceAtacavel
         throw new NotImplementedException();
     }
 
-    public void Delete2() //fim da vida
+    public void Delete() //fim da vida
     {
-
         GetComponentInChildren<DropRItens>().DropRandItem();
         Destroy(this.gameObject);
     }
