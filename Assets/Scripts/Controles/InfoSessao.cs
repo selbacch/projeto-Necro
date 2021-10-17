@@ -45,10 +45,11 @@ public class InfoSessao
     public string Cena { get; private set; }
     public void SalvaStatusJogo()
     {
-        Player pl = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        GameObject go = GameObject.FindGameObjectWithTag("Player");
 
-        if (pl != null)
+        if (go != null)
         {
+            Player pl = go.GetComponent<Player>();
             this.danoAtual = pl.DanoAtual;
             this.vidaMax = pl.Vida.MaxHealth;
             this.manaMax = pl.Mana.MaxMana;
@@ -57,11 +58,14 @@ public class InfoSessao
             this.vidaAtual = pl.Vida.CurHealth;
         }
 
+        if (InventarioController.Instance != null)
+        {
+            this.inventario = InventarioController.Instance.ToJson();
+        }
 
-        this.inventario = InventarioController.Instance.ToJson();
+
         this.dataHoraGravacao = DateTime.Now;
         this.Cena = SceneManager.GetActiveScene().name;
-
 
         string info = JsonUtility.ToJson(this);
         System.IO.File.WriteAllText(Application.persistentDataPath + "/save.json", info);

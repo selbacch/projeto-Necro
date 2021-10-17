@@ -33,7 +33,7 @@ public class Player : InterfaceAtacavel
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         rig = GetComponent<Rigidbody2D>();
-        NormalStatus();
+       // NormalStatus();
     }
     
 
@@ -143,10 +143,10 @@ public class Player : InterfaceAtacavel
     private void NormalStatus()
     {
         this.transform.Find("RetornoHabilidade4").gameObject.SetActive(false);
-        DanoAtual = 20;
+        DanoAtual = CenaController.Instance.infoSessao.danoAtual;
         speed = 2;
-        Vida.SetMaxHealth(100);
-        Mana.SetMaxMana(3);
+        Vida.SetMaxHealth(CenaController.Instance.infoSessao.vidaMax);
+        Mana.SetMaxMana(CenaController.Instance.infoSessao.manaMax);
         anim.speed = 0.5f;
     }
 
@@ -314,7 +314,12 @@ public class Player : InterfaceAtacavel
 
     void sting()
     {
-        GameObject inimigo = gameObject.GetComponent<AttackZone>().enemy;
+         GameObject inimigo = gameObject.GetComponent<AttackZone>().enemy;
+        if (inimigo == null)
+        {
+            return;
+        }
+       
         inimigo.GetComponent<Rigidbody2D>().AddForce(move * 1);
     }
    

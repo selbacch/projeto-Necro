@@ -3,24 +3,27 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
+    [SerializeField]
     private int curHealth;
+
+    [SerializeField]
     private int maxHealth;
     public Action<int> AtualizarVida;
-    public Action<int,int> AtualizarVidaMaxima;
+    public Action<int, int> AtualizarVidaMaxima;
+
 
     public int CurHealth { get => curHealth; }
     public int MaxHealth { get => maxHealth; }
 
     private void Awake()
     {
-        this.SetMaxHealth(100);
-        this.SetCurrentHealth(100);
+
     }
 
     // Start is called before the first frame update 
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame 
@@ -33,10 +36,10 @@ public class Health : MonoBehaviour
         }
 
         int newValue = curHealth - value;
-        newValue = newValue<0 ? 0 : newValue;
+        newValue = newValue < 0 ? 0 : newValue;
         this.curHealth = newValue;
 
-        Debug.Log("Diminui vida em " + value +" atual: "+this.curHealth + " novo: " + newValue);
+        Debug.Log("Diminui vida em " + value + " atual: " + this.curHealth + " novo: " + newValue);
         AtualizarVida?.Invoke(this.curHealth);
     }
 
@@ -47,37 +50,37 @@ public class Health : MonoBehaviour
             value *= -1;
         }
 
-        
+
         int newValue = curHealth + value;
         newValue = newValue > this.maxHealth ? this.maxHealth : newValue;
-        Debug.Log("Aumenta vida em " + value + " atual: " + this.curHealth +" novo: "+newValue);
+        Debug.Log("Aumenta vida em " + value + " atual: " + this.curHealth + " novo: " + newValue);
         this.curHealth = newValue;
-        
+
         AtualizarVida?.Invoke(this.curHealth);
     }
 
     public void SetCurrentHealth(int value)
     {
-        if(value > this.maxHealth)
+        if (value > this.maxHealth)
         {
             value = maxHealth;
         }
 
-        if(value< 0)
+        if (value < 0)
         {
             value = 0;
         }
- Debug.Log("set curr de "+this.curHealth+" para "+value);
+        Debug.Log("set curr de " + this.curHealth + " para " + value);
         curHealth = value;
-       
+
         AtualizarVida?.Invoke(this.curHealth);
-       
+
     }
 
     public void SetMaxHealth(int value)
     {
         this.maxHealth = value;
-        if (this.curHealth> this.maxHealth)
+        if (this.curHealth > this.maxHealth)
         {
             this.curHealth = this.maxHealth;
         }

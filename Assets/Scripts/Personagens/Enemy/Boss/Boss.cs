@@ -116,7 +116,8 @@ public class Boss : Enemy
     {
         for (; ; )
         {
-            if (minionAtivo == null)
+
+           if (minionAtivo == null)
             {
                 minionAtivo = Instantiate(this.minionPrefab, this.spotInvocacao.position, Quaternion.identity);
                 minionAtivo.GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");

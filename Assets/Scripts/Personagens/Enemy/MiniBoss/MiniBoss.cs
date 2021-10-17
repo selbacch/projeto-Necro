@@ -252,14 +252,14 @@ public class MiniBoss : Enemy
         }
     }
 
-    void PlayerEntrouAggro(GameObject go)
+    public override void PlayerEntrouAggro(GameObject go)
     {
         
 
 
         Target = go;
     }
-    void PlayerSaiuAggro(GameObject go)
+    public override void PlayerSaiuAggro(GameObject go)
     {
       
         Target = null;
@@ -270,14 +270,14 @@ public class MiniBoss : Enemy
         }
     }
 
-    void PlayerEntrouAttackArea(GameObject go)
+    public override void PlayerEntrouAttackArea(GameObject go)
     {
         Target = go;
         isAttackingEnemy = true;
         StartCoroutine(Atacar(go));
     }
 
-    void PlayerSaiuAttackArea(GameObject go)
+    public override void PlayerSaiuAttackArea(GameObject go)
     {
         isAttackingEnemy = false;
         StopCoroutine(Atacar(go));
@@ -292,9 +292,6 @@ public class MiniBoss : Enemy
     {
         alvo = null;
     }
-
-
-
 
     public override void Atacar(int danoInflingido)
     {

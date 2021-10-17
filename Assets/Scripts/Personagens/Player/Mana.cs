@@ -4,7 +4,11 @@ using UnityEngine;
 public class Mana : MonoBehaviour
 {
     public float count;
-   private int curMana;
+
+    [SerializeField]
+    private int curMana;
+
+    [SerializeField]
     private  int maxMana;
     public Action<int> AtualizarMana;
     public Action<int, int> AtualizarManaMaxima;
