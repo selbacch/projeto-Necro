@@ -168,15 +168,24 @@ public class Player : InterfaceAtacavel
 
         if (Interaction.tag == "Opn")
         {
+            if (Interaction.GetComponent<InterativaAbstract>().Abra != false) { return; }
             Interaction.GetComponent<InterativaAbstract>().Abrir(true);
         }
+        
 
 
 
 
-        if (Interaction.tag == "Conversa") { Interaction.GetComponent<InterativaAbstract>().Falar(true); }
+        if (Interaction.tag == "Conversa") {
+            
+            if (Interaction.GetComponent<InterativaAbstract>().Fala != false) { return; }
+            
+            Interaction.GetComponent<InterativaAbstract>().Falar(true); } 
 
-        if (Interaction.tag == "Leitura") { Interaction.GetComponent<InterativaAbstract>().Ler(true); }
+        if (Interaction.tag == "Leitura") {
+            if (Interaction.GetComponent<InterativaAbstract>().Lido != false) { return; }
+
+            Interaction.GetComponent<InterativaAbstract>().Ler(true); } 
     }
 
     IEnumerator DesativaHabilidade3() //desabilita a habilidade 3 e habilita novamente os controles

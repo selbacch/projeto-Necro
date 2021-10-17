@@ -9,12 +9,16 @@ public class NPC : InterativaAbstract
     public MenuFaseController menu;
     public Text texto;
     public string[] txt;
-    private int Dialogo;
+    private int Dialogo = 0;
     public GameObject ButtonAct;
+    private float timeScale;
+    public bool DropandDestroy;
+    public GameObject Item;
+    public GameObject Barreira;
     // Start is called before the first frame update
     void Start()
     {
-
+        timeScale = Time.timeScale;
     }
 
     // Update is called once per frame
@@ -38,17 +42,18 @@ public class NPC : InterativaAbstract
     {
         if (Falar == true && Player.tag == "Player")
         {
-
+            Fala = true;
+            check = true;
             menu.AbrirStatus();
             if (txt.Length == 0)
                 return;
 
 
 
-
-
-            StartCoroutine(Conversa());
+            Time.timeScale = this.timeScale;
             
+            StartCoroutine(Conversa());
+           
 
 
 
@@ -57,15 +62,29 @@ public class NPC : InterativaAbstract
         }
 
     }
-    void NextFala() { Dialogo = (Dialogo + 1) % txt.Length;
-        texto.text = txt[Dialogo];
-    }
+
+
+
+
     IEnumerator Conversa()
     {
-        yield return new WaitForSeconds(2f);
-        NextFala();
-    }
 
+        for (Dialogo = 0; Dialogo < txt.Length; Dialogo++)
+        {
+            texto.text = txt[Dialogo];
+            yield return new WaitForSeconds(2f);
+        }
+        if (DropandDestroy != false)
+        {
+            Item.SetActive(true);
+            Destroy(Barreira, 0);
+            Destroy(this, 2);//Anim.SetBool("destroy",true);
+        }
+        else
+        {
+            Destroy(this, 2);//Anim.SetBool("destroy",true); }
+        }
+    }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
