@@ -25,7 +25,7 @@ public class Bau : InterativaAbstract
     {
         if (Abrir == true && Player.tag == "Player")
         {
-            Lido = true;
+            Abra = true;
             //anim.Setbool("aberto", true);
             item();
         }

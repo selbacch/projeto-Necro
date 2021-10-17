@@ -32,6 +32,24 @@ TextureImporter:
   - first:
       213: 85849847752328427
     second: moveis_9
+  - first:
+      213: -224203418582504921
+    second: moveis_10
+  - first:
+      213: 1676507010379915005
+    second: moveis_11
+  - first:
+      213: -6195047881032692960
+    second: moveis_12
+  - first:
+      213: -6540996355686718264
+    second: moveis_13
+  - first:
+      213: -6592958320826830408
+    second: moveis_14
+  - first:
+      213: 4741372878793782645
+    second: moveis_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,7 +147,7 @@ TextureImporter:
         width: 73
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -150,7 +168,7 @@ TextureImporter:
         width: 37
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,7 +189,7 @@ TextureImporter:
         width: 34
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -192,7 +210,7 @@ TextureImporter:
         width: 83
         height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -213,7 +231,7 @@ TextureImporter:
         width: 108
         height: 82
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -234,7 +252,7 @@ TextureImporter:
         width: 60
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,7 +273,7 @@ TextureImporter:
         width: 63
         height: 98
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -276,7 +294,7 @@ TextureImporter:
         width: 59
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,12 +310,12 @@ TextureImporter:
       name: moveis_8
       rect:
         serializedVersion: 2
-        x: 240
-        y: 16
-        width: 50
+        x: 239
+        y: 17
+        width: 49
         height: 73
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,12 +331,12 @@ TextureImporter:
       name: moveis_9
       rect:
         serializedVersion: 2
-        x: 348
+        x: 349
         y: 0
-        width: 50
+        width: 49
         height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,6 +344,132 @@ TextureImporter:
       bones: []
       spriteID: be48c4f4bfff03100800000000000000
       internalID: 85849847752328427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moveis_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 49
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a26fdbd2873ecf0800000000000000
+      internalID: -224203418582504921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moveis_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 49
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe95215e36244710800000000000000
+      internalID: 1676507010379915005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moveis_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b828466c4c60aa0800000000000000
+      internalID: -6195047881032692960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moveis_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 5
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c42b2e5876b935a0800000000000000
+      internalID: -6540996355686718264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moveis_14
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 7
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b13924965b1184a0800000000000000
+      internalID: -6592958320826830408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moveis_15
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 31
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575bc2c238dbcc140800000000000000
+      internalID: 4741372878793782645
       vertices: []
       indices: 
       edges: []

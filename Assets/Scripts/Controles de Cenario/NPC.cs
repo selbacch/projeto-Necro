@@ -42,8 +42,7 @@ public class NPC : InterativaAbstract
     {
         if (Falar == true && Player.tag == "Player")
         {
-            Fala = true;
-            check = true;
+           
             menu.AbrirStatus();
             if (txt.Length == 0)
                 return;
@@ -68,26 +67,42 @@ public class NPC : InterativaAbstract
 
     IEnumerator Conversa()
     {
+        GameObject[] Enemys = GameObject.FindGameObjectsWithTag("Enemy");
+        if (Enemys.Length == 0)
+        {
+            Fala = true;
+            check = true;
+            for (Dialogo = 0; Dialogo < txt.Length; Dialogo++)
+            {
+                texto.text = txt[Dialogo];
+                yield return new WaitForSeconds(2f);
+            }
+            if (DropandDestroy != false)
+            {
+                Item.SetActive(true);
+                Destroy(Barreira, 0);
+                Destroy(gameObject, 2);//Anim.SetBool("destroy",true);
+            }
+            else
+            {
+                Destroy(gameObject, 2);//Anim.SetBool("destroy",true); }
+            }
 
-        for (Dialogo = 0; Dialogo < txt.Length; Dialogo++)
-        {
-            texto.text = txt[Dialogo];
-            yield return new WaitForSeconds(2f);
+
         }
-        if (DropandDestroy != false)
-        {
-            Item.SetActive(true);
-            Destroy(Barreira, 0);
-            Destroy(gameObject, 2);//Anim.SetBool("destroy",true);
-        }
-        else
-        {
-            Destroy(gameObject, 2);//Anim.SetBool("destroy",true); }
+        else {
+            string textinnho = "Derrote os inimigos porfavor eles não vão nos deixar sair total de inimigos :";
+            texto.text = textinnho + Enemys.Length.ToString();
+            Fala = false;
+            check = false;
+            Falar(false);
+
         }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        
         if (collision.gameObject.tag.Equals("Player"))
         {
             Player = collision.gameObject;
