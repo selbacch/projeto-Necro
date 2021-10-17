@@ -78,11 +78,11 @@ public class NPC : InterativaAbstract
         {
             Item.SetActive(true);
             Destroy(Barreira, 0);
-            Destroy(this, 2);//Anim.SetBool("destroy",true);
+            Destroy(gameObject, 2);//Anim.SetBool("destroy",true);
         }
         else
         {
-            Destroy(this, 2);//Anim.SetBool("destroy",true); }
+            Destroy(gameObject, 2);//Anim.SetBool("destroy",true); }
         }
     }
 
