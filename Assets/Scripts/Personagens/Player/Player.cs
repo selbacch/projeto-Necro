@@ -33,7 +33,7 @@ public class Player : InterfaceAtacavel
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         rig = GetComponent<Rigidbody2D>();
-       // NormalStatus();
+        //NormalStatus();
     }
     
 
@@ -174,7 +174,7 @@ public class Player : InterfaceAtacavel
 
 
 
-        if (Interaction.tag == "Conversa") { }
+        if (Interaction.tag == "Conversa") { Interaction.GetComponent<InterativaAbstract>().Falar(true); }
 
         if (Interaction.tag == "Leitura") { Interaction.GetComponent<InterativaAbstract>().Ler(true); }
     }
@@ -305,7 +305,7 @@ public class Player : InterfaceAtacavel
         }
 
         GameObject inimigo = gameObject.GetComponent<AttackZone>().enemy;
-        if (inimigo == null)
+        if (inimigo == null ||inimigo.tag!="enemy")
         {
             return;
         }
@@ -314,12 +314,11 @@ public class Player : InterfaceAtacavel
 
     void sting()
     {
-         GameObject inimigo = gameObject.GetComponent<AttackZone>().enemy;
-        if (inimigo == null)
+        GameObject inimigo = gameObject.GetComponent<AttackZone>().enemy;
+        if (inimigo == null || inimigo.tag != "enemy")
         {
             return;
         }
-       
         inimigo.GetComponent<Rigidbody2D>().AddForce(move * 1);
     }
    
