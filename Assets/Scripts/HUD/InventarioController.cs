@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 
@@ -23,11 +25,12 @@ public class InventarioController : MonoBehaviour
             return;
         }
         Instance = this;
+        itens = new Dictionary<ItemInterface.Item, int>();
 
     }
     void Start()
     {
-        itens = new Dictionary<ItemInterface.Item, int>();
+        
         InventarioSlot.ItemUtilizado += AtualizaGUIInventarioOnUtilizacao;
 
     }
@@ -112,22 +115,58 @@ public class InventarioController : MonoBehaviour
 
     public string ToJson()
     {
+        if (this.itens == null)
+        {
+            return string.Empty;
+        }
 
         StringBuilder sb = new StringBuilder();
 
         foreach (KeyValuePair<ItemInterface.Item, int> item in this.itens)
         {
-            sb.Append("{ item: " + ((int)item.Key) + ", qnt:" + item.Value.ToString() + "}");
+            sb.Append("{ item:" + ((int)item.Key) + ",qnt:" + item.Value.ToString() + "}");
 
         }
 
-        string newjs = "[" + string.Join(",", sb) + "]";
+        string newjs = string.Join(",", sb);
+        newjs = "[" + newjs + "]";
         return newjs;
     }
 
     public void FromJson(string sjson)
     {
-        Dictionary<int, int> valores = JsonUtility.FromJson<Dictionary<int, int>>(sjson);
+        if (sjson == null)
+        {
+            return;
+        }
+        Dictionary<ItemInterface.Item, int> valores = new Dictionary<ItemInterface.Item, int>();
+
+        string[] terms = sjson.Split('{');
+        Regex rgItems = new Regex("item:([0-9]*)");
+        Regex rgQnt = new Regex("qnt:([0-9]*)");
+
+        Match mtI = null;
+        Match mtQ = null;
+
+        foreach (string s in terms)
+        {
+            if (s.Length<5)
+            {
+                continue;
+            }
+            mtI = rgItems.Match(s);
+            mtQ = rgQnt.Match(s);
+            //GroupCollection gc = mt.Groups;
+            // gc [1] valor do item
+
+            ItemInterface.Item item = (ItemInterface.Item) Convert.ToInt32(mtI.Groups[1].Value);
+            int qnt = Convert.ToInt32(mtQ.Groups[1].Value);
+            valores.Add(item, qnt);
+
+        }
+
+        this.itens = valores;
+
     }
 
 }

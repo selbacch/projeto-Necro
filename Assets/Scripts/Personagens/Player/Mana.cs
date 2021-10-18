@@ -34,8 +34,6 @@ public class Mana : MonoBehaviour
                 count = 0;
             }
         }
-    
-
 
     }
   
@@ -64,6 +62,7 @@ public class Mana : MonoBehaviour
             this.curMana = this.maxMana;
         }
         AtualizarManaMaxima?.Invoke(maxMana, curMana);
+        AtualizarMana?.Invoke(curMana);
     }
 
     public void SetCurrMana(int value)

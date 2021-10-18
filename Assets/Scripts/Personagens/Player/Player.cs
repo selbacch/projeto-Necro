@@ -35,19 +35,20 @@ public class Player : InterfaceAtacavel
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         rig = GetComponent<Rigidbody2D>();
-        NormalStatus();
+     //   NormalStatus();
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        Mover();
-
+        
         if (!Death && !ImmortalMode && this.Vida.CurHealth < 1)
         {
             MortePlayer();
+            return;
         }
+        Mover();
 
     }
 
