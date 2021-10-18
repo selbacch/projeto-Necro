@@ -85,6 +85,7 @@ public class Health : MonoBehaviour
             this.curHealth = this.maxHealth;
         }
         AtualizarVidaMaxima?.Invoke(maxHealth, curHealth);
+        AtualizarVida?.Invoke(curHealth);
         Debug.Log("Muda vida maxima para: " + value + "atual: " + this.curHealth);
 
     }

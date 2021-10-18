@@ -63,6 +63,7 @@ public class CenaController : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+
         Debug.Log("OnSceneLoaded: " + scene.name);
 
         Regex rx = new Regex(@"\bIN_*");
@@ -73,8 +74,6 @@ public class CenaController : MonoBehaviour
 
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
-
-
         if (EhTrocaCenaPortal)
         {
             EhTrocaCenaPortal = false;
@@ -84,7 +83,7 @@ public class CenaController : MonoBehaviour
             player.Mana.SetMaxMana(infoSessao.manaMax);
             player.Vida.SetCurrentHealth(infoSessao.vidaAtual);
             player.Mana.SetCurrMana(infoSessao.vidaAtual);
-            
+
 
         }
         else
@@ -107,10 +106,13 @@ public class CenaController : MonoBehaviour
                 player.Mana.SetMaxMana(1000);
                 player.Vida.SetCurrentHealth(1000);
                 player.Mana.SetCurrMana(1000);
-
             }
 
         }
+
+        InventarioController.Instance.FromJson(infoSessao.inventario);
+        CenaController.Instance.SalvarJogo();
+
 
     }
 
