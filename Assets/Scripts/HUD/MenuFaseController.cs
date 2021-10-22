@@ -12,6 +12,10 @@ public class MenuFaseController : MonoBehaviour
     public GameObject panelEscureBackground;
     public GameObject componenteInventario;
     public GameObject componenteStatus;
+    public EventSystem Eve;
+    public GameObject BTNmenuPause1;
+    public GameObject BTNmenuinventario1;
+    public GameObject BTNSTATUS1;
 
 
     private float timeScale;
@@ -22,12 +26,14 @@ public class MenuFaseController : MonoBehaviour
         timeScale = Time.timeScale;
         FecharMenus();
         GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().DeathEvent += AbrirMenuMorte;
+       
     }
 
     public void AbrirMenuPause()
     {
         menuMorte.SetActive(false);
         menuPause.SetActive(true);
+        Eve.firstSelectedGameObject = BTNmenuPause1;
         panelEscureBackground.SetActive(true);
         Time.timeScale = 0;
         isOpen = true;
@@ -61,6 +67,7 @@ public class MenuFaseController : MonoBehaviour
         else
         {
             isOpen = true;
+            Eve.firstSelectedGameObject = BTNmenuinventario1;
             Time.timeScale = 0;
             componenteInventario.SetActive(true);
             InventarioController.Instance.RenderizaInventario();
@@ -69,7 +76,7 @@ public class MenuFaseController : MonoBehaviour
     }
 
     public void AbrirStatus()
-    {
+    { 
         this.FecharMenus();
         if (componenteStatus.activeSelf)
         {
@@ -78,6 +85,7 @@ public class MenuFaseController : MonoBehaviour
         }
         else
         {
+            Eve.firstSelectedGameObject = BTNSTATUS1;
             Time.timeScale = 0;
             componenteStatus.SetActive(true);
 

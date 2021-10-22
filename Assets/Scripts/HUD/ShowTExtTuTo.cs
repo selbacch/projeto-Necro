@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ShowTExtTuTo : MonoBehaviour
 {
+    public float time;
     public Text  texto;
     public string txt;
     public MenuFaseController menu;
@@ -18,17 +19,22 @@ public class ShowTExtTuTo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        StartCoroutine(Ativa(time));
     }
 
     void Mtxt()
     {
         texto.text = txt;
     }
-   
-      
 
-    
+    IEnumerator Ativa(float Time)
+    {
+        yield return new WaitForSeconds(Time);
+        GetComponent<EdgeCollider2D>().enabled = true;
+    }
+
+
+
     private void OnTriggerEnter2D(Collider2D other)
     {
 

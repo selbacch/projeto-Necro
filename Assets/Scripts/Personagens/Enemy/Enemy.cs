@@ -146,6 +146,7 @@ public class Enemy : InterfaceAtacavel
         for (int i = 0; i < Tempo; i++)
         {
             Debug.Log("veneno");
+            DanoText.color = Color.green;
             SofrerDano(Dano);
             yield return new WaitForSeconds(2);
         }
@@ -222,7 +223,7 @@ public class Enemy : InterfaceAtacavel
         DanoText.text = danoRecebido.ToString();
         DanoText.color = Color.red;
         DanoText.gameObject.SetActive(true);
-        yield return new WaitForSeconds(0.15f);
+        yield return new WaitForSeconds(0.10f);
         DanoText.gameObject.SetActive(false);
 
     }

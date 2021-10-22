@@ -551,7 +551,7 @@
                     "type": "Value",
                     "id": "a51f1b8d-e563-41bc-9241-318a515c578a",
                     "expectedControlType": "Vector2",
-                    "processors": "",
+                    "processors": "NormalizeVector2",
                     "interactions": ""
                 }
             ],
@@ -562,7 +562,7 @@
                     "path": "<XInputController>/start",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Controle;Default",
+                    "groups": "Controle",
                     "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -573,7 +573,7 @@
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default;Controle",
+                    "groups": "Default",
                     "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -581,8 +581,8 @@
                 {
                     "name": "",
                     "id": "bbf53f18-8a7d-432d-8792-e9e5600b3e33",
-                    "path": "<XInputController>/start",
-                    "interactions": "Press",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
                     "processors": "",
                     "groups": "Xbox Controle",
                     "action": "Pause",
@@ -595,18 +595,7 @@
                     "path": "<Keyboard>/i",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default;Controle",
-                    "action": "Inventario",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "d9aa0e08-1718-4b9c-bc07-c641e7837ed6",
-                    "path": "<XInputController>/leftShoulder",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Controle;Default",
+                    "groups": "Default",
                     "action": "Inventario",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -614,8 +603,8 @@
                 {
                     "name": "",
                     "id": "6d67453e-ae2c-44f4-a2f7-b3e23d016021",
-                    "path": "<XInputController>/select",
-                    "interactions": "Press",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
                     "processors": "",
                     "groups": "Xbox Controle",
                     "action": "Inventario",
@@ -635,6 +624,17 @@
                 },
                 {
                     "name": "",
+                    "id": "a8c24185-d041-48a2-ae83-359a9601bb34",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "ActionUI",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "5cb0938d-344f-4be4-bf0c-964165dc0515",
                     "path": "<XInputController>/dpad",
                     "interactions": "",
@@ -643,6 +643,127 @@
                     "action": "MoveUI",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0ea1a563-8a05-498d-a79c-de877d9d9ba4",
+                    "path": "<XInputController>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "MoveUI",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "wasd",
+                    "id": "ee26f5a3-a1d7-45fc-996b-e08f460f1792",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveUI",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "1a63c418-f10d-4633-8946-399168e3f518",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "MoveUI",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "14d8a080-58f4-4bc0-bcec-7908b06ffbc3",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "MoveUI",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "15d44c0d-5f1c-42f2-8142-97f8a1876d5b",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "MoveUI",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "c275f844-15c6-4c28-aed8-1df5c85f40ec",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "MoveUI",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "setas",
+                    "id": "ce2b7c97-1b48-4d3e-b968-cb29d32116c7",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveUI",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "a1679f48-3cf6-4bef-8d2e-855a82e9dde3",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "MoveUI",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "d3c91571-cb37-48d5-91c0-09c3cf229188",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "MoveUI",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "122f0e70-b521-4c56-b326-d8c22347dffb",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "MoveUI",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "2de18b48-6247-456b-885d-ade6b2cd5b8d",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "MoveUI",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         },
@@ -738,6 +859,11 @@
             "devices": [
                 {
                     "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
                     "isOptional": false,
                     "isOR": false
                 }

@@ -13,13 +13,14 @@ GameObject:
   - component: {fileID: 3152116833157569085}
   - component: {fileID: 4217021341027698447}
   - component: {fileID: 9070065136820569755}
+  - component: {fileID: 4799982544832229928}
   m_Layer: 5
   m_Name: 'DanoTexto '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5642366407272033246
 RectTransform:
   m_ObjectHideFlags: 0
@@ -36,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.016, y: 0.601}
+  m_AnchoredPosition: {x: 0, y: 0.093}
   m_SizeDelta: {x: 72.9675, y: 24.229}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2650235406521604527
@@ -66,7 +67,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 20
   m_TargetDisplay: 0
 --- !u!23 &4217021341027698447
 MeshRenderer:
@@ -138,7 +139,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4279242918
   m_fontColor: {r: 0.6509434, g: 0.06448024, b: 0.06448024, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -162,8 +163,8 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -201,6 +202,25 @@ MonoBehaviour:
   _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
+--- !u!95 &4799982544832229928
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367995086726781883}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 50f27e15b8d67c3479b5bbec5e5ff361, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1447609472024207846
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,6 +290,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1447609473344064108}
+  - component: {fileID: 6604438494139800828}
   - component: {fileID: 1447609473344064107}
   - component: {fileID: 1447609473344064106}
   - component: {fileID: 1447609473344064105}
@@ -301,6 +322,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6604438494139800828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447609473344064103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785969eb322e58b44a475771de0f4b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropitems: []
+  dropitems2: {fileID: 0}
 --- !u!212 &1447609473344064107
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -372,8 +407,9 @@ MonoBehaviour:
   AreaPerigo: {fileID: 1447609473493623486}
   nave: {fileID: 1447609473344064105}
   DanoText: {fileID: 9070065136820569755}
-  Vida: 100
+  Vida: 600
   Resfriamento: 2
+  RaioAtaque: 3
   Velocidade: 1
   DanoAtual: 15
   TempoDestruicao: 1
@@ -439,14 +475,14 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 100
-  m_LinearDrag: 1.2
+  m_Mass: 20
+  m_LinearDrag: 2
   m_AngularDrag: 2
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &1447609473344064109
 CapsuleCollider2D:
