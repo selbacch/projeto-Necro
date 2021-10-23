@@ -12,10 +12,13 @@ public class MenuFaseController : MonoBehaviour
     public GameObject panelEscureBackground;
     public GameObject componenteInventario;
     public GameObject componenteStatus;
-    public EventSystem Eve;
-    public GameObject BTNmenuPause1;
-    public GameObject BTNmenuinventario1;
-    public GameObject BTNSTATUS1;
+    
+    public GameObject EventPause1;
+    public GameObject EventMorte2;
+    public GameObject EventInventario3;
+    public GameObject EventStatus4;
+    
+
 
 
     private float timeScale;
@@ -31,16 +34,20 @@ public class MenuFaseController : MonoBehaviour
 
     public void AbrirMenuPause()
     {
+        EventPause1.SetActive(true);
+        EventMorte2.SetActive(false);
         menuMorte.SetActive(false);
         menuPause.SetActive(true);
-        Eve.firstSelectedGameObject = BTNmenuPause1;
-        panelEscureBackground.SetActive(true);
+       panelEscureBackground.SetActive(true);
         Time.timeScale = 0;
         isOpen = true;
+        
     }
 
     public void AbrirMenuMorte()
     {
+        EventMorte2.SetActive(true);
+        EventPause1.SetActive(false);
         Time.timeScale = 0;
         menuMorte.SetActive(true);
         menuPause.SetActive(false);
@@ -52,22 +59,26 @@ public class MenuFaseController : MonoBehaviour
     {
         menuMorte.SetActive(false);
         menuPause.SetActive(false);
+        EventPause1.SetActive(false);
+        EventMorte2.SetActive(false);
         panelEscureBackground.SetActive(false);
         Time.timeScale = this.timeScale;
         isOpen = false;
+     
     }
     public void AbrirInventario()
     {
         this.FecharMenus();
         if (componenteInventario.activeSelf)
         {
-            Time.timeScale = this.timeScale;
             componenteInventario.SetActive(false);
+            Time.timeScale = this.timeScale;
+            EventInventario3.SetActive(false);
         }
         else
         {
             isOpen = true;
-            Eve.firstSelectedGameObject = BTNmenuinventario1;
+            EventInventario3.SetActive(true);
             Time.timeScale = 0;
             componenteInventario.SetActive(true);
             InventarioController.Instance.RenderizaInventario();
@@ -80,12 +91,13 @@ public class MenuFaseController : MonoBehaviour
         this.FecharMenus();
         if (componenteStatus.activeSelf)
         {
+            EventStatus4.SetActive(false);
             Time.timeScale = this.timeScale;
             componenteStatus.SetActive(false);
         }
         else
         {
-            Eve.firstSelectedGameObject = BTNSTATUS1;
+            EventStatus4.SetActive(true);
             Time.timeScale = 0;
             componenteStatus.SetActive(true);
 
@@ -110,10 +122,12 @@ public class MenuFaseController : MonoBehaviour
     public void OnInventario(InputValue value)
     {
         AbrirInventario();
+        Debug.Log("select");
     }
 
     public void OnPause(InputValue value)
     {
+        Debug.Log("Start");
         if (isOpen)
         {
             this.FecharMenus();

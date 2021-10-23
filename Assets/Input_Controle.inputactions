@@ -558,17 +558,6 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "8283ce51-0d13-482d-a2f0-9afddb818430",
-                    "path": "<XInputController>/start",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Controle",
-                    "action": "Pause",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "8cb749eb-876d-4f1d-ada5-c88eed330512",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
@@ -581,7 +570,7 @@
                 {
                     "name": "",
                     "id": "bbf53f18-8a7d-432d-8792-e9e5600b3e33",
-                    "path": "<Gamepad>/start",
+                    "path": "<Gamepad>/dpad/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "Xbox Controle",
@@ -603,7 +592,7 @@
                 {
                     "name": "",
                     "id": "6d67453e-ae2c-44f4-a2f7-b3e23d016021",
-                    "path": "<Gamepad>/select",
+                    "path": "<Gamepad>/dpad/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "Xbox Controle",
