@@ -5779,8 +5779,8 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9984b3e0-0209-43be-ba58-4a773ebbbdac
     m_ActionName: FinalFase/Continuar[/Keyboard/enter,/XInputControllerWindows/buttonWest]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
+  m_NeverAutoSwitchControlSchemes: 1
+  m_DefaultControlScheme: Xbox Controle
   m_DefaultActionMap: Personagem
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 783763717}
@@ -5867,8 +5867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c104b260608dd8e48bc64b0f8ba063b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curHealth: 0
-  maxHealth: 0
+  curHealth: 100
+  maxHealth: 100
 --- !u!114 &146620538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5882,8 +5882,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   count: 0
-  curMana: 0
-  maxMana: 0
+  curMana: 3
+  maxMana: 3
 --- !u!114 &1392254405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5912,9 +5912,11 @@ MonoBehaviour:
   combo1: 0
   move: {x: 0, y: 0, z: 0}
   rig: {fileID: 0}
-  MascaraEquipada: 0
-  ImmortalMode: 0
+  MascaraEquipada: -1
+  ImmortalMode: 1
   attackCollider: {fileID: 887179757764826663}
+  menuFaseController: {fileID: 6481295494479502294, guid: 1368e4bcf43f2cd499bdb6761b29f1b3,
+    type: 3}
 --- !u!61 &3202084613094606198
 BoxCollider2D:
   m_ObjectHideFlags: 0

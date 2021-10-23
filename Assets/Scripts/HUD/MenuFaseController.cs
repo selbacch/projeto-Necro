@@ -18,7 +18,7 @@ public class MenuFaseController : MonoBehaviour
 
 
     private float timeScale;
-    private bool isOpen = false;
+    public bool isOpen = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -112,25 +112,7 @@ public class MenuFaseController : MonoBehaviour
         InventarioController.Instance.RenderizaInventario();
     }
 
-    public void OnInventario(InputValue value)
-    {
-        AbrirInventario();
-        Debug.Log("select");
-    }
-
-    public void OnPause(InputValue value)
-    {
-        Debug.Log("Start");
-        if (isOpen)
-        {
-            this.FecharMenus();
-        }
-        else
-        {
-            this.AbrirMenuPause();
-        }
-
-    }
+  
 
     public void RegarregarCena(){
         string sceneName = SceneManager.GetActiveScene().name;

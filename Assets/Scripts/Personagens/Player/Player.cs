@@ -25,6 +25,7 @@ public class Player : InterfaceAtacavel
     public ItemInterface.Item MascaraEquipada;
     public bool ImmortalMode;
     public AttackZone attackCollider;
+    public MenuFaseController menuFaseController;
 
 
     // Start is called before the first frame update
@@ -252,7 +253,25 @@ public class Player : InterfaceAtacavel
 
 
     }
+    public void OnInventario(InputValue value)
+    {
+       menuFaseController.AbrirInventario();
+        Debug.Log("select");
+    }
 
+    public void OnPause(InputValue value)
+    {
+        Debug.Log("Start");
+        if (menuFaseController.isOpen)
+        {
+            menuFaseController.FecharMenus();
+        }
+        else
+        {
+           menuFaseController.AbrirMenuPause();
+        }
+
+    }
     void Mover()
     {
         // transform.position = transform.position + (move * speed * Time.deltaTime);
