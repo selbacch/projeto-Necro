@@ -84,6 +84,22 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Inventario",
+                    "type": "Button",
+                    "id": "640e40d8-e5f1-48e5-a033-17ff3c76b77d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "1364b5e6-051d-4652-8208-7f8603b4e2c6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -537,6 +553,72 @@
                     "action": "Ataque2",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "60ee679c-9b34-4dd0-b3ca-c49502c0fdb2",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bad4887f-8de5-4445-92e2-43c47c96b58a",
+                    "path": "<XInputController>/start",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a78b9bb-f3c5-4bc8-89ab-4a357d59cde1",
+                    "path": "<DualShockGamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fdc67714-2669-459b-880a-a0aa4722fd98",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "17046f77-f4df-416b-aba5-d7c0c80555ea",
+                    "path": "<XInputController>/select",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "07a8c75a-f28c-4c8c-b6a8-07eff9b329bd",
+                    "path": "<DualShockGamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle",
+                    "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -558,22 +640,6 @@
                     "id": "504b8b55-2ad4-412f-8e1e-7cb7ef9d06d2",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "Inventario",
-                    "type": "Button",
-                    "id": "580a725e-73dd-4698-b42f-65f38a4a1188",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "MoveUI",
-                    "type": "Value",
-                    "id": "a51f1b8d-e563-41bc-9241-318a515c578a",
-                    "expectedControlType": "Vector2",
-                    "processors": "NormalizeVector2",
                     "interactions": ""
                 }
             ],
@@ -613,204 +679,6 @@
                 },
                 {
                     "name": "",
-                    "id": "5cb0938d-344f-4be4-bf0c-964165dc0515",
-                    "path": "<XInputController>/dpad",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Xbox Controle",
-                    "action": "MoveUI",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "0ea1a563-8a05-498d-a79c-de877d9d9ba4",
-                    "path": "<XInputController>/leftStick",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Xbox Controle",
-                    "action": "MoveUI",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "wasd",
-                    "id": "ee26f5a3-a1d7-45fc-996b-e08f460f1792",
-                    "path": "2DVector",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MoveUI",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "1a63c418-f10d-4633-8946-399168e3f518",
-                    "path": "<Keyboard>/w",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Default",
-                    "action": "MoveUI",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "14d8a080-58f4-4bc0-bcec-7908b06ffbc3",
-                    "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Default",
-                    "action": "MoveUI",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "15d44c0d-5f1c-42f2-8142-97f8a1876d5b",
-                    "path": "<Keyboard>/a",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Default",
-                    "action": "MoveUI",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "c275f844-15c6-4c28-aed8-1df5c85f40ec",
-                    "path": "<Keyboard>/d",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Default",
-                    "action": "MoveUI",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "setas",
-                    "id": "ce2b7c97-1b48-4d3e-b968-cb29d32116c7",
-                    "path": "2DVector",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MoveUI",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "a1679f48-3cf6-4bef-8d2e-855a82e9dde3",
-                    "path": "<Keyboard>/upArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Default",
-                    "action": "MoveUI",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "d3c91571-cb37-48d5-91c0-09c3cf229188",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Default",
-                    "action": "MoveUI",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "122f0e70-b521-4c56-b326-d8c22347dffb",
-                    "path": "<Keyboard>/leftArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Default",
-                    "action": "MoveUI",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "2de18b48-6247-456b-885d-ade6b2cd5b8d",
-                    "path": "<Keyboard>/rightArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Default",
-                    "action": "MoveUI",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "be7ec9cb-8823-4d07-b9e2-d534958f2d2c",
-                    "path": "<DualShockGamepad>/leftStick",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Controle",
-                    "action": "MoveUI",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "040c6d12-3ae8-4920-8d35-915d528c517c",
-                    "path": "<DualShockGamepad>/dpad",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Controle",
-                    "action": "MoveUI",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "c6a78e4a-c6cf-454f-9b41-7741226c31bd",
-                    "path": "<Keyboard>/i",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Default",
-                    "action": "Inventario",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "c6497620-2e2c-4ea4-be06-bb4f2d3d0a70",
-                    "path": "<XInputController>/select",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Xbox Controle",
-                    "action": "Inventario",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "27f6864c-030c-4ced-82ea-b299e39de107",
-                    "path": "<DualShockGamepad>/select",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Controle",
-                    "action": "Inventario",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "74075080-f75d-4d74-9c15-0e95295f41df",
-                    "path": "<Gamepad>/select",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Xbox Controle;Controle",
-                    "action": "Inventario",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "73ac3983-8a02-47b6-a93f-392e23814bf3",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
@@ -824,7 +692,7 @@
                     "name": "",
                     "id": "61c4011a-a63d-4737-8c0e-abec947d82b4",
                     "path": "<XInputController>/start",
-                    "interactions": "",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": "Xbox Controle",
                     "action": "Pause",
@@ -838,17 +706,6 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Controle",
-                    "action": "Pause",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "4ca17701-02c8-49b8-855b-2a1eac8aa8fb",
-                    "path": "<Gamepad>/start",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Xbox Controle;Controle",
                     "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false

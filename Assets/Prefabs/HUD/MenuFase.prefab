@@ -382,7 +382,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: OK
 --- !u!1 &288680621
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,8 +719,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 140.5, y: -85.4}
-  m_SizeDelta: {x: 67.2548, y: 29.3559}
+  m_AnchoredPosition: {x: 162.3, y: -100.5}
+  m_SizeDelta: {x: 26.5011, y: 21.1019}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &618562476
 CanvasRenderer:
@@ -2212,7 +2212,99 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2dffc36a-a32d-4d4d-85fc-afc8320de552
+    m_ActionName: Personagem/Movimento[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/right]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 69f2ffb6-30bf-42db-b7fb-48fa1bf643ef
+    m_ActionName: Personagem/Habilidade1[/Keyboard/1,/XInputControllerWindows/leftShoulder]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ec17fc88-2454-4844-90c2-fe93e2396921
+    m_ActionName: Personagem/Habilidade2[/Keyboard/2,/XInputControllerWindows/leftTrigger]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2b33245b-4619-4fc3-a835-9c7d4b418881
+    m_ActionName: Personagem/Habilidade3[/Keyboard/3,/XInputControllerWindows/rightShoulder]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 93ad8f56-8a39-4c44-a527-b5117b3dfe5d
+    m_ActionName: Personagem/Habilidade4[/Keyboard/4,/XInputControllerWindows/rightTrigger]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 265b5d98-cfd8-49cb-b3d9-47dfafa9aecd
+    m_ActionName: Personagem/Ataque[/Keyboard/enter,/XInputControllerWindows/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fdb92858-c2bb-4b9c-bc9e-8f7bffd034e6
+    m_ActionName: Personagem/Combo1[/Keyboard/enter,/XInputControllerWindows/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e1e38e3b-a6b9-4ada-924c-0ba1ab94517a
+    m_ActionName: Personagem/Combo2[/Keyboard/enter,/XInputControllerWindows/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 942b6fc4-c437-4543-8fea-dfce4fb0d400
+    m_ActionName: Personagem/Action[/Keyboard/space,/XInputControllerWindows/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 31ef0594-304d-4793-9ab9-cdc111f00e6d
+    m_ActionName: Personagem/Ataque2[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1abbe9f0-0d79-4de3-b578-04771f4e1f4b
+    m_ActionName: UIGameplay/ActionUI[/XInputControllerWindows/buttonSouth,/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6481295494479502294}
+        m_TargetAssemblyTypeName: MenuFaseController, Assembly-CSharp
+        m_MethodName: AbrirMenuPause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 504b8b55-2ad4-412f-8e1e-7cb7ef9d06d2
+    m_ActionName: UIGameplay/Pause[/Keyboard/escape,/XInputControllerWindows/start,/XInputControllerWindows/start]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6481295494479502294}
+        m_TargetAssemblyTypeName: MenuFaseController, Assembly-CSharp
+        m_MethodName: AbrirInventario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 580a725e-73dd-4698-b42f-65f38a4a1188
+    m_ActionName: UIGameplay/Inventario[/Keyboard/i,/XInputControllerWindows/select,/XInputControllerWindows/select]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a51f1b8d-e563-41bc-9241-318a515c578a
+    m_ActionName: UIGameplay/MoveUI[/XInputControllerWindows/dpad,/XInputControllerWindows/leftStick,/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7e26d718-c62a-4de0-8a1c-200e69c5a606
+    m_ActionName: MenuInicial/New action
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5a570a09-cd77-4961-aef4-58f63eebb233
+    m_ActionName: FinalFase/New action
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9984b3e0-0209-43be-ba58-4a773ebbbdac
+    m_ActionName: FinalFase/Continuar[/Keyboard/enter,/XInputControllerWindows/buttonWest]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: UIGameplay
