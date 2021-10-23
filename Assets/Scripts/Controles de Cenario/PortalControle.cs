@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class PortalControle : MonoBehaviour
 {
     public Transform spawnPoint;
-
+    public GameObject anim;
     public string idPortal;
     public string nomeCenaDestino;
     public string idPortalDestino;
@@ -31,11 +31,25 @@ public class PortalControle : MonoBehaviour
         GameObject pl = GameObject.FindGameObjectWithTag("Player");
         pl.transform.position = spawnPoint.position;
     }
+    void TrocaScena()
+    {
+    CenaController.Instance.PlayerEntrouPortal(this);
+    }
 
+    IEnumerator fade()
+    {
+        yield return new WaitForSeconds(0.51f);
+        TrocaScena();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag =="Player")
-        CenaController.Instance.PlayerEntrouPortal(this);
+        if(collision.tag == "Player")
+        {
+            anim.GetComponent<Animator>().SetTrigger("out");
+            StartCoroutine(fade());
+            
+        }
+        
     }
 
 }
