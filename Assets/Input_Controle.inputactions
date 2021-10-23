@@ -104,7 +104,7 @@
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default;Controle",
+                    "groups": "Default",
                     "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -254,22 +254,22 @@
                 },
                 {
                     "name": "",
-                    "id": "953ea697-ce74-4756-aa44-0005c2162d5b",
-                    "path": "<Keyboard>/enter",
+                    "id": "e253b7e6-0e32-4e14-8c22-4fe6e3f1f3dd",
+                    "path": "<DualShockGamepad>/leftStick",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default",
-                    "action": "Ataque",
+                    "groups": "Controle",
+                    "action": "Movimento",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "6197f990-b9b9-4f2d-8c9c-1b921c855a84",
-                    "path": "<XInputController>/buttonSouth",
+                    "id": "953ea697-ce74-4756-aa44-0005c2162d5b",
+                    "path": "<Keyboard>/enter",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Controle",
+                    "groups": "Default",
                     "action": "Ataque",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -287,22 +287,22 @@
                 },
                 {
                     "name": "",
-                    "id": "15f67d16-a713-418b-87c0-a956176187d3",
-                    "path": "<Keyboard>/1",
+                    "id": "88b9c148-4755-4480-9eb1-e58f55212102",
+                    "path": "<DualShockGamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default",
-                    "action": "Habilidade1",
+                    "groups": "Controle",
+                    "action": "Ataque",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "d7b1f902-2dd8-436c-b0d4-b1f055dc90af",
-                    "path": "<XInputController>/buttonWest",
+                    "id": "15f67d16-a713-418b-87c0-a956176187d3",
+                    "path": "<Keyboard>/1",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Controle",
+                    "groups": "Default",
                     "action": "Habilidade1",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -320,22 +320,22 @@
                 },
                 {
                     "name": "",
-                    "id": "77e23a5a-da05-47d8-b6d5-f1ece18c7ae0",
-                    "path": "<Keyboard>/2",
+                    "id": "98867160-2217-4893-908f-d145e12387cd",
+                    "path": "<DualShockGamepad>/rightShoulder",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default",
-                    "action": "Habilidade2",
+                    "groups": "Controle",
+                    "action": "Habilidade1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "3a6c4407-b048-43a5-924d-70d7c1f879cd",
-                    "path": "<XInputController>/buttonNorth",
+                    "id": "77e23a5a-da05-47d8-b6d5-f1ece18c7ae0",
+                    "path": "<Keyboard>/2",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Controle;Default",
+                    "groups": "Default",
                     "action": "Habilidade2",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -353,22 +353,22 @@
                 },
                 {
                     "name": "",
-                    "id": "60862eef-59ee-45f8-8386-9730f07fe2ed",
-                    "path": "<Keyboard>/3",
+                    "id": "33856401-2419-48ea-842d-9515b8ed7c85",
+                    "path": "<DualShockGamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default",
-                    "action": "Habilidade3",
+                    "groups": "Controle",
+                    "action": "Habilidade2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "6665e373-2e32-4a8d-b105-7030a4d459c4",
-                    "path": "<XInputController>/buttonEast",
+                    "id": "60862eef-59ee-45f8-8386-9730f07fe2ed",
+                    "path": "<Keyboard>/3",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Controle;Default",
+                    "groups": "Default",
                     "action": "Habilidade3",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -386,22 +386,22 @@
                 },
                 {
                     "name": "",
-                    "id": "cc8320ec-1dd9-4eae-b5a2-2a5f24ba7912",
-                    "path": "<Keyboard>/4",
+                    "id": "aade4fe5-0631-4d5c-a5ed-4295de35c9ba",
+                    "path": "<DualShockGamepad>/leftShoulder",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Default",
-                    "action": "Habilidade4",
+                    "groups": "Controle",
+                    "action": "Habilidade3",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "d79429ae-b360-4cf7-b640-82f5eb5ef9e5",
-                    "path": "<XInputController>/rightTrigger",
+                    "id": "cc8320ec-1dd9-4eae-b5a2-2a5f24ba7912",
+                    "path": "<Keyboard>/4",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Controle;Default",
+                    "groups": "Default",
                     "action": "Habilidade4",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -419,22 +419,22 @@
                 },
                 {
                     "name": "",
-                    "id": "e9bd9aa0-40ff-484f-99dc-6dde2ab7feae",
-                    "path": "<Keyboard>/enter",
-                    "interactions": "MultiTap",
+                    "id": "39dc12ea-07fd-4166-82ed-84de73a0bde1",
+                    "path": "<DualShockGamepad>/leftTrigger",
+                    "interactions": "",
                     "processors": "",
-                    "groups": "Default",
-                    "action": "Combo1",
+                    "groups": "Controle",
+                    "action": "Habilidade4",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "7ff2456b-ab4c-4095-899b-f2b6c14edede",
-                    "path": "<XInputController>/buttonSouth",
+                    "id": "e9bd9aa0-40ff-484f-99dc-6dde2ab7feae",
+                    "path": "<Keyboard>/enter",
                     "interactions": "MultiTap",
                     "processors": "",
-                    "groups": "Controle",
+                    "groups": "Default",
                     "action": "Combo1",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -452,6 +452,17 @@
                 },
                 {
                     "name": "",
+                    "id": "5892faa7-a37f-4667-85d0-5f45120108be",
+                    "path": "<DualShockGamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle",
+                    "action": "Combo1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "54f142d3-b8fa-491b-abdd-07d68ae71e41",
                     "path": "<Keyboard>/enter",
                     "interactions": "MultiTap(tapCount=3)",
@@ -463,22 +474,22 @@
                 },
                 {
                     "name": "",
-                    "id": "32bf2feb-aaa3-42e2-8f76-c920aa8baa82",
-                    "path": "<XInputController>/buttonSouth",
-                    "interactions": "MultiTap(tapCount=3)",
+                    "id": "bd0b2832-7b46-40a6-a040-5d5317b6a836",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
                     "processors": "",
-                    "groups": "Controle",
+                    "groups": "Xbox Controle",
                     "action": "Combo2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "bd0b2832-7b46-40a6-a040-5d5317b6a836",
-                    "path": "<XInputController>/buttonEast",
+                    "id": "21606077-baa9-4e89-87af-7de33ddb2670",
+                    "path": "<DualShockGamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Xbox Controle",
+                    "groups": "Controle",
                     "action": "Combo2",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -507,6 +518,17 @@
                 },
                 {
                     "name": "",
+                    "id": "3fe3b804-f874-4cfe-a4cb-a4c4de2b0864",
+                    "path": "<DualShockGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle",
+                    "action": "Action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "b1ad1b38-5738-4593-b9a4-02656b7e04e8",
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
@@ -523,9 +545,17 @@
             "id": "a9c4004a-77a7-46d5-8d5c-4371cac3b7ad",
             "actions": [
                 {
+                    "name": "ActionUI",
+                    "type": "Button",
+                    "id": "1abbe9f0-0d79-4de3-b578-04771f4e1f4b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
                     "name": "Pause",
                     "type": "Button",
-                    "id": "98e99dbc-9c5d-4ae2-a6e9-2200ec8142bb",
+                    "id": "504b8b55-2ad4-412f-8e1e-7cb7ef9d06d2",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -533,15 +563,7 @@
                 {
                     "name": "Inventario",
                     "type": "Button",
-                    "id": "0e6294c5-7087-4229-851c-91890a830ca1",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "ActionUI",
-                    "type": "Button",
-                    "id": "1abbe9f0-0d79-4de3-b578-04771f4e1f4b",
+                    "id": "580a725e-73dd-4698-b42f-65f38a4a1188",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -556,50 +578,6 @@
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "8cb749eb-876d-4f1d-ada5-c88eed330512",
-                    "path": "<Keyboard>/escape",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Default",
-                    "action": "Pause",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "bbf53f18-8a7d-432d-8792-e9e5600b3e33",
-                    "path": "<Gamepad>/dpad/left",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Xbox Controle",
-                    "action": "Pause",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "d72736e5-a9d8-473d-8e3f-22cb6618e05c",
-                    "path": "<Keyboard>/i",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Default",
-                    "action": "Inventario",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "6d67453e-ae2c-44f4-a2f7-b3e23d016021",
-                    "path": "<Gamepad>/dpad/right",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Xbox Controle",
-                    "action": "Inventario",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "",
                     "id": "ae239ee7-24ab-43fc-8188-59d61bd2aa0e",
@@ -618,6 +596,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Default",
+                    "action": "ActionUI",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1521c909-9161-4faf-ae3c-d90148819fe4",
+                    "path": "<DualShockGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle",
                     "action": "ActionUI",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -753,6 +742,116 @@
                     "action": "MoveUI",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "be7ec9cb-8823-4d07-b9e2-d534958f2d2c",
+                    "path": "<DualShockGamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle",
+                    "action": "MoveUI",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "040c6d12-3ae8-4920-8d35-915d528c517c",
+                    "path": "<DualShockGamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle",
+                    "action": "MoveUI",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c6a78e4a-c6cf-454f-9b41-7741226c31bd",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c6497620-2e2c-4ea4-be06-bb4f2d3d0a70",
+                    "path": "<XInputController>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "27f6864c-030c-4ced-82ea-b299e39de107",
+                    "path": "<DualShockGamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle",
+                    "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "74075080-f75d-4d74-9c15-0e95295f41df",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle;Controle",
+                    "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73ac3983-8a02-47b6-a93f-392e23814bf3",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "61c4011a-a63d-4737-8c0e-abec947d82b4",
+                    "path": "<XInputController>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9660679e-2369-4f8b-9390-ca04d80dca4b",
+                    "path": "<DualShockGamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controle",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4ca17701-02c8-49b8-855b-2a1eac8aa8fb",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle;Controle",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -863,18 +962,8 @@
             "bindingGroup": "Controle",
             "devices": [
                 {
-                    "devicePath": "<Gamepad>",
-                    "isOptional": false,
-                    "isOR": false
-                },
-                {
-                    "devicePath": "<XInputController>",
-                    "isOptional": true,
-                    "isOR": false
-                },
-                {
                     "devicePath": "<DualShockGamepad>",
-                    "isOptional": true,
+                    "isOptional": false,
                     "isOR": false
                 }
             ]
@@ -886,6 +975,11 @@
                 {
                     "devicePath": "<XInputController>",
                     "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": true,
                     "isOR": false
                 }
             ]

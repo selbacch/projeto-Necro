@@ -12,11 +12,7 @@ public class MenuFaseController : MonoBehaviour
     public GameObject panelEscureBackground;
     public GameObject componenteInventario;
     public GameObject componenteStatus;
-    
-    public GameObject EventPause1;
-    public GameObject EventMorte2;
-    public GameObject EventInventario3;
-    public GameObject EventStatus4;
+   
     
 
 
@@ -34,8 +30,7 @@ public class MenuFaseController : MonoBehaviour
 
     public void AbrirMenuPause()
     {
-        EventPause1.SetActive(true);
-        EventMorte2.SetActive(false);
+ 
         menuMorte.SetActive(false);
         menuPause.SetActive(true);
        panelEscureBackground.SetActive(true);
@@ -46,8 +41,7 @@ public class MenuFaseController : MonoBehaviour
 
     public void AbrirMenuMorte()
     {
-        EventMorte2.SetActive(true);
-        EventPause1.SetActive(false);
+      
         Time.timeScale = 0;
         menuMorte.SetActive(true);
         menuPause.SetActive(false);
@@ -59,8 +53,7 @@ public class MenuFaseController : MonoBehaviour
     {
         menuMorte.SetActive(false);
         menuPause.SetActive(false);
-        EventPause1.SetActive(false);
-        EventMorte2.SetActive(false);
+    
         panelEscureBackground.SetActive(false);
         Time.timeScale = this.timeScale;
         isOpen = false;
@@ -73,12 +66,12 @@ public class MenuFaseController : MonoBehaviour
         {
             componenteInventario.SetActive(false);
             Time.timeScale = this.timeScale;
-            EventInventario3.SetActive(false);
+           
         }
         else
         {
             isOpen = true;
-            EventInventario3.SetActive(true);
+           
             Time.timeScale = 0;
             componenteInventario.SetActive(true);
             InventarioController.Instance.RenderizaInventario();
@@ -91,13 +84,13 @@ public class MenuFaseController : MonoBehaviour
         this.FecharMenus();
         if (componenteStatus.activeSelf)
         {
-            EventStatus4.SetActive(false);
+           
             Time.timeScale = this.timeScale;
             componenteStatus.SetActive(false);
         }
         else
         {
-            EventStatus4.SetActive(true);
+          
             Time.timeScale = 0;
             componenteStatus.SetActive(true);
 
