@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class SpawContole : MonoBehaviour
+public class SpawnController : MonoBehaviour
 {
     private GameObject[] gos;
     public GameObject[] points;
