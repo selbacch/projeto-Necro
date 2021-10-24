@@ -42,6 +42,9 @@ public class InfoSessao
     public Vector3 positionE { get; private set; }
 
     [SerializeField]
+    public string ultimoCheckPoint { get; set; }
+
+    [SerializeField]
     public string Cena { get; private set; }
     public void SalvaStatusJogo()
     {

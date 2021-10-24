@@ -115,8 +115,7 @@ public class MenuFaseController : MonoBehaviour
   
 
     public void RegarregarCena(){
-        string sceneName = SceneManager.GetActiveScene().name;
-        SceneManager.LoadScene(sceneName);
+        CenaController.Instance.RecarregarCenaEmCasoMorte();
     }
 
 

@@ -15,6 +15,7 @@ TagManager:
   - Conversa
   - placeholder_fase_inicio
   - placeholder_fase_fim
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

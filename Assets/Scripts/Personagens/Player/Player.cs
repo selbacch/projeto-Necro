@@ -27,7 +27,6 @@ public class Player : InterfaceAtacavel
     public AttackZone attackCollider;
     public MenuFaseController menuFaseController;
 
-
     // Start is called before the first frame update
     void Start()
     {

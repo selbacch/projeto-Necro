@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class CenaController : MonoBehaviour
 {
+    public enum TrocaCena { PORTAL, MORTE, MUDANCA_FASE, INICIO_JOGO, CONTINUAR_JOGO}
+    public TrocaCena motivo;
     public static CenaController Instance;
     public InfoSessao infoSessao;
     private bool EhTrocaCenaPortal = false;
@@ -22,13 +24,13 @@ public class CenaController : MonoBehaviour
         Instance = this;
         infoSessao = new InfoSessao();
         DontDestroyOnLoad(this.gameObject);
-
+        motivo = TrocaCena.INICIO_JOGO;
         SceneManager.sceneLoaded += OnSceneLoaded;
         SceneManager.sceneUnloaded += OnSceneUnloaded;
     }
     void Start()
     {
-
+       
     }
 
     // Update is called once per frame
@@ -48,6 +50,7 @@ public class CenaController : MonoBehaviour
         SceneManager.LoadScene(portal.nomeCenaDestino);
         EhTrocaCenaPortal = true;
         IdPortalDestino = portal.idPortalDestino;
+        motivo = TrocaCena.PORTAL;
     }
 
     public void SalvarJogo()
@@ -59,6 +62,12 @@ public class CenaController : MonoBehaviour
     public void CarregarJogoSalvo()
     {
         infoSessao.CarregarStatusJogo();
+    }
+
+    public void RecarregarCenaEmCasoMorte()
+    {
+        motivo = TrocaCena.MORTE;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name) ;
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -74,46 +83,50 @@ public class CenaController : MonoBehaviour
 
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
-        if (EhTrocaCenaPortal)
+        switch (motivo)
         {
-            EhTrocaCenaPortal = false;
-            GameObject portal = GameObject.Find(IdPortalDestino);
-            portal.GetComponent<PortalControle>().PosicionarPersonagemSpawnPoint();
-            player.Vida.SetMaxHealth(infoSessao.vidaMax);
-            player.Mana.SetMaxMana(infoSessao.manaMax);
-            player.Vida.SetCurrentHealth(infoSessao.vidaAtual);
-            player.Mana.SetCurrMana(infoSessao.vidaAtual);
+            case TrocaCena.PORTAL:
+                EhTrocaCenaPortal = false;
+                GameObject portal = GameObject.Find(IdPortalDestino);
+                portal.GetComponent<PortalControle>().PosicionarPersonagemSpawnPoint();
+                player.Vida.SetMaxHealth(infoSessao.vidaMax);
+                player.Mana.SetMaxMana(infoSessao.manaMax);
+                player.Vida.SetCurrentHealth(infoSessao.vidaAtual);
+                player.Mana.SetCurrMana(infoSessao.vidaAtual);
+                break;
+            case TrocaCena.MUDANCA_FASE:
+            case TrocaCena.CONTINUAR_JOGO:
+                CarregarJogoSalvo();
+                player.Vida.SetMaxHealth(infoSessao.vidaMax);
+                player.Mana.SetMaxMana(infoSessao.manaMax);
+                player.Vida.SetCurrentHealth(infoSessao.manaMax);
+                player.Mana.SetCurrMana(infoSessao.manaMax);
+                break;
+            case TrocaCena.MORTE:
+                player.Vida.SetMaxHealth(infoSessao.vidaMax);
+                player.Mana.SetMaxMana(infoSessao.manaMax);
+                player.Vida.SetCurrentHealth(infoSessao.manaMax);
+                player.Mana.SetCurrMana(infoSessao.manaMax);
+                CheckpointController ck = CheckpointController.EncontrarUltimoCheckpointAtivo();
+                if (ck!= null)
+                {
+                    ck.PosicionaPlayer();
+                }
 
-
-        }
-        else
-        {
-            if (infoSessao.dataHoraGravacao == null)
-            {
-                player.Vida.SetMaxHealth(1000);
-                player.Mana.SetMaxMana(1000);
-                player.Vida.SetCurrentHealth(1000);
-                player.Mana.SetCurrMana(1000);
-            }
-            else
-            {
-                //player.Vida.SetMaxHealth(infoSessao.vidaMax);
-                //player.Mana.SetMaxMana(infoSessao.manaMax);
-                //player.Vida.SetCurrentHealth(infoSessao.manaMax);
-                //player.Mana.SetCurrMana(infoSessao.manaMax);
-
-                player.Vida.SetMaxHealth(1000);
-                player.Mana.SetMaxMana(1000);
-                player.Vida.SetCurrentHealth(1000);
-                player.Mana.SetCurrMana(1000);
-            }
-
+                break;
+            case TrocaCena.INICIO_JOGO:
+            default:
+                player.Vida.SetMaxHealth(ConstantesPersonagens.BASE_VIDA_MAX_HIPATIA);
+                player.Mana.SetMaxMana(ConstantesPersonagens.BASE_MANA_MAX_HIPATIA);
+                player.Vida.SetCurrentHealth(ConstantesPersonagens.BASE_VIDA_MAX_HIPATIA);
+                player.Mana.SetCurrMana(ConstantesPersonagens.BASE_MANA_MAX_HIPATIA);
+                break;
         }
 
         InventarioController.Instance.FromJson(infoSessao.inventario);
         CenaController.Instance.SalvarJogo();
 
-
+        motivo = TrocaCena.CONTINUAR_JOGO;
     }
 
     void OnSceneUnloaded(Scene scene)
