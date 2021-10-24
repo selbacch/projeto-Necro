@@ -23,7 +23,18 @@ public class FinalTutorial : MonoBehaviour
     {
         
     }
-  
+    IEnumerator raio()
+    {
+        yield return new WaitForSeconds(1.5f);
+        Raio1.SetActive(false);
+        Raio2.SetActive(false);
+
+
+        toco1.SetActive(true);
+        toco2.SetActive(true);
+        tronco1.SetActive(false);
+        tronco2.SetActive(false);
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -35,15 +46,12 @@ public class FinalTutorial : MonoBehaviour
             
             Raio1.SetActive(true);
             Raio2.SetActive(true);
-          
-        
-        toco1.SetActive(true);
-        toco2.SetActive(true);
-        tronco1.SetActive(false);
-        tronco2.SetActive(false);
+
+            StartCoroutine(raio());
 
 
-    }
+
+        }
 
     }
 

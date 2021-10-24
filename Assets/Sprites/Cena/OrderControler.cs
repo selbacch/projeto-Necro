@@ -24,7 +24,7 @@ public class OrderControler : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Enemy")
         {
         
             other.GetComponent<SpriteRenderer>().sortingOrder = -2;
@@ -34,7 +34,7 @@ public class OrderControler : MonoBehaviour
     }
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Enemy")
         {
             
             other.GetComponent<SpriteRenderer>().sortingOrder = 0;

@@ -285,6 +285,7 @@ public class Player : InterfaceAtacavel
         }
         atacando = true;
         anim.SetTrigger("" + combo1);
+        
     }
 
     void sumonsop()//para animação de invocar

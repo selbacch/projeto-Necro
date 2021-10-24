@@ -5779,7 +5779,7 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9984b3e0-0209-43be-ba58-4a773ebbbdac
     m_ActionName: FinalFase/Continuar[/Keyboard/enter,/XInputControllerWindows/buttonWest]
-  m_NeverAutoSwitchControlSchemes: 1
+  m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Xbox Controle
   m_DefaultActionMap: Personagem
   m_SplitScreenIndex: -1

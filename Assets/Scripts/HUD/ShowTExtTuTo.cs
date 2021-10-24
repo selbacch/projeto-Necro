@@ -45,8 +45,8 @@ public class ShowTExtTuTo : MonoBehaviour
             
             menu.AbrirStatus();
             texto.text = txt;
-          
 
+            Destroy(this, 3f);
         }
 
     }
