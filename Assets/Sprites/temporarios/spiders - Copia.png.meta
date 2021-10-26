@@ -1,0 +1,2412 @@
+fileFormatVersion: 2
+guid: e909f9a4cc4bb874f899e7e781cf846c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5080300460799443043
+    second: spiders - Copia_0
+  - first:
+      213: -9000816341565257407
+    second: spiders - Copia_1
+  - first:
+      213: 1326464180407845894
+    second: spiders - Copia_2
+  - first:
+      213: 4781978735818774963
+    second: spiders - Copia_3
+  - first:
+      213: 5090543438613383429
+    second: spiders - Copia_4
+  - first:
+      213: -1828889908023615049
+    second: spiders - Copia_5
+  - first:
+      213: 1294908347803312815
+    second: spiders - Copia_6
+  - first:
+      213: 5042925163131030165
+    second: spiders - Copia_7
+  - first:
+      213: 8059198284825714371
+    second: spiders - Copia_8
+  - first:
+      213: -2747017566406519132
+    second: spiders - Copia_9
+  - first:
+      213: 481544718778976827
+    second: spiders - Copia_10
+  - first:
+      213: 5987068540553327849
+    second: spiders - Copia_11
+  - first:
+      213: 512332953305406317
+    second: spiders - Copia_12
+  - first:
+      213: 2216133036567662734
+    second: spiders - Copia_13
+  - first:
+      213: -3418318853388026899
+    second: spiders - Copia_14
+  - first:
+      213: -8522543564606114576
+    second: spiders - Copia_15
+  - first:
+      213: 5735376796206737625
+    second: spiders - Copia_16
+  - first:
+      213: -4411470903872663797
+    second: spiders - Copia_17
+  - first:
+      213: -4780298627586410138
+    second: spiders - Copia_18
+  - first:
+      213: -4640462703989939578
+    second: spiders - Copia_19
+  - first:
+      213: 6484026409451703211
+    second: spiders - Copia_20
+  - first:
+      213: -3285102894365502232
+    second: spiders - Copia_21
+  - first:
+      213: -2454272135639298577
+    second: spiders - Copia_22
+  - first:
+      213: -7330456482050898689
+    second: spiders - Copia_23
+  - first:
+      213: -6306232026101026240
+    second: spiders - Copia_24
+  - first:
+      213: -2134034854923792426
+    second: spiders - Copia_25
+  - first:
+      213: 3266183972476387301
+    second: spiders - Copia_26
+  - first:
+      213: 3338730640327953371
+    second: spiders - Copia_27
+  - first:
+      213: -1723705617055565012
+    second: spiders - Copia_28
+  - first:
+      213: 7604616773437221346
+    second: spiders - Copia_29
+  - first:
+      213: 4606076055137149655
+    second: spiders - Copia_30
+  - first:
+      213: 5424547191590950487
+    second: spiders - Copia_31
+  - first:
+      213: -3291876532055993943
+    second: spiders - Copia_32
+  - first:
+      213: 1087794554244111808
+    second: spiders - Copia_33
+  - first:
+      213: 6275820097498651356
+    second: spiders - Copia_34
+  - first:
+      213: -8699155630570320324
+    second: spiders - Copia_35
+  - first:
+      213: -8956531980837484929
+    second: spiders - Copia_36
+  - first:
+      213: -6079441758432384504
+    second: spiders - Copia_37
+  - first:
+      213: -6070834222861645588
+    second: spiders - Copia_38
+  - first:
+      213: 154890654439006966
+    second: spiders - Copia_39
+  - first:
+      213: -3445620067375676693
+    second: spiders - Copia_40
+  - first:
+      213: 6560163548960688582
+    second: spiders - Copia_41
+  - first:
+      213: -1411353964701499033
+    second: spiders - Copia_42
+  - first:
+      213: 4789142011837476566
+    second: spiders - Copia_43
+  - first:
+      213: 3656755747391772872
+    second: spiders - Copia_44
+  - first:
+      213: 4077350103528950644
+    second: spiders - Copia_45
+  - first:
+      213: 8399167906974688723
+    second: spiders - Copia_46
+  - first:
+      213: -4354745640226148438
+    second: spiders - Copia_47
+  - first:
+      213: -402727618649028474
+    second: spiders - Copia_48
+  - first:
+      213: 6436150727488123651
+    second: spiders - Copia_49
+  - first:
+      213: 8505830569257172372
+    second: spiders - Copia_50
+  - first:
+      213: -3850277263561418249
+    second: spiders - Copia_51
+  - first:
+      213: 3372401013312491083
+    second: spiders - Copia_52
+  - first:
+      213: 9003207654015957028
+    second: spiders - Copia_53
+  - first:
+      213: -998147194228642635
+    second: spiders - Copia_54
+  - first:
+      213: 6498633616801134196
+    second: spiders - Copia_55
+  - first:
+      213: 2762570143971847555
+    second: spiders - Copia_56
+  - first:
+      213: -9140624231652443264
+    second: spiders - Copia_57
+  - first:
+      213: -4609930861583782265
+    second: spiders - Copia_58
+  - first:
+      213: 5131766191918054849
+    second: spiders - Copia_59
+  - first:
+      213: 2472402119735641144
+    second: spiders - Copia_60
+  - first:
+      213: -3086722213693782492
+    second: spiders - Copia_61
+  - first:
+      213: 7917266026803479232
+    second: spiders - Copia_62
+  - first:
+      213: 7391894104261647854
+    second: spiders - Copia_63
+  - first:
+      213: -2603018925042631741
+    second: spiders - Copia_64
+  - first:
+      213: -1921893868581465708
+    second: spiders - Copia_65
+  - first:
+      213: -8074359874047164075
+    second: spiders - Copia_66
+  - first:
+      213: -8054319155993575779
+    second: spiders - Copia_67
+  - first:
+      213: 252524056303201710
+    second: spiders - Copia_68
+  - first:
+      213: 8224391706746887916
+    second: spiders - Copia_69
+  - first:
+      213: -1306429814996759954
+    second: spiders - Copia_70
+  - first:
+      213: 72234750226906680
+    second: spiders - Copia_71
+  - first:
+      213: -4972501653613586750
+    second: spiders - Copia_72
+  - first:
+      213: -2782539020525952278
+    second: spiders - Copia_73
+  - first:
+      213: -4938449521338046479
+    second: spiders - Copia_74
+  - first:
+      213: 4090153620192046303
+    second: spiders - Copia_75
+  - first:
+      213: 5479218617196663338
+    second: spiders - Copia_76
+  - first:
+      213: 3828014669832210783
+    second: spiders - Copia_77
+  - first:
+      213: -2002157066559185427
+    second: spiders - Copia_78
+  - first:
+      213: -5947827931191667499
+    second: spiders - Copia_79
+  - first:
+      213: -4426451982841917117
+    second: spiders - Copia_80
+  - first:
+      213: -5269207278562841087
+    second: spiders - Copia_81
+  - first:
+      213: -1960003929739277791
+    second: spiders - Copia_82
+  - first:
+      213: 2586626396985100691
+    second: spiders - Copia_83
+  - first:
+      213: -355797691286845179
+    second: spiders - Copia_84
+  - first:
+      213: 6657088733035075770
+    second: spiders - Copia_85
+  - first:
+      213: 4554895261990040822
+    second: spiders - Copia_86
+  - first:
+      213: 1082922069363813833
+    second: spiders - Copia_87
+  - first:
+      213: 5572461766234007026
+    second: spiders - Copia_88
+  - first:
+      213: -5497926075617259152
+    second: spiders - Copia_89
+  - first:
+      213: -725176344207227459
+    second: spiders - Copia_90
+  - first:
+      213: 8552393550534010180
+    second: spiders - Copia_91
+  - first:
+      213: -4598412732847792731
+    second: spiders - Copia_92
+  - first:
+      213: -5691256396692288332
+    second: spiders - Copia_93
+  - first:
+      213: 234599447933654388
+    second: spiders - Copia_94
+  - first:
+      213: -8650869923499584614
+    second: spiders - Copia_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spiders - Copia_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 449
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fbbc1c5a52f79b0800000000000000
+      internalID: -5080300460799443043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 450
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149c878c93da61380800000000000000
+      internalID: -9000816341565257407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 449
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6044d78e42c886210800000000000000
+      internalID: 1326464180407845894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 449
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b913fff2500d5240800000000000000
+      internalID: 4781978735818774963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 450
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5090f3c594e35a640800000000000000
+      internalID: 5090543438613383429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 449
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1a4fa815a7e96e0800000000000000
+      internalID: -1828889908023615049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_6
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 449
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa22187184078f110800000000000000
+      internalID: 1294908347803312815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_7
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 450
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59acd41a7b11cf540800000000000000
+      internalID: 5042925163131030165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_8
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 449
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce597df32608df60800000000000000
+      internalID: 8059198284825714371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_9
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 449
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6d492e312a0e9d0800000000000000
+      internalID: -2747017566406519132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_10
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 450
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a4942de5acea600800000000000000
+      internalID: 481544718778976827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_11
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 449
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4f895ed17561350800000000000000
+      internalID: 5987068540553327849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 384
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bde784b1c2c1700800000000000000
+      internalID: 512332953305406317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 386
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e809f93514941ce10800000000000000
+      internalID: 2216133036567662734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_14
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 384
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb39c62d11bf80d0800000000000000
+      internalID: -3418318853388026899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_15
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 384
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f47cd848c7d9b980800000000000000
+      internalID: -8522543564606114576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 386
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8abee0fc6289f40800000000000000
+      internalID: 5735376796206737625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_17
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 384
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fc2bdf59e47c2c0800000000000000
+      internalID: -4411470903872663797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_18
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 384
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669bc6ea9b7f8adb0800000000000000
+      internalID: -4780298627586410138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_19
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 386
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6822b37c1c3c99fb0800000000000000
+      internalID: -4640462703989939578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_20
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 384
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babce916aa3ebf950800000000000000
+      internalID: 6484026409451703211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_21
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 384
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e49cb2a258f862d0800000000000000
+      internalID: -3285102894365502232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_22
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 386
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed8415fe7ca0fdd0800000000000000
+      internalID: -2454272135639298577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_23
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 384
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff485e10bacf44a90800000000000000
+      internalID: -7330456482050898689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 320
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0427e055263cb78a0800000000000000
+      internalID: -6306232026101026240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_25
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 322
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df07f52b926262e0800000000000000
+      internalID: -2134034854923792426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_26
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 320
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef778a9401d35d20800000000000000
+      internalID: 3266183972476387301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_27
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 320
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbc579f3dd855e20800000000000000
+      internalID: 3338730640327953371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_28
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 322
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bbe06bfda2418e0800000000000000
+      internalID: -1723705617055565012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_29
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 320
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9e3b91aa6098960800000000000000
+      internalID: 7604616773437221346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_30
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 320
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2e1e2a4c11cef30800000000000000
+      internalID: 4606076055137149655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_31
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 322
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7561f162eecd74b40800000000000000
+      internalID: 5424547191590950487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_32
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 320
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a19b563cb7e052d0800000000000000
+      internalID: -3291876532055993943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_33
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 320
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd135a326f981f00800000000000000
+      internalID: 1087794554244111808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_34
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 322
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda1aa1c021381750800000000000000
+      internalID: 6275820097498651356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_35
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 320
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e440a4b04664780800000000000000
+      internalID: -8699155630570320324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 259
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7681cefd9104b380800000000000000
+      internalID: -8956531980837484929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 261
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a26f35eeb71aba0800000000000000
+      internalID: -6079441758432384504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_38
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 259
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce80c00607010cba0800000000000000
+      internalID: -6070834222861645588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_39
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 259
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f26dd4ca38462200800000000000000
+      internalID: 154890654439006966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_40
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 260
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be28d1dedc2be20d0800000000000000
+      internalID: -3445620067375676693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_41
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 259
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c984449df16a0b50800000000000000
+      internalID: 6560163548960688582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_42
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 259
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761c0a9fb0dd96ce0800000000000000
+      internalID: -1411353964701499033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_43
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 260
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dee87a2943767240800000000000000
+      internalID: 4789142011837476566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_44
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 259
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c897a95af76fb230800000000000000
+      internalID: 3656755747391772872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_45
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 259
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bceb10158a59830800000000000000
+      internalID: 4077350103528950644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_46
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 260
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d56610f5b6df8470800000000000000
+      internalID: 8399167906974688723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_47
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 259
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafa323a9e5d093c0800000000000000
+      internalID: -4354745640226148438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 193
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6888f255d59396af0800000000000000
+      internalID: -402727618649028474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_49
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 194
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3033dc88cfcc15950800000000000000
+      internalID: 6436150727488123651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_50
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 193
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d7b3046d7ca0670800000000000000
+      internalID: 8505830569257172372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_51
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 193
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f998aa7a31119ac0800000000000000
+      internalID: -3850277263561418249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_52
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 194
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e88a69adc2dce20800000000000000
+      internalID: 3372401013312491083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_53
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 193
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428f2b809a1d1fc70800000000000000
+      internalID: 9003207654015957028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_54
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 193
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bce27e4a6ed522f0800000000000000
+      internalID: -998147194228642635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_55
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 194
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476f7ded7d8cf2a50800000000000000
+      internalID: 6498633616801134196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_56
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 193
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38daa82c8ee965620800000000000000
+      internalID: 2762570143971847555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_57
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 194
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b370fb0baf52180800000000000000
+      internalID: -9140624231652443264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_58
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 195
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e203c4e4c3600c0800000000000000
+      internalID: -4609930861583782265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_59
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 194
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd72ab8922b73740800000000000000
+      internalID: 5131766191918054849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 128
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83404c8e0acbf4220800000000000000
+      internalID: 2472402119735641144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 130
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42689743082c925d0800000000000000
+      internalID: -3086722213693782492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_62
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 128
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2c3eff087cfdd60800000000000000
+      internalID: 7917266026803479232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_63
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 128
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedd1dd1688459660800000000000000
+      internalID: 7391894104261647854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_64
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 130
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbf63d341830ebd0800000000000000
+      internalID: -2603018925042631741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_65
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 128
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491533b85bf0455e0800000000000000
+      internalID: -1921893868581465708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_66
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 128
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55140ce697c12ff80800000000000000
+      internalID: -8074359874047164075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_67
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 130
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ef067b66f493090800000000000000
+      internalID: -8054319155993575779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_68
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 128
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead61319a45218300800000000000000
+      internalID: 252524056303201710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_69
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 128
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee115ebea8e22270800000000000000
+      internalID: 8224391706746887916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_70
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 130
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a83294101aedde0800000000000000
+      internalID: -1306429814996759954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_71
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 128
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83eb6b36f11a00100800000000000000
+      internalID: 72234750226906680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_72
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 64
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6d15b67102efab0800000000000000
+      internalID: -4972501653613586750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_73
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 66
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae223ebd08f6269d0800000000000000
+      internalID: -2782539020525952278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_74
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 64
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7a27b435a177bb0800000000000000
+      internalID: -4938449521338046479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_75
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 64
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc23580c0523c830800000000000000
+      internalID: 4090153620192046303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_76
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 66
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22d6bc5d481a0c40800000000000000
+      internalID: 5479218617196663338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_77
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 64
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59455e7f07df1530800000000000000
+      internalID: 3828014669832210783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_78
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 64
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded933f71c8e634e0800000000000000
+      internalID: -2002157066559185427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_79
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 66
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d49c207202157da0800000000000000
+      internalID: -5947827931191667499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_80
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 64
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341526bbf551292c0800000000000000
+      internalID: -4426451982841917117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_81
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 64
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10eeb59c5e300e6b0800000000000000
+      internalID: -5269207278562841087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_82
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 66
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a45897fcaacc4e0800000000000000
+      internalID: -1960003929739277791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_83
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 64
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39902f6e00b85e320800000000000000
+      internalID: 2586626396985100691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_84
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50981f682e3ff0bf0800000000000000
+      internalID: -355797691286845179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_85
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 4
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab89fc29eeab26c50800000000000000
+      internalID: 6657088733035075770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_86
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 3
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4b600ab1d363f30800000000000000
+      internalID: 4554895261990040822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_87
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd6cdf62ef470f00800000000000000
+      internalID: 1082922069363813833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_88
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 4
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5e2d4c37c555d40800000000000000
+      internalID: 5572461766234007026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_89
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 3
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071d97d0d5173b3b0800000000000000
+      internalID: -5497926075617259152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_90
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 3
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5030405f7afe5f0800000000000000
+      internalID: -725176344207227459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_91
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 4
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445ebe62f9430b670800000000000000
+      internalID: 8552393550534010180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_92
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 3
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad59ff9bf72f20c0800000000000000
+      internalID: -4598412732847792731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_93
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 3
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc8c75f5789401b0800000000000000
+      internalID: -5691256396692288332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_94
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 4
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475969674f6714300800000000000000
+      internalID: 234599447933654388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiders - Copia_95
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 3
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9352bb83afe1f780800000000000000
+      internalID: -8650869923499584614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

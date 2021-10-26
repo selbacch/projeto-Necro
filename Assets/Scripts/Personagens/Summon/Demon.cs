@@ -38,13 +38,13 @@ public class Demon : Summon
     {
 
         pilar.gameObject.SetActive(true);
-
+        
     }
 
 
     void StopAtack()
     {
-        fire.GetComponent<ParticleSystem>().Stop();
+        //fire.GetComponent<ParticleSystem>().Stop();
 
 
         pilar.gameObject.SetActive(false);
