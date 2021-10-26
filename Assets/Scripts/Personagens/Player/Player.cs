@@ -26,6 +26,7 @@ public class Player : InterfaceAtacavel
     public bool ImmortalMode;
     public AttackZone attackCollider;
     public MenuFaseController menuFaseController;
+    private Vector2 MoveInvert; 
 
     // Start is called before the first frame update
     void Start()
@@ -158,8 +159,14 @@ public class Player : InterfaceAtacavel
         yield return new WaitForSeconds(10);
         NormalStatus();
     }
+    public void OnEvade(InputValue value)
+    {
 
-    public void OnAction(InputValue value)
+        gameObject.GetComponent<Rigidbody2D>().AddForce(MoveInvert * 1000);
+      
+        
+    }
+        public void OnAction(InputValue value)
     {
 
         GameObject Interaction = attackCollider.target;
@@ -218,40 +225,60 @@ public class Player : InterfaceAtacavel
         if (move.y > 0)
         {
             anim.SetInteger("Idle", 1);
-
+            MoveInvert.y = move.y* - 1;
+        
         }
-        if (move.y < 0) { anim.SetInteger("Idle", -1); }
-        if (move.y > 0) { anim.SetInteger("Idle", 1); }
+        if (move.y < 0) { anim.SetInteger("Idle", -1);
+            MoveInvert.y = move.y * -1;
+           
+        }
+        if (move.y > 0) { anim.SetInteger("Idle", 1);
+            MoveInvert.y = move.y * -1;
+            
+        }
 
         if (move.x > 0)
         {
             anim.SetInteger("Idle", 2);
+            MoveInvert.x = move.x * -1 ;
+            
         }
 
         if (move.x < 0 && move.y < 0)
         {
             anim.SetInteger("Idle", -4);
+            MoveInvert.x = move.x * -1;
+                MoveInvert.y = move.y * -1;
         }
         if (move.x > 0 && move.y > 0)
         {
             anim.SetInteger("Idle", 3);
+            MoveInvert.x = move.x * -1;
+            MoveInvert.y = move.y * -1;
         }
         if (move.x < 0 && move.y > 0)
         {
             anim.SetInteger("Idle", -3);
+            MoveInvert.x = move.x * -1;
+            MoveInvert.y = move.y * -1;
         }
         if (move.x > 0 && move.y < 0)
         {
             anim.SetInteger("Idle", 4);
+            MoveInvert.x = move.x * -1;
+            MoveInvert.y = move.y * -1;
         }
         if (move.x < 0)
         {
             anim.SetInteger("Idle", -2);
+            MoveInvert.x = move.x * -1;
+            
+        }
         }
 
 
 
-    }
+        
     public void OnInventario(InputValue value)
     {
        menuFaseController.AbrirInventario();

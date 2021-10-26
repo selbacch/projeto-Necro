@@ -728,13 +728,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111365716180677916}
-  m_LocalRotation: {x: -0.9585365, y: 0.21459901, z: 0.024122182, w: 0.1859384}
-  m_LocalPosition: {x: 0.007873668, y: 0.0704347, z: -0.10195727}
-  m_LocalScale: {x: 0.6854274, y: 0.8066488, z: 0.6624306}
+  m_LocalRotation: {x: -0.98225963, y: -0.003367301, z: -0.017720047, w: 0.18665662}
+  m_LocalPosition: {x: 0.007873668, y: 0.0704347, z: 0}
+  m_LocalScale: {x: 0.6854274, y: 0.8066488, z: 0}
   m_Children: []
   m_Father: {fileID: 3744235478415472772}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -106.188, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -158.481, y: -2.0670166, z: 0}
 --- !u!198 &3452335392708250507
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -871,7 +871,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.18
+      scalar: 0.19893283
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -925,7 +925,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.6490744, g: 0.735849, b: 0.67541844, a: 0.7607843}
+      maxColor: {r: 0.5577163, g: 0.7830189, b: 0.61916244, a: 0.73333335}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -1363,14 +1363,14 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 76.71737
+    angle: 73.19
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 0
     donutRadius: 0.2
-    m_Position: {x: 0, y: 0, z: 0}
-    m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 1, y: 1, z: 1}
+    m_Position: {x: 0.000014141462, y: -0.2243133, z: -0.1374909}
+    m_Rotation: {x: 358.21747, y: 0.00036368347, z: -0.0008551204}
+    m_Scale: {x: 0.9999999, y: 1, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -1449,7 +1449,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1.000084
+      value: 0.6960005
       mode: 0
       spread: 0
       speed:
@@ -1674,7 +1674,7 @@ ParticleSystem:
     m_BurstCount: 0
     m_Bursts: []
   SizeModule:
-    enabled: 0
+    enabled: 1
     curve:
       serializedVersion: 2
       minMaxState: 1
@@ -5461,7 +5461,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
+  - {fileID: 2100000, guid: f18ba97faeca10d449fb04619f2a1f58, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

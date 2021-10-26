@@ -100,6 +100,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Evade",
+                    "type": "Button",
+                    "id": "383c5d6b-e8c9-465b-9e96-ee56367704c4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -617,6 +625,28 @@
                     "processors": "",
                     "groups": "Controle",
                     "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4dec9771-09f3-40ac-ae73-bbaaa6a60f18",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "Evade",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "778aa56e-68e2-44c4-9a2e-b108a2eb83fd",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controle",
+                    "action": "Evade",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
