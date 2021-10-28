@@ -1,0 +1,3588 @@
+fileFormatVersion: 2
+guid: 93f593d1d7a3a4644aab7b2430dc7ac2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8053213802451170079
+    second: shadow monster2_0
+  - first:
+      213: -5413617569369741007
+    second: shadow monster2_1
+  - first:
+      213: 3591712174988808171
+    second: shadow monster2_2
+  - first:
+      213: -340000432915848230
+    second: shadow monster2_3
+  - first:
+      213: -1676365889280943403
+    second: shadow monster2_4
+  - first:
+      213: -6730357532817092277
+    second: shadow monster2_5
+  - first:
+      213: 7003704888944684636
+    second: shadow monster2_6
+  - first:
+      213: 6872743955056241454
+    second: shadow monster2_7
+  - first:
+      213: -5809291461368496904
+    second: shadow monster2_9
+  - first:
+      213: 8936166797425228681
+    second: shadow monster2_10
+  - first:
+      213: 2204622003647788752
+    second: shadow monster2_11
+  - first:
+      213: 2686389188941689881
+    second: shadow monster2_13
+  - first:
+      213: -7261964521462607791
+    second: shadow monster2_14
+  - first:
+      213: -8484335457716854922
+    second: shadow monster2_15
+  - first:
+      213: -215830553068519215
+    second: shadow monster2_18
+  - first:
+      213: 8024088035754801126
+    second: shadow monster2_19
+  - first:
+      213: 5490493667266675891
+    second: shadow monster2_20
+  - first:
+      213: -6899005594349862014
+    second: shadow monster2_21
+  - first:
+      213: 8444141723923131364
+    second: shadow monster2_22
+  - first:
+      213: 5077077324486492217
+    second: shadow monster2_23
+  - first:
+      213: 7047016607617912889
+    second: shadow monster2_26
+  - first:
+      213: -7349532010621755770
+    second: shadow monster2_27
+  - first:
+      213: 8158465738161587055
+    second: shadow monster2_28
+  - first:
+      213: 8392587547957401486
+    second: shadow monster2_29
+  - first:
+      213: -3367534729824272460
+    second: shadow monster2_30
+  - first:
+      213: 9032700451710575152
+    second: shadow monster2_31
+  - first:
+      213: -8009612242738098283
+    second: shadow monster2_32
+  - first:
+      213: -7677909841970250030
+    second: shadow monster2_33
+  - first:
+      213: -6438863997457614774
+    second: shadow monster2_34
+  - first:
+      213: 4632804729683953520
+    second: shadow monster2_36
+  - first:
+      213: -8500461991993819250
+    second: shadow monster2_37
+  - first:
+      213: 8436771600455683883
+    second: shadow monster2_38
+  - first:
+      213: 5256934933037068813
+    second: shadow monster2_39
+  - first:
+      213: 942219057429686522
+    second: shadow monster2_40
+  - first:
+      213: 7391678853352857101
+    second: shadow monster2_41
+  - first:
+      213: 37115220971091197
+    second: shadow monster2_42
+  - first:
+      213: -8320758628620949085
+    second: shadow monster2_43
+  - first:
+      213: 2222864829654672831
+    second: shadow monster2_44
+  - first:
+      213: -2280370486731310451
+    second: shadow monster2_46
+  - first:
+      213: 1823520582357453636
+    second: shadow monster2_47
+  - first:
+      213: -7489330867440379945
+    second: shadow monster2_48
+  - first:
+      213: -7542743162199170921
+    second: shadow monster2_49
+  - first:
+      213: 4622567299918309107
+    second: shadow monster2_50
+  - first:
+      213: 7396582074332593562
+    second: shadow monster2_52
+  - first:
+      213: 6163745709676778020
+    second: shadow monster2_53
+  - first:
+      213: -5642249621830661688
+    second: shadow monster2_54
+  - first:
+      213: 2720126441763099681
+    second: shadow monster2_55
+  - first:
+      213: 2439342326125800572
+    second: shadow monster2_56
+  - first:
+      213: -4017864044862064422
+    second: shadow monster2_57
+  - first:
+      213: -8782707708020242520
+    second: shadow monster2_59
+  - first:
+      213: 3063808689491175555
+    second: shadow monster2_60
+  - first:
+      213: -1566988736032197669
+    second: shadow monster2_61
+  - first:
+      213: -7455588171610429176
+    second: shadow monster2_62
+  - first:
+      213: -9010448282310296955
+    second: shadow monster2_63
+  - first:
+      213: -8490557824549768298
+    second: shadow monster2_64
+  - first:
+      213: -210570594546651751
+    second: shadow monster2_65
+  - first:
+      213: -4263995027565616545
+    second: shadow monster2_66
+  - first:
+      213: -2459522661794857423
+    second: shadow monster2_67
+  - first:
+      213: 982000185335535984
+    second: shadow monster2_70
+  - first:
+      213: 8441152874680941008
+    second: shadow monster2_71
+  - first:
+      213: -180494599609289178
+    second: shadow monster2_72
+  - first:
+      213: -2691986387941630146
+    second: shadow monster2_73
+  - first:
+      213: 6653018837361783091
+    second: shadow monster2_74
+  - first:
+      213: 8569152126939875891
+    second: shadow monster2_75
+  - first:
+      213: 2761811356049668972
+    second: shadow monster2_76
+  - first:
+      213: 5942711502808865271
+    second: shadow monster2_77
+  - first:
+      213: -6821989806946138586
+    second: shadow monster2_78
+  - first:
+      213: 2439379855593618940
+    second: shadow monster2_79
+  - first:
+      213: 72605665756063439
+    second: shadow monster2_80
+  - first:
+      213: -2541393942278015126
+    second: shadow monster2_81
+  - first:
+      213: 368652460166071524
+    second: shadow monster2_82
+  - first:
+      213: -5905408076576079974
+    second: shadow monster2_83
+  - first:
+      213: 5867361336385056456
+    second: shadow monster2_84
+  - first:
+      213: 4903368900062718344
+    second: shadow monster2_85
+  - first:
+      213: -3095571953717889112
+    second: shadow monster2_86
+  - first:
+      213: 239707522699150135
+    second: shadow monster2_87
+  - first:
+      213: 2242335264635311372
+    second: shadow monster2_88
+  - first:
+      213: 5993917326762784507
+    second: shadow monster2_89
+  - first:
+      213: -7444918856702473478
+    second: shadow monster2_90
+  - first:
+      213: 537800148615131618
+    second: shadow monster2_91
+  - first:
+      213: -4684054059494525825
+    second: shadow monster2_92
+  - first:
+      213: 7899184590325399226
+    second: shadow monster2_93
+  - first:
+      213: 9149674684159244246
+    second: shadow monster2_94
+  - first:
+      213: 3617569609269325089
+    second: shadow monster2_95
+  - first:
+      213: -1681570875530121745
+    second: shadow monster2_96
+  - first:
+      213: -8701654158830966459
+    second: shadow monster2_98
+  - first:
+      213: -915548090238919031
+    second: shadow monster2_99
+  - first:
+      213: -1424970365316890994
+    second: shadow monster2_100
+  - first:
+      213: -356792489403055922
+    second: shadow monster2_101
+  - first:
+      213: -4257713152205844047
+    second: shadow monster2_102
+  - first:
+      213: -1741813456581892091
+    second: shadow monster2_103
+  - first:
+      213: 359688962710026195
+    second: shadow monster2_104
+  - first:
+      213: -1951415982691068848
+    second: shadow monster2_106
+  - first:
+      213: -5833584442328232059
+    second: shadow monster2_107
+  - first:
+      213: 7056055422090793234
+    second: shadow monster2_108
+  - first:
+      213: -3061186450307099166
+    second: shadow monster2_110
+  - first:
+      213: 4273409334099943030
+    second: shadow monster2_111
+  - first:
+      213: 4212601134199107393
+    second: shadow monster2_112
+  - first:
+      213: 8508136290580110917
+    second: shadow monster2_115
+  - first:
+      213: 5692061576379917375
+    second: shadow monster2_116
+  - first:
+      213: -3219504749073101486
+    second: shadow monster2_117
+  - first:
+      213: -7943240242829897274
+    second: shadow monster2_118
+  - first:
+      213: 4759677295990307838
+    second: shadow monster2_125
+  - first:
+      213: 8219456176938555017
+    second: shadow monster2_126
+  - first:
+      213: 8617372991891440810
+    second: shadow monster2_127
+  - first:
+      213: -6689023146978376379
+    second: shadow monster2_128
+  - first:
+      213: -8627233441822597497
+    second: shadow monster2_130
+  - first:
+      213: 518354365583773107
+    second: shadow monster2_132
+  - first:
+      213: -2927625982811470713
+    second: shadow monster2_133
+  - first:
+      213: 3935532503758400318
+    second: shadow monster2_134
+  - first:
+      213: 4289050704087185727
+    second: shadow monster2_135
+  - first:
+      213: 8456798299049855823
+    second: shadow monster2_136
+  - first:
+      213: 2749143136482981568
+    second: shadow monster2_137
+  - first:
+      213: 4522684310479147683
+    second: shadow monster2_138
+  - first:
+      213: 7239090092297092920
+    second: shadow monster2_139
+  - first:
+      213: -7964953557678207249
+    second: shadow monster2_140
+  - first:
+      213: -4459231043998058636
+    second: shadow monster2_141
+  - first:
+      213: 6517698011786423535
+    second: shadow monster2_142
+  - first:
+      213: -2291502988567176053
+    second: shadow monster2_143
+  - first:
+      213: -5798868200462345445
+    second: shadow monster2_144
+  - first:
+      213: -2365081640634426369
+    second: shadow monster2_145
+  - first:
+      213: -832266657850799551
+    second: shadow monster2_146
+  - first:
+      213: 3278776756170371328
+    second: shadow monster2_150
+  - first:
+      213: 4435701907701398611
+    second: shadow monster2_151
+  - first:
+      213: 5264922712578516356
+    second: shadow monster2_152
+  - first:
+      213: -3124654770282903545
+    second: shadow monster2_153
+  - first:
+      213: 269802456322819077
+    second: shadow monster2_154
+  - first:
+      213: 817449333710012420
+    second: shadow monster2_155
+  - first:
+      213: 7825076087424732148
+    second: shadow monster2_156
+  - first:
+      213: 4502813351484845754
+    second: shadow monster2_157
+  - first:
+      213: -8442286033055325869
+    second: shadow monster2_158
+  - first:
+      213: 6332247458251808107
+    second: shadow monster2_159
+  - first:
+      213: -1502588911718912415
+    second: shadow monster2_160
+  - first:
+      213: -8803541783135838466
+    second: shadow monster2_161
+  - first:
+      213: 2402829313932846503
+    second: shadow monster2_162
+  - first:
+      213: 5870458583120604207
+    second: shadow monster2_163
+  - first:
+      213: -649718821620973945
+    second: shadow monster2_164
+  - first:
+      213: 7136896823701036032
+    second: shadow monster2_165
+  - first:
+      213: -6322668790159362869
+    second: shadow monster2_166
+  - first:
+      213: 5814065647793517653
+    second: shadow monster2_168
+  - first:
+      213: 1979002708222327347
+    second: shadow monster2_170
+  - first:
+      213: -1357660430790670147
+    second: shadow monster2_171
+  - first:
+      213: -3894798116643765373
+    second: shadow monster2_172
+  - first:
+      213: 1449498698446608451
+    second: shadow monster2_173
+  - first:
+      213: -6910609159035470105
+    second: shadow monster2_174
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shadow monster2_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1222
+        width: 64
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec00a4e6bc3d3090800000000000000
+      internalID: -8053213802451170079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1221
+        width: 68
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13927e3d087fed4b0800000000000000
+      internalID: -5413617569369741007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1270
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef47a5813358d130800000000000000
+      internalID: 3591712174988808171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1220
+        width: 70
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3629c5863184bf0800000000000000
+      internalID: -340000432915848230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_4
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1275
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dad3dffa1a5cb8e0800000000000000
+      internalID: -1676365889280943403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1221
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41101d9b77f892a0800000000000000
+      internalID: -6730357532817092277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_6
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1222
+        width: 66
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ee6314d78223160800000000000000
+      internalID: 7003704888944684636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_7
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1223
+        width: 61
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b2759b634e06f50800000000000000
+      internalID: 6872743955056241454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1263
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcbb60e130416fa0800000000000000
+      internalID: -5809291461368496904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1263
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bbb2e3b54a30c70800000000000000
+      internalID: 8936166797425228681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_11
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1248
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6bf6f1804689e10800000000000000
+      internalID: 2204622003647788752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1234
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914b157fbb8f74520800000000000000
+      internalID: 2686389188941689881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_14
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1240
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1505bb64eb1583b90800000000000000
+      internalID: -7261964521462607791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1227
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f19876ad5914a80800000000000000
+      internalID: -8484335457716854922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_18
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1071
+        width: 62
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0cca86147310df0800000000000000
+      internalID: -215830553068519215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_19
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1073
+        width: 64
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e770a91e894b5f60800000000000000
+      internalID: 8024088035754801126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1073
+        width: 64
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b446f686e6223c40800000000000000
+      internalID: 5490493667266675891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_21
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1074
+        width: 62
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2830855e6fec140a0800000000000000
+      internalID: -6899005594349862014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_22
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1074
+        width: 61
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb2e7fa82e9f2570800000000000000
+      internalID: 8444141723923131364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_23
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1074
+        width: 62
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93045375de6657640800000000000000
+      internalID: 5077077324486492217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_26
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1108
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930185794480cc160800000000000000
+      internalID: 7047016607617912889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 927
+        width: 58
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e17896397310a90800000000000000
+      internalID: -7349532010621755770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_28
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 926
+        width: 77
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63015b0d51b83170800000000000000
+      internalID: 8158465738161587055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_29
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 927
+        width: 81
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e871e56b8e5787470800000000000000
+      internalID: 8392587547957401486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_30
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 929
+        width: 58
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf7804510d1441d0800000000000000
+      internalID: -3367534729824272460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_31
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 929
+        width: 59
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03228ba14399a5d70800000000000000
+      internalID: 9032700451710575152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_32
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 925
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fc9fa1a1428d090800000000000000
+      internalID: -8009612242738098283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_33
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 928
+        width: 77
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de33e39da5927590800000000000000
+      internalID: -7677909841970250030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_34
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 929
+        width: 60
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48bc721f4f84a6a0800000000000000
+      internalID: -6438863997457614774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_36
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 903
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077cf822b570b4040800000000000000
+      internalID: 4632804729683953520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_37
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 771
+        width: 62
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fbf7c0bda480a80800000000000000
+      internalID: -8500461991993819250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_38
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 767
+        width: 65
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fc348121f651570800000000000000
+      internalID: 8436771600455683883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_39
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 769
+        width: 67
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02340b187264f840800000000000000
+      internalID: 5256934933037068813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_40
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 771
+        width: 62
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af823ba9d3f631d00800000000000000
+      internalID: 942219057429686522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_41
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 773
+        width: 54
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e1ddb11c4849660800000000000000
+      internalID: 7391678853352857101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_42
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 774
+        width: 71
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4fdb9c81cd38000800000000000000
+      internalID: 37115220971091197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_43
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 775
+        width: 74
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9284fcc1ab68c80800000000000000
+      internalID: -8320758628620949085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_44
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 775
+        width: 57
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5a64b09c339de10800000000000000
+      internalID: 2222864829654672831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_46
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 609
+        width: 59
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a781ecf1f7a50e0800000000000000
+      internalID: -2280370486731310451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_47
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 607
+        width: 114
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b8708ee427e4910800000000000000
+      internalID: 1823520582357453636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_48
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 613
+        width: 119
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d719d8914d801890800000000000000
+      internalID: -7489330867440379945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_49
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 613
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790ac11ae0bc25790800000000000000
+      internalID: -7542743162199170921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_50
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 613
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6a7f5c778a62040800000000000000
+      internalID: 4622567299918309107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_52
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 592
+        width: 51
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dbd943530f5a660800000000000000
+      internalID: 7396582074332593562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_53
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 466
+        width: 56
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4225f17e0160a8550800000000000000
+      internalID: 6163745709676778020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_54
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 468
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c983b4ecd3b2b1b0800000000000000
+      internalID: -5642249621830661688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_55
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 467
+        width: 116
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124df614694dfb520800000000000000
+      internalID: 2720126441763099681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_56
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 472
+        width: 94
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cad42ebe84ad120800000000000000
+      internalID: 2439342326125800572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_57
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 473
+        width: 84
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8be2250fdad38c0800000000000000
+      internalID: -4017864044862064422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_59
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 316
+        width: 64
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a74e515fdd8d1680800000000000000
+      internalID: -8782707708020242520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_60
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 315
+        width: 68
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38860e435c5d48a20800000000000000
+      internalID: 3063808689491175555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_61
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 315
+        width: 69
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd333cdfb00f04ae0800000000000000
+      internalID: -1566988736032197669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_62
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 313
+        width: 70
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8096e8f2f0e688890800000000000000
+      internalID: -7455588171610429176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_63
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 316
+        width: 69
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58abdd1d60574f280800000000000000
+      internalID: -9010448282310296955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_64
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 341
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6933ccab4aa7b2a80800000000000000
+      internalID: -8490557824549768298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_65
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 405
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d67efe827e31df0800000000000000
+      internalID: -210570594546651751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_66
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 394
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f526be13d1f33d4c0800000000000000
+      internalID: -4263995027565616545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_67
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 375
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eb1b29b250eddd0800000000000000
+      internalID: -2459522661794857423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_70
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 372
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079da4837f3c0ad00800000000000000
+      internalID: 982000185335535984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_71
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 368
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9ff1ef0dff42570800000000000000
+      internalID: 8441152874680941008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_72
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 361
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62679623e11ce7df0800000000000000
+      internalID: -180494599609289178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_73
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 369
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f5d8694a424aad0800000000000000
+      internalID: -2691986387941630146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_74
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 374
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3317ee42265445c50800000000000000
+      internalID: 6653018837361783091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_75
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 363
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ac888457ebbe670800000000000000
+      internalID: 8569152126939875891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_76
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 362
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bfafdabcce35620800000000000000
+      internalID: 2761811356049668972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_77
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 376
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9dc8f30a0c87250800000000000000
+      internalID: 5942711502808865271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_78
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 376
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626c3af3a6c6351a0800000000000000
+      internalID: -6821989806946138586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_79
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 372
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdb6e4ed0b6ad120800000000000000
+      internalID: 2439379855593618940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_80
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 377
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc62214e772f10100800000000000000
+      internalID: 72605665756063439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_81
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 376
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a677034aca72bbcd0800000000000000
+      internalID: -2541393942278015126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_82
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 374
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4c5c59577bd1500800000000000000
+      internalID: 368652460166071524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_83
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 361
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fb5fd74a6cb0ea0800000000000000
+      internalID: -5905408076576079974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_84
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 367
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cea7108c0e0d6150800000000000000
+      internalID: 5867361336385056456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_85
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 366
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889afe219044c0440800000000000000
+      internalID: 4903368900062718344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_86
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 361
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7bbf985b15a05d0800000000000000
+      internalID: -3095571953717889112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_87
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 367
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733c87cc8bc935300800000000000000
+      internalID: 239707522699150135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_88
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 368
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c055be3fa006e1f10800000000000000
+      internalID: 2242335264635311372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_89
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 366
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf631c23d0cae2350800000000000000
+      internalID: 5993917326762784507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_90
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 369
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa44a4aeb55ea890800000000000000
+      internalID: -7444918856702473478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_91
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 334
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e17b52c266a67700800000000000000
+      internalID: 537800148615131618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_92
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 354
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f743a1b66a5eefeb0800000000000000
+      internalID: -4684054059494525825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_93
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 363
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abeb591888a8f9d60800000000000000
+      internalID: 7899184590325399226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_94
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 360
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d732bfe5ac2afe70800000000000000
+      internalID: 9149674684159244246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_95
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 360
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d2fb69460343230800000000000000
+      internalID: 3617569609269325089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_96
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 363
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed6263b23cd9a8e0800000000000000
+      internalID: -1681570875530121745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_98
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 349
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549649855a38d3780800000000000000
+      internalID: -8701654158830966459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_99
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 358
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e958adcd15b43f0800000000000000
+      internalID: -915548090238919031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_100
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 357
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ef3d7a00d793ce0800000000000000
+      internalID: -1424970365316890994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_101
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 359
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec08a9a0f1b6c0bf0800000000000000
+      internalID: -356792489403055922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_102
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 338
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b11347427099e4c0800000000000000
+      internalID: -4257713152205844047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_103
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 339
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508e077c3e5d3d7e0800000000000000
+      internalID: -1741813456581892091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_104
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 350
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7b5f3b43fddf400800000000000000
+      internalID: 359688962710026195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_106
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 319
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054dda6b08d2be4e0800000000000000
+      internalID: -1951415982691068848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_107
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 324
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fc7cb7bd1fa0fa0800000000000000
+      internalID: -5833584442328232059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_108
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 329
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211d03595052ce160800000000000000
+      internalID: 7056055422090793234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_110
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 159
+        width: 62
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5d43e642b7485d0800000000000000
+      internalID: -3061186450307099166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_111
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 157
+        width: 60
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e9ddad5233e4b30800000000000000
+      internalID: 4273409334099943030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_112
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 157
+        width: 62
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f6858896a267a30800000000000000
+      internalID: 4212601134199107393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_115
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 245
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e13a4d0e8f21670800000000000000
+      internalID: 8508136290580110917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_116
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 265
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3466cb88d34efe40800000000000000
+      internalID: 5692061576379917375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_117
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 265
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d80d60d750253d0800000000000000
+      internalID: -3219504749073101486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_118
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 155
+        width: 62
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c159809511f3c190800000000000000
+      internalID: -7943240242829897274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_125
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 254
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb7ef86845cd0240800000000000000
+      internalID: 4759677295990307838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_126
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 240
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986105928df511270800000000000000
+      internalID: 8219456176938555017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_127
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 237
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa40cbe441f079770800000000000000
+      internalID: 8617372991891440810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_128
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 253
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5450df543e0db23a0800000000000000
+      internalID: -6689023146978376379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_130
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 154
+        width: 62
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e1bc9c4e8e54880800000000000000
+      internalID: -8627233441822597497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_132
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 219
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdc4649c80913700800000000000000
+      internalID: 518354365583773107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_133
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 217
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784815b0eabfe57d0800000000000000
+      internalID: -2927625982811470713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_134
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 214
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3be588f5f1dd9630800000000000000
+      internalID: 3935532503758400318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_135
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 203
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3971c814e4c58b30800000000000000
+      internalID: 4289050704087185727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_136
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 213
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b8ef73f359c5570800000000000000
+      internalID: 8456798299049855823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_137
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 226
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c675c6fd1be62620800000000000000
+      internalID: 2749143136482981568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_138
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 226
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2975d0b6dc3ce30800000000000000
+      internalID: 4522684310479147683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_139
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 226
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ffa68a51a667460800000000000000
+      internalID: 7239090092297092920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_140
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 228
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee4b1e70fcc67190800000000000000
+      internalID: -7964953557678207249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_141
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 229
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477f913ddf0ad12c0800000000000000
+      internalID: -4459231043998058636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_142
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 197
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecacc93fc3837a50800000000000000
+      internalID: 6517698011786423535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_143
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 214
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c15bc3c22f230e0800000000000000
+      internalID: -2291502988567176053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_144
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 222
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b122c6818468fa0800000000000000
+      internalID: -5798868200462345445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_145
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 218
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbdf2157ca8d2fd0800000000000000
+      internalID: -2365081640634426369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_146
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 221
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ac66c52e13374f0800000000000000
+      internalID: -832266657850799551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_150
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 211
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001b759861e808d20800000000000000
+      internalID: 3278776756170371328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_151
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 208
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c701a3267ce8d30800000000000000
+      internalID: 4435701907701398611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_152
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 172
+        width: 11
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485e025ff43c01940800000000000000
+      internalID: 5264922712578516356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_153
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 208
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708ce83aa0ff2a4d0800000000000000
+      internalID: -3124654770282903545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_154
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 216
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50446a097e78eb300800000000000000
+      internalID: 269802456322819077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_155
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 213
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4004aa586d9285b00800000000000000
+      internalID: 817449333710012420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_156
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 215
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbca531e31489c60800000000000000
+      internalID: 7825076087424732148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_157
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 205
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abee321e2e43d7e30800000000000000
+      internalID: 4502813351484845754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_158
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 186
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351ee730599f6da80800000000000000
+      internalID: -8442286033055325869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_159
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 203
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d18fa7389a0e750800000000000000
+      internalID: 6332247458251808107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_160
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 188
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ead89885bb52be0800000000000000
+      internalID: -1502588911718912415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_161
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 211
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe11e2346983d580800000000000000
+      internalID: -8803541783135838466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_162
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 210
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5ecd0c780985120800000000000000
+      internalID: 2402829313932846503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_163
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 210
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ceb837afe087150800000000000000
+      internalID: 5870458583120604207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_164
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 211
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e75619c2cbbf6f0800000000000000
+      internalID: -649718821620973945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_165
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 209
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c505729d95b0360800000000000000
+      internalID: 7136896823701036032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_166
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 210
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc43a1afb3e5148a0800000000000000
+      internalID: -6322668790159362869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_168
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 186
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554b88507e5bfa050800000000000000
+      internalID: 5814065647793517653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_170
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 166
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ab0295a74d67b10800000000000000
+      internalID: 1979002708222327347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_171
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 163
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db84e19080f982de0800000000000000
+      internalID: -1357660430790670147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_172
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 163
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38386999fb5e2f9c0800000000000000
+      internalID: -3894798116643765373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_173
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 164
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3481d4fe267ad1410800000000000000
+      internalID: 1449498698446608451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow monster2_174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1119
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee312675959810a0800000000000000
+      internalID: -6910609159035470105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
