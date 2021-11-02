@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class Health : MonoBehaviour
@@ -8,12 +9,15 @@ public class Health : MonoBehaviour
 
     [SerializeField]
     private int maxHealth;
-    public Action<int> AtualizarVida;
-    public Action<int, int> AtualizarVidaMaxima;
 
+    [SerializeField]
+    private int vidaPerSec;
 
+    public Action<int, int> AtualizarVida;
+    
     public int CurHealth { get => curHealth; }
     public int MaxHealth { get => maxHealth; }
+    public int VidaPerSec { get => vidaPerSec; }
 
     private void Awake()
     {
@@ -23,7 +27,8 @@ public class Health : MonoBehaviour
     // Start is called before the first frame update 
     void Start()
     {
-
+        vidaPerSec = ConstantesPersonagens.BASE_REGENERACAO_VIDA_HIPATIA;
+        StartCoroutine(VidaPorSegundo());
     }
 
     // Update is called once per frame 
@@ -39,8 +44,8 @@ public class Health : MonoBehaviour
         newValue = newValue < 0 ? 0 : newValue;
         this.curHealth = newValue;
 
-        Debug.Log("Diminui vida em " + value + " atual: " + this.curHealth + " novo: " + newValue);
-        AtualizarVida?.Invoke(this.curHealth);
+
+        AtualizarVida?.Invoke(maxHealth, curHealth);
     }
 
     public void Increase(int value)
@@ -53,10 +58,10 @@ public class Health : MonoBehaviour
 
         int newValue = curHealth + value;
         newValue = newValue > this.maxHealth ? this.maxHealth : newValue;
-        Debug.Log("Aumenta vida em " + value + " atual: " + this.curHealth + " novo: " + newValue);
+       
         this.curHealth = newValue;
 
-        AtualizarVida?.Invoke(this.curHealth);
+        AtualizarVida?.Invoke(maxHealth, curHealth);
     }
 
     public void SetCurrentHealth(int value)
@@ -70,10 +75,10 @@ public class Health : MonoBehaviour
         {
             value = 0;
         }
-        Debug.Log("set curr de " + this.curHealth + " para " + value);
+       
         curHealth = value;
 
-        AtualizarVida?.Invoke(this.curHealth);
+        AtualizarVida?.Invoke(maxHealth, curHealth);
 
     }
 
@@ -84,9 +89,17 @@ public class Health : MonoBehaviour
         {
             this.curHealth = this.maxHealth;
         }
-        AtualizarVidaMaxima?.Invoke(maxHealth, curHealth);
-        AtualizarVida?.Invoke(curHealth);
-        Debug.Log("Muda vida maxima para: " + value + "atual: " + this.curHealth);
+        AtualizarVida?.Invoke(maxHealth, curHealth);
+       
+        
+    }
 
+    private IEnumerator VidaPorSegundo()
+    {
+        for (; ; )
+        {
+            Increase(this.vidaPerSec);
+            yield return new WaitForSeconds(1f);
+        }
     }
 }

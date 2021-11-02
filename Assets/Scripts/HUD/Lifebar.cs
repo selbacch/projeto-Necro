@@ -10,8 +10,7 @@ public class Lifebar : MonoBehaviour
     {
 
         playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
-        playerHealth.AtualizarVida += SetHealth;
-        playerHealth.AtualizarVidaMaxima += AtualizarVidaMaxima;
+        playerHealth.AtualizarVida += AtualizarVidaMaxima;
 
         healthBar = GetComponent<Slider>();
         healthBar.maxValue = 100;
@@ -20,15 +19,9 @@ public class Lifebar : MonoBehaviour
     {
         if (playerHealth)
         {
-            playerHealth.AtualizarVida -= SetHealth;
-            playerHealth.AtualizarVidaMaxima -= AtualizarVidaMaxima;
+            playerHealth.AtualizarVida -= AtualizarVidaMaxima;
         }
 
-    }
-
-    public void SetHealth(int hp)
-    {
-        healthBar.value = hp;
     }
 
     public void AtualizarVidaMaxima(int vidaMax, int vidaAtual)

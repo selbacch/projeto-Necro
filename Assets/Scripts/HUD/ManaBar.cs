@@ -14,8 +14,7 @@ public class ManaBar : MonoBehaviour
 
 
         Mana playermana = GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>();
-        playermana.AtualizarMana += SetMana;
-        playermana.AtualizarManaMaxima += AtualizarManaMaxima;
+        playermana.AtualizarMana += AtualizarManaMaxima;
         ManasBar = GetComponent<Slider>();
 
     }
@@ -23,8 +22,7 @@ public class ManaBar : MonoBehaviour
     {
         if (playermana)
         {
-            playermana.AtualizarMana -= SetMana;
-            playermana.AtualizarManaMaxima -= AtualizarManaMaxima;
+            playermana.AtualizarMana -= AtualizarManaMaxima;
         }
 
     }
@@ -35,13 +33,9 @@ public class ManaBar : MonoBehaviour
 
     }
 
-    public void SetMana(int hp)
-    {
-        ManasBar.value = hp;
-    }
-
     public void AtualizarManaMaxima(int manaMax, int manaAtual)
     {
+        Debug.Log("manaAtual " + manaAtual + " manaMax" + manaMax);
         ManasBar.value = manaAtual;
         ManasBar.maxValue = manaMax;
     }

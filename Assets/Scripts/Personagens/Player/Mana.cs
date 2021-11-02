@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class Mana : MonoBehaviour
@@ -9,17 +10,23 @@ public class Mana : MonoBehaviour
     private int curMana;
 
     [SerializeField]
-    private  int maxMana;
-    public Action<int> AtualizarMana;
-    public Action<int, int> AtualizarManaMaxima;
+    private int maxMana;
 
-    public int CurMana { get => curMana;}
-    public int MaxMana { get => maxMana;}
+    [SerializeField]
+    private int manaPerSec;
+
+    public Action<int,int> AtualizarMana;
+
+    public int CurMana { get => curMana; }
+    public int MaxMana { get => maxMana; }
+
+    public int ManaPerSec { get => manaPerSec; }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        manaPerSec = ConstantesPersonagens.BASE_REGENERACAO_MANA_HIPATIA;
+        StartCoroutine(ManaPorSegundo());
     }
 
     // Update is called once per frame
@@ -36,14 +43,14 @@ public class Mana : MonoBehaviour
         }
 
     }
-  
+
     public void Increase(int mana)
     {
         int novoValor = curMana + mana;
 
         curMana = novoValor > maxMana ? maxMana : novoValor;
 
-        AtualizarMana?.Invoke(curMana);
+        AtualizarMana?.Invoke(maxMana, curMana);
     }
 
     public void LostMana(int mana)
@@ -51,7 +58,7 @@ public class Mana : MonoBehaviour
         int novoValor = curMana - mana;
         curMana = novoValor < 0 ? 0 : novoValor;
 
-        AtualizarMana?.Invoke(curMana);
+        AtualizarMana?.Invoke(maxMana, curMana);
     }
 
     public void SetMaxMana(int value)
@@ -61,21 +68,29 @@ public class Mana : MonoBehaviour
         {
             this.curMana = this.maxMana;
         }
-        AtualizarManaMaxima?.Invoke(maxMana, curMana);
-        AtualizarMana?.Invoke(curMana);
+        AtualizarMana?.Invoke(maxMana, curMana);
+        
     }
 
     public void SetCurrMana(int value)
     {
-        this.maxMana = value;
+        this.curMana = value;
         if (this.curMana > this.maxMana)
         {
             this.curMana = this.maxMana;
         }
-        AtualizarMana?.Invoke(curMana);
+        AtualizarMana?.Invoke(maxMana, curMana);
     }
 
+    private IEnumerator ManaPorSegundo()
+    {
+        for (; ; )
+        {
+            Increase(manaPerSec);
+            yield return new WaitForSeconds(1f);
+        }
 
+    }
 
 }
 

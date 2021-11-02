@@ -92,6 +92,8 @@ public class Boss : Enemy
         }
 
 
+
+
         if (Invunevarel)
         {
             StartCoroutine(TextoDeMiss());

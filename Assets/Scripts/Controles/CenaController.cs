@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class CenaController : MonoBehaviour
 {
-    public enum TrocaCena { PORTAL, MORTE, MUDANCA_FASE, INICIO_JOGO, CONTINUAR_JOGO}
+    public enum TrocaCena { PORTAL, MORTE, MUDANCA_FASE, INICIO_JOGO, CONTINUAR_JOGO }
     public TrocaCena motivo;
     public static CenaController Instance;
     public InfoSessao infoSessao;
@@ -16,7 +16,6 @@ public class CenaController : MonoBehaviour
     {
         if (Instance)
         {
-            Debug.Log("INSTANCE ALREADY IN SCENE! LET'S DESTROY OURSELVES!");
             Destroy(this.gameObject);
             return;
         }
@@ -30,7 +29,7 @@ public class CenaController : MonoBehaviour
     }
     void Start()
     {
-       
+
     }
 
     // Update is called once per frame
@@ -67,7 +66,7 @@ public class CenaController : MonoBehaviour
     public void RecarregarCenaEmCasoMorte()
     {
         motivo = TrocaCena.MORTE;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name) ;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -108,7 +107,7 @@ public class CenaController : MonoBehaviour
                 player.Vida.SetCurrentHealth(infoSessao.manaMax);
                 player.Mana.SetCurrMana(infoSessao.manaMax);
                 CheckpointController ck = CheckpointController.EncontrarUltimoCheckpointAtivo();
-                if (ck!= null)
+                if (ck != null)
                 {
                     ck.PosicionaPlayer();
                 }
@@ -117,8 +116,9 @@ public class CenaController : MonoBehaviour
             case TrocaCena.INICIO_JOGO:
             default:
                 player.Vida.SetMaxHealth(ConstantesPersonagens.BASE_VIDA_MAX_HIPATIA);
-                player.Mana.SetMaxMana(ConstantesPersonagens.BASE_MANA_MAX_HIPATIA);
                 player.Vida.SetCurrentHealth(ConstantesPersonagens.BASE_VIDA_MAX_HIPATIA);
+
+                player.Mana.SetMaxMana(ConstantesPersonagens.BASE_MANA_MAX_HIPATIA);
                 player.Mana.SetCurrMana(ConstantesPersonagens.BASE_MANA_MAX_HIPATIA);
                 break;
         }
