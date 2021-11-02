@@ -11,12 +11,8 @@ public class MenuFaseController : MonoBehaviour
     public GameObject menuMorte;
     public GameObject panelEscureBackground;
     public GameObject componenteInventario;
-    public GameObject componenteStatus;
+    public GameObject objDialogoCena;
    
-    
-
-
-
     private float timeScale;
     public bool isOpen = false;
     // Start is called before the first frame update
@@ -82,20 +78,19 @@ public class MenuFaseController : MonoBehaviour
     public void AbrirStatus()
     { 
         this.FecharMenus();
-        if (componenteStatus.activeSelf)
+        if (objDialogoCena.activeSelf)
         {
            
             Time.timeScale = this.timeScale;
-            componenteStatus.SetActive(false);
+            objDialogoCena.SetActive(false);
         }
         else
         {
           
             Time.timeScale = 0;
-            componenteStatus.SetActive(true);
+            objDialogoCena.SetActive(true);
 
         }
-
 
     }
     public void teste()
