@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class FraseDoAshihara : MonoBehaviour
 {
-    public Text texto;
+    public TMP_Text texto;
     public string frase;
     private float timeScale;
     public MenuFaseController menu;

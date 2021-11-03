@@ -219,8 +219,11 @@ public class Player : InterfaceAtacavel
         anim.SetFloat("Horizontal", Horizontal);
         anim.SetFloat("Vertical", Vertical);
         anim.SetFloat("speed", move.magnitude);
+        if (move.x != 0 && move.y != 0)
+        {
+            
 
-        //
+        }//
 
         if (move.y > 0)
         {
@@ -348,6 +351,7 @@ public class Player : InterfaceAtacavel
             if (inimigo != null && inimigo.tag == "Enemy")
             {
                inimigo.GetComponent<Enemy>().SofrerDano(DanoAtual);
+                GetComponent<SondEfect>().ComboAtack(combo1);
             }
             
         }
@@ -355,6 +359,7 @@ public class Player : InterfaceAtacavel
 
     void sting()
     {
+       
         List<GameObject> obs = attackCollider.ObterTargetsValidos();
 
         foreach (GameObject inimigo in obs)

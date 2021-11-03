@@ -33,7 +33,7 @@ public class HouseAnimacaoFloresta : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player" )
+        if (other.tag == "Player" )
         {
             other.GetComponent<PlayerInput>().actions.Disable();
             AnimacaoFloresta.SetActive(true);

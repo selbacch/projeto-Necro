@@ -84,7 +84,7 @@ public class AttackZone : MonoBehaviour
 
         }
 
-
+        GetComponentInParent<SondEfect>().NoEnemy();
 
     }
 
@@ -95,7 +95,7 @@ public class AttackZone : MonoBehaviour
         {
             target = null;
             targets.Remove(collision.gameObject);
-
+            GetComponentInParent<SondEfect>().NoEnemy();
         }
 
         if (collision.gameObject.tag == "Opn")
