@@ -28,7 +28,7 @@ public class HouseAnimacaoFloresta : MonoBehaviour
         AnimacaoFloresta.SetActive(false);
         Ashihara.SetActive(true);
         Ashihara.GetComponent< FraseDoAshihara>().frase = " seria bom ir dar uma olhada... um fantasma fugindo de seres das sombras mascarados pode ser alguma coisa";
-        Destroy(this, 8);
+        Destroy(this, 7.1f);
     }
 
     void OnTriggerExit2D(Collider2D other)

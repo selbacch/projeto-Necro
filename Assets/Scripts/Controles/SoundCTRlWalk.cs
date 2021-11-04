@@ -22,17 +22,15 @@ public class SoundCTRlWalk : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player" )
-        {
-            Debug.Log("ah muleque");
-            audioSource.clip = Walknull;
-        }
-    }
-    private void OnTriggerExit2D(Collider2D other)
-    {
         if (other.tag == "Player")
         {
+            Debug.Log("ah muleque");
             audioSource.clip = WalkGrass;
+        }
+        else { 
+  
+        
+            audioSource.clip = Walknull;
         }
     }
 }

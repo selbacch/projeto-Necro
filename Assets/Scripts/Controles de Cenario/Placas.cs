@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
-
+using TMPro;
 public class Placas : InterativaAbstract
 {
     private GameObject Player;
     public bool check = false;
     public MenuFaseController menu;
-    public Text texto;
+    public TMP_Text texto;
+
     public string txt;
     public GameObject ButtonAct;
     // Start is called before the first frame update
