@@ -58,9 +58,12 @@ public class NPC : InterativaAbstract
 
     IEnumerator Conversa()
     {
+        Animator anima = GetComponent<Animator>();
+        
         GameObject[] Enemys = GameObject.FindGameObjectsWithTag("Enemy");
         if (Enemys.Length == 0)
         {
+            anima.SetBool("stop", true);
             Fala = true;
             check = true;
             for (Dialogo = 0; Dialogo < txt.Length; Dialogo++)

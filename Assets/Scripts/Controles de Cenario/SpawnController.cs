@@ -152,13 +152,13 @@ public class SpawnController : MonoBehaviour
 
         if (gos.Length == 0)
         {
-           
-              
 
 
-                        
-                        GameObject miNiBoss = Instantiate(MiNiBoss, gameObject.transform.position, gameObject.transform.rotation, transform.parent).GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
-            miNiBoss.GetComponent<Animator>().runtimeAnimatorController = SpriteMiniBoss;
+
+
+
+            GameObject miNiBoss = Instantiate(MiNiBoss, gameObject.transform.position, gameObject.transform.rotation, transform.parent);miNiBoss.GetComponent<Animator>().runtimeAnimatorController = SpriteMiniBoss;
+            miNiBoss.GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
 
 
 
