@@ -85,7 +85,7 @@ public class Enemy : InterfaceAtacavel
         agent.updateRotation = false;
         agent.updateUpAxis = false;
     }
-   protected void Cacar()
+    protected void Cacar()
     {
         if (Target == null)
             return;
@@ -106,11 +106,11 @@ public class Enemy : InterfaceAtacavel
         Anim.SetFloat("Speed", direction.magnitude);
     }
 
-   public virtual IEnumerator Atacar(GameObject gameObject)
+    public virtual IEnumerator Atacar(GameObject gameObject)
     {
         for (; ; )
         {
-            if (Target != null && agent.remainingDistance < 30)
+            if (Target != null && agent != null && agent.enabled && agent.remainingDistance < 30)
             {
                 Anim.SetTrigger("atack");
 
@@ -215,7 +215,7 @@ public class Enemy : InterfaceAtacavel
             Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
 
         }
-       
+
     }
 
     protected IEnumerator TextoDeDano(int danoRecebido)
