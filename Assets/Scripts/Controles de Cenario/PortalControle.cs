@@ -16,12 +16,12 @@ public class PortalControle : MonoBehaviour
 
     private void Awake()
     {
-       NomeCena = SceneManager.GetActiveScene().name;
-        this.gameObject.name = idPortal; 
+        NomeCena = SceneManager.GetActiveScene().name;
+        this.gameObject.name = idPortal;
     }
 
     // Update is called once per frame
-    public  string ObterNomeObjeto()
+    public string ObterNomeObjeto()
     {
         return this.gameObject.name;
     }
@@ -33,23 +33,26 @@ public class PortalControle : MonoBehaviour
     }
     void TrocaScena()
     {
-    CenaController.Instance.PlayerEntrouPortal(this);
+        CenaController.Instance.PlayerEntrouPortal(this);
     }
 
     IEnumerator fade()
     {
-        yield return new WaitForSeconds(0.51f);
+
+        anim.GetComponent<Animator>().SetTrigger("out");        
+        yield return new WaitForSecondsRealtime(0.51f);
+        Time.timeScale = 1;
         TrocaScena();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if (collision.tag == "Player")
         {
-            anim.GetComponent<Animator>().SetTrigger("out");
+
             StartCoroutine(fade());
-            
+
         }
-        
+
     }
 
 }

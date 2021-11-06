@@ -199,7 +199,7 @@ public class MiniBoss : Enemy
     IEnumerator AtaqueDistance(GameObject alvo)
     {
         yield return new WaitForSeconds(5f);
-        if (Energy < 0)
+        if (Mana < 0)
         {
 
         }
@@ -210,15 +210,15 @@ public class MiniBoss : Enemy
             GameObject CloneTiro = Instantiate(Projetil, point.position, point.rotation);
             CloneTiro.GetComponent<arrow>().direct = alvo.transform.position - transform.position; ;
 
-            Energy--;
-            Energy--;
+            Mana--;
+            Mana--;
         }
     }
     IEnumerator ScreamComander()
     {
 
         yield return new WaitForSeconds(3f);
-        if (Energy > 0)
+        if (Mana > 0)
         {
 
             GameObject[] gos;
@@ -238,8 +238,8 @@ public class MiniBoss : Enemy
                     Lacaio1.GetComponent<Enemy>().Vida = 1;
                     GameObject Lacaio2 = Instantiate(Lacaio3, point.position, point.rotation, transform.parent);
                     Lacaio2.GetComponent<Enemy>().Vida = 1;
-                    Energy--;
-                    Energy--;
+                    Mana--;
+                    Mana--;
                 }
             }
         }
