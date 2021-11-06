@@ -47,7 +47,7 @@ public class Demon : Summon
         //fire.GetComponent<ParticleSystem>().Stop();
 
 
-        pilar.gameObject.SetActive(false);
+        pilar.gameObject.GetComponent<ParticleSystem>().Stop();
 
     }
 
@@ -57,7 +57,7 @@ public class Demon : Summon
 
     public void Delete()
     {
-        timeDestroy = 5f;
+        timeDestroy = 7f;
         Destroy(gameObject, timeDestroy);
     }
 
