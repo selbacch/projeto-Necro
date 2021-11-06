@@ -7,16 +7,14 @@ using UnityEngine.UI;
 public class MiniBoss : Enemy
 {
 
-
-
     private GameObject alvo;
     public bool isAttackingEnemy;
     public AtackMiniBoss AtackMiniBoss;
-    public int Energy = 2;
+    public int Mana = 2;
     public Transform point;
     public GameObject Lacaio0;
     public GameObject Lacaio3;
-    public int combo1=0;
+    public int combo1 = 0;
     public GameObject Projetil;
     void Start()
     {
@@ -31,7 +29,7 @@ public class MiniBoss : Enemy
         AtackMiniBoss.AtackeOut += AtackeOut;
         AreaAtaque.PlayerEntrouAttack += PlayerEntrouAttackArea;
         AreaAtaque.PlayerSaiuAttack += PlayerSaiuAttackArea;
-        
+
     }
 
     private void OnDestroy()
@@ -44,30 +42,27 @@ public class MiniBoss : Enemy
     void Update()
     {
 
-       
-         navhunt(); 
 
-        if(Energy < 2)
-        {
-            PEnergy();
-        }
-        if(Energy > 2) { Energy = 2; }
-
-
-        if (Vida <= 0)
+        if (!Death && Vida <= 0)
         {
             Death = true;
             Anim.SetBool("death", true);
+            return;
 
         }
-        if (Target == null )
+        if (Mana < 2)
+        {
+            StartCoroutine(AumentarMana(5f));
+        }
+       
+        if (Target == null)
         {
             isAttackingEnemy = false;
             Target = null;
             BuscaInimigo2();
             AlvoProx();
         }
-
+        navhunt();
     }
 
     void AlvoProx()//busca player
@@ -91,7 +86,7 @@ public class MiniBoss : Enemy
 
         }
 
-        
+
 
     }
 
@@ -115,15 +110,15 @@ public class MiniBoss : Enemy
             }
 
         }
-        
+
     }
 
     void VeriLacaio()
     {
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("Enemy");
-       
-       
+
+
         if (gos.Length <= 1)
         {
             StartCoroutine(ScreamComander());
@@ -137,8 +132,8 @@ public class MiniBoss : Enemy
         {
             if (isAttackingEnemy == true)
             {
-                Anim.SetTrigger("atack"+combo1);
-                
+                Anim.SetTrigger("atack" + combo1);
+
 
             }
 
@@ -148,27 +143,24 @@ public class MiniBoss : Enemy
 
     void start_combo()
     {
-        
-        
+
+
         if (combo1 < 3)
         {
             combo1++;
 
         }
     }
-        
 
-    
+
+
     void Anim_Finish()
     { combo1 = 0; }
-    void PEnergy()
-    {
-        StartCoroutine(PlusEnergy(5f));
-    }
 
-    IEnumerator PlusEnergy(float tempo)
+    IEnumerator AumentarMana(float tempo)
     {
-        Energy = Energy + 1;
+        int novoValor = Mana + 1;
+        Mana = novoValor > 2 ? 2 : novoValor;
         yield return new WaitForSeconds(tempo);
     }
 
@@ -211,15 +203,16 @@ public class MiniBoss : Enemy
         {
 
         }
-        else { 
+        else
+        {
 
-        Debug.Log("segura");
-        GameObject CloneTiro = Instantiate(Projetil, point.position, point.rotation);
-        CloneTiro.GetComponent<arrow>().direct = alvo.transform.position - transform.position; ;
+            Debug.Log("segura");
+            GameObject CloneTiro = Instantiate(Projetil, point.position, point.rotation);
+            CloneTiro.GetComponent<arrow>().direct = alvo.transform.position - transform.position; ;
 
-        Energy--;
-        Energy--;
-    }
+            Energy--;
+            Energy--;
+        }
     }
     IEnumerator ScreamComander()
     {
@@ -254,17 +247,17 @@ public class MiniBoss : Enemy
 
     public override void PlayerEntrouAggro(GameObject go)
     {
-        
+
 
 
         Target = go;
     }
     public override void PlayerSaiuAggro(GameObject go)
     {
-      
+
         Target = null;
-        
-        if (go.gameObject.tag == "Player"&& isAttackingEnemy !=true)
+
+        if (go.gameObject.tag == "Player" && isAttackingEnemy != true)
         {
             VeriLacaio();
         }
