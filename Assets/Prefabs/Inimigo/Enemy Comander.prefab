@@ -51,8 +51,9 @@ MonoBehaviour:
   DanoText: {fileID: 2378969499141598569}
   Vida: 100
   Resfriamento: 2
+  RaioAtaque: 3
   Velocidade: 1
-  DanoAtual: 10
+  DanoAtual: 5
   TempoDestruicao: 1
   anim: {fileID: 4871110717452625594}
   Gritou: 0
@@ -88,6 +89,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DanoTexto
+      objectReference: {fileID: 0}
+    - target: {fileID: 3378136143889513880, guid: 6e0434aa9c3a3e845a4961b992172536,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3687723738588562865, guid: 6e0434aa9c3a3e845a4961b992172536,
         type: 3}
