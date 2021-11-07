@@ -29,6 +29,7 @@ public abstract class ItemInterface : MonoBehaviour
     {
         if (audioColetarUtilizar != null)
         {
+            audioColetarUtilizar.pitch = 0.5f;
             audioColetarUtilizar.Play();
         }
 
@@ -37,11 +38,9 @@ public abstract class ItemInterface : MonoBehaviour
     private void DestruirObjeto()
     {
         float duracao = 0;
-        if (audioColetarUtilizar != null)
-        {
-            duracao = audioColetarUtilizar.clip.length;
-        }
-        Destroy(this.gameObject,duracao);
+        audioColetarUtilizar.pitch = 1f;
+        audioColetarUtilizar.Play();
+        Destroy(this.gameObject,0.07f);
     }
 
     void OnTriggerEnter2D(Collider2D col)

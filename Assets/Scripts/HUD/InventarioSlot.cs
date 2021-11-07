@@ -16,10 +16,10 @@ public class InventarioSlot : MonoBehaviour
     public TMP_Text quantidade;
     public Button botao;
     public bool equipado;
-
+    public AudioSource UseItem;
     public GameObject itemNoSlot;
-    private ItemInterface itemNoSlotInterface;
 
+    private ItemInterface itemNoSlotInterface;
     public static Action ItemUtilizado;
 
     private void Start()
@@ -73,6 +73,7 @@ public class InventarioSlot : MonoBehaviour
             imgItem.type = Image.Type.Simple;
             imgItem.preserveAspect = true;
             imgItem.enabled = true;
+            UseItem.clip = prefab.GetComponent<ItemInterface>().audioColetarUtilizar.clip;
             if (qnt> 1)
             {
                 this.quantidade.text = qnt.ToString();
@@ -101,6 +102,7 @@ public class InventarioSlot : MonoBehaviour
 
         this.itemNoSlotInterface.Utilizar();
         ItemUtilizado?.Invoke();
+        UseItem.Play();
     }
 
 }
