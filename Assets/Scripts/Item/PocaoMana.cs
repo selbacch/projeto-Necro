@@ -22,10 +22,10 @@ public class PocaoMana : ItemInterface
 
     public override void Utilizar()
     {
+        PlayAudio();
         InventarioController.Instance.RemoverDoInventario(this.tipoTipo);
         Mana manaComp = GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>();
         manaComp.Increase(mana);
-
 
     }
 

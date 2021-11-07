@@ -41,7 +41,6 @@ public class PortalControle : MonoBehaviour
     {
         timeScale = 0;
         Time.timeScale = this.timeScale;
-        yield return new WaitForSecondsRealtime(0.51f);
         anim.GetComponent<Animator>().SetTrigger("out");
         yield return new WaitForSecondsRealtime(0.52f);
         TrocaScena();

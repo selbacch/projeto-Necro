@@ -29,18 +29,15 @@ public class SondEfect : MonoBehaviour
         audioSource.Play() ;
   
     }
+    #region Movimento
     public void TocarWalk()
     {
         audioSourceWalk.Play();
 
     }
+    #endregion
 
-    //-------------------------------- move--------------------------
-
-
-
-
-//------------------------------------------------- Atack's-----------------
+    #region Ataque
     public void NoEnemy()
     {
         audioSource.clip = Enemynull;
@@ -71,4 +68,6 @@ public class SondEfect : MonoBehaviour
         audioSource.clip = StingSound;
         audioSource.Play();
     }
+
+    #endregion
 }
