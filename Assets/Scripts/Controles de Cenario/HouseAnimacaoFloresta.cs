@@ -22,13 +22,13 @@ public class HouseAnimacaoFloresta : MonoBehaviour
     }
 
     public virtual IEnumerator StopPlayer(GameObject Player)
-    {
+    { Ashihara.SetActive(true);
         yield return new WaitForSeconds(7f);
         Player.GetComponent<PlayerInput>().actions.Enable();
         AnimacaoFloresta.SetActive(false);
-        Ashihara.SetActive(true);
+        
         Ashihara.GetComponent< FraseDoAshihara>().frase = " seria bom ir dar uma olhada... um fantasma fugindo de seres das sombras mascarados pode ser alguma coisa";
-        Destroy(this, 7.1f);
+        Destroy(gameObject);
     }
 
     void OnTriggerExit2D(Collider2D other)
