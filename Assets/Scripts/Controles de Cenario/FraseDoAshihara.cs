@@ -13,13 +13,7 @@ public class FraseDoAshihara : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timeScale = Time.timeScale;
-        
-
-
-
-
-        Time.timeScale = this.timeScale;
+     
 
         StartCoroutine(Conversa());
     }
@@ -32,7 +26,7 @@ public class FraseDoAshihara : MonoBehaviour
 
     IEnumerator Conversa()
     {
-        yield return new WaitForSeconds(7f);
+        yield return new WaitForSeconds(7.2f);
 
 
 

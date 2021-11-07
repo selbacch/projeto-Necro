@@ -19,7 +19,7 @@ public class NPC : InterativaAbstract
     // Start is called before the first frame update
     void Start()
     {
-        timeScale = Time.timeScale;
+       
     }
 
     // Update is called once per frame
@@ -48,7 +48,7 @@ public class NPC : InterativaAbstract
             if (txt.Length == 0)
                 return;
 
-            Time.timeScale = this.timeScale;
+            
             
             StartCoroutine(Conversa());
            
@@ -69,7 +69,7 @@ public class NPC : InterativaAbstract
             for (Dialogo = 0; Dialogo < txt.Length; Dialogo++)
             {
                 texto.text = txt[Dialogo];
-                yield return new WaitForSeconds(2f);
+                yield return new WaitForSecondsRealtime(2f);
             }
             if (DropandDestroy != false)
             {

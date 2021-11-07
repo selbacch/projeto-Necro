@@ -11,6 +11,7 @@ public class PortalControle : MonoBehaviour
     public string idPortal;
     public string nomeCenaDestino;
     public string idPortalDestino;
+    private float timeScale;
     public string NomeCena { get; private set; }
     // Start is called before the first frame update
 
@@ -38,18 +39,19 @@ public class PortalControle : MonoBehaviour
 
     IEnumerator fade()
     {
-
-        anim.GetComponent<Animator>().SetTrigger("out");        
+        timeScale = 0;
+        Time.timeScale = this.timeScale;
         yield return new WaitForSecondsRealtime(0.51f);
-        Time.timeScale = 1;
+        anim.GetComponent<Animator>().SetTrigger("out");
+        yield return new WaitForSecondsRealtime(0.52f);
         TrocaScena();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-
             StartCoroutine(fade());
+
 
         }
 

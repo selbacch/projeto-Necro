@@ -54,7 +54,7 @@ public class MiniBoss : Enemy
         {
             StartCoroutine(AumentarMana(5f));
         }
-       
+
         if (Target == null)
         {
             isAttackingEnemy = false;
