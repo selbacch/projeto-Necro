@@ -91,28 +91,14 @@ public class Boss : Enemy
             return;
         }
 
-
-
-
         if (Invunevarel)
         {
-            StartCoroutine(TextoDeMiss());
+            StartCoroutine(FeedbackInfo("MISS"));
             return;
         }
         this.Vida -= danoRecebido;
-        StartCoroutine(TextoDeDano(danoRecebido));
+        StartCoroutine(FeedbackDano(danoRecebido));
     }
-
-    protected IEnumerator TextoDeMiss()
-    {
-        DanoText.text = "MISS";
-        DanoText.color = Color.white;
-        DanoText.gameObject.SetActive(true);
-        yield return new WaitForSeconds(0.15f);
-        DanoText.gameObject.SetActive(false);
-
-    }
-
 
     IEnumerator InvocarMinion()
     {

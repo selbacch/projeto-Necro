@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.InputSystem;
@@ -26,6 +27,7 @@ public class Player : InterfaceAtacavel
     public bool ImmortalMode;
     public AttackZone attackCollider;
     public MenuFaseController menuFaseController;
+ 
     private Vector2 MoveInvert; 
 
     // Start is called before the first frame update
@@ -379,6 +381,7 @@ public class Player : InterfaceAtacavel
     }
     public override void SofrerDano(int danoRecebido)
     {
+        StartCoroutine(FeedbackDano(danoRecebido));
         this.Vida.DamagePlayer(danoRecebido);
     }
     public override int Dano()
