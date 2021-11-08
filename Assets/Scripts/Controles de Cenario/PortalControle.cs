@@ -19,6 +19,7 @@ public class PortalControle : MonoBehaviour
     {
         NomeCena = SceneManager.GetActiveScene().name;
         this.gameObject.name = idPortal;
+        timeScale = Time.timeScale;
     }
 
     // Update is called once per frame
@@ -39,11 +40,12 @@ public class PortalControle : MonoBehaviour
 
     IEnumerator fade()
     {
-        timeScale = 0;
-        Time.timeScale = this.timeScale;
+      
+        Time.timeScale = 0;
         anim.GetComponent<Animator>().SetTrigger("out");
         yield return new WaitForSecondsRealtime(0.52f);
         TrocaScena();
+        Time.timeScale = this.timeScale;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
