@@ -8,8 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: mago
-  m_Shader: {fileID: -6465566751694194690, guid: 3290b6daba391424b97abc2a8213dd95,
-    type: 3}
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -21,7 +20,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_1DEA466A:
-        m_Texture: {fileID: 2800000, guid: 34326cc9d03f20b4d96fd6ed8701b684, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -43,8 +50,17 @@ Material:
     - Vector1_9d8cdff47a2d4d8296101a44f8b8cd90: 0
     - Vector1_A1231BEA: 0
     - Vector1_FA1ECC98: 1
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Strength: 0.2
+    - _UseUIAlphaClip: 0
     m_Colors:
     - Color_2FFD2910: {r: 42.722507, g: 42.722507, b: 42.722507, a: 1}
     - Vector2_2A63689: {r: -0.03, g: -0.1, b: 0.03, a: 0}
     - Vector2_C646D0BC: {r: 0, g: 5, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
