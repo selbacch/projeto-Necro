@@ -532,12 +532,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Death: 0
+  FeedbackText: {fileID: 5890495520636849771}
+  MaterialDano: {fileID: 2100000, guid: 990b253f25314364dab5a58ccf291b04, type: 2}
+  MaterialInfo: {fileID: 2100000, guid: 255938c352158684b882120c15d08c7d, type: 2}
+  MaterialRecuperacao: {fileID: 2100000, guid: 694c26c161cf4824694963d6cc199f42, type: 2}
   Anim: {fileID: 3685452147125159352}
   Target: {fileID: 0}
   AreaAtaque: {fileID: 1433598612365319676}
   AreaPerigo: {fileID: 3143839641556308744}
   nave: {fileID: 3651508782307770428}
-  DanoText: {fileID: 5890495520636849771}
   Vida: 100
   Resfriamento: 2
   RaioAtaque: 3

@@ -401,12 +401,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Death: 0
+  FeedbackText: {fileID: 9070065136820569755}
+  MaterialDano: {fileID: 2100000, guid: 990b253f25314364dab5a58ccf291b04, type: 2}
+  MaterialInfo: {fileID: 2100000, guid: 255938c352158684b882120c15d08c7d, type: 2}
+  MaterialRecuperacao: {fileID: 2100000, guid: 694c26c161cf4824694963d6cc199f42, type: 2}
   Anim: {fileID: 1447609473344064104}
   Target: {fileID: 0}
   AreaAtaque: {fileID: 1447609472024207847}
   AreaPerigo: {fileID: 1447609473493623486}
   nave: {fileID: 1447609473344064105}
-  DanoText: {fileID: 9070065136820569755}
   Vida: 600
   Resfriamento: 2
   RaioAtaque: 3
@@ -415,7 +418,7 @@ MonoBehaviour:
   TempoDestruicao: 1
   isAttackingEnemy: 0
   AtackMiniBoss: {fileID: 1417581923}
-  Energy: 2
+  Mana: 2
   point: {fileID: 1447609473344064108}
   Lacaio0: {fileID: 3016826029859375635, guid: f3a15d82554f37942896b9a43dd8c165, type: 3}
   Lacaio3: {fileID: 3016826029859375635, guid: f3a15d82554f37942896b9a43dd8c165, type: 3}

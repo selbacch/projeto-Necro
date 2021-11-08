@@ -12,7 +12,6 @@ public class Enemy : InterfaceAtacavel
     public EnemyAttackArea AreaAtaque;
     public EnemyAggroArea AreaPerigo;
     public UnityEngine.AI.NavMeshAgent nave;
-    public TMP_Text DanoText;
 
     public Int32 Vida = 100;
     public float Resfriamento = 2;
@@ -146,8 +145,8 @@ public class Enemy : InterfaceAtacavel
         for (int i = 0; i < Tempo; i++)
         {
             Debug.Log("veneno");
-            DanoText.color = Color.green;
-            SofrerDano(Dano);
+            
+            StartCoroutine(FeedbackDano(Dano));
             yield return new WaitForSeconds(2);
         }
 
@@ -204,7 +203,7 @@ public class Enemy : InterfaceAtacavel
             return;
         this.Vida -= danoRecebido;
 
-        StartCoroutine(TextoDeDano(danoRecebido));
+        StartCoroutine(FeedbackDano(danoRecebido));
     }
 
     public virtual void callbackAnimacaoAtaque()
@@ -215,16 +214,6 @@ public class Enemy : InterfaceAtacavel
             Target.GetComponent<InterfaceAtacavel>().SofrerDano(this.DanoAtual);
 
         }
-
-    }
-
-    protected IEnumerator TextoDeDano(int danoRecebido)
-    {
-        DanoText.text = danoRecebido.ToString();
-        DanoText.color = Color.red;
-        DanoText.gameObject.SetActive(true);
-        yield return new WaitForSeconds(0.10f);
-        DanoText.gameObject.SetActive(false);
 
     }
 
