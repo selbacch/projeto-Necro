@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.InputSystem;
 public class FinalTutorial : MonoBehaviour
 {
     public GameObject Raio1;
@@ -10,6 +10,7 @@ public class FinalTutorial : MonoBehaviour
     public GameObject tronco1;
     public GameObject tronco2;
     public GameObject toco2;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +37,15 @@ public class FinalTutorial : MonoBehaviour
         tronco2.SetActive(false);
     }
 
+
+
+    private IEnumerator FeedbackAnimation(GameObject Player)
+    {
+        yield return new WaitForSeconds(0.2f);
+        Player.gameObject.GetComponent<PlayerInput>().actions.Disable();
+        yield return new WaitForSeconds(0.3f);
+        Player.gameObject.GetComponent<PlayerInput>().actions.Enable();
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
 
@@ -48,7 +58,7 @@ public class FinalTutorial : MonoBehaviour
             Raio2.SetActive(true);
 
             StartCoroutine(raio());
-
+            StartCoroutine(FeedbackAnimation(other.gameObject));
 
 
         }
