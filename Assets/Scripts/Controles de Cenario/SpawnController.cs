@@ -13,6 +13,9 @@ public class SpawnController : MonoBehaviour
     public RuntimeAnimatorController SpriteEnemy;
     public RuntimeAnimatorController SpriteComander;
        public RuntimeAnimatorController SpriteMiniBoss;
+
+    public GameObject barreira;
+
     public bool orda2 = true;
     public bool orda3;
     public bool MIniboss;
@@ -48,6 +51,10 @@ public class SpawnController : MonoBehaviour
                 MiniBOss();
             }
 
+        }
+        else
+        {
+            Destroy(barreira);
         }
     }
 
