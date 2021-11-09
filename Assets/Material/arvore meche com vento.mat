@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: grass wind
+  m_Name: arvore meche com vento
   m_Shader: {fileID: -6465566751694194690, guid: 1ddb244fe6d70f44cba521653f9930a3,
     type: 3}
   m_ShaderKeywords: 
@@ -20,15 +20,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_86cdae3c4b2741d4af0ad32044ca9ee9:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 459f031564db98d4f9c58f4dc95dfd59, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_bc77dbc43dc74750827a4141a5d8d236_Out_0:
         m_Texture: {fileID: 2800000, guid: 869db68f507ded04dbdf2083569d00c7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -45,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_175d2ad4cd764983ac84917b14692ab5: 0.1
+    - Vector1_175d2ad4cd764983ac84917b14692ab5: 0.05
     - Vector1_82068c113f834af1924bbb36d420848d: 0.5
     m_Colors:
     - Vector2_5d7e8b23b6244bc1ae1a673013fc6d89: {r: 1, g: 1, b: 0, a: 0}
