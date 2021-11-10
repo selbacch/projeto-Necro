@@ -70,7 +70,7 @@ public class Player : InterfaceAtacavel
         }
         anim.SetBool("sumon", true);
         GameObject FantasmaC = Instantiate(Fantasma, point.position, point.rotation, transform.parent);
-        gameObject.GetComponent<Mana>().LostMana(1);
+        gameObject.GetComponent<Mana>().LostMana(20);
 
     }
 
@@ -82,7 +82,7 @@ public class Player : InterfaceAtacavel
         // anim.SetTrigger("area");
         GetComponent<PlayerInput>().actions.Disable();
         this.transform.Find("PrisaoArea").gameObject.SetActive(true);
-        gameObject.GetComponent<Mana>().LostMana(2);
+        gameObject.GetComponent<Mana>().LostMana(25);
         StartCoroutine(DesativaHabilidade3());
     }
 
@@ -93,7 +93,7 @@ public class Player : InterfaceAtacavel
 
         anim.SetBool("sumon", true);
         GameObject ZombiC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
-        gameObject.GetComponent<Mana>().LostMana(1);
+        gameObject.GetComponent<Mana>().LostMana(40);
 
 
     }
@@ -142,7 +142,7 @@ public class Player : InterfaceAtacavel
             StartCoroutine(DesativaEfeitoMascara());
 
         }
-        gameObject.GetComponent<Mana>().LostMana(3);
+        gameObject.GetComponent<Mana>().LostMana(90);
         //mundo dos mortos inimigos em determinada area ficam paralizados  e tem parte da vida drenada e recupera a do jogador 
 
     }
