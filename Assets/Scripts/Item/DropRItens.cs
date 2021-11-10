@@ -7,7 +7,7 @@ public class DropRItens : MonoBehaviour
 
     public GameObject[] dropitems;
     public GameObject dropitems2;
-    private float droprate = 0.25f;
+    private float droprate = 1;
     // Start is called before the first frame update
 
 
@@ -25,7 +25,7 @@ public class DropRItens : MonoBehaviour
 
 public void DropRandItem()
     {
-        if (Random.Range(0, 1) <= droprate)
+        if (Random.Range(0, 3) <= droprate)
         {
             int indexToDrop = Random.Range(0, dropitems.Length);
             Instantiate(dropitems[indexToDrop], this.transform.position, this.transform.rotation);
