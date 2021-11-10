@@ -193,7 +193,7 @@ public class Enemy : InterfaceAtacavel
 
     public void Delete() //fim da vida
     {
-        
+        GetComponentInChildren<DropRItens>().DropRandItem();
         Destroy(this.gameObject);
     }
 
