@@ -25,7 +25,7 @@ public class DropRItens : MonoBehaviour
 
 public void DropRandItem()
     {
-        if (Random.Range(0f, 1f) <= droprate)
+        if (Random.Range(0, 1) <= droprate)
         {
             int indexToDrop = Random.Range(0, dropitems.Length);
             Instantiate(dropitems[indexToDrop], this.transform.position, this.transform.rotation);
