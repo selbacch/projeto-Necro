@@ -598,7 +598,7 @@ MonoBehaviour:
     type: 3}
   m_TrackedDeviceOrientationAction: {fileID: 8220622438071770077, guid: d1614f69bd8475141b6397e21fa2f062,
     type: 3}
-  m_DeselectOnBackgroundClick: 1
+  m_DeselectOnBackgroundClick: 0
   m_PointerBehavior: 0
 --- !u!1 &390160524
 GameObject:
@@ -1471,7 +1471,7 @@ MonoBehaviour:
     type: 3}
   m_TrackedDeviceOrientationAction: {fileID: 8220622438071770077, guid: d1614f69bd8475141b6397e21fa2f062,
     type: 3}
-  m_DeselectOnBackgroundClick: 1
+  m_DeselectOnBackgroundClick: 0
   m_PointerBehavior: 0
 --- !u!1 &1435143477
 GameObject:
@@ -1889,7 +1889,7 @@ MonoBehaviour:
     type: 3}
   m_TrackedDeviceOrientationAction: {fileID: 8220622438071770077, guid: d1614f69bd8475141b6397e21fa2f062,
     type: 3}
-  m_DeselectOnBackgroundClick: 1
+  m_DeselectOnBackgroundClick: 0
   m_PointerBehavior: 0
 --- !u!1 &2026017486
 GameObject:
