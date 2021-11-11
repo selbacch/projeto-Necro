@@ -9,6 +9,7 @@ public abstract class ItemInterface : MonoBehaviour
     public string Descricao;
     public Item tipoTipo;
     public AudioSource audioColetarUtilizar;
+    public GameObject item;
 
     public enum Item { PocaoMP = 1001, PocaoHP = 1002, MascaraUm = 2001, MascaraDois = 2002, MascaraTres = 2003, None = -1 }
     public virtual void Utilizar()
@@ -40,7 +41,7 @@ public abstract class ItemInterface : MonoBehaviour
         float duracao = 0;
         audioColetarUtilizar.pitch = 1f;
         audioColetarUtilizar.Play();
-        Destroy(this.gameObject,0.07f);
+        Destroy(item,0.07f);
     }
 
     void OnTriggerEnter2D(Collider2D col)

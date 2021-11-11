@@ -31,6 +31,7 @@ public class Enemy : InterfaceAtacavel
     // Start is called before the first frame update
     void Start()
     {
+        gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);// não apagar evita que objeto gire  para ficar de pé no nav mash
         ConfigStart();
     }
 

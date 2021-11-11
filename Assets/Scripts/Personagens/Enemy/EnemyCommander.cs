@@ -16,7 +16,7 @@ public class EnemyCommander : Enemy
     void Start()
     {
         ConfigStart();
-        gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
+        gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);// não apagar evita que objeto gire  para ficar de pé no nav mash
         points = GameObject.FindGameObjectsWithTag("Respawn");
     }
 

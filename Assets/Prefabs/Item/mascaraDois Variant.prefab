@@ -7,6 +7,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 709637265806762525, guid: 39812ed741e4a0b45a81da38417d947c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7191879269020753002, guid: 7e2f6dfb19f97f54ab9b548da79c1b73,
+        type: 3}
     - target: {fileID: 3747780339402097448, guid: 39812ed741e4a0b45a81da38417d947c,
         type: 3}
       propertyPath: m_RootOrder
@@ -88,5 +94,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: mascaraDois Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7083443166695569430, guid: 39812ed741e4a0b45a81da38417d947c,
+        type: 3}
+      propertyPath: Nome
+      value: Mascara Dois
+      objectReference: {fileID: 0}
+    - target: {fileID: 7083443166695569430, guid: 39812ed741e4a0b45a81da38417d947c,
+        type: 3}
+      propertyPath: tipoTipo
+      value: 2002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244737482102053695, guid: 39812ed741e4a0b45a81da38417d947c,
+        type: 3}
+      propertyPath: Nome
+      value: Mascara Dois
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244737482102053695, guid: 39812ed741e4a0b45a81da38417d947c,
+        type: 3}
+      propertyPath: tipoTipo
+      value: 2002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7565941286956298711, guid: 39812ed741e4a0b45a81da38417d947c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7191879269020753002, guid: 7e2f6dfb19f97f54ab9b548da79c1b73,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39812ed741e4a0b45a81da38417d947c, type: 3}
