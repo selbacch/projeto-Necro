@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 15e8ae79d306f5c4abd48649957c5944
+guid: 1805fc83beb4e5c44bea5f5ea0df2cfb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5630179684712773940
-    second: TOCO TRIPLO_0
+      213: -5325178522452548688
+    second: ony tonto_0
+  - first:
+      213: 1589735880167086643
+    second: ony tonto_1
+  - first:
+      213: -7480339331140110351
+    second: ony tonto_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -49,7 +55,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 70
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -94,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TOCO TRIPLO_0
+      name: ony tonto_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 137
-        height: 142
+        x: 47
+        y: 31
+        width: 15
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -108,8 +114,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 439fce0e79a622e40800000000000000
-      internalID: 5630179684712773940
+      spriteID: 0b32dab095a2916b0800000000000000
+      internalID: -5325178522452548688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ony tonto_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 31
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a5d083c50ef0610800000000000000
+      internalID: 1589735880167086643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ony tonto_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 31
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7b208c20f703890800000000000000
+      internalID: -7480339331140110351
       vertices: []
       indices: 
       edges: []

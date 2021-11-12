@@ -24,7 +24,7 @@ public abstract class InterfaceAtacavel: MonoBehaviour
         FeedbackText.text = danoRecebido.ToString();
         FeedbackText.material = MaterialDano;
         FeedbackText.gameObject.SetActive(true);
-        yield return new WaitForSeconds(0.10f);
+        yield return new WaitForSeconds(0.20f);
         FeedbackText.gameObject.SetActive(false);
     }
 

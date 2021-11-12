@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 15e8ae79d306f5c4abd48649957c5944
+guid: 34e3e386c958c2d4da443fc09d0b176d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5630179684712773940
-    second: TOCO TRIPLO_0
+      213: 4599121207734329647
+    second: pato_0
+  - first:
+      213: -4854987207884015381
+    second: pato_1
+  - first:
+      213: 173507445492227399
+    second: pato_2
+  - first:
+      213: -529379251429792402
+    second: pato_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -49,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -94,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TOCO TRIPLO_0
+      name: pato_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 137
-        height: 142
+        x: 7
+        y: 101
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -108,8 +117,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 439fce0e79a622e40800000000000000
-      internalID: 5630179684712773940
+      spriteID: f2168f90f5c53df30800000000000000
+      internalID: 4599121207734329647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pato_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 102
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8f1057bde9f9cb0800000000000000
+      internalID: -4854987207884015381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pato_2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 103
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d13763a1c686200800000000000000
+      internalID: 173507445492227399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pato_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 103
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65a017206447a8f0800000000000000
+      internalID: -529379251429792402
       vertices: []
       indices: 
       edges: []
