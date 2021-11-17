@@ -1,0 +1,5844 @@
+fileFormatVersion: 2
+guid: e3d73bae08428714399a5d9cafa71d29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4261577328934214000
+    second: necrodancer_0
+  - first:
+      213: -2622134440314022386
+    second: necrodancer_1
+  - first:
+      213: 7217676443681866053
+    second: necrodancer_2
+  - first:
+      213: -3509755957439498860
+    second: necrodancer_3
+  - first:
+      213: -2968650267002010231
+    second: necrodancer_4
+  - first:
+      213: -6237795268741472555
+    second: necrodancer_5
+  - first:
+      213: -7808722219389729508
+    second: necrodancer_6
+  - first:
+      213: -1962857213271547916
+    second: necrodancer_7
+  - first:
+      213: 7798409080559665102
+    second: necrodancer_8
+  - first:
+      213: -4620581179585126079
+    second: necrodancer_10
+  - first:
+      213: 8755482860988585819
+    second: necrodancer_11
+  - first:
+      213: -6114895882586253536
+    second: necrodancer_12
+  - first:
+      213: -4544498796985832302
+    second: necrodancer_13
+  - first:
+      213: 320802641044151058
+    second: necrodancer_14
+  - first:
+      213: -7767396752600514482
+    second: necrodancer_15
+  - first:
+      213: -6235131724142725709
+    second: necrodancer_27
+  - first:
+      213: 8335893069627468293
+    second: necrodancer_28
+  - first:
+      213: -8325044872587174438
+    second: necrodancer_29
+  - first:
+      213: 7031508914190934963
+    second: necrodancer_30
+  - first:
+      213: 6851463923948085075
+    second: necrodancer_31
+  - first:
+      213: -2070606948659184244
+    second: necrodancer_32
+  - first:
+      213: 37535681243062476
+    second: necrodancer_46
+  - first:
+      213: -7188226373306268761
+    second: necrodancer_47
+  - first:
+      213: 8924518808897543917
+    second: necrodancer_48
+  - first:
+      213: 2320539256071678204
+    second: necrodancer_49
+  - first:
+      213: -7454280804447629518
+    second: necrodancer_50
+  - first:
+      213: 5705889480920519095
+    second: necrodancer_51
+  - first:
+      213: 2088396451387716729
+    second: necrodancer_65
+  - first:
+      213: 3179610463383553425
+    second: necrodancer_66
+  - first:
+      213: -9203392051862676532
+    second: necrodancer_67
+  - first:
+      213: 1815568166210299969
+    second: necrodancer_68
+  - first:
+      213: 5307211054953847724
+    second: necrodancer_69
+  - first:
+      213: 1784070349086578843
+    second: necrodancer_70
+  - first:
+      213: -9116290984639955413
+    second: necrodancer_72
+  - first:
+      213: -9061885048295185947
+    second: necrodancer_73
+  - first:
+      213: -7854641601349298731
+    second: necrodancer_74
+  - first:
+      213: -3252196545425177081
+    second: necrodancer_75
+  - first:
+      213: -8024975414502916497
+    second: necrodancer_76
+  - first:
+      213: 4509066553777746834
+    second: necrodancer_77
+  - first:
+      213: 5387353555616605686
+    second: necrodancer_78
+  - first:
+      213: -4743705242996952096
+    second: necrodancer_79
+  - first:
+      213: -104054185737271827
+    second: necrodancer_80
+  - first:
+      213: -8352864068428584744
+    second: necrodancer_81
+  - first:
+      213: -5533390593900980592
+    second: necrodancer_82
+  - first:
+      213: -4624269706947817554
+    second: necrodancer_83
+  - first:
+      213: 6662756988602556780
+    second: necrodancer_84
+  - first:
+      213: 4012106606848119362
+    second: necrodancer_85
+  - first:
+      213: 6167374817903755714
+    second: necrodancer_86
+  - first:
+      213: 341349059753982561
+    second: necrodancer_87
+  - first:
+      213: -3721348394548523914
+    second: necrodancer_88
+  - first:
+      213: -1680787727517015876
+    second: necrodancer_89
+  - first:
+      213: -7337720260080658154
+    second: necrodancer_90
+  - first:
+      213: 8069791506822561817
+    second: necrodancer_91
+  - first:
+      213: 7803611361599240305
+    second: necrodancer_92
+  - first:
+      213: -5198363798889237877
+    second: necrodancer_93
+  - first:
+      213: -6681577214639326662
+    second: necrodancer_94
+  - first:
+      213: 1677152373048220733
+    second: necrodancer_95
+  - first:
+      213: -6024532644699326717
+    second: necrodancer_96
+  - first:
+      213: -7534602363621784434
+    second: necrodancer_97
+  - first:
+      213: 1925484322008290759
+    second: necrodancer_98
+  - first:
+      213: 3648777556206358087
+    second: necrodancer_99
+  - first:
+      213: -7959816324120357766
+    second: necrodancer_100
+  - first:
+      213: 4690479105718833592
+    second: necrodancer_101
+  - first:
+      213: -5021437018010428674
+    second: necrodancer_114
+  - first:
+      213: 2426462754016207747
+    second: necrodancer_115
+  - first:
+      213: -5807295932602740075
+    second: necrodancer_116
+  - first:
+      213: -763588464724574800
+    second: necrodancer_117
+  - first:
+      213: -5306315174804372145
+    second: necrodancer_118
+  - first:
+      213: -1582446568799860894
+    second: necrodancer_119
+  - first:
+      213: -5831729197019366671
+    second: necrodancer_120
+  - first:
+      213: -6831990591114725589
+    second: necrodancer_121
+  - first:
+      213: 3992458151826309974
+    second: necrodancer_122
+  - first:
+      213: -8214619971767121300
+    second: necrodancer_123
+  - first:
+      213: 928806023061188678
+    second: necrodancer_124
+  - first:
+      213: -3327885884188718390
+    second: necrodancer_125
+  - first:
+      213: 3435248558697146948
+    second: necrodancer_126
+  - first:
+      213: -4199693656573331859
+    second: necrodancer_127
+  - first:
+      213: 8788550501312780452
+    second: necrodancer_129
+  - first:
+      213: -134717528238487131
+    second: necrodancer_130
+  - first:
+      213: 4911300845000823103
+    second: necrodancer_141
+  - first:
+      213: 8725932218764539943
+    second: necrodancer_142
+  - first:
+      213: -7015280373772445935
+    second: necrodancer_143
+  - first:
+      213: -4068398910407078393
+    second: necrodancer_144
+  - first:
+      213: 3932261747654334513
+    second: necrodancer_151
+  - first:
+      213: -8052918877966985036
+    second: necrodancer_152
+  - first:
+      213: -8238352330742719621
+    second: necrodancer_153
+  - first:
+      213: 851620742374066560
+    second: necrodancer_154
+  - first:
+      213: 6939699929834989842
+    second: necrodancer_155
+  - first:
+      213: 7425207169479073091
+    second: necrodancer_156
+  - first:
+      213: 4280398998032512841
+    second: necrodancer_158
+  - first:
+      213: 1475090897175515056
+    second: necrodancer_159
+  - first:
+      213: -8039174213259347924
+    second: necrodancer_160
+  - first:
+      213: 7690698482016119095
+    second: necrodancer_161
+  - first:
+      213: 4999417901249040756
+    second: necrodancer_162
+  - first:
+      213: 1451568695038961372
+    second: necrodancer_163
+  - first:
+      213: -8020131206002536630
+    second: necrodancer_164
+  - first:
+      213: 5450823211847777941
+    second: necrodancer_165
+  - first:
+      213: -8268639314856709720
+    second: necrodancer_166
+  - first:
+      213: -5572107054125760310
+    second: necrodancer_167
+  - first:
+      213: -1282354459990138361
+    second: necrodancer_168
+  - first:
+      213: 3149103614394119137
+    second: necrodancer_169
+  - first:
+      213: -6769752990229085970
+    second: necrodancer_170
+  - first:
+      213: 3768305969227669490
+    second: necrodancer_171
+  - first:
+      213: 5705782839105569467
+    second: necrodancer_172
+  - first:
+      213: -522748203572025726
+    second: necrodancer_173
+  - first:
+      213: -1495868822877108418
+    second: necrodancer_174
+  - first:
+      213: 817125139931434124
+    second: necrodancer_175
+  - first:
+      213: 3490508173928043604
+    second: necrodancer_176
+  - first:
+      213: 4461906445076948732
+    second: necrodancer_177
+  - first:
+      213: 947703291263277065
+    second: necrodancer_178
+  - first:
+      213: 6251791716416084130
+    second: necrodancer_179
+  - first:
+      213: -3238101978883267040
+    second: necrodancer_180
+  - first:
+      213: 1648509724021351591
+    second: necrodancer_181
+  - first:
+      213: 787200002103438676
+    second: necrodancer_182
+  - first:
+      213: -2029193403657921430
+    second: necrodancer_183
+  - first:
+      213: 7111690151016554098
+    second: necrodancer_184
+  - first:
+      213: 1321107295209230843
+    second: necrodancer_185
+  - first:
+      213: 7575461954639521510
+    second: necrodancer_186
+  - first:
+      213: 8598686033622156605
+    second: necrodancer_187
+  - first:
+      213: -182244613558388653
+    second: necrodancer_188
+  - first:
+      213: -4813367225732245041
+    second: necrodancer_189
+  - first:
+      213: 3471999432412321288
+    second: necrodancer_190
+  - first:
+      213: -5978485802626033451
+    second: necrodancer_191
+  - first:
+      213: 1151036492140453737
+    second: necrodancer_205
+  - first:
+      213: -4740347641059277059
+    second: necrodancer_206
+  - first:
+      213: 2771899309637921528
+    second: necrodancer_207
+  - first:
+      213: -7044918373933889714
+    second: necrodancer_208
+  - first:
+      213: -8189562488980435171
+    second: necrodancer_209
+  - first:
+      213: -3609488054721071212
+    second: necrodancer_210
+  - first:
+      213: -5525691211273287837
+    second: necrodancer_211
+  - first:
+      213: -3711811012964894001
+    second: necrodancer_212
+  - first:
+      213: -9006051759697689550
+    second: necrodancer_213
+  - first:
+      213: -4707080947183742853
+    second: necrodancer_214
+  - first:
+      213: 1011740080482635514
+    second: necrodancer_215
+  - first:
+      213: 4011451539089538551
+    second: necrodancer_216
+  - first:
+      213: -4333822641120680350
+    second: necrodancer_217
+  - first:
+      213: -7678000494511481535
+    second: necrodancer_230
+  - first:
+      213: 1746553885865046988
+    second: necrodancer_231
+  - first:
+      213: 3372870951482429494
+    second: necrodancer_232
+  - first:
+      213: -7214950083190052828
+    second: necrodancer_233
+  - first:
+      213: -6803050949856267001
+    second: necrodancer_234
+  - first:
+      213: -1796651813577100620
+    second: necrodancer_235
+  - first:
+      213: -1936732282027412231
+    second: necrodancer_236
+  - first:
+      213: 7511528307059987244
+    second: necrodancer_237
+  - first:
+      213: -8239868942133279498
+    second: necrodancer_238
+  - first:
+      213: -3720247772072911189
+    second: necrodancer_239
+  - first:
+      213: -9207102199602405724
+    second: necrodancer_240
+  - first:
+      213: -6796191014756245969
+    second: necrodancer_241
+  - first:
+      213: 4643630004618728358
+    second: necrodancer_242
+  - first:
+      213: 1547745851377092870
+    second: necrodancer_243
+  - first:
+      213: -8514299058751903030
+    second: necrodancer_244
+  - first:
+      213: -2824648637893370092
+    second: necrodancer_245
+  - first:
+      213: -6305969853509769503
+    second: necrodancer_246
+  - first:
+      213: 8240739367504796102
+    second: necrodancer_247
+  - first:
+      213: -1111270687603383950
+    second: necrodancer_248
+  - first:
+      213: 2336996609986087903
+    second: necrodancer_249
+  - first:
+      213: 8104352755319099692
+    second: necrodancer_250
+  - first:
+      213: -1303736764315594487
+    second: necrodancer_265
+  - first:
+      213: -1811311810519555383
+    second: necrodancer_266
+  - first:
+      213: -5218514525357614620
+    second: necrodancer_267
+  - first:
+      213: 5764892007101033674
+    second: necrodancer_268
+  - first:
+      213: -1203692860535770497
+    second: necrodancer_269
+  - first:
+      213: -8311601537322536812
+    second: necrodancer_270
+  - first:
+      213: -5492575756542757802
+    second: necrodancer_271
+  - first:
+      213: 5240452810868056414
+    second: necrodancer_272
+  - first:
+      213: 3585601759725295478
+    second: necrodancer_273
+  - first:
+      213: 8167561223002510133
+    second: necrodancer_275
+  - first:
+      213: -1882305144022937107
+    second: necrodancer_276
+  - first:
+      213: 294819039309579683
+    second: necrodancer_284
+  - first:
+      213: 6597647582715582151
+    second: necrodancer_293
+  - first:
+      213: -2497083992696108249
+    second: necrodancer_294
+  - first:
+      213: 5342652526201390623
+    second: necrodancer_295
+  - first:
+      213: -2732686851016439751
+    second: necrodancer_296
+  - first:
+      213: 5668984982588643028
+    second: necrodancer_297
+  - first:
+      213: 6839757369566494731
+    second: necrodancer_298
+  - first:
+      213: -88722322201220042
+    second: necrodancer_300
+  - first:
+      213: 7053487620967658751
+    second: necrodancer_303
+  - first:
+      213: -7287711786134424547
+    second: necrodancer_305
+  - first:
+      213: 5177785136190807958
+    second: necrodancer_310
+  - first:
+      213: 8675885397479442174
+    second: necrodancer_312
+  - first:
+      213: -4731743154723160689
+    second: necrodancer_313
+  - first:
+      213: 5751346568036830340
+    second: necrodancer_314
+  - first:
+      213: -5329204942702800263
+    second: necrodancer_315
+  - first:
+      213: 5150239797263270093
+    second: necrodancer_316
+  - first:
+      213: -5838264662701373588
+    second: necrodancer_319
+  - first:
+      213: 654013369036161811
+    second: necrodancer_332
+  - first:
+      213: 1918563512741044328
+    second: necrodancer_333
+  - first:
+      213: 2030801271964494505
+    second: necrodancer_334
+  - first:
+      213: -4526342957501190492
+    second: necrodancer_335
+  - first:
+      213: -391324797003020186
+    second: necrodancer_336
+  - first:
+      213: -5959968693571871390
+    second: necrodancer_337
+  - first:
+      213: 5092543649801119597
+    second: necrodancer_338
+  - first:
+      213: -8123146623654891704
+    second: necrodancer_339
+  - first:
+      213: -2174535681351556557
+    second: necrodancer_340
+  - first:
+      213: -2146910203381102283
+    second: necrodancer_341
+  - first:
+      213: 1700671574462617335
+    second: necrodancer_342
+  - first:
+      213: 2459217152110229842
+    second: necrodancer_343
+  - first:
+      213: 7481287494335153348
+    second: necrodancer_344
+  - first:
+      213: -5371848305868052020
+    second: necrodancer_345
+  - first:
+      213: 1995036223158811337
+    second: necrodancer_346
+  - first:
+      213: -4312624858841519586
+    second: necrodancer_347
+  - first:
+      213: -4157065851628935171
+    second: necrodancer_355
+  - first:
+      213: -5708925040919559767
+    second: necrodancer_356
+  - first:
+      213: 9171907106119291869
+    second: necrodancer_357
+  - first:
+      213: -4751781408178692584
+    second: necrodancer_358
+  - first:
+      213: 6654599653512565252
+    second: necrodancer_359
+  - first:
+      213: 4003595536202073345
+    second: necrodancer_360
+  - first:
+      213: -7913974389870314408
+    second: necrodancer_370
+  - first:
+      213: -2437539576022395275
+    second: necrodancer_371
+  - first:
+      213: -8930443970600392309
+    second: necrodancer_372
+  - first:
+      213: -5565104588624599245
+    second: necrodancer_373
+  - first:
+      213: -2826261309541452483
+    second: necrodancer_374
+  - first:
+      213: -5844245014407264678
+    second: necrodancer_375
+  - first:
+      213: -3116257011649087630
+    second: necrodancer_377
+  - first:
+      213: 6635450224733454151
+    second: necrodancer_378
+  - first:
+      213: -7599035180751168346
+    second: necrodancer_379
+  - first:
+      213: 2538866193575640279
+    second: necrodancer_403
+  - first:
+      213: -3512190402511005918
+    second: necrodancer_404
+  - first:
+      213: 4562424459661901414
+    second: necrodancer_420
+  - first:
+      213: -1523298138948551531
+    second: necrodancer_421
+  - first:
+      213: -8730130276577989027
+    second: necrodancer_422
+  - first:
+      213: 633488598988712571
+    second: necrodancer_423
+  - first:
+      213: -6639189832480934609
+    second: necrodancer_436
+  - first:
+      213: -510582323147710802
+    second: necrodancer_442
+  - first:
+      213: -1033523202695351097
+    second: necrodancer_443
+  - first:
+      213: 6577891006721473177
+    second: necrodancer_444
+  - first:
+      213: -4528961797675771104
+    second: necrodancer_445
+  - first:
+      213: -1846700434207724024
+    second: necrodancer_446
+  - first:
+      213: -3460634395640244245
+    second: necrodancer_478
+  - first:
+      213: -7777288285492798987
+    second: necrodancer_479
+  - first:
+      213: 8227356813381665003
+    second: necrodancer_480
+  - first:
+      213: -854480312713617309
+    second: necrodancer_481
+  - first:
+      213: -6903650152874267830
+    second: necrodancer_482
+  - first:
+      213: 272684097546702955
+    second: necrodancer_483
+  - first:
+      213: -5790554032740065196
+    second: necrodancer_484
+  - first:
+      213: -2111348900777055037
+    second: necrodancer_485
+  - first:
+      213: 4399302999394478316
+    second: necrodancer_503
+  - first:
+      213: 7015727686121186406
+    second: necrodancer_504
+  - first:
+      213: 1148631805257514210
+    second: necrodancer_505
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: necrodancer_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1540
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0795bf9700a242b30800000000000000
+      internalID: 4261577328934214000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1540
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06d3c38e9e4c9bd0800000000000000
+      internalID: -2622134440314022386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1540
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541cc511c765a2460800000000000000
+      internalID: 7217676443681866053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1540
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495f18c5d87da4fc0800000000000000
+      internalID: -3509755957439498860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1540
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9850afc8f4c3dc6d0800000000000000
+      internalID: -2968650267002010231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_5
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1540
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de5d099046ee69a0800000000000000
+      internalID: -6237795268741472555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1540
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15439b8388d1a390800000000000000
+      internalID: -7808722219389729508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1540
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffd222a3c782c4e0800000000000000
+      internalID: -1962857213271547916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_8
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1540
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf70f3bdb3893c60800000000000000
+      internalID: 7798409080559665102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1540
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14129f6e5e560efb0800000000000000
+      internalID: -4620581179585126079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_11
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1540
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57de360649b18970800000000000000
+      internalID: 8755482860988585819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1540
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02792f7c796832ba0800000000000000
+      internalID: -6114895882586253536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1540
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c28730c62bee0c0800000000000000
+      internalID: -4544498796985832302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_14
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1540
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b91766d48b37400800000000000000
+      internalID: 320802641044151058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_15
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1540
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4049b39ec9a43490800000000000000
+      internalID: -7767396752600514482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_27
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1507
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b534b66bbc5879a0800000000000000
+      internalID: -6235131724142725709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_28
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1509
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a29c4d49a0fa370800000000000000
+      internalID: 8335893069627468293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_29
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1509
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add114edbcf777c80800000000000000
+      internalID: -8325044872587174438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_30
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1509
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3e7595a10f49160800000000000000
+      internalID: 7031508914190934963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_31
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1509
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f5452632a451f50800000000000000
+      internalID: 6851463923948085075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_32
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1509
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8db6b363f9b343e0800000000000000
+      internalID: -2070606948659184244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_46
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1473
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc025e2d08a558000800000000000000
+      internalID: 37535681243062476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_47
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1475
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a34cf5c23a4e3c90800000000000000
+      internalID: -7188226373306268761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_48
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1475
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee51a392924adb70800000000000000
+      internalID: 8924518808897543917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_49
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1475
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8608d9826343020800000000000000
+      internalID: 2320539256071678204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_50
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1475
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fc2e25a131d8890800000000000000
+      internalID: -7454280804447629518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_51
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1475
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1d7e570446f2f40800000000000000
+      internalID: 5705889480920519095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_65
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1434
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974b62bf1897bfc10800000000000000
+      internalID: 2088396451387716729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_66
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1434
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1958712cede302c20800000000000000
+      internalID: 3179610463383553425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_67
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1462
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb5214c0bbf64080800000000000000
+      internalID: -9203392051862676532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_68
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1465
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148e87cb0a1323910800000000000000
+      internalID: 1815568166210299969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_69
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1460
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabdc8ee55007a940800000000000000
+      internalID: 5307211054953847724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_70
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1463
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98dc93b78a42c810800000000000000
+      internalID: 1784070349086578843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_72
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1431
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e707f46ad6c7180800000000000000
+      internalID: -9116290984639955413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_73
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1434
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e121fc7f87bd3280800000000000000
+      internalID: -9061885048295185947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_74
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1434
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5d1994415bef290800000000000000
+      internalID: -7854641601349298731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_75
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1434
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7060e2a0970edd2d0800000000000000
+      internalID: -3252196545425177081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_76
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1422
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e7f4fe06f81a090800000000000000
+      internalID: -8024975414502916497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_77
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1420
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293748ef32c639e30800000000000000
+      internalID: 4509066553777746834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_78
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1422
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f527f1f389b3ca40800000000000000
+      internalID: 5387353555616605686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_79
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1422
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e33208f639fa2eb0800000000000000
+      internalID: -4743705242996952096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_80
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1422
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5ccb5f4435e8ef0800000000000000
+      internalID: -104054185737271827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_81
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1422
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8a038926aa41c80800000000000000
+      internalID: -8352864068428584744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_82
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1422
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0965b0f62927533b0800000000000000
+      internalID: -5533390593900980592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_83
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1422
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf86c3b33b43dfb0800000000000000
+      internalID: -4624269706947817554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_84
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1422
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61286a2e2ed67c50800000000000000
+      internalID: 6662756988602556780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_85
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1422
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2421e2ea3bddda730800000000000000
+      internalID: 4012106606848119362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_86
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1422
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1c7d188bae69550800000000000000
+      internalID: 6167374817903755714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_87
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1422
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16abc0b4927bcb400800000000000000
+      internalID: 341349059753982561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_88
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1422
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c07790a5d1b5cc0800000000000000
+      internalID: -3721348394548523914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_89
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1422
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0238e8774aca8e0800000000000000
+      internalID: -1680787727517015876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1422
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61994b4ec4e2b2a90800000000000000
+      internalID: -7337720260080658154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_91
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1422
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9108f9fae98adff60800000000000000
+      internalID: 8069791506822561817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_92
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1422
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1783355203ffb4c60800000000000000
+      internalID: 7803611361599240305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_93
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1386
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82f4f1caa3bbd7b0800000000000000
+      internalID: -5198363798889237877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_94
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1386
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a341e7ce44643a0800000000000000
+      internalID: -6681577214639326662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_95
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1386
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c1eb58231764710800000000000000
+      internalID: 1677152373048220733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_96
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1386
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307b3fe9a7f846ca0800000000000000
+      internalID: -6024532644699326717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_97
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1386
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8441800217bf6790800000000000000
+      internalID: -7534602363621784434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_98
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1386
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c553e90ac1b8ba10800000000000000
+      internalID: 1925484322008290759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_99
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1414
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e0916fadf03a230800000000000000
+      internalID: 3648777556206358087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_100
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1386
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a745373e93d098190800000000000000
+      internalID: -7959816324120357766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_101
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1382
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b153ca35ede71140800000000000000
+      internalID: 4690479105718833592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_114
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1353
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efadd7703a5405ab0800000000000000
+      internalID: -5021437018010428674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_115
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1353
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3832ad1d4078ca120800000000000000
+      internalID: 2426462754016207747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_116
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1353
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59294af1e17586fa0800000000000000
+      internalID: -5807295932602740075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_117
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1353
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd718546503765f0800000000000000
+      internalID: -763588464724574800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_118
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1353
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45458b667e2c56b0800000000000000
+      internalID: -5306315174804372145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_119
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1353
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26706a6da350a0ae0800000000000000
+      internalID: -1582446568799860894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_120
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1353
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faf2617139811fa0800000000000000
+      internalID: -5831729197019366671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_121
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1348
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27bbcb31c4ef21a0800000000000000
+      internalID: -6831990591114725589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_122
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1377
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6534830498f086730800000000000000
+      internalID: 3992458151826309974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_123
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1377
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6acdf998aecffd80800000000000000
+      internalID: -8214619971767121300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_124
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1377
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6403ecd2828c3ec00800000000000000
+      internalID: 928806023061188678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_125
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1377
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca05e39b69f0d1d0800000000000000
+      internalID: -3327885884188718390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_126
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1377
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ae0580d547caf20800000000000000
+      internalID: 3435248558697146948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_127
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1377
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d663c7aced0b7b5c0800000000000000
+      internalID: -4199693656573331859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_129
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1377
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a854510e1437f970800000000000000
+      internalID: 8788550501312780452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_130
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1377
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a983503f13612ef0800000000000000
+      internalID: -134717528238487131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_141
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1314
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31995be812782440800000000000000
+      internalID: 4911300845000823103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_142
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1345
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728b899fe1db81970800000000000000
+      internalID: 8725932218764539943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_143
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1346
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11716892ba7b4ae90800000000000000
+      internalID: -7015280373772445935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_144
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1311
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e899c0fb42a87c0800000000000000
+      internalID: -4068398910407078393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_151
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1314
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1381bc8b933329630800000000000000
+      internalID: 3932261747654334513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_152
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1314
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b89db952f84e3090800000000000000
+      internalID: -8052918877966985036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_153
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1314
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b919f243e7bad80800000000000000
+      internalID: -8238352330742719621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_154
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1314
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0898f889d8091db00800000000000000
+      internalID: 851620742374066560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_155
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1314
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2192e9d6154ce4060800000000000000
+      internalID: 6939699929834989842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_156
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1314
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ddb788492ab0760800000000000000
+      internalID: 7425207169479073091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_158
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1256
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9477aaec538076b30800000000000000
+      internalID: 4280398998032512841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_159
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1302
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf0f890b53987410800000000000000
+      internalID: 1475090897175515056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_160
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1300
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28323b75ad1f6090800000000000000
+      internalID: -8039174213259347924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_161
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1302
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739e437b589daba60800000000000000
+      internalID: 7690698482016119095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_162
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1302
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4719da7d710816540800000000000000
+      internalID: 4999417901249040756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_163
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1302
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6efd29902052410800000000000000
+      internalID: 1451568695038961372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_164
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1302
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f813e1925c2b090800000000000000
+      internalID: -8020131206002536630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_165
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1302
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ef3abd4d635ab40800000000000000
+      internalID: 5450823211847777941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_166
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1302
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1f22e2a54ef3d80800000000000000
+      internalID: -8268639314856709720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_167
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1265
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0c2641826eba2b0800000000000000
+      internalID: -5572107054125760310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_168
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1265
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7026620b969243ee0800000000000000
+      internalID: -1282354459990138361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_169
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1265
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e33cd87d0dd3bb20800000000000000
+      internalID: 3149103614394119137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_170
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1265
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0c148e5810d02a0800000000000000
+      internalID: -6769752990229085970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_171
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1265
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff9ccc4056bb4430800000000000000
+      internalID: 3768305969227669490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_172
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1265
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2486af2430f2f40800000000000000
+      internalID: 5705782839105569467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_173
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1265
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286ad1b4743deb8f0800000000000000
+      internalID: -522748203572025726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_174
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1265
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3704d52b3b9d3be0800000000000000
+      internalID: -1495868822877108418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_175
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1265
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c87a64cf2075b00800000000000000
+      internalID: 817125139931434124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_176
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1265
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4541490d0b6c07030800000000000000
+      internalID: 3490508173928043604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_177
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1265
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf666d78540ebed30800000000000000
+      internalID: 4461906445076948732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_178
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1265
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908573c4f1be62d00800000000000000
+      internalID: 947703291263277065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_179
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1256
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8d5b25173d2c650800000000000000
+      internalID: 6251791716416084130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_180
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1254
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0266c2a0863ff03d0800000000000000
+      internalID: -3238101978883267040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_181
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1256
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4e11d1cdea0e610800000000000000
+      internalID: 1648509724021351591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_182
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1256
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45def8c2b32bcea00800000000000000
+      internalID: 787200002103438676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_183
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1256
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c576ab95bd6d3e0800000000000000
+      internalID: -2029193403657921430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_184
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1256
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e5cf3538cc1b260800000000000000
+      internalID: 7111690151016554098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_185
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1256
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf19f11e514855210800000000000000
+      internalID: 1321107295209230843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_186
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1256
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e666cfd282712960800000000000000
+      internalID: 7575461954639521510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_187
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1254
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d354929c36ba45770800000000000000
+      internalID: 8598686033622156605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_188
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1256
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358bf925d79887df0800000000000000
+      internalID: -182244613558388653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_189
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1256
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9d8b0b20c733db0800000000000000
+      internalID: -4813367225732245041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_190
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1256
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8065b4d96150f2030800000000000000
+      internalID: 3471999432412321288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_191
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1254
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d852cf76d6280da0800000000000000
+      internalID: -5978485802626033451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_205
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1197
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f1b85579d49ff00800000000000000
+      internalID: 1151036492140453737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_206
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1197
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df60dc69fe6e63eb0800000000000000
+      internalID: -4740347641059277059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_207
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1197
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa6e186cb3c77620800000000000000
+      internalID: 2771899309637921528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_208
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1195
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e474c02801c6b3e90800000000000000
+      internalID: -7044918373933889714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_209
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1197
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f05727e44d85e80800000000000000
+      internalID: -8189562488980435171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_210
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1197
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497b555fcb588edc0800000000000000
+      internalID: -3609488054721071212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_211
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1197
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367ce85ae1dc053b0800000000000000
+      internalID: -5525691211273287837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_212
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1197
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca38dabc8ffc7cc0800000000000000
+      internalID: -3711811012964894001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_213
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1197
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234007204a3140380800000000000000
+      internalID: -9006051759697689550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_214
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1195
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b709a1651d61daeb0800000000000000
+      internalID: -4707080947183742853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_215
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1195
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe41362e3c6a0e00800000000000000
+      internalID: 1011740080482635514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_216
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1197
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd3025dbe98ba730800000000000000
+      internalID: 4011451539089538551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_217
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1197
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266e47cf44b2bd3c0800000000000000
+      internalID: -4333822641120680350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_230
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1146
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d9e53ea33427590800000000000000
+      internalID: -7678000494511481535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_231
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1146
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3701c61810d3810800000000000000
+      internalID: 1746553885865046988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_232
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1146
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63018589248dece20800000000000000
+      internalID: 3372870951482429494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_233
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1146
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428284330295fdb90800000000000000
+      internalID: -7214950083190052828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_234
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1146
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705fee88435b691a0800000000000000
+      internalID: -6803050949856267001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_235
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1112
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2fca2d1b20117e0800000000000000
+      internalID: -1796651813577100620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_236
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1112
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f479b030485f15e0800000000000000
+      internalID: -1936732282027412231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_237
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1115
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c231a9e823f4e3860800000000000000
+      internalID: 7511528307059987244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_238
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1109
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f44f549ada16ad80800000000000000
+      internalID: -8239868942133279498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_239
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1110
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baed72dac560f5cc0800000000000000
+      internalID: -3720247772072911189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_240
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1109
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae1bfda45dc93080800000000000000
+      internalID: -9207102199602405724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_241
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1109
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e90c3a7441fa1a0800000000000000
+      internalID: -6796191014756245969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_242
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1109
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a315add2ec717040800000000000000
+      internalID: 4643630004618728358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_243
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1101
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6098ae9c6a2ba7510800000000000000
+      internalID: 1547745851377092870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_244
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1101
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca66a3ed1227d980800000000000000
+      internalID: -8514299058751903030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_245
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1101
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f131b8705dcc8d0800000000000000
+      internalID: -2824648637893370092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_246
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1101
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e66a3524d1bc78a0800000000000000
+      internalID: -6305969853509769503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_247
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c953be1bccfc5270800000000000000
+      internalID: 8240739367504796102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_248
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1101
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271a8188239f390f0800000000000000
+      internalID: -1111270687603383950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_249
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb438be80eae6020800000000000000
+      internalID: 2336996609986087903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_250
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1101
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21d04b64e1787070800000000000000
+      internalID: 8104352755319099692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_265
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1034
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9011a52025238ede0800000000000000
+      internalID: -1303736764315594487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_266
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1034
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2238c418decd6e0800000000000000
+      internalID: -1811311810519555383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_267
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1034
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9d7d420bc1497b0800000000000000
+      internalID: -5218514525357614620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_268
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1034
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acceebb9cb2010050800000000000000
+      internalID: 5764892007101033674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_269
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1034
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72771588bf9b4fe0800000000000000
+      internalID: -1203692860535770497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_270
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1034
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490bc45407247ac80800000000000000
+      internalID: -8311601537322536812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_271
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1034
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654b859437376c3b0800000000000000
+      internalID: -5492575756542757802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_272
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1032
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51ecfdf014d9b840800000000000000
+      internalID: 5240452810868056414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_273
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1034
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677117a9dcd92c130800000000000000
+      internalID: 3585601759725295478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_275
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1023
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533d152a8a1095170800000000000000
+      internalID: 8167561223002510133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_276
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1026
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de15f93c175b0e5e0800000000000000
+      internalID: -1882305144022937107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_284
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1018
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5c11faa58671400800000000000000
+      internalID: 294819039309579683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_293
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 985
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c61af8458d8f8b50800000000000000
+      internalID: 6597647582715582151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_294
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 985
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bc809b653985dd0800000000000000
+      internalID: -2497083992696108249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_295
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 985
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16c39e7a2ae42a40800000000000000
+      internalID: 5342652526201390623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_296
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 985
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938c8c299cb831ad0800000000000000
+      internalID: -2732686851016439751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_297
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 985
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6583c5ec74cae40800000000000000
+      internalID: 5668984982588643028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_298
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 985
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b000fdac613bbee50800000000000000
+      internalID: 6839757369566494731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_300
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 973
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c6c8d948bc4cef0800000000000000
+      internalID: -88722322201220042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_303
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 973
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4746bce9503e160800000000000000
+      internalID: 7053487620967658751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_305
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 971
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14b7021eb8dcda90800000000000000
+      internalID: -7287711786134424547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_310
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 967
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f53f5f5203bd740800000000000000
+      internalID: 5177785136190807958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_312
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 966
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6c2cc5dcfe66870800000000000000
+      internalID: 8675885397479442174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_313
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 940
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8df65eaba8755eb0800000000000000
+      internalID: -4731743154723160689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_314
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 940
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c4fff4b33e0df40800000000000000
+      internalID: 5751346568036830340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_315
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 940
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97291f6075cda06b0800000000000000
+      internalID: -5329204942702800263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_316
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 940
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc005f7fec3597740800000000000000
+      internalID: 5150239797263270093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_319
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 931
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6708f2c8315afea0800000000000000
+      internalID: -5838264662701373588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_332
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 848
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313c1cba1b5831900800000000000000
+      internalID: 654013369036161811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_333
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 888
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860a4ff895b10aa10800000000000000
+      internalID: 1918563512741044328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_334
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 888
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaead84ffade2c10800000000000000
+      internalID: 2030801271964494505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_335
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 888
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aeec8ecf033f21c0800000000000000
+      internalID: -4526342957501190492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_336
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 888
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66845d2ab2cb19af0800000000000000
+      internalID: -391324797003020186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_337
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 888
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d133bec00f94da0800000000000000
+      internalID: -5959968693571871390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_338
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 888
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d672191d7795ca640800000000000000
+      internalID: 5092543649801119597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_339
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 888
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fe2ae1f29c44f80800000000000000
+      internalID: -8123146623654891704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_340
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 888
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332e0a9a15f72d1e0800000000000000
+      internalID: -2174535681351556557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_341
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 888
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539ceca7b84a432e0800000000000000
+      internalID: -2146910203381102283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_342
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 888
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6d27359cff99710800000000000000
+      internalID: 1700671574462617335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_343
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 888
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259f31968f4e02220800000000000000
+      internalID: 2459217152110229842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_344
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 888
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c44b6aa65fd2d760800000000000000
+      internalID: 7481287494335153348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_345
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 888
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc963755d6c5375b0800000000000000
+      internalID: -5371848305868052020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_346
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 888
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cafa63ffdacfab10800000000000000
+      internalID: 1995036223158811337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_347
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 888
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a6b374a8a7624c0800000000000000
+      internalID: -4312624858841519586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_355
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 742
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df720cd02a22f46c0800000000000000
+      internalID: -4157065851628935171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_356
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 742
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a148a62ce2d5c0b0800000000000000
+      internalID: -5708925040919559767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_357
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 742
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd31f1d0be8294f70800000000000000
+      internalID: 9171907106119291869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_358
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 740
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e143b3cf74e0eb0800000000000000
+      internalID: -4751781408178692584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_359
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 742
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402dd069023e95c50800000000000000
+      internalID: 6654599653512565252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_360
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 742
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1050aaf9de0af8730800000000000000
+      internalID: 4003595536202073345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_370
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 634
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cbd32f83aeb2290800000000000000
+      internalID: -7913974389870314408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_371
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 634
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5769a359bae1c2ed0800000000000000
+      internalID: -2437539576022395275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_372
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 634
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89a5d53680b01480800000000000000
+      internalID: -8930443970600392309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_373
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 634
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3376221acd6c4c2b0800000000000000
+      internalID: -5565104588624599245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_374
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 634
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35f95a205a17c8d0800000000000000
+      internalID: -2826261309541452483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_375
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 634
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5648ef9f1215eea0800000000000000
+      internalID: -5844245014407264678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_377
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 634
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277f5df22c4d0c4d0800000000000000
+      internalID: -3116257011649087630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_378
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 634
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ff502c2dad51c50800000000000000
+      internalID: 6635450224733454151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_379
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 634
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac51a7b3cdca8690800000000000000
+      internalID: -7599035180751168346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_403
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 539
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcf2500a5ddb3320800000000000000
+      internalID: 2538866193575640279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_404
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 539
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2279bc2ff61324fc0800000000000000
+      internalID: -3512190402511005918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_420
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 495
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e73b09fdcf05f30800000000000000
+      internalID: 4562424459661901414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_421
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 495
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c35f4d9682cdae0800000000000000
+      internalID: -1523298138948551531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_422
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 495
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eafa584c858d680800000000000000
+      internalID: -8730130276577989027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_423
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 495
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a6bff368a9ac800800000000000000
+      internalID: 633488598988712571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_436
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 479
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25b696f50cdcd3a0800000000000000
+      internalID: -6639189832480934609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_442
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 453
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaedf20151c0ae8f0800000000000000
+      internalID: -510582323147710802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_443
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 453
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4383c7f1038a1f0800000000000000
+      internalID: -1033523202695351097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_444
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 453
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99abedaf40d594b50800000000000000
+      internalID: 6577891006721473177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_445
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 451
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b98309d35e521c0800000000000000
+      internalID: -4528961797675771104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_446
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 453
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e2d744db33f56e0800000000000000
+      internalID: -1846700434207724024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_478
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 401
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be75d563a5b59ffc0800000000000000
+      internalID: -3460634395640244245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_479
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 401
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9156b9285811490800000000000000
+      internalID: -7777288285492798987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_480
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 401
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0010e6e617d2270800000000000000
+      internalID: 8227356813381665003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_481
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 401
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360e32dcea64424f0800000000000000
+      internalID: -854480312713617309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_482
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 401
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bab5853ce4130a0800000000000000
+      internalID: -6903650152874267830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_483
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 401
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b605b22fdb4c8c300800000000000000
+      internalID: 272684097546702955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_484
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 399
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450a2d179c1d3afa0800000000000000
+      internalID: -5790554032740065196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_485
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 401
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cca5447c5bf2b2e0800000000000000
+      internalID: -2111348900777055037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_503
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 355
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8e73af4c67d0d30800000000000000
+      internalID: 4399302999394478316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_504
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 355
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664602cd82fdc5160800000000000000
+      internalID: 7015727686121186406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necrodancer_505
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 355
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecf61a8a82c0ff00800000000000000
+      internalID: 1148631805257514210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
