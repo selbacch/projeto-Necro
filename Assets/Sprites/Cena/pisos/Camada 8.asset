@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ASSETS_9
+  m_Name: Camada 8
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: e2af62a3314dbaf4d84efebb36d49d9a, type: 3}
+  m_Sprite: {fileID: -5093043286160132749, guid: b1577bf790af22a429ec5209add9c1fb,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
