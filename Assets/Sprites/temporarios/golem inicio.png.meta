@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: ede2d444222cb52438266849ad3fa79b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6843170056585946127
+    second: golem inicio_0
+  - first:
+      213: -2584488364568329444
+    second: golem inicio_1
+  - first:
+      213: 9101680432059437858
+    second: golem inicio_2
+  - first:
+      213: -27220910997313881
+    second: golem inicio_3
+  - first:
+      213: 6962840850973708301
+    second: golem inicio_4
+  - first:
+      213: -1807534782786566915
+    second: golem inicio_5
+  - first:
+      213: 3209826325522380024
+    second: golem inicio_6
+  - first:
+      213: 8684220527146966789
+    second: golem inicio_7
+  - first:
+      213: -5278876749082927267
+    second: golem inicio_8
+  - first:
+      213: 6241849042438530676
+    second: golem inicio_9
+  - first:
+      213: -8594492460199401489
+    second: golem inicio_10
+  - first:
+      213: 533403305362365059
+    second: golem inicio_11
+  - first:
+      213: -20000806767694834
+    second: golem inicio_12
+  - first:
+      213: 2076447406863092926
+    second: golem inicio_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: golem inicio_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 917
+        width: 220
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbda97171d2801a0800000000000000
+      internalID: -6843170056585946127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 907
+        width: 313
+        height: 146
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.6736074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1346cf868d022cd0800000000000000
+      internalID: -2584488364568329444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_2
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 899
+        width: 291
+        height: 123
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.7819909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223d604512aaf4e70800000000000000
+      internalID: 9101680432059437858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_3
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 883
+        width: 286
+        height: 91
+      alignment: 9
+      pivot: {x: 0.49533573, y: 0.8664926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6ea85c9ba4f9ff0800000000000000
+      internalID: -27220910997313881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 446
+        width: 417
+        height: 102
+      alignment: 9
+      pivot: {x: 0.50319916, y: 0.8531267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00ddddfcdaf0a060800000000000000
+      internalID: 6962840850973708301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_5
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 447
+        width: 373
+        height: 151
+      alignment: 9
+      pivot: {x: 0.49642348, y: 0.75620496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df408d811b85ae6e0800000000000000
+      internalID: -1807534782786566915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_6
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 468
+        width: 314
+        height: 227
+      alignment: 9
+      pivot: {x: 0.4915033, y: 0.7233182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4757369089b8c20800000000000000
+      internalID: 3209826325522380024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 80
+        width: 366
+        height: 152
+      alignment: 9
+      pivot: {x: 0.49635506, y: 0.7632958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f10c7fe8c848870800000000000000
+      internalID: 8684220527146966789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_8
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 60
+        width: 368
+        height: 136
+      alignment: 9
+      pivot: {x: 0.49637488, y: 0.88255346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fd7ddb099adb6b0800000000000000
+      internalID: -5278876749082927267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1130
+        width: 243
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476292422a08f9650800000000000000
+      internalID: 6241849042438530676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1081
+        width: 259
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7aa0d94aa3ab880800000000000000
+      internalID: -8594492460199401489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1038
+        width: 286
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a942aea77076700800000000000000
+      internalID: 533403305362365059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 987
+        width: 301
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ce3694f51f8bff0800000000000000
+      internalID: -20000806767694834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem inicio_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 933
+        width: 305
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc0bd04ae501dc10800000000000000
+      internalID: 2076447406863092926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
