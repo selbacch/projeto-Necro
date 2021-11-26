@@ -11,6 +11,7 @@ public class PortalControle : MonoBehaviour
     public string idPortal;
     public string nomeCenaDestino;
     public string idPortalDestino;
+    public bool ehSomenteUmaViagem = false;
     private float timeScale;
     public string NomeCena { get; private set; }
     // Start is called before the first frame update
@@ -51,6 +52,10 @@ public class PortalControle : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            if (ehSomenteUmaViagem && !StageController.Instance.AddEvt(idPortal))
+            {
+                return;
+            }
             StartCoroutine(fade());
 
 

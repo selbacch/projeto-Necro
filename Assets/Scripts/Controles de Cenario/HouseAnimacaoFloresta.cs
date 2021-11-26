@@ -35,6 +35,10 @@ public class HouseAnimacaoFloresta : MonoBehaviour
     {
         if (other.tag == "Player" )
         {
+            if (!StageController.Instance.AddEvt("Anim_House_01"))
+            {
+                return;
+            }
             other.GetComponent<PlayerInput>().actions.Disable();
             AnimacaoFloresta.SetActive(true);
             Esclamacao.SetActive(true);

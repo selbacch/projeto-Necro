@@ -7,6 +7,7 @@ public class Bau : InterativaAbstract
 {
     private GameObject Player;
     public bool check= false;
+    public string bauId;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,10 @@ public class Bau : InterativaAbstract
 
     public override void Abrir(bool Abrir)
     {
+        if (!StageController.Instance.AddEvt("Bau_abrir_mascara"+ bauId))
+        {
+            return;
+        }
         if (Abrir == true && Player.tag == "Player")
         {
             Abra = true;

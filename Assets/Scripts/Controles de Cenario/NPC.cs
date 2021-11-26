@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+
+/// <summary>
+/// NPC DE DENTRO DA CASINHA
+/// </summary>
 public class NPC : InterativaAbstract
 {
     private GameObject Player;
