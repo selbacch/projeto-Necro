@@ -66,7 +66,10 @@ public class EnemyCommander : Enemy
             return;
 
         agent.destination = points[destPoint].transform.position;
-        Vector3 dis = points[destPoint].transform.position;
+        Vector3 dis = points[destPoint].transform.position -transform.position;
+        dis.Normalize();
+        float horizontal1= dis.x;
+        float vertical1= dis.y;
         float distance = 1.1f;
 
         float distObj = Vector3.Distance(transform.position, points[destPoint].transform.position);
@@ -77,8 +80,8 @@ public class EnemyCommander : Enemy
 
             NextPoint();
         }
-        Anim.SetFloat("Horizontal", dis.x); // controla as animações
-        Anim.SetFloat("Vertical", dis.y);
+        Anim.SetFloat("Horizontal", horizontal1); // controla as animações
+        Anim.SetFloat("Vertical", vertical1);
         Anim.SetFloat("Speed", dis.magnitude);
 
     }

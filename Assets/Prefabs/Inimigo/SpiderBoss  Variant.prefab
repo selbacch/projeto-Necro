@@ -25,7 +25,7 @@ PrefabInstance:
     - target: {fileID: 1447609473344064103, guid: d2bd324552d10db45a272cb994eb03ea,
         type: 3}
       propertyPath: m_Name
-      value: 'SpiderBoss '
+      value: SpiderBoss  Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1447609473344064104, guid: d2bd324552d10db45a272cb994eb03ea,
         type: 3}
@@ -38,6 +38,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -2747017566406519132, guid: e909f9a4cc4bb874f899e7e781cf846c,
         type: 3}
+    - target: {fileID: 1447609473344064107, guid: d2bd324552d10db45a272cb994eb03ea,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e7cb22e782bbefe4bbb7c68e8c85e4b6, type: 2}
     - target: {fileID: 1447609473344064108, guid: d2bd324552d10db45a272cb994eb03ea,
         type: 3}
       propertyPath: m_RootOrder

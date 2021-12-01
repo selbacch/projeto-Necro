@@ -384,7 +384,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 20
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -541,9 +541,9 @@ MonoBehaviour:
   AreaAtaque: {fileID: 1433598612365319676}
   AreaPerigo: {fileID: 3143839641556308744}
   nave: {fileID: 3651508782307770428}
-  Vida: 100
+  Vida: 400
   Resfriamento: 2
   RaioAtaque: 3
   Velocidade: 1
-  DanoAtual: 5
+  DanoAtual: 10
   TempoDestruicao: 1

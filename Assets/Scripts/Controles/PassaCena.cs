@@ -5,16 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class PassaCena : MonoBehaviour
 {
-
+    public string Cena;
     // Start is called before the first frame update
     void Start()
     {
-        SceneManager.LoadScene( "teste2");
+       
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void passar()
+    {
+        SceneManager.LoadScene(Cena);
     }
 }
