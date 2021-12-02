@@ -1,0 +1,2256 @@
+fileFormatVersion: 2
+guid: 87150e3e1fca7554aaf5a87830c1f41a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4554880236913410794
+    second: shadow soul enemy_0
+  - first:
+      213: -2878028651374214542
+    second: shadow soul enemy_1
+  - first:
+      213: -1528105936602169939
+    second: shadow soul enemy_2
+  - first:
+      213: -1128268658499333156
+    second: shadow soul enemy_3
+  - first:
+      213: -1870112875819375231
+    second: shadow soul enemy_4
+  - first:
+      213: 5724083579564205988
+    second: shadow soul enemy_5
+  - first:
+      213: -8362205415428869690
+    second: shadow soul enemy_6
+  - first:
+      213: -1094391383961242452
+    second: shadow soul enemy_7
+  - first:
+      213: -883438081089863668
+    second: shadow soul enemy_8
+  - first:
+      213: 4875064546489007911
+    second: shadow soul enemy_9
+  - first:
+      213: 5126999172573036647
+    second: shadow soul enemy_10
+  - first:
+      213: 8145538971621932278
+    second: shadow soul enemy_11
+  - first:
+      213: 4589330275211441065
+    second: shadow soul enemy_12
+  - first:
+      213: 8097479578192602937
+    second: shadow soul enemy_13
+  - first:
+      213: -3662071128168136150
+    second: shadow soul enemy_14
+  - first:
+      213: -8329391922904113206
+    second: shadow soul enemy_15
+  - first:
+      213: -3208104736912994410
+    second: shadow soul enemy_16
+  - first:
+      213: 3392871579687106591
+    second: shadow soul enemy_17
+  - first:
+      213: -50126793128438641
+    second: shadow soul enemy_18
+  - first:
+      213: -5487470648229334906
+    second: shadow soul enemy_19
+  - first:
+      213: 4057970045789755339
+    second: shadow soul enemy_20
+  - first:
+      213: 4568377803884106582
+    second: shadow soul enemy_21
+  - first:
+      213: -4279771796893790984
+    second: shadow soul enemy_22
+  - first:
+      213: 5947646308238982177
+    second: shadow soul enemy_23
+  - first:
+      213: 6364088992487826306
+    second: shadow soul enemy_24
+  - first:
+      213: 3592594787334796324
+    second: shadow soul enemy_25
+  - first:
+      213: 5732096689124567558
+    second: shadow soul enemy_26
+  - first:
+      213: 6018056576128587362
+    second: shadow soul enemy_27
+  - first:
+      213: 6158523140826761358
+    second: shadow soul enemy_28
+  - first:
+      213: 3764297520696177161
+    second: shadow soul enemy_29
+  - first:
+      213: 7671933888373630228
+    second: shadow soul enemy_30
+  - first:
+      213: -2528877993555312338
+    second: shadow soul enemy_31
+  - first:
+      213: -4780595923711847056
+    second: shadow soul enemy_32
+  - first:
+      213: 2837222583703103555
+    second: shadow soul enemy_33
+  - first:
+      213: 4218799889530837857
+    second: shadow soul enemy_34
+  - first:
+      213: -1049298833439122244
+    second: shadow soul enemy_35
+  - first:
+      213: 5895396297274066615
+    second: shadow soul enemy_36
+  - first:
+      213: -4513383991341982606
+    second: shadow soul enemy_49
+  - first:
+      213: -589120140103966356
+    second: shadow soul enemy_50
+  - first:
+      213: 1542011636550478573
+    second: shadow soul enemy_51
+  - first:
+      213: 4320105061191770277
+    second: shadow soul enemy_52
+  - first:
+      213: -4932839218407560256
+    second: shadow soul enemy_53
+  - first:
+      213: 3277073613182417415
+    second: shadow soul enemy_54
+  - first:
+      213: 5153593073020993785
+    second: shadow soul enemy_55
+  - first:
+      213: 2373858339994425784
+    second: shadow soul enemy_56
+  - first:
+      213: 414513044459340655
+    second: shadow soul enemy_57
+  - first:
+      213: -7769433485456134004
+    second: shadow soul enemy_58
+  - first:
+      213: -2235090000671205609
+    second: shadow soul enemy_59
+  - first:
+      213: 2240966003693203831
+    second: shadow soul enemy_60
+  - first:
+      213: -6716643475357404150
+    second: shadow soul enemy_61
+  - first:
+      213: -4026638313329366095
+    second: shadow soul enemy_62
+  - first:
+      213: -766611453127675387
+    second: shadow soul enemy_63
+  - first:
+      213: 2986835798485663863
+    second: shadow soul enemy_64
+  - first:
+      213: -6258267642426267681
+    second: shadow soul enemy_65
+  - first:
+      213: -5837693637902313020
+    second: shadow soul enemy_66
+  - first:
+      213: 6902743435241098472
+    second: shadow soul enemy_67
+  - first:
+      213: 5737718925787330415
+    second: shadow soul enemy_68
+  - first:
+      213: 1912913056210128856
+    second: shadow soul enemy_69
+  - first:
+      213: -1341200109764257103
+    second: shadow soul enemy_70
+  - first:
+      213: -2999157331068298543
+    second: shadow soul enemy_71
+  - first:
+      213: -1222974869162327812
+    second: shadow soul enemy_72
+  - first:
+      213: 8852062628210474682
+    second: shadow soul enemy_73
+  - first:
+      213: -963138896558639141
+    second: shadow soul enemy_74
+  - first:
+      213: 2332237752290984644
+    second: shadow soul enemy_75
+  - first:
+      213: 73893806814254162
+    second: shadow soul enemy_76
+  - first:
+      213: 4763476522939143641
+    second: shadow soul enemy_77
+  - first:
+      213: 7001949757322884918
+    second: shadow soul enemy_78
+  - first:
+      213: -2981187463049546481
+    second: shadow soul enemy_79
+  - first:
+      213: 2845267052858862527
+    second: shadow soul enemy_80
+  - first:
+      213: -475906194933301194
+    second: shadow soul enemy_81
+  - first:
+      213: 4821389041676062386
+    second: shadow soul enemy_82
+  - first:
+      213: -1758112361268346659
+    second: shadow soul enemy_83
+  - first:
+      213: 9133377942810521672
+    second: shadow soul enemy_84
+  - first:
+      213: 7070507690288077594
+    second: shadow soul enemy_85
+  - first:
+      213: 5931259440102997232
+    second: shadow soul enemy_86
+  - first:
+      213: 2797852243836739720
+    second: shadow soul enemy_87
+  - first:
+      213: -8078788641817918769
+    second: shadow soul enemy_88
+  - first:
+      213: 268675659456646612
+    second: shadow soul enemy_89
+  - first:
+      213: 2734910166012869599
+    second: shadow soul enemy_90
+  - first:
+      213: 9166447596841129473
+    second: shadow soul enemy_91
+  - first:
+      213: 3226112812653943676
+    second: shadow soul enemy_92
+  - first:
+      213: 8044284760022141883
+    second: shadow soul enemy_93
+  - first:
+      213: 682513062994310416
+    second: shadow soul enemy_94
+  - first:
+      213: 541219736996126932
+    second: shadow soul enemy_95
+  - first:
+      213: -2498150120112470913
+    second: shadow soul enemy_96
+  - first:
+      213: 8934445185478983850
+    second: shadow soul enemy_97
+  - first:
+      213: -7184117340329285558
+    second: shadow soul enemy_98
+  - first:
+      213: 1449572642658854368
+    second: shadow soul enemy_99
+  - first:
+      213: -3012518178386784323
+    second: shadow soul enemy_100
+  - first:
+      213: 4005694159484070489
+    second: shadow soul enemy_101
+  - first:
+      213: 8196560429580278951
+    second: shadow soul enemy_114
+  - first:
+      213: 8798250061604037676
+    second: shadow soul enemy_115
+  - first:
+      213: 1007019688436070226
+    second: shadow soul enemy_116
+  - first:
+      213: 6045192462691982982
+    second: shadow soul enemy_117
+  - first:
+      213: 8248941091563980968
+    second: shadow soul enemy_118
+  - first:
+      213: -6891404750196079758
+    second: shadow soul enemy_119
+  - first:
+      213: -8148492427067926554
+    second: shadow soul enemy_120
+  - first:
+      213: 2689513358031494565
+    second: shadow soul enemy_121
+  - first:
+      213: -168284264368583094
+    second: shadow soul enemy_122
+  - first:
+      213: 9193427405679592223
+    second: shadow soul enemy_123
+  - first:
+      213: 3300530331705985080
+    second: shadow soul enemy_124
+  - first:
+      213: 3632215418605410332
+    second: shadow soul enemy_125
+  - first:
+      213: 4455713764584271203
+    second: shadow soul enemy_126
+  - first:
+      213: -2693096984430985624
+    second: shadow soul enemy_127
+  - first:
+      213: -5296257642765235795
+    second: shadow soul enemy_128
+  - first:
+      213: 6256128585145557998
+    second: shadow soul enemy_129
+  - first:
+      213: 2497775504059430204
+    second: shadow soul enemy_130
+  - first:
+      213: -5859700951134481914
+    second: shadow soul enemy_131
+  - first:
+      213: 5867467206274546144
+    second: shadow soul enemy_132
+  - first:
+      213: 6212538549780541580
+    second: shadow soul enemy_133
+  - first:
+      213: 584178580955251852
+    second: shadow soul enemy_134
+  - first:
+      213: -9027694817416756010
+    second: shadow soul enemy_135
+  - first:
+      213: -4629682081242480766
+    second: shadow soul enemy_37
+  - first:
+      213: -2868477592445444195
+    second: shadow soul enemy_38
+  - first:
+      213: -982249143478184418
+    second: shadow soul enemy_39
+  - first:
+      213: -1977397349321318923
+    second: shadow soul enemy_40
+  - first:
+      213: 5571269303374784952
+    second: shadow soul enemy_41
+  - first:
+      213: 5167891263101477807
+    second: shadow soul enemy_42
+  - first:
+      213: 2421890681923873578
+    second: shadow soul enemy_43
+  - first:
+      213: 6210025274305389311
+    second: shadow soul enemy_44
+  - first:
+      213: -4233759917199284051
+    second: shadow soul enemy_45
+  - first:
+      213: -373139683598408226
+    second: shadow soul enemy_46
+  - first:
+      213: 894235328649767428
+    second: shadow soul enemy_47
+  - first:
+      213: 7428658404507802802
+    second: shadow soul enemy_48
+  - first:
+      213: 34353607347116443
+    second: shadow soul enemy_102
+  - first:
+      213: -4749876906954097027
+    second: shadow soul enemy_103
+  - first:
+      213: 8366936537139146080
+    second: shadow soul enemy_104
+  - first:
+      213: -8550000429233699911
+    second: shadow soul enemy_105
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 105
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shadow soul enemy_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d345cae80d9c0c0800000000000000
+      internalID: -4554880236913410794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 504
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2728175a0303f08d0800000000000000
+      internalID: -2878028651374214542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad79a53fb31bcae0800000000000000
+      internalID: -1528105936602169939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3d0f602a59750f0800000000000000
+      internalID: -1128268658499333156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 504
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185e6ea6f360c06e0800000000000000
+      internalID: -1870112875819375231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7229820b7007f40800000000000000
+      internalID: 5724083579564205988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1b382ca7a73fb80800000000000000
+      internalID: -8362205415428869690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 504
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4fdb9a5d0ffc0f0800000000000000
+      internalID: -1094391383961242452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c000693feb56db3f0800000000000000
+      internalID: -883438081089863668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ff3963065b7a340800000000000000
+      internalID: 4875064546489007911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 504
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76000fc5592c62740800000000000000
+      internalID: 5126999172573036647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_11
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc30aba984ca0170800000000000000
+      internalID: 8145538971621932278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_12
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 541
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a37ceae19390bf30800000000000000
+      internalID: 4589330275211441065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 432
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937662a26c6006070800000000000000
+      internalID: 8097479578192602937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 432
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22035f16b5bd2dc0800000000000000
+      internalID: -3662071128168136150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 432
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfda485d2e086c80800000000000000
+      internalID: -8329391922904113206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 432
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f8d023db58a73d0800000000000000
+      internalID: -3208104736912994410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 432
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18b4cbb9b6e51f20800000000000000
+      internalID: 3392871579687106591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_18
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 432
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8499dd72f9ed4ff0800000000000000
+      internalID: -50126793128438641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 432
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68078e0f48698d3b0800000000000000
+      internalID: -5487470648229334906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_20
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 432
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc75970b14ec05830800000000000000
+      internalID: 4057970045789755339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_21
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 432
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6539a488863266f30800000000000000
+      internalID: 4568377803884106582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_22
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 432
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc0966d9323b94c0800000000000000
+      internalID: -4279771796893790984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_23
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 432
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c7f3c2ec84a8250800000000000000
+      internalID: 5947646308238982177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_24
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 432
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283e5346839c15850800000000000000
+      internalID: 6364088992487826306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_25
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 491
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424b209bce57bd130800000000000000
+      internalID: 3592594787334796324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_26
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 443
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a667d919f7c8f40800000000000000
+      internalID: 5732096689124567558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_27
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 394
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266195a229e648350800000000000000
+      internalID: 6018056576128587362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_54
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 357
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a3b88a6118a7d20800000000000000
+      internalID: 3277073613182417415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_55
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f08452589d358740800000000000000
+      internalID: 5153593073020993785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_56
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 289
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9577e3593a1f020800000000000000
+      internalID: 2373858339994425784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_57
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63c3c1fa65a0c500800000000000000
+      internalID: 414513044459340655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_58
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80bc51c86d6d2490800000000000000
+      internalID: -7769433485456134004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_59
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 289
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71717f48c7d5bf0e0800000000000000
+      internalID: -2235090000671205609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_60
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7713cdb05b2891f10800000000000000
+      internalID: 2240966003693203831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_61
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0470607850b9c2a0800000000000000
+      internalID: -6716643475357404150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_62
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 289
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb660fb9c18e18c0800000000000000
+      internalID: -4026638313329366095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_63
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502349fe1f27c55f0800000000000000
+      internalID: -766611453127675387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_64
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7708823755f537920800000000000000
+      internalID: 2986835798485663863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_65
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 289
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd76cd7acba2629a0800000000000000
+      internalID: -6258267642426267681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_66
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c95645d0985cfea0800000000000000
+      internalID: -5837693637902313020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_67
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 313
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec843105987bcf50800000000000000
+      internalID: 6902743435241098472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_68
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 169
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67f69896f870af40800000000000000
+      internalID: 5737718925787330415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_69
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 168
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df8c912a480c8a10800000000000000
+      internalID: 1912913056210128856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_70
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 167
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba59cc2b99136de0800000000000000
+      internalID: -1341200109764257103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_71
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 169
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da5a203c4ad066d0800000000000000
+      internalID: -2999157331068298543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_72
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 171
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0895a06de170fe0800000000000000
+      internalID: -1222974869162327812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_73
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 172
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abefef36f08d8da70800000000000000
+      internalID: 8852062628210474682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_74
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 95
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7b249c64e32a2f0800000000000000
+      internalID: -963138896558639141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_75
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 96
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c24f0501e5cd5020800000000000000
+      internalID: 2332237752290984644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_84
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 108
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840fb9829d640ce70800000000000000
+      internalID: 9133377942810521672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_85
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 108
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bd94d784d7f1260800000000000000
+      internalID: 7070507690288077594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_86
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 16
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc750e1901105250800000000000000
+      internalID: 5931259440102997232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_87
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 15
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8802be7cac7f3d620800000000000000
+      internalID: 2797852243836739720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_88
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 15
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc28bf4988062ef80800000000000000
+      internalID: -8078788641817918769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_89
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 17
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd05b9b6178ab300800000000000000
+      internalID: 268675659456646612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 356
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ffc8c1da010cfb0800000000000000
+      internalID: -4629682081242480766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_38
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 355
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f1f18d3de1138d0800000000000000
+      internalID: -2868477592445444195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_39
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 355
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e161d02bb995e52f0800000000000000
+      internalID: -982249143478184418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_40
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 354
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd57e5669fde84e0800000000000000
+      internalID: -1977397349321318923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_41
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 354
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b921bfd9ef115d40800000000000000
+      internalID: 5571269303374784952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_42
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 355
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3220f19b908b740800000000000000
+      internalID: 5167891263101477807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_43
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 355
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ba6e45eb84c9120800000000000000
+      internalID: 2421890681923873578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_44
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 355
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2ab29b5117e2650800000000000000
+      internalID: 6210025274305389311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_45
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 354
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8ac0769c9ae35c0800000000000000
+      internalID: -4233759917199284051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_46
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 354
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5e38b4f6752daf0800000000000000
+      internalID: -373139683598408226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_47
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 355
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a26c52b46f86c00800000000000000
+      internalID: 894235328649767428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_48
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 356
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc586ec575e71760800000000000000
+      internalID: 7428658404507802802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_76
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 92
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254d34a9606860100800000000000000
+      internalID: 73893806814254162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_77
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 93
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d553bdd8a44b1240800000000000000
+      internalID: 4763476522939143641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_78
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 94
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637fc54d43ceb2160800000000000000
+      internalID: 7001949757322884918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_79
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 96
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0575102cc1b0a6d0800000000000000
+      internalID: -2981187463049546481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_80
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 106
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb66c84f4b6c7720800000000000000
+      internalID: 2845267052858862527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_81
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 107
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630c79056dd3569f0800000000000000
+      internalID: -475906194933301194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_82
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 108
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be0011e9c309e240800000000000000
+      internalID: 4821389041676062386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_83
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 107
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0806f4f1ee997e0800000000000000
+      internalID: -1758112361268346659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_90
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 17
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb3dc94e4a54f520800000000000000
+      internalID: 2734910166012869599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_91
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 19
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106d2fdf583c53f70800000000000000
+      internalID: 9166447596841129473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_92
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 34
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b139ba28475cc20800000000000000
+      internalID: 3226112812653943676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_93
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 34
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb45396e5a03af60800000000000000
+      internalID: 8044284760022141883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_94
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 32
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015f652c306c87900800000000000000
+      internalID: 682513062994310416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_95
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 33
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0a519bb7cc28700800000000000000
+      internalID: 541219736996126932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_96
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 34
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74c81793b9c45dd0800000000000000
+      internalID: -2498150120112470913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow soul enemy_97
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 34
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa08ca93f868dfb70800000000000000
+      internalID: 8934445185478983850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

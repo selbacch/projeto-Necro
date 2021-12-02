@@ -98,12 +98,63 @@ public class Enemy : InterfaceAtacavel
         Vector3 direction = Target.gameObject.transform.position - transform.position;
         direction.z = 0;
         float distanceToTarget = direction.magnitude;
-
+        float horizontal1 = direction.x;
+        float vertical1 = direction.y;
         direction.Normalize();
 
-        Anim.SetFloat("Horizontal", direction.x); // controla as animações
-        Anim.SetFloat("Vertical", direction.y);
-        Anim.SetFloat("Speed", direction.magnitude);
+        Anim.SetFloat("Horizontal", horizontal1); // controla as animações
+        Anim.SetFloat("Vertical", vertical1);
+        Anim.SetFloat("Speed", distanceToTarget - 1);
+
+        if (direction.y > 0)
+        {
+            direction.x = 0;
+           
+                Anim.SetInteger("idle", 1);
+           
+
+        }
+        if (direction.y < 0 )
+        {
+           
+                Anim.SetInteger("idle", -1);
+            
+
+        }
+        if (direction.x < 0 )
+        {
+            Anim.SetInteger("idle", 2);
+           
+
+        }
+
+        if (direction.x > 0 )
+        {
+            Anim.SetInteger("idle", -2);
+           
+
+        }
+        if (direction.x < 0 && direction.y < 0)
+        {
+            Anim.SetInteger("idle", 1);
+            
+        }
+        if (direction.x > 0 && direction.y > 0)
+        {
+            Anim.SetInteger("idle", 1);
+            
+        }
+        if (direction.x < 0 && direction.y > 0)
+        {
+            Anim.SetInteger("idle", -1);
+          
+        }
+        if (direction.x > 0 && direction.y < 0)
+        {
+            Anim.SetInteger("idle", -1);
+           
+        }
+
     }
 
     public virtual IEnumerator Atacar(GameObject gameObject)
