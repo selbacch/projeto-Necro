@@ -406,8 +406,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00000023841858, y: -0.016068459}
-  m_Size: {x: 0.27858973, y: 0.6428876}
+  m_Offset: {x: 0.00000023841858, y: 0.017825127}
+  m_Size: {x: 0.27858973, y: 0.9682636}
   m_Direction: 0
 --- !u!212 &5941130524824508557
 SpriteRenderer:
@@ -449,9 +449,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5684683056698814123, guid: ffb8f09c7a1a462418b9c60b37c81802,
+  m_Sprite: {fileID: 8821016199925446121, guid: add2bb44ae76e6c4e98475519cc4c99b,
     type: 3}
-  m_Color: {r: 1, g: 0.9454185, b: 0, a: 1}
+  m_Color: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -471,7 +471,7 @@ Animator:
   m_GameObject: {fileID: 6440456543315929361}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 30dfdd82c49c5134c8d42c5ae23a1694, type: 2}
+  m_Controller: {fileID: 9100000, guid: a71f2bba9e9f9c14da42bec6e228af80, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -490,7 +490,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.12
-  m_Speed: 2
+  m_Speed: 1.4
   m_Acceleration: 4
   avoidancePriority: 50
   m_AngularSpeed: 0

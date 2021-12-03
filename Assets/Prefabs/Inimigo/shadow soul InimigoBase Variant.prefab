@@ -721,12 +721,12 @@ PrefabInstance:
     - target: {fileID: 3687723738588562892, guid: 6e0434aa9c3a3e845a4961b992172536,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.636866
+      value: -14.413147
       objectReference: {fileID: 0}
     - target: {fileID: 3687723738588562892, guid: 6e0434aa9c3a3e845a4961b992172536,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.421277
+      value: 10.314662
       objectReference: {fileID: 0}
     - target: {fileID: 3687723738588562892, guid: 6e0434aa9c3a3e845a4961b992172536,
         type: 3}
@@ -787,7 +787,7 @@ PrefabInstance:
     - target: {fileID: 6404320765306070620, guid: 6e0434aa9c3a3e845a4961b992172536,
         type: 3}
       propertyPath: DanoAtual
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6442732532154755352, guid: 6e0434aa9c3a3e845a4961b992172536,
         type: 3}

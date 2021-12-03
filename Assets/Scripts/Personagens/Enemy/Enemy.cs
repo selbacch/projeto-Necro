@@ -108,8 +108,7 @@ public class Enemy : InterfaceAtacavel
 
         if (direction.y > 0)
         {
-            direction.x = 0;
-           
+            
                 Anim.SetInteger("idle", 1);
            
 
