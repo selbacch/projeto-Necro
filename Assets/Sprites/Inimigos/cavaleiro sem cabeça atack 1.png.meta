@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: 42694efc750f8b5469eca0f834f0b978
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -480802250969076990
+    second: "cavaleiro sem cabe\xE7a atack 1_0"
+  - first:
+      213: 5042233749295948686
+    second: "cavaleiro sem cabe\xE7a atack 1_1"
+  - first:
+      213: 3103448634431156433
+    second: "cavaleiro sem cabe\xE7a atack 1_2"
+  - first:
+      213: -6540890464693050226
+    second: "cavaleiro sem cabe\xE7a atack 1_3"
+  - first:
+      213: -8417869159938380618
+    second: "cavaleiro sem cabe\xE7a atack 1_4"
+  - first:
+      213: 5173785751889884579
+    second: "cavaleiro sem cabe\xE7a atack 1_5"
+  - first:
+      213: 2414054493047877238
+    second: "cavaleiro sem cabe\xE7a atack 1_6"
+  - first:
+      213: -9186500057044208503
+    second: "cavaleiro sem cabe\xE7a atack 1_7"
+  - first:
+      213: -7874472486469965320
+    second: "cavaleiro sem cabe\xE7a atack 1_8"
+  - first:
+      213: 7768322222834681709
+    second: "cavaleiro sem cabe\xE7a atack 1_9"
+  - first:
+      213: -5338125012492572951
+    second: "cavaleiro sem cabe\xE7a atack 1_10"
+  - first:
+      213: -5707250079878910147
+    second: "cavaleiro sem cabe\xE7a atack 1_11"
+  - first:
+      213: 8878921710143403935
+    second: "cavaleiro sem cabe\xE7a atack 1_12"
+  - first:
+      213: 6281371033398884479
+    second: "cavaleiro sem cabe\xE7a atack 1_13"
+  - first:
+      213: 7130409575772875079
+    second: "cavaleiro sem cabe\xE7a atack 1_14"
+  - first:
+      213: -3666054373826027888
+    second: "cavaleiro sem cabe\xE7a atack 1_15"
+  - first:
+      213: 7050003613619197653
+    second: "cavaleiro sem cabe\xE7a atack 1_16"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_1"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 390
+        width: 82
+        height: 74
+      alignment: 9
+      pivot: {x: 0.31143597, y: 0.53304476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83654d41ec99f540800000000000000
+      internalID: 5042233749295948686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_2"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 386
+        width: 149
+        height: 72
+      alignment: 9
+      pivot: {x: 0.7474582, y: 0.52016664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0b0f9171aa11b20800000000000000
+      internalID: 3103448634431156433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_3"
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 306
+        width: 101
+        height: 76
+      alignment: 9
+      pivot: {x: 0.6709697, y: 0.44249564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e842b3907c61a35a0800000000000000
+      internalID: -6540890464693050226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_4"
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 390
+        width: 107
+        height: 87
+      alignment: 9
+      pivot: {x: 0.46091926, y: 0.42259514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc282c4998bd2b80800000000000000
+      internalID: -8417869159938380618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_5"
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 392
+        width: 194
+        height: 72
+      alignment: 9
+      pivot: {x: 0.57844085, y: 0.50459504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5bf5dbabafcc740800000000000000
+      internalID: 5173785751889884579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_6"
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 306
+        width: 101
+        height: 73
+      alignment: 9
+      pivot: {x: 0.6691021, y: 0.45861942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eed8e65c1708120800000000000000
+      internalID: 2414054493047877238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_7"
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 285
+        width: 76
+        height: 73
+      alignment: 9
+      pivot: {x: 0.56023526, y: 0.45829377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98436cacedef28080800000000000000
+      internalID: -9186500057044208503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_8"
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 291
+        width: 118
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9ee5a8ef048b290800000000000000
+      internalID: -7874472486469965320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_9"
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 213
+        width: 95
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6785d047ef9ecb60800000000000000
+      internalID: 7768322222834681709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_10"
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 181
+        width: 77
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6a0cf659b2be5b0800000000000000
+      internalID: -5338125012492572951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_11"
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 208
+        width: 103
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f6f786a46cbc0b0800000000000000
+      internalID: -5707250079878910147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_12"
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 184
+        width: 111
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97f999b044483b70800000000000000
+      internalID: 8878921710143403935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_13"
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 98
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f783b2cbca9eb2750800000000000000
+      internalID: 6281371033398884479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_14"
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 92
+        width: 146
+        height: 73
+      alignment: 9
+      pivot: {x: 0.242037, y: 0.54014903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7496cfa0bbd44f260800000000000000
+      internalID: 7130409575772875079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_15"
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 98
+        width: 124
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e15d878fe8f1dc0800000000000000
+      internalID: -3666054373826027888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_16"
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 98
+        width: 178
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d61efe1fe4a6d160800000000000000
+      internalID: 7050003613619197653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cavaleiro sem cabe\xE7a atack 1_0"
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 406
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ba7cf66e8d359f0800000000000000
+      internalID: -480802250969076990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

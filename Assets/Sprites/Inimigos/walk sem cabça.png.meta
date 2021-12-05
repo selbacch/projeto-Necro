@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: 58521427cd138a24b94946e24daac4c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5233390434228863739
+    second: "walk sem cab\xE7a_0"
+  - first:
+      213: -4792466512995472122
+    second: "walk sem cab\xE7a_1"
+  - first:
+      213: -4994092496921711551
+    second: "walk sem cab\xE7a_2"
+  - first:
+      213: -1727717009508435322
+    second: "walk sem cab\xE7a_3"
+  - first:
+      213: 1907755023660696317
+    second: "walk sem cab\xE7a_4"
+  - first:
+      213: 6989363750725957361
+    second: "walk sem cab\xE7a_5"
+  - first:
+      213: -1272522227147242201
+    second: "walk sem cab\xE7a_6"
+  - first:
+      213: -165307497696452159
+    second: "walk sem cab\xE7a_7"
+  - first:
+      213: 2161158887113090207
+    second: "walk sem cab\xE7a_8"
+  - first:
+      213: -7763907878872675149
+    second: "walk sem cab\xE7a_9"
+  - first:
+      213: -6778327905140107839
+    second: "walk sem cab\xE7a_10"
+  - first:
+      213: -665801189857206364
+    second: "walk sem cab\xE7a_11"
+  - first:
+      213: 7593884490059774698
+    second: "walk sem cab\xE7a_12"
+  - first:
+      213: -6727544673802838466
+    second: "walk sem cab\xE7a_13"
+  - first:
+      213: 5706027194630473061
+    second: "walk sem cab\xE7a_14"
+  - first:
+      213: -6898938199730830226
+    second: "walk sem cab\xE7a_15"
+  - first:
+      213: 4240872060361394146
+    second: "walk sem cab\xE7a_16"
+  - first:
+      213: 7116182879021936955
+    second: "walk sem cab\xE7a_17"
+  - first:
+      213: 1961963351537364812
+    second: "walk sem cab\xE7a_18"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_0"
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 270
+        width: 76
+        height: 93
+      alignment: 9
+      pivot: {x: 0.49297523, y: 0.61768496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d7cd4b0234f57b0800000000000000
+      internalID: -5233390434228863739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_1"
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 267
+        width: 67
+        height: 96
+      alignment: 9
+      pivot: {x: 0.43226805, y: 0.6390333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d23f6191dbd7db0800000000000000
+      internalID: -4792466512995472122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_2"
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 267
+        width: 76
+        height: 96
+      alignment: 9
+      pivot: {x: 0.46136355, y: 0.63347214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ca989755b61bab0800000000000000
+      internalID: -4994092496921711551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_3"
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 270
+        width: 67
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5199216, y: 0.59511805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a79df988ae508e0800000000000000
+      internalID: -1727717009508435322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183
+        width: 96
+        height: 81
+      alignment: 9
+      pivot: {x: 0.6522721, y: 0.49898595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df243c71615b97a10800000000000000
+      internalID: 1907755023660696317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_5"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 190
+        width: 85
+        height: 77
+      alignment: 9
+      pivot: {x: 0.6083787, y: 0.43676242}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f63300dc453ff060800000000000000
+      internalID: 6989363750725957361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_6"
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 188
+        width: 98
+        height: 75
+      alignment: 9
+      pivot: {x: 0.65040326, y: 0.46315125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725891ac6c7175ee0800000000000000
+      internalID: -1272522227147242201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_7"
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 188
+        width: 68
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5367714, y: 0.4804374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c12819e4b5b4bdf0800000000000000
+      internalID: -165307497696452159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_11"
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 102
+        width: 74
+        height: 75
+      alignment: 9
+      pivot: {x: 0.4285802, y: 0.5032776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af578b685992c6f0800000000000000
+      internalID: -665801189857206364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_12"
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 104
+        width: 74
+        height: 73
+      alignment: 9
+      pivot: {x: 0.43024135, y: 0.4966326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea7c57a5b5e26960800000000000000
+      internalID: 7593884490059774698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_13"
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 103
+        width: 75
+        height: 75
+      alignment: 9
+      pivot: {x: 0.4246159, y: 0.4983612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e196363c5f2a2a0800000000000000
+      internalID: -6727544673802838466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_14"
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5650bae6081ef2f40800000000000000
+      internalID: 5706027194630473061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_15"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2
+        width: 66
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5462857, y: 0.44360986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64cbad624c0240a0800000000000000
+      internalID: -6898938199730830226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_16"
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 2
+        width: 74
+        height: 79
+      alignment: 9
+      pivot: {x: 0.47346166, y: 0.48895133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e748b77baa9ada30800000000000000
+      internalID: 4240872060361394146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_17"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 71
+        height: 76
+      alignment: 9
+      pivot: {x: 0.3924337, y: 0.51722646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31b1d410a2c1c260800000000000000
+      internalID: 7116182879021936955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walk sem cab\xE7a_10"
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 102
+        width: 79
+        height: 77
+      alignment: 9
+      pivot: {x: 0.40509602, y: 0.5015962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c59103feaa8ee1a0800000000000000
+      internalID: -6778327905140107839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

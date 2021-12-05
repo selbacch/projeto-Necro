@@ -16,6 +16,7 @@ public class MiniBoss : Enemy
     public GameObject Lacaio3;
     public int combo1 = 0;
     public GameObject Projetil;
+    public Animator Sword;
     void Start()
     {
 
@@ -175,14 +176,16 @@ public class MiniBoss : Enemy
         gameObject.GetComponent<NavMeshAgent>().SetDestination(Target.transform.position);
         Vector3 direction = Target.gameObject.transform.position - transform.position;
         direction.z = 0;
-        float distanceToTarget = direction.magnitude;
+        float distanceToTarget = direction.magnitude - 1.2f;
 
         direction.Normalize();
 
 
         Anim.SetFloat("Horizontal", direction.x); // controla as animações
         Anim.SetFloat("Vertical", direction.y);
-        Anim.SetFloat("Speed", direction.magnitude);
+        Anim.SetFloat("Speed", distanceToTarget);
+        Sword.SetFloat("Horizontal", direction.x); // controla as animações
+        Sword.SetFloat("Vertical", direction.y);
 
     }
 
