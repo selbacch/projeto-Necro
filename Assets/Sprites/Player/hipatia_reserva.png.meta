@@ -1,0 +1,4956 @@
+fileFormatVersion: 2
+guid: df326cd33ea75784086f08500aabe198
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2946867751389967757
+    second: hipatia_reserva_0
+  - first:
+      213: 7907539954487128183
+    second: hipatia_reserva_1
+  - first:
+      213: -2381401006940732813
+    second: hipatia_reserva_2
+  - first:
+      213: 2224787621299564675
+    second: hipatia_reserva_3
+  - first:
+      213: 3944799659339700760
+    second: hipatia_reserva_4
+  - first:
+      213: 5141706777380413653
+    second: hipatia_reserva_5
+  - first:
+      213: 2372655980883068635
+    second: hipatia_reserva_6
+  - first:
+      213: 8212353748362181907
+    second: hipatia_reserva_7
+  - first:
+      213: 6673037534067292293
+    second: hipatia_reserva_8
+  - first:
+      213: 8601939252725654726
+    second: hipatia_reserva_9
+  - first:
+      213: -6461396980203559226
+    second: hipatia_reserva_10
+  - first:
+      213: 2659861550034897371
+    second: hipatia_reserva_11
+  - first:
+      213: -7872821515602106921
+    second: hipatia_reserva_12
+  - first:
+      213: -2493839229933506295
+    second: hipatia_reserva_13
+  - first:
+      213: 8382053814252264972
+    second: hipatia_reserva_14
+  - first:
+      213: -8513246839204925042
+    second: hipatia_reserva_15
+  - first:
+      213: -4595261372803882825
+    second: hipatia_reserva_16
+  - first:
+      213: -5562898061720626304
+    second: hipatia_reserva_17
+  - first:
+      213: -571242414529183856
+    second: hipatia_reserva_18
+  - first:
+      213: -6596034762639548564
+    second: hipatia_reserva_19
+  - first:
+      213: -9184457296248852770
+    second: hipatia_reserva_20
+  - first:
+      213: -4475158819938947630
+    second: hipatia_reserva_21
+  - first:
+      213: -4778010104735722507
+    second: hipatia_reserva_22
+  - first:
+      213: 2017517441006188924
+    second: hipatia_reserva_23
+  - first:
+      213: -1677810558343939958
+    second: hipatia_reserva_24
+  - first:
+      213: -2868378827777091199
+    second: hipatia_reserva_25
+  - first:
+      213: 5449442567679009940
+    second: hipatia_reserva_26
+  - first:
+      213: -5188578557714119410
+    second: hipatia_reserva_27
+  - first:
+      213: -3610449319489720039
+    second: hipatia_reserva_28
+  - first:
+      213: 3120643804530441526
+    second: hipatia_reserva_29
+  - first:
+      213: 8347492911606625372
+    second: hipatia_reserva_30
+  - first:
+      213: -7184500280566734958
+    second: hipatia_reserva_31
+  - first:
+      213: -6004241693159528293
+    second: hipatia_reserva_32
+  - first:
+      213: 6102407358654069298
+    second: hipatia_reserva_33
+  - first:
+      213: 2358297419439924060
+    second: hipatia_reserva_34
+  - first:
+      213: 2798838310729660532
+    second: hipatia_reserva_35
+  - first:
+      213: -2777075812606930832
+    second: hipatia_reserva_36
+  - first:
+      213: 4238003316231613852
+    second: hipatia_reserva_37
+  - first:
+      213: -4206666846997266733
+    second: hipatia_reserva_38
+  - first:
+      213: 5000257966691143843
+    second: hipatia_reserva_39
+  - first:
+      213: -9138213588734053201
+    second: hipatia_reserva_40
+  - first:
+      213: -6248679159492895176
+    second: hipatia_reserva_41
+  - first:
+      213: -8814940046865989189
+    second: hipatia_reserva_42
+  - first:
+      213: 3626518478946609633
+    second: hipatia_reserva_43
+  - first:
+      213: 9193695622990184720
+    second: hipatia_reserva_44
+  - first:
+      213: 8369108080609691822
+    second: hipatia_reserva_45
+  - first:
+      213: -1226604671731280819
+    second: hipatia_reserva_46
+  - first:
+      213: 4981445603000745390
+    second: hipatia_reserva_47
+  - first:
+      213: -6381195104119478070
+    second: hipatia_reserva_48
+  - first:
+      213: 2100292662634959204
+    second: hipatia_reserva_49
+  - first:
+      213: -3051692903702287899
+    second: hipatia_reserva_50
+  - first:
+      213: -3942562669694398957
+    second: hipatia_reserva_51
+  - first:
+      213: 8262202206819095848
+    second: hipatia_reserva_52
+  - first:
+      213: -6571315106228730413
+    second: hipatia_reserva_53
+  - first:
+      213: 6801420108549867114
+    second: hipatia_reserva_54
+  - first:
+      213: 7331297074918525295
+    second: hipatia_reserva_55
+  - first:
+      213: -4169004707837176849
+    second: hipatia_reserva_56
+  - first:
+      213: -8632589050621768625
+    second: hipatia_reserva_57
+  - first:
+      213: 4566114633970888720
+    second: hipatia_reserva_58
+  - first:
+      213: 3255412333316751384
+    second: hipatia_reserva_59
+  - first:
+      213: -3493133671533251365
+    second: hipatia_reserva_60
+  - first:
+      213: -4852006115029480188
+    second: hipatia_reserva_61
+  - first:
+      213: 1975503497701809733
+    second: hipatia_reserva_62
+  - first:
+      213: -1602418351983415498
+    second: hipatia_reserva_63
+  - first:
+      213: 6605500978686016846
+    second: hipatia_reserva_64
+  - first:
+      213: 973660796316116376
+    second: hipatia_reserva_65
+  - first:
+      213: -3169187998468170820
+    second: hipatia_reserva_66
+  - first:
+      213: 4066094995440565267
+    second: hipatia_reserva_67
+  - first:
+      213: 2614586010809409179
+    second: hipatia_reserva_68
+  - first:
+      213: 2139691540211180089
+    second: hipatia_reserva_69
+  - first:
+      213: -8009234973721460359
+    second: hipatia_reserva_70
+  - first:
+      213: 1005388693533460485
+    second: hipatia_reserva_71
+  - first:
+      213: 7310207938374801827
+    second: hipatia_reserva_72
+  - first:
+      213: -1380819797796789882
+    second: hipatia_reserva_73
+  - first:
+      213: -2322901651074411160
+    second: hipatia_reserva_74
+  - first:
+      213: 5856825148298442421
+    second: hipatia_reserva_75
+  - first:
+      213: -5590942343494771684
+    second: hipatia_reserva_76
+  - first:
+      213: -8460429038942539053
+    second: hipatia_reserva_77
+  - first:
+      213: -6571730392712499086
+    second: hipatia_reserva_78
+  - first:
+      213: 8233425072350138931
+    second: hipatia_reserva_79
+  - first:
+      213: -4340183784018066103
+    second: hipatia_reserva_80
+  - first:
+      213: -4270353611536388962
+    second: hipatia_reserva_81
+  - first:
+      213: 4590549426781064915
+    second: hipatia_reserva_82
+  - first:
+      213: -2433163468666706000
+    second: hipatia_reserva_83
+  - first:
+      213: 6221777789957047164
+    second: hipatia_reserva_84
+  - first:
+      213: 8512005906337106079
+    second: hipatia_reserva_85
+  - first:
+      213: -2138205255715836373
+    second: hipatia_reserva_86
+  - first:
+      213: 7225808670485813729
+    second: hipatia_reserva_87
+  - first:
+      213: -2854964775142601836
+    second: hipatia_reserva_88
+  - first:
+      213: -8347447613021554813
+    second: hipatia_reserva_89
+  - first:
+      213: 2654350072502741255
+    second: hipatia_reserva_90
+  - first:
+      213: -8104596036652691541
+    second: hipatia_reserva_91
+  - first:
+      213: 6360256793691827648
+    second: hipatia_reserva_92
+  - first:
+      213: 1458415713661491861
+    second: hipatia_reserva_93
+  - first:
+      213: 3906599586787145206
+    second: hipatia_reserva_94
+  - first:
+      213: 2061294416389211537
+    second: hipatia_reserva_95
+  - first:
+      213: 7483540627477285305
+    second: hipatia_reserva_96
+  - first:
+      213: 3616590711743052151
+    second: hipatia_reserva_97
+  - first:
+      213: -4811851410349146272
+    second: hipatia_reserva_98
+  - first:
+      213: 7269707944618573546
+    second: hipatia_reserva_99
+  - first:
+      213: 5538520679703518033
+    second: hipatia_reserva_100
+  - first:
+      213: -8390367413039459910
+    second: hipatia_reserva_101
+  - first:
+      213: 573449944341714417
+    second: hipatia_reserva_102
+  - first:
+      213: -7631607292728985891
+    second: hipatia_reserva_103
+  - first:
+      213: -3490020377116227381
+    second: hipatia_reserva_104
+  - first:
+      213: 1312355594528160001
+    second: hipatia_reserva_105
+  - first:
+      213: 5593893722864020229
+    second: hipatia_reserva_106
+  - first:
+      213: 883470386859981514
+    second: hipatia_reserva_107
+  - first:
+      213: -2379046199409323206
+    second: hipatia_reserva_108
+  - first:
+      213: -1940967848851571158
+    second: hipatia_reserva_109
+  - first:
+      213: -3962390548257912640
+    second: hipatia_reserva_110
+  - first:
+      213: 1159657939749600625
+    second: hipatia_reserva_111
+  - first:
+      213: -4961379981525540125
+    second: hipatia_reserva_112
+  - first:
+      213: 4406428594742450486
+    second: hipatia_reserva_113
+  - first:
+      213: 6910390755179685769
+    second: hipatia_reserva_114
+  - first:
+      213: -4971282647492046186
+    second: hipatia_reserva_115
+  - first:
+      213: -3786546406355067636
+    second: hipatia_reserva_116
+  - first:
+      213: 3043381347958711772
+    second: hipatia_reserva_117
+  - first:
+      213: -8337578377807621094
+    second: hipatia_reserva_118
+  - first:
+      213: 603437665970561436
+    second: hipatia_reserva_119
+  - first:
+      213: -4050743933653498982
+    second: hipatia_reserva_120
+  - first:
+      213: -1056600388486133227
+    second: hipatia_reserva_121
+  - first:
+      213: -3721986012973979461
+    second: hipatia_reserva_122
+  - first:
+      213: 3634637593512034997
+    second: hipatia_reserva_123
+  - first:
+      213: -4445777910888398915
+    second: hipatia_reserva_124
+  - first:
+      213: -1288514202247139064
+    second: hipatia_reserva_125
+  - first:
+      213: 8804958715040046741
+    second: hipatia_reserva_126
+  - first:
+      213: 3829005940721886549
+    second: hipatia_reserva_127
+  - first:
+      213: 7836451730926323468
+    second: hipatia_reserva_128
+  - first:
+      213: -5854247578962231273
+    second: hipatia_reserva_129
+  - first:
+      213: 7112043841130793152
+    second: hipatia_reserva_130
+  - first:
+      213: -3221414575478797448
+    second: hipatia_reserva_131
+  - first:
+      213: 4702646150025340362
+    second: hipatia_reserva_132
+  - first:
+      213: -969821376826241949
+    second: hipatia_reserva_133
+  - first:
+      213: 5851394802647511383
+    second: hipatia_reserva_134
+  - first:
+      213: 4900601571061452014
+    second: hipatia_reserva_135
+  - first:
+      213: 4032092073574289063
+    second: hipatia_reserva_136
+  - first:
+      213: -3267987412079590345
+    second: hipatia_reserva_137
+  - first:
+      213: 2078147480090319120
+    second: hipatia_reserva_138
+  - first:
+      213: 2270266827377146967
+    second: hipatia_reserva_139
+  - first:
+      213: 1634892280234646178
+    second: hipatia_reserva_140
+  - first:
+      213: -7120186600164018710
+    second: hipatia_reserva_141
+  - first:
+      213: 1527299292232546827
+    second: hipatia_reserva_142
+  - first:
+      213: -4648218703881268506
+    second: hipatia_reserva_143
+  - first:
+      213: 4257233342065554435
+    second: hipatia_reserva_144
+  - first:
+      213: 5772440920752473069
+    second: hipatia_reserva_145
+  - first:
+      213: -1182279075139162948
+    second: hipatia_reserva_146
+  - first:
+      213: -1107331705274664616
+    second: hipatia_reserva_147
+  - first:
+      213: 3384307073588658205
+    second: hipatia_reserva_148
+  - first:
+      213: -3478186022792753168
+    second: hipatia_reserva_149
+  - first:
+      213: 4458767127568944322
+    second: hipatia_reserva_150
+  - first:
+      213: -5956113275901613585
+    second: hipatia_reserva_151
+  - first:
+      213: 3920336947575107057
+    second: hipatia_reserva_152
+  - first:
+      213: 3698318726494996050
+    second: hipatia_reserva_153
+  - first:
+      213: 1243058496694079263
+    second: hipatia_reserva_154
+  - first:
+      213: -3329899783758197613
+    second: hipatia_reserva_155
+  - first:
+      213: 948237169741379975
+    second: hipatia_reserva_156
+  - first:
+      213: 7785727523064353091
+    second: hipatia_reserva_157
+  - first:
+      213: 1431405701366174519
+    second: hipatia_reserva_158
+  - first:
+      213: 6039690985729973659
+    second: hipatia_reserva_159
+  - first:
+      213: 1377153037888655016
+    second: hipatia_reserva_160
+  - first:
+      213: -8405706727912352889
+    second: hipatia_reserva_161
+  - first:
+      213: -6542577561148323675
+    second: hipatia_reserva_162
+  - first:
+      213: 1268123677313284597
+    second: hipatia_reserva_163
+  - first:
+      213: 3677078720021668582
+    second: hipatia_reserva_164
+  - first:
+      213: 3435008865554255152
+    second: hipatia_reserva_165
+  - first:
+      213: -5911844897302966071
+    second: hipatia_reserva_166
+  - first:
+      213: -7181369155521363290
+    second: hipatia_reserva_167
+  - first:
+      213: -9187275524449294544
+    second: hipatia_reserva_168
+  - first:
+      213: 1395244150716383814
+    second: hipatia_reserva_169
+  - first:
+      213: 226110237267659487
+    second: hipatia_reserva_170
+  - first:
+      213: -8932006204339588173
+    second: hipatia_reserva_171
+  - first:
+      213: -3042434845053889334
+    second: hipatia_reserva_172
+  - first:
+      213: 900897428260044875
+    second: hipatia_reserva_173
+  - first:
+      213: 575849087371861365
+    second: hipatia_reserva_174
+  - first:
+      213: 5289655104966660520
+    second: hipatia_reserva_175
+  - first:
+      213: -9111473386318693067
+    second: hipatia_reserva_176
+  - first:
+      213: 2243019302241622511
+    second: hipatia_reserva_177
+  - first:
+      213: 5993855891614068868
+    second: hipatia_reserva_178
+  - first:
+      213: -3045343949456967188
+    second: hipatia_reserva_179
+  - first:
+      213: 3337306266190703038
+    second: hipatia_reserva_180
+  - first:
+      213: -8528204300946696167
+    second: hipatia_reserva_181
+  - first:
+      213: -3435309847809140569
+    second: hipatia_reserva_182
+  - first:
+      213: 1496098584359217223
+    second: hipatia_reserva_183
+  - first:
+      213: 4349660287232672364
+    second: hipatia_reserva_184
+  - first:
+      213: -4375253140637152669
+    second: hipatia_reserva_185
+  - first:
+      213: 1020650769886103378
+    second: hipatia_reserva_186
+  - first:
+      213: -6044757342382889246
+    second: hipatia_reserva_187
+  - first:
+      213: -1692431554386472838
+    second: hipatia_reserva_188
+  - first:
+      213: -3754718896307225489
+    second: hipatia_reserva_189
+  - first:
+      213: 6832741791821362793
+    second: hipatia_reserva_190
+  - first:
+      213: -7065726392547940819
+    second: hipatia_reserva_191
+  - first:
+      213: -2401580184263641189
+    second: hipatia_reserva_192
+  - first:
+      213: -6897001832113635034
+    second: hipatia_reserva_193
+  - first:
+      213: -5092462352762234975
+    second: hipatia_reserva_194
+  - first:
+      213: 2057520473075140489
+    second: hipatia_reserva_195
+  - first:
+      213: -638853161900817866
+    second: hipatia_reserva_196
+  - first:
+      213: -7065156114918046267
+    second: hipatia_reserva_197
+  - first:
+      213: -6737205398010503163
+    second: hipatia_reserva_198
+  - first:
+      213: -5277452881325895414
+    second: hipatia_reserva_199
+  - first:
+      213: 6863494358603052671
+    second: hipatia_reserva_200
+  - first:
+      213: 2140252613342316485
+    second: hipatia_reserva_201
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hipatia_reserva_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2049
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8537a15b9065e820800000000000000
+      internalID: 2946867751389967757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2049
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770f96251b93dbd60800000000000000
+      internalID: 7907539954487128183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2049
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3724a81c66093fed0800000000000000
+      internalID: -2381401006940732813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2049
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3803f3cdd8800ee10800000000000000
+      internalID: 2224787621299564675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2049
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a5605c36ebeb630800000000000000
+      internalID: 3944799659339700760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2049
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d06af472130b5740800000000000000
+      internalID: 5141706777380413653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2049
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6cdb23b0e5de020800000000000000
+      internalID: 2372655980883068635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_7
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1789
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31db9f4293428f170800000000000000
+      internalID: 8212353748362181907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1985
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588fdee28446b9c50800000000000000
+      internalID: 6673037534067292293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1985
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4a332ec2a306770800000000000000
+      internalID: 8601939252725654726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1985
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c66f223ea18456a0800000000000000
+      internalID: -6461396980203559226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1985
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9cc89bcf9b9e420800000000000000
+      internalID: 2659861550034897371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1985
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5eb762b8e1eb290800000000000000
+      internalID: -7872821515602106921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1985
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90131ecee6a146dd0800000000000000
+      internalID: -2493839229933506295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_14
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1985
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ed6b6b889035470800000000000000
+      internalID: 8382053814252264972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_15
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1921
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8139f7da1fdad980800000000000000
+      internalID: -8513246839204925042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1921
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b063ffc02a5a30c0800000000000000
+      internalID: -4595261372803882825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1921
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bde65bfad9cc2b0800000000000000
+      internalID: -5562898061720626304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_18
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1921
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ff951fc0a8218f0800000000000000
+      internalID: -571242414529183856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_19
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1921
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fddb6a45d2674a0800000000000000
+      internalID: -6596034762639548564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_20
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1921
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edea75a10c04a8080800000000000000
+      internalID: -9184457296248852770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_21
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1921
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd251083ca05e1c0800000000000000
+      internalID: -4475158819938947630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1857
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3100eef1911bdb0800000000000000
+      internalID: -4778010104735722507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1857
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79345f5c69affb10800000000000000
+      internalID: 2017517441006188924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_24
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1857
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a887285cf2837b8e0800000000000000
+      internalID: -1677810558343939958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_25
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1857
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189581947a87138d0800000000000000
+      internalID: -2868378827777091199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_26
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1857
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4946666942f40ab40800000000000000
+      internalID: 5449442567679009940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_27
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1857
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05cd32ca477ef7b0800000000000000
+      internalID: -5188578557714119410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_28
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1857
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911b340197b15edc0800000000000000
+      internalID: -3610449319489720039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_29
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1792
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d7f8f9101ce4b20800000000000000
+      internalID: 3120643804530441526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1791
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c547761839048d370800000000000000
+      internalID: 8347492911606625372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1791
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f10285f078b4c90800000000000000
+      internalID: -7184500280566734958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_32
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1791
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98e2adedf5acaca0800000000000000
+      internalID: -6004241693159528293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_33
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1791
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a3e47292b10b450800000000000000
+      internalID: 6102407358654069298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_34
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1791
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53ef68120b5ab020800000000000000
+      internalID: 2358297419439924060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_35
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1791
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478bbce5d9877d620800000000000000
+      internalID: 2798838310729660532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_36
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1729
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0701c331348d579d0800000000000000
+      internalID: -2777075812606930832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1729
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9da9ecef8960da30800000000000000
+      internalID: 4238003316231613852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1729
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3deb0506acaee95c0800000000000000
+      internalID: -4206666846997266733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_39
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1729
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a051f1d02c746540800000000000000
+      internalID: 5000257966691143843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_40
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1729
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4fbd9482b8e2180800000000000000
+      internalID: -9138213588734053201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1729
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e1a0f496b3849a0800000000000000
+      internalID: -6248679159492895176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1729
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1003e1bba0ba580800000000000000
+      internalID: -8814940046865989189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_43
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1665
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9a00da75bf35230800000000000000
+      internalID: 3626518478946609633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_44
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1665
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011c4657571969f70800000000000000
+      internalID: 9193695622990184720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_45
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1666
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea88797357b052470800000000000000
+      internalID: 8369108080609691822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_46
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1666
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d445f95cc893afee0800000000000000
+      internalID: -1226604671731280819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_47
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1666
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead7ac21266a12540800000000000000
+      internalID: 4981445603000745390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_48
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1666
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac82f70acd07177a0800000000000000
+      internalID: -6381195104119478070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_49
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1666
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46157b08c0db52d10800000000000000
+      internalID: 2100292662634959204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_50
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1601
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9ae3ff87536a5d0800000000000000
+      internalID: -3051692903702287899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_51
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1601
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e4628f3243949c0800000000000000
+      internalID: -3942562669694398957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_52
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1601
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82596efc12d39a270800000000000000
+      internalID: 8262202206819095848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_53
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1601
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5041a2abffdc4a0800000000000000
+      internalID: -6571315106228730413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_54
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1601
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a664052ad8f736e50800000000000000
+      internalID: 6801420108549867114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_55
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1601
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f690165c8dffdb560800000000000000
+      internalID: 7331297074918525295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_56
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1601
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe31f6a7e48b426c0800000000000000
+      internalID: -4169004707837176849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_57
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1537
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c43c1fef1e23880800000000000000
+      internalID: -8632589050621768625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1537
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0103c8931191e5f30800000000000000
+      internalID: 4566114633970888720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_59
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1536
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81045cce44c8d2d20800000000000000
+      internalID: 3255412333316751384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_60
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1535
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4fd43ee65e58fc0800000000000000
+      internalID: -3493133671533251365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_61
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1536
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d05a935263aacb0800000000000000
+      internalID: -4852006115029480188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_62
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1537
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ede09e6f56a6b10800000000000000
+      internalID: 1975503497701809733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_63
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1536
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f2674bff013c9e0800000000000000
+      internalID: -1602418351983415498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_64
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1473
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d331684247bab50800000000000000
+      internalID: 6605500978686016846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_65
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1473
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8956528e553238d00800000000000000
+      internalID: 973660796316116376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_66
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1474
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb9fd47e48c404d0800000000000000
+      internalID: -3169187998468170820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_67
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1474
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c7a32fadbad6830800000000000000
+      internalID: 4066094995440565267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_68
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1473
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e1009cf10e84420800000000000000
+      internalID: 2614586010809409179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_69
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1473
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93222378e16b1bd10800000000000000
+      internalID: 2139691540211180089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_70
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1473
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97182b4e93b79d090800000000000000
+      internalID: -8009234973721460359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_71
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1408
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5088143a0bbd3fd00800000000000000
+      internalID: 1005388693533460485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_72
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1409
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a912198363137560800000000000000
+      internalID: 7310207938374801827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_73
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1407
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681ee75b5b756dce0800000000000000
+      internalID: -1380819797796789882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_74
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1407
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8659a8f614563cfd0800000000000000
+      internalID: -2322901651074411160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_75
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1408
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b637eb017f974150800000000000000
+      internalID: 5856825148298442421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_76
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1409
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cdd488f8bf862b0800000000000000
+      internalID: -5590942343494771684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_77
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1408
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d23e664d94869a80800000000000000
+      internalID: -8460429038942539053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_78
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1345
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270bbbeb6068cc4a0800000000000000
+      internalID: -6571730392712499086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_79
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1345
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33299321b70034270800000000000000
+      internalID: 8233425072350138931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_80
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1346
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94541bdf7d194c3c0800000000000000
+      internalID: -4340183784018066103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_81
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1346
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c211ff308acb4c0800000000000000
+      internalID: -4270353611536388962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1345
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de8823c168e4bf30800000000000000
+      internalID: 4590549426781064915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1345
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7e9a977baab3ed0800000000000000
+      internalID: -2433163468666706000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_84
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1344
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c730ec18fe1385650800000000000000
+      internalID: 6221777789957047164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_85
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1281
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f980045f548b02670800000000000000
+      internalID: 8512005906337106079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_86
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1281
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e2f2c06a19352e0800000000000000
+      internalID: -2138205255715836373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_87
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1281
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e99e3ba3ba374460800000000000000
+      internalID: 7225808670485813729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_88
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1281
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b4f5bc9a02168d0800000000000000
+      internalID: -2854964775142601836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_89
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1281
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387faa46f98e72c80800000000000000
+      internalID: -8347447613021554813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_90
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1281
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709ee0dd35526d420800000000000000
+      internalID: 2654350072502741255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_91
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1216
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf074b38d0b68f80800000000000000
+      internalID: -8104596036652691541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_92
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1216
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd24441bdb244850800000000000000
+      internalID: 6360256793691827648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_93
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1216
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a14a35d555d3410800000000000000
+      internalID: 1458415713661491861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_94
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1216
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5b22a40a7073630800000000000000
+      internalID: 3906599586787145206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_95
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1216
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195006ab9503b9c10800000000000000
+      internalID: 2061294416389211537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_96
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1216
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9ccfa1d80ead760800000000000000
+      internalID: 7483540627477285305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_97
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1152
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779fb6f3716b03230800000000000000
+      internalID: 3616590711743052151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_98
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1152
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f3d26f2aed83db0800000000000000
+      internalID: -4811851410349146272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_99
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1152
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee33dbebd033e460800000000000000
+      internalID: 7269707944618573546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_100
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1152
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b12eeb637ccdc40800000000000000
+      internalID: 5538520679703518033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_101
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1152
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab115caba4d6f8b80800000000000000
+      internalID: -8390367413039459910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_102
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1152
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f594f4afad45f700800000000000000
+      internalID: 573449944341714417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_103
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1089
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6bb9be995171690800000000000000
+      internalID: -7631607292728985891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_104
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1089
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8cc1b35f4f09fc0800000000000000
+      internalID: -3490020377116227381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_105
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1089
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109f8d6c57c663210800000000000000
+      internalID: 1312355594528160001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_106
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1089
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50be89604b081ad40800000000000000
+      internalID: 5593893722864020229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_107
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1089
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acabd52d2a7b24c00800000000000000
+      internalID: 883470386859981514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_108
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1089
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33d6fb161eebfed0800000000000000
+      internalID: -2379046199409323206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_109
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1025
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e7fb0760c4015e0800000000000000
+      internalID: -1940967848851571158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1024
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8c8bd3ac2c209c0800000000000000
+      internalID: -3962390548257912640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_111
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1023
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d7cb780cee71010800000000000000
+      internalID: 1159657939749600625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_112
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1023
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2af6d7133a52bb0800000000000000
+      internalID: -4961379981525540125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_113
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1023
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6395fbde577c62d30800000000000000
+      internalID: 4406428594742450486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_114
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1023
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987e0ad67c3a6ef50800000000000000
+      internalID: 6910390755179685769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_115
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1023
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6925c2665c4720bb0800000000000000
+      internalID: -4971282647492046186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_116
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1023
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d9cabfa1c737bc0800000000000000
+      internalID: -3786546406355067636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_117
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1023
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5e02126334c3a20800000000000000
+      internalID: 3043381347958711772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_118
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1023
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a149cc7c3a8fa4c80800000000000000
+      internalID: -8337578377807621094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_119
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1023
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91244c2c57df5800800000000000000
+      internalID: 603437665970561436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_120
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1023
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93c386aaddd8c7c0800000000000000
+      internalID: -4050743933653498982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_121
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1023
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a8eb67b833651f0800000000000000
+      internalID: -1056600388486133227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_122
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 961
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8a6bde079d85cc0800000000000000
+      internalID: -3721986012973979461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_123
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 961
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2c09852a3d07230800000000000000
+      internalID: 3634637593512034997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_124
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 961
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbff7377b8c6d42c0800000000000000
+      internalID: -4445777910888398915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_125
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 961
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801730fe8274e1ee0800000000000000
+      internalID: -1288514202247139064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_126
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 961
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e11f7fc4f713a70800000000000000
+      internalID: 8804958715040046741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_127
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 961
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555a69bbd9c532530800000000000000
+      internalID: 3829005940721886549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_128
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 961
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07cb59745ba0cc60800000000000000
+      internalID: 7836451730926323468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_129
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 961
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71004c418d881cea0800000000000000
+      internalID: -5854247578962231273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_130
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 961
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c80b99313e03b260800000000000000
+      internalID: 7112043841130793152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_131
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 961
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b025ae28c3b43d0800000000000000
+      internalID: -3221414575478797448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_132
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 961
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac56e9cf1c7234140800000000000000
+      internalID: 4702646150025340362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_133
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 961
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c01ba98908a82f0800000000000000
+      internalID: -969821376826241949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_134
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 961
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7513f5c2294543150800000000000000
+      internalID: 5851394802647511383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_135
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecc6d41a2f620440800000000000000
+      internalID: 4900601571061452014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_136
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 896
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae4013c06ed4f730800000000000000
+      internalID: 4032092073574289063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_137
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 898
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7344c8463c6c5a2d0800000000000000
+      internalID: -3267987412079590345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_138
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01918a56f1017dc10800000000000000
+      internalID: 2078147480090319120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_139
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 897
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cfa2fa6ab918f10800000000000000
+      internalID: 2270266827377146967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_140
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa1a69eddd40b610800000000000000
+      internalID: 1634892280234646178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_141
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae53ab2f204003d90800000000000000
+      internalID: -7120186600164018710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_142
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 897
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0af9334d9e023510800000000000000
+      internalID: 1527299292232546827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_143
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e294d457b53e7fb0800000000000000
+      internalID: -4648218703881268506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_144
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 897
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30434c73b2bb41b30800000000000000
+      internalID: 4257233342065554435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_145
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de341680f64db1050800000000000000
+      internalID: 5772440920752473069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_146
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 897
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbce3f4f173b79fe0800000000000000
+      internalID: -1182279075139162948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_147
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85973925ea7f1a0f0800000000000000
+      internalID: -1107331705274664616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_148
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 833
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1008144a5977fe20800000000000000
+      internalID: 3384307073588658205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_149
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 833
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff85b09d300bbfc0800000000000000
+      internalID: -3478186022792753168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_150
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 833
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc8fe63419b0ed30800000000000000
+      internalID: 4458767127568944322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_151
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe965eb4882a75da0800000000000000
+      internalID: -5956113275901613585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_152
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 833
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdad08dea5d76630800000000000000
+      internalID: 3920336947575107057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_153
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 833
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256c8e68941135330800000000000000
+      internalID: 3698318726494996050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_154
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 832
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f4b72ed1b304110800000000000000
+      internalID: 1243058496694079263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_155
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 833
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c417b0ac1d9c1d0800000000000000
+      internalID: -3329899783758197613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_156
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 833
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789b1419ea0d82d00800000000000000
+      internalID: 948237169741379975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_157
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 833
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3419b328ee57c0c60800000000000000
+      internalID: 7785727523064353091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_158
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 833
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7335667c6ef5dd310800000000000000
+      internalID: 1431405701366174519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_159
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 833
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d509da3fa41d350800000000000000
+      internalID: 6039690985729973659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_160
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 833
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae04b83461ac1310800000000000000
+      internalID: 1377153037888655016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_161
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 767
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7835cac244ee85b80800000000000000
+      internalID: -8405706727912352889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_162
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 769
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a800584f581435a0800000000000000
+      internalID: -6542577561148323675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_163
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 769
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9358504c7499110800000000000000
+      internalID: 1268123677313284597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_164
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 769
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e22a062d9b970330800000000000000
+      internalID: 3677078720021668582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_165
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 767
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dcdaf1d5a9baf20800000000000000
+      internalID: 3435008865554255152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_166
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 768
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c01d016368e4fda0800000000000000
+      internalID: -5911844897302966071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_167
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 641
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2c3343dc6a65c90800000000000000
+      internalID: -7181369155521363290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_168
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 641
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0372f87369d308080800000000000000
+      internalID: -9187275524449294544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_169
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 641
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642446aa927ec5310800000000000000
+      internalID: 1395244150716383814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_170
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 641
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda0b64101e432300800000000000000
+      internalID: 226110237267659487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_171
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 641
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3f0c25ea32b0480800000000000000
+      internalID: -8932006204339588173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_172
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 641
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4da40c0a917c5d0800000000000000
+      internalID: -3042434845053889334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_173
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 449
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40c0861071a08c00800000000000000
+      internalID: 900897428260044875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_174
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 449
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d5809a1b3ddf700800000000000000
+      internalID: 575849087371861365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_175
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 449
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a19edbca41a86940800000000000000
+      internalID: 5289655104966660520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_176
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 449
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d7c04da3b8d8180800000000000000
+      internalID: -9111473386318693067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_177
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 449
+        width: 104
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9d47edb2ec02f10800000000000000
+      internalID: 2243019302241622511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_178
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 449
+        width: 70
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480f9863d247e2350800000000000000
+      internalID: 5993855891614068868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_179
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 257
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce97bb910d3ccb5d0800000000000000
+      internalID: -3045343949456967188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_180
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 257
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb96bf60e5e705e20800000000000000
+      internalID: 3337306266190703038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_181
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 257
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9181d166f5bb5a980800000000000000
+      internalID: -8528204300946696167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_182
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 257
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a85febf4e35350d0800000000000000
+      internalID: -3435309847809140569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_183
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 237
+        width: 83
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74822bd5cb533c410800000000000000
+      internalID: 1496098584359217223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_184
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 239
+        width: 77
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62802a5cf81d5c30800000000000000
+      internalID: 4349660287232672364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_185
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 64
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a09ed137af743c0800000000000000
+      internalID: -4375253140637152669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_186
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 64
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2574ac2b7741a2e00800000000000000
+      internalID: 1020650769886103378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_187
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 63
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e665dd3935bc1ca0800000000000000
+      internalID: -6044757342382889246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_188
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 64
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70d12ad7764388e0800000000000000
+      internalID: -1692431554386472838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_189
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 64
+        width: 104
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c3922ae0f84ebc0800000000000000
+      internalID: -3754718896307225489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_190
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 64
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9667a7f4576c2de50800000000000000
+      internalID: 6832741791821362793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_191
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1729
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26e314284f71fd90800000000000000
+      internalID: -7065726392547940819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_192
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1663
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b973959eb8fdbaed0800000000000000
+      internalID: -2401580184263641189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_193
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1600
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62106a5206de840a0800000000000000
+      internalID: -6897001832113635034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_194
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1534
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a79e8f9870f359b0800000000000000
+      internalID: -5092462352762234975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_195
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1534
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987ccb318f7cd8c10800000000000000
+      internalID: 2057520473075140489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_196
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1472
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632444d1f665227f0800000000000000
+      internalID: -638853161900817866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_197
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1472
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c581af32f583fd90800000000000000
+      internalID: -7065156114918046267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_198
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1406
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5006db0c263a082a0800000000000000
+      internalID: -6737205398010503163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_199
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1405
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0155b9c098b2c6b0800000000000000
+      internalID: -5277452881325895414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_200
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1345
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76be6a31c7004f50800000000000000
+      internalID: 6863494358603052671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia_reserva_201
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1344
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7cedb8964b3bd10800000000000000
+      internalID: 2140252613342316485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
