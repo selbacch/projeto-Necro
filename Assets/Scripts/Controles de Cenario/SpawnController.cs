@@ -13,6 +13,7 @@ public class SpawnController : MonoBehaviour
     public RuntimeAnimatorController SpriteEnemy;
     public RuntimeAnimatorController SpriteComander;
        public RuntimeAnimatorController SpriteMiniBoss;
+    public Transform proxPlayer;
 
     public GameObject barreira;
 
@@ -164,7 +165,7 @@ public class SpawnController : MonoBehaviour
 
 
 
-            GameObject miNiBoss = Instantiate(MiNiBoss, gameObject.transform.position, gameObject.transform.rotation, transform.parent);miNiBoss.GetComponent<Animator>().runtimeAnimatorController = SpriteMiniBoss;
+            GameObject miNiBoss = Instantiate(MiNiBoss, proxPlayer.position, proxPlayer.rotation);miNiBoss.GetComponent<Animator>().runtimeAnimatorController = SpriteMiniBoss;
             miNiBoss.GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
 
 

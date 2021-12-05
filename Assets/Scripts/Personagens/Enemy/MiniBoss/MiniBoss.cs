@@ -16,7 +16,7 @@ public class MiniBoss : Enemy
     public GameObject Lacaio3;
     public int combo1 = 0;
     public GameObject Projetil;
-    public Animator Sword;
+    
     void Start()
     {
 
@@ -184,8 +184,7 @@ public class MiniBoss : Enemy
         Anim.SetFloat("Horizontal", direction.x); // controla as animações
         Anim.SetFloat("Vertical", direction.y);
         Anim.SetFloat("Speed", distanceToTarget);
-        Sword.SetFloat("Horizontal", direction.x); // controla as animações
-        Sword.SetFloat("Vertical", direction.y);
+       
 
     }
 
