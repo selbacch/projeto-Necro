@@ -1,0 +1,2124 @@
+fileFormatVersion: 2
+guid: 9193340dcc814b345b7eade7408acf60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4040018671886059289
+    second: Shadow soul Comander_0
+  - first:
+      213: 4804466578822663097
+    second: Shadow soul Comander_1
+  - first:
+      213: -5089618709059417950
+    second: Shadow soul Comander_2
+  - first:
+      213: -8724679259025148612
+    second: Shadow soul Comander_3
+  - first:
+      213: 853139552464849361
+    second: Shadow soul Comander_4
+  - first:
+      213: 1957209056287684831
+    second: Shadow soul Comander_5
+  - first:
+      213: -7299638862770286203
+    second: Shadow soul Comander_6
+  - first:
+      213: -3987166233823894200
+    second: Shadow soul Comander_7
+  - first:
+      213: 3114333689538796064
+    second: Shadow soul Comander_8
+  - first:
+      213: 1914297667331864820
+    second: Shadow soul Comander_9
+  - first:
+      213: 7687850203966555113
+    second: Shadow soul Comander_10
+  - first:
+      213: -444124699743523890
+    second: Shadow soul Comander_11
+  - first:
+      213: -5935518438410297384
+    second: Shadow soul Comander_12
+  - first:
+      213: -8437205018087623709
+    second: Shadow soul Comander_13
+  - first:
+      213: 2434381543182687677
+    second: Shadow soul Comander_14
+  - first:
+      213: -2303908709332739484
+    second: Shadow soul Comander_15
+  - first:
+      213: 1477492209852910143
+    second: Shadow soul Comander_16
+  - first:
+      213: 2131076158540303127
+    second: Shadow soul Comander_17
+  - first:
+      213: 764016865820807580
+    second: Shadow soul Comander_18
+  - first:
+      213: -7432752636961938443
+    second: Shadow soul Comander_19
+  - first:
+      213: 9040638527117295863
+    second: Shadow soul Comander_20
+  - first:
+      213: -3418846020501398783
+    second: Shadow soul Comander_21
+  - first:
+      213: 448544664803053335
+    second: Shadow soul Comander_22
+  - first:
+      213: -4982812509034204849
+    second: Shadow soul Comander_23
+  - first:
+      213: -6055547478074280326
+    second: Shadow soul Comander_24
+  - first:
+      213: 6007691627708543312
+    second: Shadow soul Comander_25
+  - first:
+      213: 2762026728997444573
+    second: Shadow soul Comander_34
+  - first:
+      213: 8356815605144536185
+    second: Shadow soul Comander_35
+  - first:
+      213: -7745416819234995522
+    second: Shadow soul Comander_36
+  - first:
+      213: -5964713342442697039
+    second: Shadow soul Comander_37
+  - first:
+      213: 1596842170984869731
+    second: Shadow soul Comander_38
+  - first:
+      213: -3119560381403948429
+    second: Shadow soul Comander_42
+  - first:
+      213: 6426354155119593838
+    second: Shadow soul Comander_43
+  - first:
+      213: -3208826963728974177
+    second: Shadow soul Comander_44
+  - first:
+      213: 5729924173254112987
+    second: Shadow soul Comander_45
+  - first:
+      213: 2701513618017046900
+    second: Shadow soul Comander_46
+  - first:
+      213: -2273745242893334911
+    second: Shadow soul Comander_47
+  - first:
+      213: -4196182331158878978
+    second: Shadow soul Comander_48
+  - first:
+      213: -2181638359730056994
+    second: Shadow soul Comander_55
+  - first:
+      213: 735234024338136372
+    second: Shadow soul Comander_56
+  - first:
+      213: 5153928347897077196
+    second: Shadow soul Comander_57
+  - first:
+      213: -6042989081343276684
+    second: Shadow soul Comander_58
+  - first:
+      213: 2626206581566607813
+    second: Shadow soul Comander_59
+  - first:
+      213: -6047555381996438526
+    second: Shadow soul Comander_60
+  - first:
+      213: 4356530802175502539
+    second: Shadow soul Comander_61
+  - first:
+      213: 1230039510885344452
+    second: Shadow soul Comander_62
+  - first:
+      213: 8524768545089661501
+    second: Shadow soul Comander_63
+  - first:
+      213: -5443629474315352393
+    second: Shadow soul Comander_64
+  - first:
+      213: -2621292652344114539
+    second: Shadow soul Comander_65
+  - first:
+      213: 4258416807779731602
+    second: Shadow soul Comander_66
+  - first:
+      213: 1901824061129371727
+    second: Shadow soul Comander_68
+  - first:
+      213: 5131568832451803019
+    second: Shadow soul Comander_69
+  - first:
+      213: 7966452085670163507
+    second: Shadow soul Comander_70
+  - first:
+      213: 6117713626566793243
+    second: Shadow soul Comander_71
+  - first:
+      213: 4747016783158662891
+    second: Shadow soul Comander_72
+  - first:
+      213: 329827449521985909
+    second: Shadow soul Comander_73
+  - first:
+      213: 3810441469408215249
+    second: Shadow soul Comander_74
+  - first:
+      213: 4183386119256220674
+    second: Shadow soul Comander_75
+  - first:
+      213: 2561126045526408481
+    second: Shadow soul Comander_76
+  - first:
+      213: 3597036412718448500
+    second: Shadow soul Comander_77
+  - first:
+      213: -8799783686459729107
+    second: Shadow soul Comander_78
+  - first:
+      213: 7659316258237204905
+    second: Shadow soul Comander_79
+  - first:
+      213: -6093722208055316714
+    second: Shadow soul Comander_80
+  - first:
+      213: -3446506473978063157
+    second: Shadow soul Comander_81
+  - first:
+      213: -6117041957322935640
+    second: Shadow soul Comander_82
+  - first:
+      213: 9181865849488934970
+    second: Shadow soul Comander_83
+  - first:
+      213: -3528581998679180671
+    second: Shadow soul Comander_84
+  - first:
+      213: 8980413294714688037
+    second: Shadow soul Comander_85
+  - first:
+      213: 7570466063354123208
+    second: Shadow soul Comander_86
+  - first:
+      213: 1022557494541634265
+    second: Shadow soul Comander_87
+  - first:
+      213: 1905163840070228397
+    second: Shadow soul Comander_88
+  - first:
+      213: 524531259586707606
+    second: Shadow soul Comander_89
+  - first:
+      213: 5664346367369897643
+    second: Shadow soul Comander_90
+  - first:
+      213: -861335587019996231
+    second: Shadow soul Comander_91
+  - first:
+      213: 7684384958438090125
+    second: Shadow soul Comander_92
+  - first:
+      213: -469219724131960884
+    second: Shadow soul Comander_93
+  - first:
+      213: -419371066998075736
+    second: Shadow soul Comander_94
+  - first:
+      213: 1850356521034644487
+    second: Shadow soul Comander_95
+  - first:
+      213: 2886326278080635325
+    second: Shadow soul Comander_96
+  - first:
+      213: 2785978402845193044
+    second: Shadow soul Comander_97
+  - first:
+      213: 7918026526527660072
+    second: Shadow soul Comander_26
+  - first:
+      213: 4471384774096171985
+    second: Shadow soul Comander_27
+  - first:
+      213: 5358677062605632734
+    second: Shadow soul Comander_28
+  - first:
+      213: 6351663321089975249
+    second: Shadow soul Comander_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shadow soul Comander_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 504
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917c6bfb397011830800000000000000
+      internalID: 4040018671886059289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 504
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb06f5f5e4eca240800000000000000
+      internalID: 4804466578822663097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 504
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8c45400ca0e59b0800000000000000
+      internalID: -5089618709059417950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 504
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3576927076bbe680800000000000000
+      internalID: -8724679259025148612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 504
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9c08027e5f6db00800000000000000
+      internalID: 853139552464849361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 504
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd874375447692b10800000000000000
+      internalID: 1957209056287684831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 504
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581d0f3212972ba90800000000000000
+      internalID: -7299638862770286203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_7
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 504
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845ae7c6f6dbaa8c0800000000000000
+      internalID: -3987166233823894200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_8
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 504
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02addfc7df5583b20800000000000000
+      internalID: 3114333689538796064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_9
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 504
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8bca70693f09a10800000000000000
+      internalID: 1914297667331864820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_10
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 504
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e347dd470bb0ba60800000000000000
+      internalID: 7687850203966555113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_11
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 504
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb6fcb40f626d9f0800000000000000
+      internalID: -444124699743523890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_12
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 536
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfd5c09d6dc0ada0800000000000000
+      internalID: -5935518438410297384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e37ebffcb609ea80800000000000000
+      internalID: -8437205018087623709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 432
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbddb299d19a8c120800000000000000
+      internalID: 2434381543182687677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 432
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a1b494c3fd600e0800000000000000
+      internalID: -2303908709332739484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_16
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 432
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a80b6365b118410800000000000000
+      internalID: 1477492209852910143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_17
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 432
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b491ba97a139d10800000000000000
+      internalID: 2131076158540303127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_18
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 432
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9118a1aa455a9a00800000000000000
+      internalID: 764016865820807580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 432
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3298a6bde89d890800000000000000
+      internalID: -7432752636961938443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_20
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 432
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0898f47dcc67d70800000000000000
+      internalID: 9040638527117295863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_21
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 432
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b914e78a1dd80d0800000000000000
+      internalID: -3418846020501398783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_22
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 432
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f8b730ffc893600800000000000000
+      internalID: 448544664803053335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_23
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 432
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41b4a05c6e79dab0800000000000000
+      internalID: -4982812509034204849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_24
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 432
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76bed007af56fba0800000000000000
+      internalID: -6055547478074280326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_25
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 487
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051f7ad84bb9f5350800000000000000
+      internalID: 6007691627708543312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_34
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 356
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbd60a1da0b45620800000000000000
+      internalID: 2762026728997444573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 355
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974c41e348f59f370800000000000000
+      internalID: 8356815605144536185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_36
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 355
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2892c9070c28490800000000000000
+      internalID: -7745416819234995522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_37
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 355
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be8ba441d4193da0800000000000000
+      internalID: -5964713342442697039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_38
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 356
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36faaeb7e7f192610800000000000000
+      internalID: 1596842170984869731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_42
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 355
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a190b7c5815b4d0800000000000000
+      internalID: -3119560381403948429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_43
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 354
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6942c84e0ffe2950800000000000000
+      internalID: 6426354155119593838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_44
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 354
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e3d39a0e4f773d0800000000000000
+      internalID: -3208826963728974177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_45
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 355
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd63cb85da7c48f40800000000000000
+      internalID: 5729924173254112987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_46
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 354
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47159c58254bd7520800000000000000
+      internalID: 2701513618017046900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_47
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 354
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186cb979fb80270e0800000000000000
+      internalID: -2273745242893334911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_48
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 355
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef42182f66a24c5c0800000000000000
+      internalID: -4196182331158878978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_55
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 289
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed09ceb787349b1e0800000000000000
+      internalID: -2181638359730056994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_56
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 289
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d947f1373143a00800000000000000
+      internalID: 735234024338136372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_57
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 289
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd9836968e668740800000000000000
+      internalID: 5153928347897077196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_58
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 289
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47948f8927df22ca0800000000000000
+      internalID: -6042989081343276684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_59
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 289
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c11211c8f8227420800000000000000
+      internalID: 2626206581566607813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_60
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 289
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cb990eb64c21ca0800000000000000
+      internalID: -6047555381996438526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_61
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 289
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8e7b4cea1857c30800000000000000
+      internalID: 4356530802175502539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_62
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 289
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4240a0b6af11110800000000000000
+      internalID: 1230039510885344452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_63
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 289
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a2e7a53df0e4670800000000000000
+      internalID: 8524768545089661501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_64
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 289
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6469ea5d75474b0800000000000000
+      internalID: -5443629474315352393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_65
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 289
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59200bc883c4f9bd0800000000000000
+      internalID: -2621292652344114539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_66
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 289
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298834d468fe81b30800000000000000
+      internalID: 4258416807779731602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_68
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 169
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4038e448e2a46a10800000000000000
+      internalID: 1901824061129371727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_69
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 168
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8771c63aaef63740800000000000000
+      internalID: 5131568832451803019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_70
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 167
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3343a8eb6f58e8e60800000000000000
+      internalID: 7966452085670163507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_71
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 169
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18941d512c76e450800000000000000
+      internalID: 6117713626566793243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_72
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 171
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be65dfe0d9ac0e140800000000000000
+      internalID: 4747016783158662891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_73
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 172
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5795eed5158c39400800000000000000
+      internalID: 329827449521985909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_74
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 106
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d08e7de35861e430800000000000000
+      internalID: 3810441469408215249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_75
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 107
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204219cc28f5e0a30800000000000000
+      internalID: 4183386119256220674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_76
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 108
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d3a98a192fa8320800000000000000
+      internalID: 2561126045526408481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_77
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 107
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f7a383f8d3be130800000000000000
+      internalID: 3597036412718448500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_78
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 108
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b5a444c53e0e580800000000000000
+      internalID: -8799783686459729107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_79
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 95
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a94a9a5e8b5b4a60800000000000000
+      internalID: 7659316258237204905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f24fc00ffbe6ba0800000000000000
+      internalID: -6093722208055316714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_81
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 92
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6147e4f9c8b20d0800000000000000
+      internalID: -3446506473978063157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_82
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 93
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a23b91dfb6eb1ba0800000000000000
+      internalID: -6117041957322935640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_83
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 94
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38041ea75a8c6f70800000000000000
+      internalID: 9181865849488934970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_84
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 96
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ab3ef0e55f70fc0800000000000000
+      internalID: -3528581998679180671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_85
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 108
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5221aafaf46d0ac70800000000000000
+      internalID: 8980413294714688037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_86
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 16
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c35f5a46c2bf0960800000000000000
+      internalID: 7570466063354123208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_87
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 15
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da4190af9ad03e00800000000000000
+      internalID: 1022557494541634265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_88
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 15
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da91e462b60807a10800000000000000
+      internalID: 1905163840070228397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_89
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 17
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6900149c662874700800000000000000
+      internalID: 524531259586707606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_90
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 17
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba66bd7920dcb9e40800000000000000
+      internalID: 5664346367369897643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_91
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 19
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3454fd8dbeb04f0800000000000000
+      internalID: -861335587019996231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_92
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 34
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85ae05f76b64aa60800000000000000
+      internalID: 7684384958438090125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_93
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 34
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7f18d952ffc79f0800000000000000
+      internalID: -469219724131960884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_94
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 32
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aec08a8c381e2af0800000000000000
+      internalID: -419371066998075736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 33
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cf818c379cda910800000000000000
+      internalID: 1850356521034644487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_96
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 34
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db12fde157a4e0820800000000000000
+      internalID: 2886326278080635325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_97
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 34
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4537f7db898c9a620800000000000000
+      internalID: 2785978402845193044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_26
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 445
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8202dc3ac2b72ed60800000000000000
+      internalID: 7918026526527660072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_27
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 395
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3b71af2cc8d0e30800000000000000
+      internalID: 4471384774096171985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_28
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 357
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed474ae9568dd5a40800000000000000
+      internalID: 5358677062605632734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow soul Comander_29
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 309
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d322725324a52850800000000000000
+      internalID: 6351663321089975249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
