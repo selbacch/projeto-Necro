@@ -14,65 +14,71 @@ AnimationClip:
   m_RotationCurves: []
   m_CompressedRotationCurves: []
   m_EulerCurves: []
-  m_PositionCurves: []
-  m_ScaleCurves: []
-  m_FloatCurves:
+  m_PositionCurves:
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
+        value: {x: 0.053, y: 0.54, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.18333334
+        value: {x: 0.053, y: 0.54, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_FlipX
-    path: 
-    classID: 212
-    script: {fileID: 0}
+    path: GameObject (1)/olho2
+  m_ScaleCurves: []
+  m_FloatCurves: []
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -8437205018087623709, guid: 9193340dcc814b345b7eade7408acf60,
+      value: {fileID: 518257062492011776, guid: 1a288a9ca4235ce4aadab0f8532fe420,
         type: 3}
     - time: 0.016666668
-      value: {fileID: 2434381543182687677, guid: 9193340dcc814b345b7eade7408acf60,
+      value: {fileID: -2482321506862217914, guid: 1a288a9ca4235ce4aadab0f8532fe420,
         type: 3}
     - time: 0.033333335
-      value: {fileID: -2303908709332739484, guid: 9193340dcc814b345b7eade7408acf60,
+      value: {fileID: 7929637989370985117, guid: 1a288a9ca4235ce4aadab0f8532fe420,
         type: 3}
     - time: 0.05
-      value: {fileID: 1477492209852910143, guid: 9193340dcc814b345b7eade7408acf60,
+      value: {fileID: 2611117647735736762, guid: 1a288a9ca4235ce4aadab0f8532fe420,
         type: 3}
     - time: 0.06666667
-      value: {fileID: 2131076158540303127, guid: 9193340dcc814b345b7eade7408acf60,
+      value: {fileID: -2547645572898650796, guid: 1a288a9ca4235ce4aadab0f8532fe420,
         type: 3}
     - time: 0.083333336
-      value: {fileID: 764016865820807580, guid: 9193340dcc814b345b7eade7408acf60,
+      value: {fileID: 5003637792804101983, guid: 1a288a9ca4235ce4aadab0f8532fe420,
         type: 3}
     - time: 0.1
-      value: {fileID: -7432752636961938443, guid: 9193340dcc814b345b7eade7408acf60,
+      value: {fileID: -338155973947781050, guid: 1a288a9ca4235ce4aadab0f8532fe420,
         type: 3}
     - time: 0.11666667
-      value: {fileID: 9040638527117295863, guid: 9193340dcc814b345b7eade7408acf60,
+      value: {fileID: -6635627218082928667, guid: 1a288a9ca4235ce4aadab0f8532fe420,
         type: 3}
     - time: 0.13333334
-      value: {fileID: -3418846020501398783, guid: 9193340dcc814b345b7eade7408acf60,
+      value: {fileID: 6232615625740419306, guid: 1a288a9ca4235ce4aadab0f8532fe420,
         type: 3}
     - time: 0.15
-      value: {fileID: 448544664803053335, guid: 9193340dcc814b345b7eade7408acf60,
+      value: {fileID: 1789351210953006430, guid: 1a288a9ca4235ce4aadab0f8532fe420,
         type: 3}
     - time: 0.16666667
-      value: {fileID: -4982812509034204849, guid: 9193340dcc814b345b7eade7408acf60,
+      value: {fileID: 3149637303940076423, guid: 1a288a9ca4235ce4aadab0f8532fe420,
         type: 3}
     - time: 0.18333334
-      value: {fileID: -6055547478074280326, guid: 9193340dcc814b345b7eade7408acf60,
+      value: {fileID: 3821702049681592638, guid: 1a288a9ca4235ce4aadab0f8532fe420,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -87,31 +93,31 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
-      attribute: 555744692
-      script: {fileID: 0}
-      typeID: 212
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 0
       attribute: 0
       script: {fileID: 0}
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 1999196898
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
     pptrCurveMapping:
-    - {fileID: -8437205018087623709, guid: 9193340dcc814b345b7eade7408acf60, type: 3}
-    - {fileID: 2434381543182687677, guid: 9193340dcc814b345b7eade7408acf60, type: 3}
-    - {fileID: -2303908709332739484, guid: 9193340dcc814b345b7eade7408acf60, type: 3}
-    - {fileID: 1477492209852910143, guid: 9193340dcc814b345b7eade7408acf60, type: 3}
-    - {fileID: 2131076158540303127, guid: 9193340dcc814b345b7eade7408acf60, type: 3}
-    - {fileID: 764016865820807580, guid: 9193340dcc814b345b7eade7408acf60, type: 3}
-    - {fileID: -7432752636961938443, guid: 9193340dcc814b345b7eade7408acf60, type: 3}
-    - {fileID: 9040638527117295863, guid: 9193340dcc814b345b7eade7408acf60, type: 3}
-    - {fileID: -3418846020501398783, guid: 9193340dcc814b345b7eade7408acf60, type: 3}
-    - {fileID: 448544664803053335, guid: 9193340dcc814b345b7eade7408acf60, type: 3}
-    - {fileID: -4982812509034204849, guid: 9193340dcc814b345b7eade7408acf60, type: 3}
-    - {fileID: -6055547478074280326, guid: 9193340dcc814b345b7eade7408acf60, type: 3}
+    - {fileID: 518257062492011776, guid: 1a288a9ca4235ce4aadab0f8532fe420, type: 3}
+    - {fileID: -2482321506862217914, guid: 1a288a9ca4235ce4aadab0f8532fe420, type: 3}
+    - {fileID: 7929637989370985117, guid: 1a288a9ca4235ce4aadab0f8532fe420, type: 3}
+    - {fileID: 2611117647735736762, guid: 1a288a9ca4235ce4aadab0f8532fe420, type: 3}
+    - {fileID: -2547645572898650796, guid: 1a288a9ca4235ce4aadab0f8532fe420, type: 3}
+    - {fileID: 5003637792804101983, guid: 1a288a9ca4235ce4aadab0f8532fe420, type: 3}
+    - {fileID: -338155973947781050, guid: 1a288a9ca4235ce4aadab0f8532fe420, type: 3}
+    - {fileID: -6635627218082928667, guid: 1a288a9ca4235ce4aadab0f8532fe420, type: 3}
+    - {fileID: 6232615625740419306, guid: 1a288a9ca4235ce4aadab0f8532fe420, type: 3}
+    - {fileID: 1789351210953006430, guid: 1a288a9ca4235ce4aadab0f8532fe420, type: 3}
+    - {fileID: 3149637303940076423, guid: 1a288a9ca4235ce4aadab0f8532fe420, type: 3}
+    - {fileID: 3821702049681592638, guid: 1a288a9ca4235ce4aadab0f8532fe420, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -138,19 +144,84 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
+        value: 0.053
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.18333334
+        value: 0.053
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_FlipX
-    path: 
-    classID: 212
+    attribute: m_LocalPosition.x
+    path: GameObject (1)/olho2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.54
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.18333334
+        value: 0.54
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: GameObject (1)/olho2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.18333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: GameObject (1)/olho2
+    classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
