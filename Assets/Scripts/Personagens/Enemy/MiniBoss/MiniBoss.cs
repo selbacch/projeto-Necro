@@ -82,7 +82,7 @@ public class MiniBoss : Enemy
             {
                 closest = go;
                 distance = curDistance;
-                StartCoroutine(AtaqueDistance(closest));
+                //StartCoroutine(AtaqueDistance(closest));
             }
 
         }
@@ -107,7 +107,7 @@ public class MiniBoss : Enemy
             {
                 closest = go;
                 distance = curDistance;
-                StartCoroutine(AtaqueDistance(closest));
+               // StartCoroutine(AtaqueDistance(closest));
             }
 
         }
