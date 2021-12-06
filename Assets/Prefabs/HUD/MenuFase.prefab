@@ -373,7 +373,7 @@ MonoBehaviour:
   m_text: OK
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dce52a00bf27ea54db06fb5e953a5d18, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 5c6c5f46ed47bdb499b0ecac561c79e5, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: c56adad7fc87d4448bf386c5b64eab08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -778,8 +778,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 319, y: -59}
-  m_SizeDelta: {x: 64.283, y: 37.9472}
+  m_AnchoredPosition: {x: 299.92978, y: -59}
+  m_SizeDelta: {x: 102.4235, y: 37.9472}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &618562476
 CanvasRenderer:
@@ -809,7 +809,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: d0ab56acae2b9764287edf336917a360, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -838,19 +838,19 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.8113208, g: 0.62379855, b: 0.62379855, a: 1}
+    m_SelectedColor: {r: 1, g: 0.7957734, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 21300000, guid: a4e97a2693452b847862342d67a6d5d7, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -1538,7 +1538,7 @@ MonoBehaviour:
     type: 3}
   imgItem: {fileID: 916460415444044798}
   quantidade: {fileID: 1050747440}
-  botao: {fileID: 102441614399151534, guid: 1368e4bcf43f2cd499bdb6761b29f1b3, type: 3}
+  botao: {fileID: 0}
   equipado: 0
   UseItem: {fileID: 8230074481454225832}
   itemNoSlot: {fileID: 0}
@@ -4630,7 +4630,7 @@ MonoBehaviour:
     type: 3}
   imgItem: {fileID: 5022569608319198043}
   quantidade: {fileID: 2620950310488127243}
-  botao: {fileID: 5555285870834623733, guid: 1368e4bcf43f2cd499bdb6761b29f1b3, type: 3}
+  botao: {fileID: 0}
   equipado: 0
   UseItem: {fileID: 2485587044348651277}
   itemNoSlot: {fileID: 0}
@@ -4978,7 +4978,7 @@ MonoBehaviour:
     type: 3}
   imgItem: {fileID: 6661172565379766602}
   quantidade: {fileID: 6478852929062503053}
-  botao: {fileID: 2443719064973408670, guid: 1368e4bcf43f2cd499bdb6761b29f1b3, type: 3}
+  botao: {fileID: 0}
   equipado: 0
   UseItem: {fileID: 1669679439303482031}
   itemNoSlot: {fileID: 0}
@@ -6306,7 +6306,7 @@ MonoBehaviour:
     type: 3}
   imgItem: {fileID: 6090424130992751915}
   quantidade: {fileID: 2397994420448324475}
-  botao: {fileID: 1329384359969175663, guid: 1368e4bcf43f2cd499bdb6761b29f1b3, type: 3}
+  botao: {fileID: 0}
   equipado: 0
   UseItem: {fileID: 8917315948193757850}
   itemNoSlot: {fileID: 0}
@@ -6469,7 +6469,7 @@ MonoBehaviour:
     type: 3}
   imgItem: {fileID: 4124509605187582981}
   quantidade: {fileID: 6119602601049562715}
-  botao: {fileID: 3965985160532196469, guid: 1368e4bcf43f2cd499bdb6761b29f1b3, type: 3}
+  botao: {fileID: 0}
   equipado: 0
   UseItem: {fileID: 1850055564576037681}
   itemNoSlot: {fileID: 0}
@@ -6841,7 +6841,7 @@ MonoBehaviour:
     type: 3}
   imgItem: {fileID: 1826227783940240443}
   quantidade: {fileID: 2015836225406739338}
-  botao: {fileID: 4648195812871797636, guid: 1368e4bcf43f2cd499bdb6761b29f1b3, type: 3}
+  botao: {fileID: 0}
   equipado: 0
   UseItem: {fileID: 2485587044348651277}
   itemNoSlot: {fileID: 0}
