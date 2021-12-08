@@ -12,6 +12,7 @@ public class falasHistory : MonoBehaviour
     private int Dialogo = 0;
     public TMP_Text texto;
     public float Time;
+    public GameObject CaixaDialogo;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +36,9 @@ public class falasHistory : MonoBehaviour
     }
 
 
-
+    void off()
+    {
+        CaixaDialogo.active=false;
+    }
 
 }
