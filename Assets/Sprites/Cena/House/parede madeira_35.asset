@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ponte_50
+  m_Name: parede madeira_35
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 8429914875980882640, guid: 5dfeb307567889e4891c8f6c4b48f922,
+  m_Sprite: {fileID: 1991154301262615033, guid: 7f0a689085e6d014e96fc4525e7ca538,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
