@@ -40,12 +40,12 @@ PrefabInstance:
     - target: {fileID: 1412429725448185290, guid: 3e1af48727db6d84ebd642852a8ab8b1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.952
+      value: 2.524
       objectReference: {fileID: 0}
     - target: {fileID: 1412429725448185290, guid: 3e1af48727db6d84ebd642852a8ab8b1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.961
+      value: 7.877
       objectReference: {fileID: 0}
     - target: {fileID: 1412429725448185290, guid: 3e1af48727db6d84ebd642852a8ab8b1,
         type: 3}
@@ -97,11 +97,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 89be19b8c092fbe40910fed05c88c47d, type: 2}
+      objectReference: {fileID: 2100000, guid: e7cb22e782bbefe4bbb7c68e8c85e4b6, type: 2}
     - target: {fileID: 4460753935978110344, guid: 3e1af48727db6d84ebd642852a8ab8b1,
         type: 3}
       propertyPath: m_Name
-      value: arbusto (1)
+      value: arbusto (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7270811799434379628, guid: 3e1af48727db6d84ebd642852a8ab8b1,
         type: 3}
