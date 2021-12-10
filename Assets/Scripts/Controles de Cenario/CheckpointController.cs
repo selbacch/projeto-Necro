@@ -21,6 +21,11 @@ public class CheckpointController : MonoBehaviour
     {
         string cp = CenaController.Instance.infoSessao.ultimoCheckPoint;
 
+        if (String.IsNullOrEmpty(cp))
+        {
+            return null;
+        }
+
         string[] infos = cp.Split('#');
         if(!infos[0].Equals(SceneManager.GetActiveScene().name ))
         {
