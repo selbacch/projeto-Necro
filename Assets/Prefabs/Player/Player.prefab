@@ -6737,7 +6737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimeBtwSpawns: 0
-  StartTimeSpawns: 0.2
+  StartTimeSpawns: 0.01
   Echo: {fileID: 542875453909776029, guid: b261fee54f670c54791c23cb89309dc8, type: 3}
   Anim: {fileID: 7261098876249999706, guid: b261fee54f670c54791c23cb89309dc8, type: 3}
   Movement: {x: 0, y: 0, z: 0}
