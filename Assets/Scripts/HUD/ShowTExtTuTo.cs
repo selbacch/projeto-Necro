@@ -8,13 +8,15 @@ public class ShowTExtTuTo : MonoBehaviour
 {
     public float time;
     public TMP_Text texto;
-    public string txt;
+    public GameObject Ashihara;
     public MenuFaseController menu;
-    
+    public string[] txt;
+    private int Dialogo = 0;
+    private float timeScale;
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -23,15 +25,23 @@ public class ShowTExtTuTo : MonoBehaviour
         StartCoroutine(Ativa(time));
     }
 
-    void Mtxt()
+    IEnumerator Mtxt()
     {
-        texto.text = txt;
+        
+        for (Dialogo = 0; Dialogo < txt.Length; Dialogo++)
+        {
+            Ashihara.GetComponent<FraseDoAshihara>().frase = txt[Dialogo];
+            yield return new WaitForSecondsRealtime(4f);
+        }
+        Destroy(this, 20f);
     }
 
     IEnumerator Ativa(float Time)
     {
         yield return new WaitForSeconds(Time);
         GetComponent<EdgeCollider2D>().enabled = true;
+        yield return new WaitForSeconds(2);
+        StartCoroutine(Mtxt());
     }
 
 
@@ -43,11 +53,10 @@ public class ShowTExtTuTo : MonoBehaviour
 
         if (other.tag == "Player")
         {
+            Ashihara.SetActive(true);
             
-            menu.AbrirStatus();
-            texto.text = txt;
 
-            Destroy(this, 3f);
+            
         }
 
     }
