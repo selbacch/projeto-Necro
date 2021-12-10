@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+
 public class ShowTExtTuTo : MonoBehaviour
 {
     public float time;
@@ -11,36 +15,48 @@ public class ShowTExtTuTo : MonoBehaviour
     public GameObject Ashihara;
     public MenuFaseController menu;
     public string[] txt;
-    private int Dialogo = 0;
+    private int Dialogo =0;
     private float timeScale;
+    private GameObject Player;
     // Start is called before the first frame update
     void Start()
     {
-       
+        timeScale = Time.timeScale;
+    
     }
 
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine(Ativa(time));
+        
+        Time.timeScale = this.timeScale;
     }
 
     IEnumerator Mtxt()
     {
-        
-        for (Dialogo = 0; Dialogo < txt.Length; Dialogo++)
+        if (txt.Length >= 0)
         {
-            Ashihara.GetComponent<FraseDoAshihara>().frase = txt[Dialogo];
-            yield return new WaitForSecondsRealtime(4f);
+
+            for (Dialogo = 0; Dialogo < txt.Length; Dialogo++)
+            {
+                texto.text = txt[Dialogo];
+               // Ashihara.GetComponent<FraseDoAshihara>().frase = txt[Dialogo];
+                yield return new WaitForSecondsRealtime(8f);
+            }
+
         }
-        Destroy(this, 20f);
+
+        Player.GetComponent<PlayerInput>().actions.Enable();
+        menu.AbrirStatus();
+        Destroy(this);
     }
 
-    IEnumerator Ativa(float Time)
+    IEnumerator Ativa(float Times)
     {
-        yield return new WaitForSeconds(Time);
-        GetComponent<EdgeCollider2D>().enabled = true;
-        yield return new WaitForSeconds(2);
+        
+        yield return new WaitForSeconds(Times);
+        
+       
         StartCoroutine(Mtxt());
     }
 
@@ -53,10 +69,15 @@ public class ShowTExtTuTo : MonoBehaviour
 
         if (other.tag == "Player")
         {
+            
             Ashihara.SetActive(true);
             
+            StartCoroutine(Ativa(time));
+            Player = other.gameObject;
+            Player.GetComponent<PlayerInput>().actions.Disable();
 
-            
+
+
         }
 
     }

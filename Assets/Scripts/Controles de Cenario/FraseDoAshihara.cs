@@ -8,6 +8,8 @@ public class FraseDoAshihara : MonoBehaviour
 {
     public TMP_Text texto;
     public string frase;
+    public float Time;
+    public float TimeOut;
     private float timeScale;
     public MenuFaseController menu;
     // Start is called before the first frame update
@@ -26,7 +28,7 @@ public class FraseDoAshihara : MonoBehaviour
 
     IEnumerator Conversa()
     {
-        yield return new WaitForSeconds(7.2f);
+        yield return new WaitForSeconds(Time);
 
 
 
@@ -45,7 +47,7 @@ public class FraseDoAshihara : MonoBehaviour
     }
     IEnumerator Saida()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(TimeOut);
 
         {
 
