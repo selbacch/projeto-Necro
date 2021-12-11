@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: b8884b17b6b172d41970b70243586ffd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6627995318595903317
+    second: hipatia atack3_0
+  - first:
+      213: -1477633597222453890
+    second: hipatia atack3_1
+  - first:
+      213: 5104928320732598162
+    second: hipatia atack3_2
+  - first:
+      213: -6063053912065398224
+    second: hipatia atack3_3
+  - first:
+      213: 5827097799356545271
+    second: hipatia atack3_4
+  - first:
+      213: 8691707011311656795
+    second: hipatia atack3_5
+  - first:
+      213: -8620469212674513168
+    second: hipatia atack3_6
+  - first:
+      213: 2007068109204157587
+    second: hipatia atack3_7
+  - first:
+      213: -6254957639546128182
+    second: hipatia atack3_8
+  - first:
+      213: 5835796988693449031
+    second: hipatia atack3_9
+  - first:
+      213: -6654460417761835844
+    second: hipatia atack3_10
+  - first:
+      213: 8599881585530247465
+    second: hipatia atack3_11
+  - first:
+      213: -7248615658844733117
+    second: hipatia atack3_12
+  - first:
+      213: -2169573824275381505
+    second: hipatia atack3_13
+  - first:
+      213: -4771503357408601296
+    second: hipatia atack3_14
+  - first:
+      213: 6779168333814832339
+    second: hipatia atack3_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hipatia atack3_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3218
+        width: 165
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0a326df51a404a0800000000000000
+      internalID: -6627995318595903317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_1
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 3195
+        width: 123
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d7f5972146e7be0800000000000000
+      internalID: -1477633597222453890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 3181
+        width: 282
+        height: 212
+      alignment: 9
+      pivot: {x: 0.23, y: 0.56}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f0919b24958d640800000000000000
+      internalID: 5104928320732598162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2755
+        width: 290
+        height: 211
+      alignment: 9
+      pivot: {x: 0.22, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03aac452794bbdba0800000000000000
+      internalID: -6063053912065398224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_4
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2721
+        width: 289
+        height: 208
+      alignment: 9
+      pivot: {x: 0.23, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f87b1243920ed050800000000000000
+      internalID: 5827097799356545271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2344
+        width: 192
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fd005e9752f9870800000000000000
+      internalID: 8691707011311656795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2243
+        width: 77
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6285d9ce0fd5880800000000000000
+      internalID: -8620469212674513168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_7
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2327
+        width: 123
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394f029bfc98adb10800000000000000
+      internalID: 2007068109204157587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1865
+        width: 165
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8bcb1ca2de139a0800000000000000
+      internalID: -6254957639546128182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1799
+        width: 82
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7490e5c117aecf050800000000000000
+      internalID: 5835796988693449031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_10
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1847
+        width: 256
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb48863c18b96a3a0800000000000000
+      internalID: -6654460417761835844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1449
+        width: 251
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92914f7ecbae85770800000000000000
+      internalID: 8599881585530247465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_12
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1431
+        width: 213
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341c93d867eb76b90800000000000000
+      internalID: -7248615658844733117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_13
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1431
+        width: 74
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2841a0a1024e1e0800000000000000
+      internalID: -2169573824275381505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_14
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1019
+        width: 163
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5, y: 0.82}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b93191af638cdb0800000000000000
+      internalID: -4771503357408601296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hipatia atack3_15
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1016
+        width: 142
+        height: 298
+      alignment: 9
+      pivot: {x: 0.58, y: 0.82}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc1c999ea1741e50800000000000000
+      internalID: 6779168333814832339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

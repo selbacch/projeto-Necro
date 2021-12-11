@@ -1154,6 +1154,16 @@ PrefabInstance:
       objectReference: {fileID: 4220698624193187825}
     - target: {fileID: 7644200677491410320, guid: 6e0434aa9c3a3e845a4961b992172536,
         type: 3}
+      propertyPath: EnemyVariation
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644200677491410320, guid: 6e0434aa9c3a3e845a4961b992172536,
+        type: 3}
+      propertyPath: EnemyVariation1
+      value: 
+      objectReference: {fileID: 8300000, guid: a440bd59959c43f499e78ed8a032d6b1, type: 3}
+    - target: {fileID: 7644200677491410320, guid: 6e0434aa9c3a3e845a4961b992172536,
+        type: 3}
       propertyPath: audioSourceWalk
       value: 
       objectReference: {fileID: 4220698624193187825}

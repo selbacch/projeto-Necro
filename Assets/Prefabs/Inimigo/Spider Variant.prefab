@@ -93,5 +93,20 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 4d22f460cf1df12498657a0880f6311e, type: 2}
+    - target: {fileID: 7644200677491410320, guid: 6e0434aa9c3a3e845a4961b992172536,
+        type: 3}
+      propertyPath: EnemyVariation
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644200677491410320, guid: 6e0434aa9c3a3e845a4961b992172536,
+        type: 3}
+      propertyPath: EnemyVariation1
+      value: 
+      objectReference: {fileID: 8300000, guid: a440bd59959c43f499e78ed8a032d6b1, type: 3}
+    - target: {fileID: 7644200677491410320, guid: 6e0434aa9c3a3e845a4961b992172536,
+        type: 3}
+      propertyPath: EnemyVariation2
+      value: 
+      objectReference: {fileID: 8300000, guid: 84a6102f073a1794581abf5b8ba0ba89, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e0434aa9c3a3e845a4961b992172536, type: 3}
