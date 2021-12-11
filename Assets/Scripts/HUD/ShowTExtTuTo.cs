@@ -19,6 +19,15 @@ public class ShowTExtTuTo : MonoBehaviour
     private float timeScale;
     private GameObject Player;
     // Start is called before the first frame update
+    private void Awake()
+    {
+        TextAsset txtAsset = Resources.Load<TextAsset>("Dialogos/Tutorial");
+        txt = txtAsset.text.Split(';');
+    }
+
+
+
+
     void Start()
     {
         timeScale = Time.timeScale;
