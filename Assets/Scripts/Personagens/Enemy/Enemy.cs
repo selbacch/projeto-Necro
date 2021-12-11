@@ -87,6 +87,7 @@ public class Enemy : InterfaceAtacavel
     }
     protected void Cacar()
     {
+        
         if (Target == null)
             return;
 

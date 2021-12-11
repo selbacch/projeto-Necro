@@ -8,6 +8,8 @@ public class Boss : Enemy
     public int TempoInvocarMinion;
     public GameObject minionPrefab;
     public Transform spotInvocacao;
+    public bool bossIniciado;
+    public EnemyStartArea areaStart;
 
     private GameObject minionAtivo;
 
@@ -15,12 +17,15 @@ public class Boss : Enemy
     void Start()
     {
         ConfigStart();
+        bossIniciado = false;
+        areaStart.PlayerEntrouStartArea = PlayerEntrouStartArea;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+              
         //VoltarPosicaoInicial();
         if (Vida <= 0)
         {
@@ -37,12 +42,16 @@ public class Boss : Enemy
             Target = null;
         }
 
-        if (Target == null)
+        if (bossIniciado && Target == null)
         {
             Target = this.AreaPerigo.ObterProximoTarget();
         }
 
-        Cacar();
+        if (bossIniciado)
+        {
+            Cacar();
+        }
+               
     }
 
     private void OnDestroy()
@@ -60,6 +69,7 @@ public class Boss : Enemy
                 Anim.SetTrigger("atack");
 
             }
+            else
             {
                 StopCoroutine("Atacar");
                 StopCoroutine(InvocarMinion());
@@ -72,6 +82,10 @@ public class Boss : Enemy
 
     public override void PlayerSaiuAttackArea(GameObject go)
     {
+        if (!bossIniciado)
+        {
+            return;
+        }
         isAttackingPlayer = false;
         StopCoroutine(Atacar(go));
         StopCoroutine(InvocarMinion());
@@ -79,18 +93,36 @@ public class Boss : Enemy
 
     public override void PlayerEntrouAttackArea(GameObject go)
     {
+        if (!bossIniciado)
+        {
+            return;
+        }
         isAttackingPlayer = true;
         StartCoroutine(Atacar(go));
-        StartCoroutine(InvocarMinion());
+    }
+
+    public override void PlayerEntrouAggro(GameObject go)
+    {
+        if (!bossIniciado)
+        {
+            return;
+        }
+        Debug.Log("player entrou na aggro");
+        isHuntingPlayer = true;
+        Target = go;
     }
 
     public override void SofrerDano(int danoRecebido)
     {
+
         if (this.Vida <= 0 || !this.gameObject.activeSelf)
         {
             return;
         }
-
+        if (!bossIniciado)
+        {
+            return;
+        }
         if (Invunevarel)
         {
             StartCoroutine(FeedbackInfo("MISS"));
@@ -114,4 +146,9 @@ public class Boss : Enemy
         }
     }
 
+    private void PlayerEntrouStartArea(GameObject ob)
+    {
+        bossIniciado = true;
+        StartCoroutine(InvocarMinion());
+    }
 }
