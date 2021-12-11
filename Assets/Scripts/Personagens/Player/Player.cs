@@ -11,7 +11,7 @@ public class Player : InterfaceAtacavel
     public Health Vida;
     public Mana Mana;
     public int DanoAtual;
-
+    public  bool EntradaTuTo;
     public Animator anim;
     public float speed;
     public GameObject Fantasma;
@@ -33,11 +33,15 @@ public class Player : InterfaceAtacavel
     // Start is called before the first frame update
     void Start()
     {
+        
         this.MascaraEquipada = ItemInterface.Item.None;
         var agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-        rig = GetComponent<Rigidbody2D>();
+        rig = GetComponent<Rigidbody2D>(); 
+       
+
+
      //   NormalStatus();
     }
 
@@ -164,9 +168,16 @@ public class Player : InterfaceAtacavel
     public void OnEvade(InputValue value)
     {
 
-        gameObject.GetComponent<Rigidbody2D>().AddForce(MoveInvert * 1000);
+        // gameObject.GetComponent<Rigidbody2D>().AddForce(MoveInvert * 1000);
+        anim.SetTrigger("escape");
       
         
+    }
+
+
+    public void CallBackAnimatonEvade()
+    {
+        gameObject.GetComponent<Rigidbody2D>().AddForce(MoveInvert * 1000);
     }
         public void OnAction(InputValue value)
     {

@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class falasHistory : MonoBehaviour
+public class FalasHistory : MonoBehaviour
 {
 
     public string[] txt;
