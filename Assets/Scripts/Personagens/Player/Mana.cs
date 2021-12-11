@@ -32,15 +32,6 @@ public class Mana : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (curMana < maxMana)
-        {
-            count += Time.deltaTime;
-            if (count >= 5f)
-            {
-                Increase(1);
-                count = 0;
-            }
-        }
 
     }
 
@@ -86,7 +77,10 @@ public class Mana : MonoBehaviour
     {
         for (; ; )
         {
-            Increase(manaPerSec);
+            if (this.curMana > this.maxMana)
+            {
+                Increase(manaPerSec);
+            }
             yield return new WaitForSeconds(1f);
         }
 
