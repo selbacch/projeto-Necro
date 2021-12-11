@@ -73,7 +73,7 @@ public class CenaController : MonoBehaviour
     {
 
         Debug.Log("OnSceneLoaded: " + scene.name);
-
+        Time.timeScale = 1;
         Regex rx_interacao = new Regex(@"\bIN_*");
         Regex rx_cutScene = new Regex(@"\bCS_*");
         if (rx_interacao.IsMatch(scene.name) || rx_cutScene.IsMatch(scene.name))

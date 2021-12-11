@@ -64,6 +64,7 @@ public class Player : InterfaceAtacavel
         Debug.Log("morte player");
         Death = true;
         DeathEvent?.Invoke();
+        Destroy(this.gameObject, 1f);
     }
 
     public void OnHabilidade1(InputValue value)//void SumonFantasma()
