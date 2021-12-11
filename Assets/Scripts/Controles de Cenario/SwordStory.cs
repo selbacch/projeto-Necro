@@ -4,15 +4,22 @@ using UnityEngine;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class FalasHistory : MonoBehaviour
+public class SwordStory : MonoBehaviour
 {
 
-    public string[] txt;
+    private string[] txt;
     private int Dialogo = 0;
     public TMP_Text texto;
     public float Time;
     public GameObject CaixaDialogo;
+
+    private void Awake()
+    {
+        TextAsset txtAsset = Resources.Load<TextAsset>("Dialogos/SwordStory");
+        txt = txtAsset.text.Split(';');
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +45,12 @@ public class FalasHistory : MonoBehaviour
 
     void off()
     {
-        CaixaDialogo.active=false;
+        CaixaDialogo.SetActive(false);
+    }
+
+    public void Skip()
+    {
+        SceneManager.LoadScene("FS_TUTORIAL");
     }
 
 }
