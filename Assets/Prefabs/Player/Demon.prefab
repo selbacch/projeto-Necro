@@ -5251,7 +5251,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 4047761008631256780, guid: ea9cd9b45033b1d4f80fcfdfd11239d5,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: ec6384dc85d0d6d48a43785211cbf9ff, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ccabd0715a03fe940ae07e279b831f64, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 0.5
@@ -10193,6 +10193,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Death: 0
+  FeedbackText: {fileID: 0}
+  MaterialDano: {fileID: 0}
+  MaterialInfo: {fileID: 0}
+  MaterialRecuperacao: {fileID: 0}
   Vida: 0
   DanoAtual: 15
   pilar: {fileID: 553384501}
@@ -10263,8 +10267,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 7392614992521132561}
   audioSourceWalk: {fileID: 0}
-  Enemynull: {fileID: 8300000, guid: 1155f5421695e8f4ba3258da98560b35, type: 3}
-  EnemyVariation: {fileID: 8300000, guid: bdbe5409c31769a4382351c7bf24d6bb, type: 3}
+  Enemynull: {fileID: 8300000, guid: 5fbd6db750010f14e884f5858c85f1b2, type: 3}
+  EnemyVariation: {fileID: 8300000, guid: 2461dee75e362e247880a89cc0ab4eec, type: 3}
   EnemyVariation1: {fileID: 0}
   EnemyVariation2: {fileID: 0}
   StingSound: {fileID: 0}

@@ -163,6 +163,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   texto: {fileID: 0}
   frase: 
+  Time: 0
+  TimeOut: 0
   menu: {fileID: 0}
 --- !u!212 &729416418
 SpriteRenderer:
@@ -6708,6 +6710,7 @@ MonoBehaviour:
   Vida: {fileID: 146620534}
   Mana: {fileID: 146620538}
   DanoAtual: 20
+  EntradaTuTo: 0
   anim: {fileID: 8137956286418356839}
   speed: 2
   Fantasma: {fileID: 3616692319614573345, guid: 2d3b267d1ebc7a94f8baf2be8e72c730,
@@ -6755,11 +6758,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1570257134967969357}
   audioSourceWalk: {fileID: 6179194181991153513}
-  Enemynull: {fileID: 8300000, guid: 2c218f73ec240284c8736b8e9db126e4, type: 3}
-  EnemyVariation: {fileID: 8300000, guid: 68437c22292bd8849981f20d627a5f96, type: 3}
-  EnemyVariation1: {fileID: 8300000, guid: e936a898f0d00ab438f385281d773ad2, type: 3}
-  EnemyVariation2: {fileID: 8300000, guid: d32b6c190ef9e2d4dbc2a36cfeff4cdd, type: 3}
-  StingSound: {fileID: 8300000, guid: eb6f5aee08a013445adc02d56bb49cd9, type: 3}
+  Enemynull: {fileID: 8300000, guid: ed06fafb6e2a16848a6de0b6ca459ce9, type: 3}
+  EnemyVariation: {fileID: 8300000, guid: 534e4ecf3d4c4ef499805286ad0f3552, type: 3}
+  EnemyVariation1: {fileID: 8300000, guid: fe976decdb55e2847a49cd5f078af77b, type: 3}
+  EnemyVariation2: {fileID: 8300000, guid: 17c7233bd58ab9c4fb4e0633c2d77bf7, type: 3}
+  StingSound: {fileID: 8300000, guid: 9777a3dbff7abae459f8af3e76175dff, type: 3}
 --- !u!61 &3202084613094606198
 BoxCollider2D:
   m_ObjectHideFlags: 0
