@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: b9e674456ef00294dbf6bf967e14f5f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6852466781181062144
+    second: smoke cachimbo_0
+  - first:
+      213: -8168857706423379577
+    second: smoke cachimbo_1
+  - first:
+      213: -3841091012374565448
+    second: smoke cachimbo_2
+  - first:
+      213: -1716470207186230579
+    second: smoke cachimbo_3
+  - first:
+      213: 3595656093374377986
+    second: smoke cachimbo_4
+  - first:
+      213: -283904258447205340
+    second: smoke cachimbo_5
+  - first:
+      213: -6428544843843587153
+    second: smoke cachimbo_6
+  - first:
+      213: 953265114554206011
+    second: smoke cachimbo_7
+  - first:
+      213: 2917124529289402000
+    second: smoke cachimbo_8
+  - first:
+      213: 5809293820831974669
+    second: smoke cachimbo_9
+  - first:
+      213: -3250199306827456114
+    second: smoke cachimbo_10
+  - first:
+      213: -5321213216967802568
+    second: smoke cachimbo_11
+  - first:
+      213: 8975068128393289744
+    second: smoke cachimbo_12
+  - first:
+      213: -7211885313467591211
+    second: smoke cachimbo_13
+  - first:
+      213: -1940007569338091617
+    second: smoke cachimbo_14
+  - first:
+      213: 6002715508305328247
+    second: smoke cachimbo_15
+  - first:
+      213: -1871861908626576972
+    second: smoke cachimbo_16
+  - first:
+      213: -8549855292037372977
+    second: smoke cachimbo_17
+  - first:
+      213: 5060738307581178127
+    second: smoke cachimbo_18
+  - first:
+      213: -9026770119096913122
+    second: smoke cachimbo_19
+  - first:
+      213: -1573724603763774279
+    second: smoke cachimbo_20
+  - first:
+      213: -906006910710521347
+    second: smoke cachimbo_21
+  - first:
+      213: 9171436175155588825
+    second: smoke cachimbo_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: smoke cachimbo_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1338
+        width: 100
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c26774b3ad81f50800000000000000
+      internalID: 6852466781181062144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1344
+        width: 98
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7891ceb423362ae80800000000000000
+      internalID: -8168857706423379577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1342
+        width: 102
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bde7714314b1bac0800000000000000
+      internalID: -3841091012374565448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_3
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1340
+        width: 106
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2af19d07fdd28e0800000000000000
+      internalID: -1716470207186230579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1073
+        width: 113
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2007c049a2656e130800000000000000
+      internalID: 3595656093374377986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1074
+        width: 109
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c9805c49e5f0cf0800000000000000
+      internalID: -283904258447205340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_6
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1074
+        width: 108
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3b800468839c6a0800000000000000
+      internalID: -6428544843843587153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_7
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1073
+        width: 99
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3786c1329daa3d00800000000000000
+      internalID: 953265114554206011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 810
+        width: 100
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0969fd5cd45bb7820800000000000000
+      internalID: 2917124529289402000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_9
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 805
+        width: 114
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05cf8a73f1ce9050800000000000000
+      internalID: 5809293820831974669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_10
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 807
+        width: 120
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81245363f8f4e2d0800000000000000
+      internalID: -3250199306827456114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_11
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 810
+        width: 118
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831458ca5c04726b0800000000000000
+      internalID: -5321213216967802568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 539
+        width: 101
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010efcb29e8dd8c70800000000000000
+      internalID: 8975068128393289744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_13
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 537
+        width: 98
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d558e1848c3aeb90800000000000000
+      internalID: -7211885313467591211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_14
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 541
+        width: 97
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97b800f465b315e0800000000000000
+      internalID: -1940007569338091617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_15
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 539
+        width: 88
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778744873fded4350800000000000000
+      internalID: 6002715508305328247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 276
+        width: 84
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b96abbf28fc506e0800000000000000
+      internalID: -1871861908626576972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_17
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 275
+        width: 84
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc36e1539efc85980800000000000000
+      internalID: -8549855292037372977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_18
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 272
+        width: 87
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0176948daa5b3640800000000000000
+      internalID: 5060738307581178127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_19
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 275
+        width: 92
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e133e1e07687ab280800000000000000
+      internalID: -9026770119096913122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_20
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 11
+        width: 94
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc2e529fc1092ae0800000000000000
+      internalID: -1573724603763774279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_21
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 7
+        width: 96
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1ec03d3873d63f0800000000000000
+      internalID: -906006910710521347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke cachimbo_22
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 9
+        width: 95
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dee054eb9c774f70800000000000000
+      internalID: 9171436175155588825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
