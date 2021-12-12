@@ -65,6 +65,7 @@ public class EnemyCommander : Enemy
         if (points.Length == 0)
             return;
 
+
         agent.destination = points[destPoint].transform.position;
         Vector3 dis = points[destPoint].transform.position -transform.position;
         dis.Normalize();
@@ -85,7 +86,9 @@ public class EnemyCommander : Enemy
         Anim.SetFloat("Speed", dis.magnitude);
 
     }
-    void NextPoint() { destPoint = (destPoint + 1) % points.Length; }
+    void NextPoint() {
+        destPoint = UnityEngine.Random.Range(0, points.Length-1); // (destPoint + 1) % points.Length; 
+    }
 
     void MoveCharacter(Vector3 frameMovement)
     {

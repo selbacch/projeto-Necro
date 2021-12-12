@@ -17,7 +17,7 @@ public class Enemy : InterfaceAtacavel
     public float Resfriamento = 2;
     public Int32 RaioAtaque = 3;
     //public Int32 RaioPerigo = 5;
-    public Int32 Velocidade = 1;
+    public float Velocidade = 1;
     public int DanoAtual = 15;
     public int TempoDestruicao = 1;
 
