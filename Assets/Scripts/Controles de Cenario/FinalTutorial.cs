@@ -43,7 +43,7 @@ public class FinalTutorial : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
         Player.gameObject.GetComponent<PlayerInput>().actions.Disable();
-        yield return new WaitForSeconds(0.6f);
+        yield return new WaitForSeconds(0.8f);
         Player.gameObject.GetComponent<PlayerInput>().actions.Enable();
     }
     private void OnTriggerEnter2D(Collider2D other)
