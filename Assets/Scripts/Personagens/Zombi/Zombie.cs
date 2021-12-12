@@ -117,15 +117,61 @@ public class Zombie : InterfaceAtacavel
         gameObject.GetComponent<NavMeshAgent>().SetDestination(Target.transform.position);
         Vector3 direction = Target.gameObject.transform.position - transform.position;
         direction.z = 0;
-        float distanceToTarget = direction.magnitude;
+        float distanceToTarget = direction.magnitude -1;
 
         direction.Normalize();
 
 
         anim.SetFloat("Horizontal", direction.x); // controla as animações
         anim.SetFloat("Vertical", direction.y);
-        anim.SetFloat("Speed", direction.magnitude);
+        anim.SetFloat("Speed", distanceToTarget);
+        if (direction.y > 0)
+        {
 
+            anim.SetInteger("idle", 1);
+
+
+        }
+        if (direction.y < 0)
+        {
+
+            anim.SetInteger("idle", -1);
+
+
+        }
+        if (direction.x < 0)
+        {
+            anim.SetInteger("idle", 2);
+
+
+        }
+
+        if (direction.x > 0)
+        {
+            anim.SetInteger("idle", -2);
+
+
+        }
+        if (direction.x < 0 && direction.y < 0)
+        {
+            anim.SetInteger("idle", 1);
+
+        }
+        if (direction.x > 0 && direction.y > 0)
+        {
+            anim.SetInteger("idle", 1);
+
+        }
+        if (direction.x < 0 && direction.y > 0)
+        {
+            anim.SetInteger("idle", -1);
+
+        }
+        if (direction.x > 0 && direction.y < 0)
+        {
+            anim.SetInteger("idle", -1);
+
+        }
     }
 
     void Atack()
