@@ -20,6 +20,7 @@ public class SpawnController : MonoBehaviour
     public bool orda2 = true;
     public bool orda3;
     public bool MIniboss;
+    public GameObject musica;
     public bool Fim = false;
     // Start is called before the first frame update
     void Start()
@@ -55,7 +56,7 @@ public class SpawnController : MonoBehaviour
         }
         else
         {
-            Destroy(barreira);
+            Libera();
         }
     }
 
@@ -169,11 +170,21 @@ public class SpawnController : MonoBehaviour
             miNiBoss.GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
 
 
-
-            MIniboss = false;
             Fim = true;
+            MIniboss = false;
         }    
     }
+ void Libera()
+    {
+        if (gos.Length == 0)
+        {
+
+            Destroy(barreira);
+            musica.SetActive(true);
+        }
+    }
+
+
 }
 
 
