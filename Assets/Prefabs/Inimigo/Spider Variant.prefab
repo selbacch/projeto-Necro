@@ -89,6 +89,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2333543489535508563, guid: 6e0434aa9c3a3e845a4961b992172536,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 5480851887442179907, guid: ea9cd9b45033b1d4f80fcfdfd11239d5,
+        type: 2}
     - target: {fileID: 3687723738588562865, guid: 6e0434aa9c3a3e845a4961b992172536,
         type: 3}
       propertyPath: m_Name
@@ -177,6 +183,11 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 4d22f460cf1df12498657a0880f6311e, type: 2}
     - target: {fileID: 7644200677491410320, guid: 6e0434aa9c3a3e845a4961b992172536,
         type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 3479832302732172827}
+    - target: {fileID: 7644200677491410320, guid: 6e0434aa9c3a3e845a4961b992172536,
+        type: 3}
       propertyPath: EnemyVariation
       value: 
       objectReference: {fileID: 0}
@@ -190,11 +201,19 @@ PrefabInstance:
       propertyPath: EnemyVariation2
       value: 
       objectReference: {fileID: 8300000, guid: 84a6102f073a1794581abf5b8ba0ba89, type: 3}
+    - target: {fileID: 7644200677491410320, guid: 6e0434aa9c3a3e845a4961b992172536,
+        type: 3}
+      propertyPath: audioSourceWalk
+      value: 
+      objectReference: {fileID: 3479832302732172827}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e0434aa9c3a3e845a4961b992172536, type: 3}
---- !u!4 &2523666475566209924 stripped
+--- !u!82 &3479832302732172827 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3687723738588562892, guid: 6e0434aa9c3a3e845a4961b992172536,
+    type: 3}
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2333543489535508563, guid: 6e0434aa9c3a3e845a4961b992172536,
     type: 3}
   m_PrefabInstance: {fileID: 1164374543653363272}
   m_PrefabAsset: {fileID: 0}
