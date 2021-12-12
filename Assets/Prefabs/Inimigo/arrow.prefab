@@ -74,8 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: -549308481364047585, guid: de61794876f302642a2efafa643e9331,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd7b237d1d582a34d9495f49dac469f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,7 +97,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcdfaca97647177468d0adbc48c8958d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  direct: {x: 0, y: 0, z: 0}
   aljava: {fileID: 6198674169456746686, guid: 0f5ec55d61de68a488f5771041a0a691, type: 3}
+  Dano: 2
 --- !u!50 &4051214549653882091
 Rigidbody2D:
   serializedVersion: 4
@@ -136,8 +137,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.22333333, y: 0}
-  - {x: 0.22333333, y: 0}
+  - {x: -0.07528493, y: -0.027356863}
+  - {x: 0.049536675, y: 0.027356863}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
