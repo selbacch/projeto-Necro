@@ -10,7 +10,7 @@ public class SondEfect : MonoBehaviour
     public AudioClip Enemynull;
     public AudioClip EnemyVariation;
     public AudioClip EnemyVariation1;
-        public AudioClip EnemyVariation2;
+    public AudioClip EnemyVariation2;
     public AudioClip StingSound;
 
     // Start is called before the first frame update
@@ -26,6 +26,10 @@ public class SondEfect : MonoBehaviour
     }
     public void Tocar()
     {
+        if (audioSource == null)
+        {
+            return;
+        }
         audioSource.Play() ;
   
     }
