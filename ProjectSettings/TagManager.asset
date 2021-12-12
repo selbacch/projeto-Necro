@@ -16,6 +16,7 @@ TagManager:
   - placeholder_fase_inicio
   - placeholder_fase_fim
   - Checkpoint
+  - EnemySpawn
   layers:
   - Default
   - TransparentFX

@@ -5,23 +5,27 @@ using UnityEngine;
 
 public class ObjetivoDestruirInimigos : MonoBehaviour
 {
-    public TMP_Text textoObjetivo;
+    public TMP_Text objetivoTxt;
+    public TMP_Text inimigosRestantesTxt;
+    private int inimigosRestantes;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        inimigosRestantes = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
         GameObject[] inimigos = GameObject.FindGameObjectsWithTag("Enemy");
-
-        if (inimigos.Length == 0)
+        inimigosRestantes = inimigos.Length;
+        inimigosRestantesTxt.text = "Inimigos restantes: " + inimigosRestantes.ToString().PadLeft(2,'0');
+        if (inimigosRestantes == 0)
         {
-            textoObjetivo.color = Color.green;
+            objetivoTxt.color = Color.green;
+            inimigosRestantesTxt.color = Color.green;
         }
 
     }

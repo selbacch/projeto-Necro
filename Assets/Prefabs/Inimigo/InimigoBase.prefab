@@ -568,8 +568,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88e123519f2391240acbd68a3feea9ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  audioSourceWalk: {fileID: 0}
+  audioSource: {fileID: 2333543489535508563}
+  audioSourceWalk: {fileID: 2333543489535508563}
   Enemynull: {fileID: 0}
   EnemyVariation: {fileID: 8300000, guid: a440bd59959c43f499e78ed8a032d6b1, type: 3}
   EnemyVariation1: {fileID: 0}
