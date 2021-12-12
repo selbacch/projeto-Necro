@@ -61,6 +61,10 @@ public class fantasma : Summon
         Vector3 position = anterior.transform.position;
         foreach (GameObject go in gos)
         {
+            if (go == null)
+            {
+                return;
+            }            
 
             Vector3 diff = go.transform.position - position;
             float curDistance = diff.sqrMagnitude;
