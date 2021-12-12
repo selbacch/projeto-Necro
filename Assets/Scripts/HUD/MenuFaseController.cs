@@ -59,12 +59,10 @@ public class MenuFaseController : MonoBehaviour
     }
     public void AbrirInventario()
     {
-        this.FecharMenus();
+       
         if (componenteInventario.activeSelf)
         {
-            componenteInventario.SetActive(false);
-            Time.timeScale = this.timeScale;
-           
+            this.FecharMenus();
         }
         else
         {
@@ -79,12 +77,11 @@ public class MenuFaseController : MonoBehaviour
 
     public void AbriDialogo()
     { 
-        this.FecharMenus();
+      
         if (objDialogoCena.activeSelf)
         {
-           
-          //  Time.timeScale = this.timeScale;
-            objDialogoCena.SetActive(false);
+
+            this.FecharMenus();
         }
         else
         {
