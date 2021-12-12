@@ -556,14 +556,14 @@ MonoBehaviour:
   AreaAtaque: {fileID: 9056191815271727848}
   AreaPerigo: {fileID: 5037853776964488220}
   nave: {fileID: 6694574229506613032}
-  Vida: 1000
+  Vida: 2500
   Resfriamento: 5
   RaioAtaque: 3
   Velocidade: 1
-  DanoAtual: 1
+  DanoAtual: 10
   TempoDestruicao: 1
   Invunevarel: 1
-  TempoInvocarMinion: 120
+  TempoInvocarMinion: 20
   minionPrefab: {fileID: 6440456543315929361, guid: 03a82aec160b9b44893b7516ba1b56f4,
     type: 3}
   spotInvocacao: {fileID: 1689744202}

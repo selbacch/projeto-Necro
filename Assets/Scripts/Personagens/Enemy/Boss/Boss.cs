@@ -64,10 +64,11 @@ public class Boss : Enemy
     {
         for (; ; )
         {
-            if (Target != null && agent.remainingDistance < 30)
+            if (Target != null && isAttackingPlayer)
             {
                 Anim.SetTrigger("atack");
-
+                InterfaceAtacavel inAtacck = gameObject.GetComponent<InterfaceAtacavel>();
+                inAtacck.SofrerDano(this.DanoAtual);
             }
             else
             {

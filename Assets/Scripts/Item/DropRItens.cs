@@ -25,6 +25,11 @@ public class DropRItens : MonoBehaviour
 
 public void DropRandItem()
     {
+        if (dropitems.Length ==0)
+        {
+            return;
+        }
+
         if (Random.Range(0, 2) <= droprate)
         {
             int indexToDrop = Random.Range(0, dropitems.Length);
