@@ -685,8 +685,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 583650014}
-  - component: {fileID: 583650015}
   - component: {fileID: 844758073}
+  - component: {fileID: 231481234758485492}
   m_Layer: 5
   m_Name: Inventario
   m_TagString: Untagged
@@ -714,7 +714,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &583650015
+--- !u!222 &844758073
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583650013}
+  m_CullTransparentMesh: 1
+--- !u!114 &231481234758485492
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -723,7 +731,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 583650013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8aa6e67413224784daeec7da3be67221, type: 3}
+  m_Script: {fileID: 11500000, guid: 44d4efb77cc2c044d8e06d6b99341b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
@@ -733,14 +741,6 @@ MonoBehaviour:
   - {fileID: 2446115929261946520}
   - {fileID: 3945889358739426250}
   - {fileID: 8453472665279401171}
---- !u!222 &844758073
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 583650013}
-  m_CullTransparentMesh: 1
 --- !u!1 &618562472
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,7 +759,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &618562473
 RectTransform:
   m_ObjectHideFlags: 0

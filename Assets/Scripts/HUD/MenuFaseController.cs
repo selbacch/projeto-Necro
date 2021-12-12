@@ -70,7 +70,7 @@ public class MenuFaseController : MonoBehaviour
            
             Time.timeScale = 0;
             componenteInventario.SetActive(true);
-            InventarioController.Instance.RenderizaInventario();
+            InventarioUIController.Instance.RenderizaInventario();
         }
 
     }
@@ -102,7 +102,7 @@ public class MenuFaseController : MonoBehaviour
         ItemInterface.Item mascaraAnterior = pl.EquiparMascara(ItemInterface.Item.None);
 
         InventarioController.Instance.AdicionarAoInventario(mascaraAnterior);
-        InventarioController.Instance.RenderizaInventario();
+        InventarioUIController.Instance.RenderizaInventario();
     }
 
   

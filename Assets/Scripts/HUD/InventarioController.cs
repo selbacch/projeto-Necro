@@ -8,15 +8,12 @@ using UnityEngine;
 
 public class InventarioController : MonoBehaviour
 {
-    public static InventarioController Instance;
-
-    private Dictionary<ItemInterface.Item, int> itens;
-
-    public InventarioSlot[] slots;
-
     [SerializeField]
-    public Dictionary<ItemInterface.Item, int> Itens { get => itens; }
-
+    private Dictionary<ItemInterface.Item, int> itens;
+        
+    public Dictionary<ItemInterface.Item, int> Itens { get { return itens; } }
+    public static InventarioController Instance;
+    
     private void Awake()
     {
         if (Instance != null)
@@ -30,15 +27,11 @@ public class InventarioController : MonoBehaviour
     }
     void Start()
     {
+
         
-        InventarioSlot.ItemUtilizado += AtualizaGUIInventarioOnUtilizacao;
 
     }
 
-    private void OnDestroy()
-    {
-        InventarioSlot.ItemUtilizado -= AtualizaGUIInventarioOnUtilizacao;
-    }
 
     // Update is called once per frame
     void Update()
@@ -83,36 +76,6 @@ public class InventarioController : MonoBehaviour
         }
     }
 
-    public void ResetaInventarioSlots()
-    {
-        for (int i = 0; i < slots.Length; i++)
-        {
-            slots[i].RenderizaItem(ItemInterface.Item.None, 0);
-        }
-    }
-
-    public void RenderizaInventario()
-    {
-
-        StringBuilder sb = new StringBuilder();
-        ResetaInventarioSlots();
-        int slotIndex = 0;
-
-        foreach (KeyValuePair<ItemInterface.Item, int> item in this.itens)
-        {
-            sb.Append(item.Key.ToString() + " :: " + item.Value.ToString() + ';');
-            this.slots[slotIndex++].RenderizaItem(item.Key, item.Value);
-
-        }
-
-        Debug.Log(sb.ToString());
-    }
-
-    public void AtualizaGUIInventarioOnUtilizacao()
-    {
-        RenderizaInventario();
-    }
-
     public string ToJson()
     {
         if (this.itens == null)
@@ -150,7 +113,7 @@ public class InventarioController : MonoBehaviour
 
         foreach (string s in terms)
         {
-            if (s.Length<5)
+            if (s.Length < 5)
             {
                 continue;
             }
@@ -159,7 +122,7 @@ public class InventarioController : MonoBehaviour
             //GroupCollection gc = mt.Groups;
             // gc [1] valor do item
 
-            ItemInterface.Item item = (ItemInterface.Item) Convert.ToInt32(mtI.Groups[1].Value);
+            ItemInterface.Item item = (ItemInterface.Item)Convert.ToInt32(mtI.Groups[1].Value);
             int qnt = Convert.ToInt32(mtQ.Groups[1].Value);
             valores.Add(item, qnt);
 
