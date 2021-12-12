@@ -28,7 +28,7 @@ public class HouseAnimacaoFloresta : MonoBehaviour
         Player.GetComponent<PlayerInput>().actions.Enable();
         AnimacaoFloresta.SetActive(false);
 
-        texto.text = " seria bom ir dar uma olhada... um fantasma fugindo de seres das sombras mascarados pode ser alguma coisa";
+        texto.text = "seria bom ir dar uma olhada... um fantasma fugindo de seres das sombras mascarados pode ser alguma coisa";
         Destroy(gameObject);
     }
 
