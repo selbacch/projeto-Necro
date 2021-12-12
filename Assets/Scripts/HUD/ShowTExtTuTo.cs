@@ -50,13 +50,13 @@ public class ShowTExtTuTo : MonoBehaviour
             {
                 texto.text = txt[Dialogo];
                // Ashihara.GetComponent<FraseDoAshihara>().frase = txt[Dialogo];
-                yield return new WaitForSecondsRealtime(8f);
+                yield return new WaitForSecondsRealtime(5f);
             }
 
         }
-
-        Player.GetComponent<PlayerInput>().actions.Enable();
         menu.AbrirStatus();
+        Player.GetComponent<PlayerInput>().actions.Enable();
+        
         Destroy(this);
     }
 

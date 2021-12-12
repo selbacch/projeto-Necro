@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class HouseAnimacaoFloresta : MonoBehaviour
 {
-
+    public TMP_Text texto;
     public GameObject AnimacaoFloresta;
     public GameObject  Esclamacao;
     public GameObject Ashihara;
@@ -26,8 +27,8 @@ public class HouseAnimacaoFloresta : MonoBehaviour
         yield return new WaitForSeconds(7f);
         Player.GetComponent<PlayerInput>().actions.Enable();
         AnimacaoFloresta.SetActive(false);
-        
-        Ashihara.GetComponent< FraseDoAshihara>().frase = " seria bom ir dar uma olhada... um fantasma fugindo de seres das sombras mascarados pode ser alguma coisa";
+
+        texto.text = " seria bom ir dar uma olhada... um fantasma fugindo de seres das sombras mascarados pode ser alguma coisa";
         Destroy(gameObject);
     }
 

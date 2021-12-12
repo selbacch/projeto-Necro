@@ -34,7 +34,7 @@ public class FraseDoAshihara : MonoBehaviour
 
 
         menu.AbrirStatus();
-        texto.text = frase;
+        //texto.text = frase;
 
         StartCoroutine(Saida());
 
