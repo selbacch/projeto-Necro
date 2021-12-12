@@ -1530,6 +1530,8 @@ MonoBehaviour:
     type: 3}
   pocaoHPPrefab: {fileID: 7380344293332001096, guid: 3f8252474dbb689459581ad87b174344,
     type: 3}
+  mascaraZeroPrefab: {fileID: 2237582833999599064, guid: ee753dede9e0d5c408a0c739d4897fdf,
+    type: 3}
   mascaraUmPrefab: {fileID: 4744310193236128702, guid: 39812ed741e4a0b45a81da38417d947c,
     type: 3}
   mascaraDoisPrefab: {fileID: 1330556193813457160, guid: 3fba98e4477b12341a68a2452e3b49ed,
@@ -3591,6 +3593,8 @@ MonoBehaviour:
     type: 3}
   pocaoHPPrefab: {fileID: 7380344293332001096, guid: 3f8252474dbb689459581ad87b174344,
     type: 3}
+  mascaraZeroPrefab: {fileID: 2237582833999599064, guid: ee753dede9e0d5c408a0c739d4897fdf,
+    type: 3}
   mascaraUmPrefab: {fileID: 4744310193236128702, guid: 39812ed741e4a0b45a81da38417d947c,
     type: 3}
   mascaraDoisPrefab: {fileID: 1330556193813457160, guid: 3fba98e4477b12341a68a2452e3b49ed,
@@ -3938,6 +3942,8 @@ MonoBehaviour:
   pocaoMpPrefab: {fileID: 1139815134629513508, guid: 9b81c65cdc1496549a5bedcba816ac70,
     type: 3}
   pocaoHPPrefab: {fileID: 7380344293332001096, guid: 3f8252474dbb689459581ad87b174344,
+    type: 3}
+  mascaraZeroPrefab: {fileID: 2237582833999599064, guid: ee753dede9e0d5c408a0c739d4897fdf,
     type: 3}
   mascaraUmPrefab: {fileID: 4744310193236128702, guid: 39812ed741e4a0b45a81da38417d947c,
     type: 3}
@@ -5610,6 +5616,8 @@ MonoBehaviour:
     type: 3}
   pocaoHPPrefab: {fileID: 7380344293332001096, guid: 3f8252474dbb689459581ad87b174344,
     type: 3}
+  mascaraZeroPrefab: {fileID: 2237582833999599064, guid: ee753dede9e0d5c408a0c739d4897fdf,
+    type: 3}
   mascaraUmPrefab: {fileID: 4744310193236128702, guid: 39812ed741e4a0b45a81da38417d947c,
     type: 3}
   mascaraDoisPrefab: {fileID: 1330556193813457160, guid: 3fba98e4477b12341a68a2452e3b49ed,
@@ -5772,6 +5780,8 @@ MonoBehaviour:
   pocaoMpPrefab: {fileID: 1139815134629513508, guid: 9b81c65cdc1496549a5bedcba816ac70,
     type: 3}
   pocaoHPPrefab: {fileID: 7380344293332001096, guid: 3f8252474dbb689459581ad87b174344,
+    type: 3}
+  mascaraZeroPrefab: {fileID: 2237582833999599064, guid: ee753dede9e0d5c408a0c739d4897fdf,
     type: 3}
   mascaraUmPrefab: {fileID: 4744310193236128702, guid: 39812ed741e4a0b45a81da38417d947c,
     type: 3}
@@ -6256,6 +6266,8 @@ MonoBehaviour:
   pocaoMpPrefab: {fileID: 1139815134629513508, guid: 9b81c65cdc1496549a5bedcba816ac70,
     type: 3}
   pocaoHPPrefab: {fileID: 7380344293332001096, guid: 3f8252474dbb689459581ad87b174344,
+    type: 3}
+  mascaraZeroPrefab: {fileID: 2237582833999599064, guid: ee753dede9e0d5c408a0c739d4897fdf,
     type: 3}
   mascaraUmPrefab: {fileID: 4744310193236128702, guid: 39812ed741e4a0b45a81da38417d947c,
     type: 3}

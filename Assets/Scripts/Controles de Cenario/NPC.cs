@@ -48,7 +48,7 @@ public class NPC : InterativaAbstract
         if (Falar == true && Player.tag == "Player")
         {
            
-            menu.AbrirStatus();
+            menu.AbriDialogo();
             if (txt.Length == 0)
                 return;
 
@@ -85,6 +85,7 @@ public class NPC : InterativaAbstract
             {
                 Destroy(gameObject, 2);//Anim.SetBool("destroy",true); }
             }
+            menu.FecharMenus();
         }
         else {
             string textinnho = "Derrote os inimigos porfavor eles não vão nos deixar sair total de inimigos :";

@@ -41,7 +41,7 @@ public class Placas : InterativaAbstract
         if (Ler == true && Player.tag == "Player")
         {
            
-            menu.AbrirStatus();
+            menu.AbriDialogo();
             texto.text = txt;
 
         }

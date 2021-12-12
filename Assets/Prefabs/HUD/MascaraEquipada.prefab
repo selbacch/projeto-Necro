@@ -61,10 +61,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
   Indicador: {fileID: 4971090028007431364}
-  mask1: {fileID: 278347134251475957, guid: 7e2f6dfb19f97f54ab9b548da79c1b73, type: 3}
-  mask2: {fileID: 6303102012084609272, guid: 7e2f6dfb19f97f54ab9b548da79c1b73, type: 3}
-  mask3: {fileID: 7191879269020753002, guid: 7e2f6dfb19f97f54ab9b548da79c1b73, type: 3}
-  hipatia: {fileID: 1720242842162135932, guid: 7e2f6dfb19f97f54ab9b548da79c1b73, type: 3}
+  mask1: {fileID: -3486469407830009891, guid: 50653521f2d55d5499d1339de39adce7, type: 3}
+  mask2: {fileID: -3764186832273193644, guid: 50653521f2d55d5499d1339de39adce7, type: 3}
+  mask3: {fileID: 2143357744751893319, guid: 50653521f2d55d5499d1339de39adce7, type: 3}
+  hipatia: {fileID: 1063066861528155479, guid: 50653521f2d55d5499d1339de39adce7, type: 3}
 --- !u!114 &4679984582462679064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,7 +129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -31.1, y: -54.9}
+  m_AnchoredPosition: {x: 7.3, y: -116.8}
   m_SizeDelta: {x: 77.7811, y: 87.435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2999721940604321724
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1720242842162135932, guid: 7e2f6dfb19f97f54ab9b548da79c1b73,
+  m_Sprite: {fileID: 1063066861528155479, guid: 50653521f2d55d5499d1339de39adce7,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 1

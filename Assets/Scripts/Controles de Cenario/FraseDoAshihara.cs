@@ -33,7 +33,7 @@ public class FraseDoAshihara : MonoBehaviour
 
 
 
-        menu.AbrirStatus();
+        menu.AbriDialogo();
         //texto.text = frase;
 
         StartCoroutine(Saida());

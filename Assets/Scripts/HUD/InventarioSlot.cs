@@ -9,6 +9,7 @@ public class InventarioSlot : MonoBehaviour
 {
     public GameObject pocaoMpPrefab;
     public GameObject pocaoHPPrefab;
+    public GameObject mascaraZeroPrefab;
     public GameObject mascaraUmPrefab;
     public GameObject mascaraDoisPrefab;
     public GameObject mascaraTresPrefab;
@@ -53,6 +54,9 @@ public class InventarioSlot : MonoBehaviour
                 break;
             case ItemInterface.Item.MascaraTres:
                 prefab = this.mascaraTresPrefab;
+                break;
+            case ItemInterface.Item.MascaraZero:
+                prefab = mascaraZeroPrefab;
                 break;
 
             case ItemInterface.Item.None:

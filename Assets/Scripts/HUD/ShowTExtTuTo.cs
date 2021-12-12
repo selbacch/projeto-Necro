@@ -54,7 +54,7 @@ public class ShowTExtTuTo : MonoBehaviour
             }
 
         }
-        menu.AbrirStatus();
+        menu.AbriDialogo();
         Player.GetComponent<PlayerInput>().actions.Enable();
         
         Destroy(this);

@@ -49,11 +49,13 @@ public class MenuFaseController : MonoBehaviour
     {
         menuMorte.SetActive(false);
         menuPause.SetActive(false);
-    
+        componenteInventario.SetActive(false);
+        objDialogoCena.SetActive(false);
+
         panelEscureBackground.SetActive(false);
         Time.timeScale = this.timeScale;
         isOpen = false;
-     
+        
     }
     public void AbrirInventario()
     {
@@ -75,21 +77,20 @@ public class MenuFaseController : MonoBehaviour
 
     }
 
-    public void AbrirStatus()
+    public void AbriDialogo()
     { 
         this.FecharMenus();
         if (objDialogoCena.activeSelf)
         {
            
-            Time.timeScale = this.timeScale;
+          //  Time.timeScale = this.timeScale;
             objDialogoCena.SetActive(false);
         }
         else
         {
           
-            Time.timeScale = 0;
+          //  Time.timeScale = 0;
             objDialogoCena.SetActive(true);
-
         }
 
     }

@@ -11,7 +11,7 @@ public abstract class ItemInterface : MonoBehaviour
     public AudioSource audioColetarUtilizar;
     public GameObject item;
 
-    public enum Item { PocaoMP = 1001, PocaoHP = 1002, MascaraUm = 2001, MascaraDois = 2002, MascaraTres = 2003, None = -1 }
+    public enum Item { PocaoMP = 1001, PocaoHP = 1002,MascaraZero = 2000, MascaraUm = 2001, MascaraDois = 2002, MascaraTres = 2003, None = -1 }
     public virtual void Utilizar()
     {
         //InventarioController.Instance.RemoverDoInventario(this.tipoTipo);
