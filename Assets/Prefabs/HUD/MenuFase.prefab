@@ -865,7 +865,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6481295494479502294}
         m_TargetAssemblyTypeName: MenuFaseController, Assembly-CSharp
-        m_MethodName: AbrirStatus
+        m_MethodName: AbriDialogo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
