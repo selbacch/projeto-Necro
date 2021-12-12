@@ -563,7 +563,7 @@ MonoBehaviour:
   DanoAtual: 10
   TempoDestruicao: 1
   Invunevarel: 1
-  TempoInvocarMinion: 60
+  TempoInvocarMinion: 20
   minionPrefab: {fileID: 6440456543315929361, guid: 03a82aec160b9b44893b7516ba1b56f4,
     type: 3}
   spotInvocacao: {fileID: 1689744202}
