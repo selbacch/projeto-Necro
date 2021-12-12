@@ -15,8 +15,8 @@ public class FraseDoAshihara : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     
 
+        
         StartCoroutine(Conversa());
     }
 
@@ -50,9 +50,9 @@ public class FraseDoAshihara : MonoBehaviour
         yield return new WaitForSeconds(TimeOut);
 
         {
+            Animator anim = GetComponent<Animator>();
 
-
-
+            anim.SetBool("Saida", true);
             gameObject.SetActive(false);
 
 
@@ -65,6 +65,11 @@ public class FraseDoAshihara : MonoBehaviour
 
     }
 
-
+    public void Desativa()
+    {
+        Animator anim = GetComponent<Animator>();
+        anim.SetBool("Saida", false);
+        gameObject.SetActive(false);
+    }
 
 }
