@@ -5,4 +5,5 @@ ou setas de direção;
 é uma busca perigosa então a alta concentrasão de magia pode trazer inimigos;
 use a tecla enter do teclado  para atacar;
 voce pode combinar os botoes para realizar combos;
-com seus poderes de necromancia podelançar feitiços e maldiçoes; usando os botoes 1,2,3,4 do teclado;
+com seus poderes de necromancia podelançar feitiços e maldiçoes;
+usando os botoes 1,2,3,4 do teclado;
