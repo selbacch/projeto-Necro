@@ -52,12 +52,15 @@ public class PortalControle : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            if (string.IsNullOrEmpty(nomeCenaDestino) || string.IsNullOrEmpty(idPortalDestino))
+            {
+                return;
+            }
             if (ehSomenteUmaViagem && !StageController.Instance.AddEvt(idPortal))
             {
                 return;
             }
             StartCoroutine(fade());
-
 
         }
 
