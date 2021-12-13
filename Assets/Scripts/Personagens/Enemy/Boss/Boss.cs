@@ -19,13 +19,13 @@ public class Boss : Enemy
         ConfigStart();
         bossIniciado = false;
         areaStart.PlayerEntrouStartArea = PlayerEntrouStartArea;
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-              
+
         //VoltarPosicaoInicial();
         if (Vida <= 0)
         {
@@ -51,7 +51,7 @@ public class Boss : Enemy
         {
             Cacar();
         }
-               
+
     }
 
     private void OnDestroy()
@@ -64,7 +64,7 @@ public class Boss : Enemy
     {
         for (; ; )
         {
-            if (Target != null && isAttackingPlayer)
+            if (gameObject != null && isAttackingPlayer)
             {
                 Anim.SetTrigger("atack");
                 InterfaceAtacavel inAtacck = gameObject.GetComponent<InterfaceAtacavel>();
@@ -116,6 +116,7 @@ public class Boss : Enemy
     public override void SofrerDano(int danoRecebido)
     {
 
+
         if (this.Vida <= 0 || !this.gameObject.activeSelf)
         {
             return;
@@ -137,13 +138,13 @@ public class Boss : Enemy
     {
         for (; ; )
         {
-
-           if (minionAtivo == null)
+            yield return new WaitForSeconds(TempoInvocarMinion);
+            if (minionAtivo == null)
             {
                 minionAtivo = Instantiate(this.minionPrefab, this.spotInvocacao.position, Quaternion.identity);
                 minionAtivo.GetComponent<Enemy>().Target = GameObject.FindGameObjectWithTag("Player");
             }
-            yield return new WaitForSeconds(TempoInvocarMinion);
+
         }
     }
 
