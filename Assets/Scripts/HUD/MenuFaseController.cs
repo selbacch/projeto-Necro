@@ -14,14 +14,22 @@ public class MenuFaseController : MonoBehaviour
     public GameObject objDialogoCena;
 
     private float timeScale;
+    private Player player;
     public bool isOpen = false;
     // Start is called before the first frame update
     void Start()
     {
+
         timeScale = Time.timeScale;
         FecharMenus();
-        GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().DeathEvent += AbrirMenuMorte;
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        player.DeathEvent += AbrirMenuMorte;
 
+    }
+
+    private void OnDestroy()
+    {
+        player.DeathEvent -= AbrirMenuMorte;
     }
 
     public void AbrirMenuPause()

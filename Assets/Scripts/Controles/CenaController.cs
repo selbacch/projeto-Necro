@@ -135,7 +135,7 @@ public class CenaController : MonoBehaviour
 
         // InventarioController.Instance.FromJson(infoSessao.inventario);
         InventarioController.Instance.ReequiparMascara();
-        //    CenaController.Instance.SalvarJogo();
+        CenaController.Instance.SalvarJogo();
 
         motivo = TrocaCena.CONTINUAR_JOGO;
     }
