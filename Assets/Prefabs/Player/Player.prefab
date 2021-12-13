@@ -5632,6 +5632,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1989325148}
   - component: {fileID: 1268362107}
+  - component: {fileID: 2561795312331309603}
+  - component: {fileID: 5613270399471897368}
   m_Layer: 7
   m_Name: RetornoHabilidade4
   m_TagString: Untagged
@@ -5693,7 +5695,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7329640329231164576, guid: 1871f45ddd43df241b50e1b90798ca98,
+  m_Sprite: {fileID: 5336166870373515175, guid: 99894f47b90e73e449288aaa3cda6cc9,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5705,6 +5707,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2561795312331309603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989325147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957f44d9d497c3e4bbc71c39608f7b0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &5613270399471897368
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989325147}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d81896d2dc98250409ec68468d6d5665, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2132907198
 GameObject:
   m_ObjectHideFlags: 0
