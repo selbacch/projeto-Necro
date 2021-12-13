@@ -77,7 +77,7 @@ public class Mana : MonoBehaviour
     {
         for (; ; )
         {
-            if (this.curMana > this.maxMana)
+            if (this.curMana < this.maxMana)
             {
                 Increase(manaPerSec);
             }
