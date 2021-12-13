@@ -122,11 +122,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 9968
-        width: 2693
-        height: 2072
-      alignment: 9
-      pivot: {x: 0.41, y: 0.5}
+        y: 12259
+        width: 1995
+        height: 2075
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,12 +142,12 @@ TextureImporter:
       name: Miniboss 2_3
       rect:
         serializedVersion: 2
-        x: 3418
-        y: 9944
-        width: 2518
-        height: 1987
-      alignment: 9
-      pivot: {x: 0.27, y: 0.5}
+        x: 3469
+        y: 12238
+        width: 2516
+        height: 2096
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,57 +160,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Miniboss 2_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 7751
-        width: 2336
-        height: 2034
-      alignment: 9
-      pivot: {x: 0.65, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 255a1c81323354140800000000000000
-      internalID: 4703221611690566994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Miniboss 2_11
-      rect:
-        serializedVersion: 2
-        x: 3206
-        y: 7787
-        width: 2730
-        height: 1891
-      alignment: 9
-      pivot: {x: 0.54, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ab34b70bdab7f310800000000000000
-      internalID: 1438824055858019239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Miniboss 2_20
       rect:
         serializedVersion: 2
-        x: 1173
-        y: 4689
-        width: 1151
-        height: 2104
+        x: 2938
+        y: 8025
+        width: 33
+        height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +184,12 @@ TextureImporter:
       name: Miniboss 2_23
       rect:
         serializedVersion: 2
-        x: 2918
-        y: 4794
-        width: 1234
-        height: 1752
+        x: 2933
+        y: 7951
+        width: 7
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,64 +202,337 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Miniboss 2_34
+      name: Miniboss 2_8
       rect:
         serializedVersion: 2
-        x: 855
-        y: 2343
-        width: 1945
-        height: 1828
+        x: 0
+        y: 10047
+        width: 2386
+        height: 2036
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e4d5a825bbb7fca0800000000000000
-      internalID: -5983107193192983321
+      spriteID: 7264353bf5de6a5f0800000000000000
+      internalID: -745647692996983257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Miniboss 2_35
+      name: Miniboss 2_9
       rect:
         serializedVersion: 2
-        x: 3018
-        y: 2208
-        width: 2016
-        height: 2228
+        x: 3252
+        y: 10079
+        width: 2733
+        height: 1893
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28be2e8dcd663d930800000000000000
-      internalID: 4166787178965429122
+      spriteID: 97a70cf0c7410ca90800000000000000
+      internalID: -7295808873267430791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Miniboss 2_36
+      name: Miniboss 2_16
       rect:
         serializedVersion: 2
-        x: 781
+        x: 1222
+        y: 6982
+        width: 1154
+        height: 2106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb42fbe83204f9a10800000000000000
+      internalID: 1918322487746045119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_17
+      rect:
+        serializedVersion: 2
+        x: 2938
+        y: 8131
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f00e1f07e05d8d0800000000000000
+      internalID: -2822333713220628609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_18
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 7087
+        width: 1251
+        height: 1756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193340a97d78de920800000000000000
+      internalID: 3021220285107155857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_19
+      rect:
+        serializedVersion: 2
+        x: 2937
+        y: 8088
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ae3ac2c10d0f0a0800000000000000
+      internalID: -6849746213803922936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_21
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 8004
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9ccb5d4297240f0800000000000000
+      internalID: -1134210957032240652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_22
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 7949
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b49b4c4a15c0050800000000000000
+      internalID: 5768074990871726998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_24
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 7906
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45d390dce8426110800000000000000
+      internalID: 1252643828311250254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_25
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 7885
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359c6af6a01c9ad80800000000000000
+      internalID: -8238841792730576557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_26
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 7850
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e44ebec16c529500800000000000000
+      internalID: 401484891939554530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_27
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4632
+        width: 1952
+        height: 1838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78576e8d1e0366e50800000000000000
+      internalID: 6802178033754469767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_28
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 4497
+        width: 2022
+        height: 2233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba42c40f216259f0800000000000000
+      internalID: -481215355604022606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_29
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 2285
+        width: 1833
+        height: 1771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f0a6d2035910710800000000000000
+      internalID: 1657770172001947477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_30
+      rect:
+        serializedVersion: 2
+        x: 102
         y: 0
-        width: 2166
-        height: 1761
+        width: 2830
+        height: 2018
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3f861ae335889300800000000000000
-      internalID: 259103436590976828
+      spriteID: a8bb7a1070af2e080800000000000000
+      internalID: -9159483784118682742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss 2_31
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 0
+        width: 2865
+        height: 1851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c33437cdd71a44c0800000000000000
+      internalID: -4302600252701789240
       vertices: []
       indices: 
       edges: []
