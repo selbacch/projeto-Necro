@@ -18,12 +18,21 @@ public class Relampago : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Light.intensity = 145f;
-        Light.intensity = 145f;
 
 
+        StartCoroutine(FeedbackAnimation());
 
 
 
     }
+
+    private IEnumerator FeedbackAnimation()
+    {
+        yield return new WaitForSeconds(1f);
+        Light.intensity = 8.04f;
+        Light.intensity = 8.04f;
+    }
+
+
+
 }
