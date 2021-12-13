@@ -69,6 +69,7 @@ public class Boss : Enemy
                 Anim.SetTrigger("atack");
                 InterfaceAtacavel inAtacck = gameObject.GetComponent<InterfaceAtacavel>();
                 inAtacck.SofrerDano(this.DanoAtual);
+                
             }
             else
             {
