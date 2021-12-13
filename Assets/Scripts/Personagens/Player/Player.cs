@@ -34,14 +34,11 @@ public class Player : InterfaceAtacavel
     void Start()
     {
         
-        this.MascaraEquipada = ItemInterface.Item.None;
+       // this.MascaraEquipada = ItemInterface.Item.None;
         var agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         rig = GetComponent<Rigidbody2D>(); 
-       
-
-
      //   NormalStatus();
     }
 
