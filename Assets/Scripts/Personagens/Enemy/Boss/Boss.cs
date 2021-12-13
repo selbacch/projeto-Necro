@@ -74,7 +74,6 @@ public class Boss : Enemy
             else
             {
                 StopCoroutine("Atacar");
-                StopCoroutine(InvocarMinion());
                 isHuntingPlayer = false;
                 isAttackingPlayer = false;
             }
@@ -90,7 +89,7 @@ public class Boss : Enemy
         }
         isAttackingPlayer = false;
         StopCoroutine(Atacar(go));
-        StopCoroutine(InvocarMinion());
+       
     }
 
     public override void PlayerEntrouAttackArea(GameObject go)
@@ -112,6 +111,13 @@ public class Boss : Enemy
         Debug.Log("player entrou na aggro");
         isHuntingPlayer = true;
         Target = go;
+        StartCoroutine(InvocarMinion());
+    }
+
+    public override void PlayerSaiuAggro(GameObject go)
+    {
+        base.PlayerSaiuAggro(go);
+        StopCoroutine(InvocarMinion());
     }
 
     public override void SofrerDano(int danoRecebido)
