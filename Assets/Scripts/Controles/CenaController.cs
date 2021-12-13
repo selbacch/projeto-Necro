@@ -78,6 +78,10 @@ public class CenaController : MonoBehaviour
         Regex rx_cutScene = new Regex(@"\bCS_*");
         if (rx_interacao.IsMatch(scene.name) || rx_cutScene.IsMatch(scene.name))
         {
+            if (scene.name.Equals("CS_HistoryOfSword"))
+            {
+                motivo = TrocaCena.INICIO_JOGO;
+            }
             return;
         }
 
