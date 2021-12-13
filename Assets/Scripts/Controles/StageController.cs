@@ -7,8 +7,6 @@ public class StageController : MonoBehaviour
 {
 
     public static StageController Instance;
-    private Dictionary<string, string> evento;
-    private List<string> eventos;
     private HashSet<String> evt;
 
     private void Awake()
@@ -33,6 +31,10 @@ public class StageController : MonoBehaviour
         }
         evt.Add(codigoEvento);
         return true;
+    }
+    public bool Exist(String codigoEvento)
+    {
+        return evt.Contains(codigoEvento);
     }
 
     public void LimparEventos()

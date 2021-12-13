@@ -12,7 +12,12 @@ public class PortalControle : MonoBehaviour
     public string nomeCenaDestino;
     public string idPortalDestino;
     public bool ehSomenteUmaViagem = false;
+
+    public GameObject iconeSinalizacao;
+    public GameObject sinalizacao;
+    
     private float timeScale;
+    private string evtId;
     public string NomeCena { get; private set; }
     // Start is called before the first frame update
 
@@ -21,8 +26,19 @@ public class PortalControle : MonoBehaviour
         NomeCena = SceneManager.GetActiveScene().name;
         this.gameObject.name = idPortal;
         timeScale = Time.timeScale;
+        this.evtId = NomeCena+"_##_"+idPortal;
     }
 
+    private void Start()
+    {
+
+        if (StageController.Instance.Exist(this.evtId) && iconeSinalizacao != null && sinalizacao != null)
+        {
+            iconeSinalizacao.SetActive(false);
+            sinalizacao.SetActive(false);
+        }
+    
+    }
     // Update is called once per frame
     public string ObterNomeObjeto()
     {
@@ -56,7 +72,7 @@ public class PortalControle : MonoBehaviour
             {
                 return;
             }
-            if (ehSomenteUmaViagem && !StageController.Instance.AddEvt(idPortal))
+            if (ehSomenteUmaViagem && !StageController.Instance.AddEvt(evtId))
             {
                 return;
             }
@@ -65,5 +81,7 @@ public class PortalControle : MonoBehaviour
         }
 
     }
+
+
 
 }
