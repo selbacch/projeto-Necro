@@ -5201,7 +5201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1068457891
 Transform:
   m_ObjectHideFlags: 0
@@ -5258,7 +5258,7 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: ef9f1acb8464d4945bc73b644625a2a0,
     type: 3}
-  m_Color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5284,7 +5284,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8083569662164204670
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6034,7 +6034,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.5577163, g: 0.7830189, b: 0.61916244, a: 0.73333335}
+      maxColor: {r: 0.59233713, g: 0.8207547, b: 0.6546328, a: 0.8666667}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -9190,7 +9190,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    range: {x: 0, y: 1}
+    range: {x: 1, y: 3}
     separateAxes: 0
   RotationBySpeedModule:
     enabled: 0
@@ -11538,7 +11538,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1055804530639365117, guid: 71d83e8be4ddb4e4fb30417f5d198059,
     type: 3}
-  m_Color: {r: 0.94467646, g: 0.9303578, b: 0.9528302, a: 1}
+  m_Color: {r: 0.9984277, g: 0.995283, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -11632,7 +11632,7 @@ MonoBehaviour:
   move: {x: 0, y: 0, z: 0}
   rig: {fileID: 0}
   MascaraEquipada: 2002
-  ImmortalMode: 1
+  ImmortalMode: 0
   attackCollider: {fileID: 887179757764826663}
   menuFaseController: {fileID: 0}
 --- !u!114 &8210310050411190566

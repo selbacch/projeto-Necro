@@ -1222,7 +1222,7 @@ MonoBehaviour:
   AreaAtaque: {fileID: 2237570749399019319}
   AreaPerigo: {fileID: 2830918726297969091}
   nave: {fileID: 4486881615121756919}
-  Vida: 100
+  Vida: 60
   Resfriamento: 2
   RaioAtaque: 3
   Velocidade: 1
