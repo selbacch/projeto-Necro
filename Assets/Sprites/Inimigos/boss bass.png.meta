@@ -1,0 +1,732 @@
+fileFormatVersion: 2
+guid: e82001969db0ab4409d0abbfb2e74596
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3966013029901317155
+    second: boss bass_0
+  - first:
+      213: -8963295386420122320
+    second: boss bass_1
+  - first:
+      213: 3897333188695793036
+    second: boss bass_2
+  - first:
+      213: -8075793100396394112
+    second: boss bass_3
+  - first:
+      213: 8283252108250845091
+    second: boss bass_4
+  - first:
+      213: 7598328816514727669
+    second: boss bass_5
+  - first:
+      213: -2293440349410138945
+    second: boss bass_6
+  - first:
+      213: 2780061506987185594
+    second: boss bass_7
+  - first:
+      213: -2778813192113728225
+    second: boss bass_8
+  - first:
+      213: -3161511258609777976
+    second: boss bass_9
+  - first:
+      213: 6228468440347131927
+    second: boss bass_10
+  - first:
+      213: -1715357102420696427
+    second: boss bass_11
+  - first:
+      213: -738933532747591961
+    second: boss bass_12
+  - first:
+      213: -2478848368459242988
+    second: boss bass_13
+  - first:
+      213: -9066806561690577555
+    second: boss bass_14
+  - first:
+      213: 8295443331138951086
+    second: boss bass_15
+  - first:
+      213: -2593068620733299313
+    second: boss bass_16
+  - first:
+      213: 5668285445028239199
+    second: boss bass_17
+  - first:
+      213: -2476264519446983680
+    second: boss bass_18
+  - first:
+      213: 5264513409897709534
+    second: boss bass_19
+  - first:
+      213: -1169157040104163307
+    second: boss bass_20
+  - first:
+      213: 6852921898042065891
+    second: boss bass_21
+  - first:
+      213: 8287926295464926985
+    second: boss bass_22
+  - first:
+      213: -5350326272431317414
+    second: boss bass_23
+  - first:
+      213: -356804557384249592
+    second: boss bass_24
+  - first:
+      213: 1153244873410154914
+    second: boss bass_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss bass_0
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 4525
+        width: 265
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb49228924e5f8c0800000000000000
+      internalID: -3966013029901317155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_1
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 4543
+        width: 219
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03de78be55afb9380800000000000000
+      internalID: -8963295386420122320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_2
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 4470
+        width: 192
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d9d8bd2eb161630800000000000000
+      internalID: 3897333188695793036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_3
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 4429
+        width: 268
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089825b66f40def80800000000000000
+      internalID: -8075793100396394112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_4
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 4090
+        width: 265
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af0c49e7e504f270800000000000000
+      internalID: 8283252108250845091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_5
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 4102
+        width: 224
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe79fa0dcfa27960800000000000000
+      internalID: 7598328816514727669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_6
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 4020
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb46cd347201c20e0800000000000000
+      internalID: -2293440349410138945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_7
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 3968
+        width: 268
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab555b11633c49620800000000000000
+      internalID: 2780061506987185594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3588
+        width: 268
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1554e2ef1caf69d0800000000000000
+      internalID: -2778813192113728225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_9
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3635
+        width: 216
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c28a2db24e0024d0800000000000000
+      internalID: -3161511258609777976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_10
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 3489
+        width: 268
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7104f91fb07ff6650800000000000000
+      internalID: 6228468440347131927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3138
+        width: 268
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592654fbdc3d138e0800000000000000
+      internalID: -1715357102420696427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_12
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 3165
+        width: 219
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee84f3fdd7ceb5f0800000000000000
+      internalID: -738933532747591961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_13
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 3078
+        width: 269
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4122ee9da8c599dd0800000000000000
+      internalID: -2478848368459242988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2713
+        width: 268
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65904b587b3c2280800000000000000
+      internalID: -9066806561690577555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_15
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 2756
+        width: 216
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea79bee22c55f1370800000000000000
+      internalID: 8295443331138951086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_16
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 2616
+        width: 268
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85cafef3d1930cd0800000000000000
+      internalID: -2593068620733299313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2249
+        width: 268
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57dc64949bc9ae40800000000000000
+      internalID: 5668285445028239199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_18
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 2284
+        width: 216
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c85741a8a82add0800000000000000
+      internalID: -2476264519446983680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_19
+      rect:
+        serializedVersion: 2
+        x: 3567
+        y: 2129
+        width: 268
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfbb30cd0f4f0940800000000000000
+      internalID: 5264513409897709534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_20
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1773
+        width: 265
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518b1f1ddd156cfe0800000000000000
+      internalID: -1169157040104163307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_21
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1793
+        width: 219
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e30b4e68287a1f50800000000000000
+      internalID: 6852921898042065891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_22
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 1677
+        width: 268
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f5ecded01a40370800000000000000
+      internalID: 8287926295464926985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_23
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1350
+        width: 265
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e9a4b3a92dfb5b0800000000000000
+      internalID: -5350326272431317414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_24
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1356
+        width: 216
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f0fde35206c0bf0800000000000000
+      internalID: -356804557384249592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss bass_25
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 1280
+        width: 269
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a117aa2a16210010800000000000000
+      internalID: 1153244873410154914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
