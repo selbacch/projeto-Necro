@@ -72,7 +72,7 @@ public class CenaController : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
 
-        Debug.Log("OnSceneLoaded: " + scene.name);
+        Debug.Log("OnSceneLoaded: " + scene.name + " motivo: " + motivo);
         Time.timeScale = 1;
         Regex rx_interacao = new Regex(@"\bIN_*");
         Regex rx_cutScene = new Regex(@"\bCS_*");
@@ -91,20 +91,29 @@ public class CenaController : MonoBehaviour
                 portal.GetComponent<PortalControle>().PosicionarPersonagemSpawnPoint();
                 player.Vida.SetMaxHealth(infoSessao.vidaMax);
                 player.Mana.SetMaxMana(infoSessao.manaMax);
+
                 player.Vida.SetCurrentHealth(infoSessao.vidaAtual);
                 player.Mana.SetCurrMana(infoSessao.vidaAtual);
                 break;
             case TrocaCena.MUDANCA_FASE:
+                player.Vida.SetMaxHealth(infoSessao.vidaMax);
+                player.Mana.SetMaxMana(infoSessao.manaMax);
+
+                player.Vida.SetCurrentHealth(infoSessao.vidaAtual);
+                player.Mana.SetCurrMana(infoSessao.vidaAtual);
+                break;
             case TrocaCena.CONTINUAR_JOGO:
                 CarregarJogoSalvo();
                 player.Vida.SetMaxHealth(infoSessao.vidaMax);
                 player.Mana.SetMaxMana(infoSessao.manaMax);
+
                 player.Vida.SetCurrentHealth(infoSessao.manaMax);
                 player.Mana.SetCurrMana(infoSessao.manaMax);
                 break;
             case TrocaCena.MORTE:
                 player.Vida.SetMaxHealth(infoSessao.vidaMax);
                 player.Mana.SetMaxMana(infoSessao.manaMax);
+
                 player.Vida.SetCurrentHealth(infoSessao.manaMax);
                 player.Mana.SetCurrMana(infoSessao.manaMax);
                 CheckpointController ck = CheckpointController.EncontrarUltimoCheckpointAtivo();
@@ -124,8 +133,9 @@ public class CenaController : MonoBehaviour
                 break;
         }
 
-        InventarioController.Instance.FromJson(infoSessao.inventario);
-        CenaController.Instance.SalvarJogo();
+        // InventarioController.Instance.FromJson(infoSessao.inventario);
+        InventarioController.Instance.ReequiparMascara();
+        //    CenaController.Instance.SalvarJogo();
 
         motivo = TrocaCena.CONTINUAR_JOGO;
     }

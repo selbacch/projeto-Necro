@@ -20,10 +20,8 @@ public class MascaraGenerica : ItemInterface
 
     public override void Utilizar()
     {
-        InventarioController.Instance.RemoverDoInventario(this.tipoTipo);
-        GameObject pl = GameObject.FindGameObjectWithTag("Player");
-        player = pl.GetComponent<Player>();
-        ItemInterface.Item mascaraAnterior = player.EquiparMascara(this.tipoTipo);
-        InventarioController.Instance.AdicionarAoInventario(mascaraAnterior);
+       
+        InventarioController.Instance.EquiparMascara(this.tipoTipo);
+
     }
 }

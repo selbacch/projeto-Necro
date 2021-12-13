@@ -10,10 +10,13 @@ public class InventarioController : MonoBehaviour
 {
     [SerializeField]
     private Dictionary<ItemInterface.Item, int> itens;
-        
+    [SerializeField]
+    private ItemInterface.Item mascaraEquipada;
+    public ItemInterface.Item MascaraEquipada { get { return mascaraEquipada; } }
+
     public Dictionary<ItemInterface.Item, int> Itens { get { return itens; } }
     public static InventarioController Instance;
-    
+
     private void Awake()
     {
         if (Instance != null)
@@ -21,6 +24,7 @@ public class InventarioController : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
+        DontDestroyOnLoad(this.gameObject);
         Instance = this;
         itens = new Dictionary<ItemInterface.Item, int>();
 
@@ -28,7 +32,7 @@ public class InventarioController : MonoBehaviour
     void Start()
     {
 
-        
+
 
     }
 
@@ -74,6 +78,24 @@ public class InventarioController : MonoBehaviour
             }
 
         }
+    }
+
+    public void EquiparMascara(ItemInterface.Item itemTipo)
+    {
+        mascaraEquipada = itemTipo;
+        RemoverDoInventario(itemTipo);
+        GameObject pl = GameObject.FindGameObjectWithTag("Player");
+        Player player = pl.GetComponent<Player>();
+        ItemInterface.Item mascaraAnterior = player.EquiparMascara(itemTipo);
+        AdicionarAoInventario(mascaraAnterior);
+
+    }
+
+    public void ReequiparMascara()
+    {    
+        GameObject pl = GameObject.FindGameObjectWithTag("Player");
+        Player player = pl.GetComponent<Player>();
+        player.EquiparMascara(this.MascaraEquipada);
     }
 
     public string ToJson()
