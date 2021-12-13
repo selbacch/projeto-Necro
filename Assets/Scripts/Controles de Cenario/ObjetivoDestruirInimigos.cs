@@ -24,12 +24,18 @@ public class ObjetivoDestruirInimigos : MonoBehaviour
     {
         GameObject[] inimigos = GameObject.FindGameObjectsWithTag("Enemy");
         inimigosRestantes = inimigos.Length;
-        inimigosRestantesTxt.text = "Inimigos restantes: " + inimigosRestantes.ToString().PadLeft(2,'0');
-        if (inimigosRestantes == 0 && !concluido)
+        inimigosRestantesTxt.text = "Inimigos restantes: " + inimigosRestantes.ToString().PadLeft(2, '0');
+        if (inimigosRestantes == 0)
         {
-            concluido = true;
+
             objetivoTxt.color = Color.green;
             inimigosRestantesTxt.color = Color.green;
+            if (!concluido)
+            {
+                ObjetivoConcluido?.Invoke();
+                concluido = true;
+            }
+
         }
         else
         {
@@ -37,11 +43,5 @@ public class ObjetivoDestruirInimigos : MonoBehaviour
             objetivoTxt.color = Color.white;
             inimigosRestantesTxt.color = Color.white;
         }
-
-        if (concluido)
-        {
-            ObjetivoConcluido?.Invoke();
-        }
-
     }
 }
