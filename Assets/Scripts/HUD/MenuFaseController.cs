@@ -12,7 +12,7 @@ public class MenuFaseController : MonoBehaviour
     public GameObject panelEscureBackground;
     public GameObject componenteInventario;
     public GameObject objDialogoCena;
-   
+
     private float timeScale;
     public bool isOpen = false;
     // Start is called before the first frame update
@@ -21,26 +21,23 @@ public class MenuFaseController : MonoBehaviour
         timeScale = Time.timeScale;
         FecharMenus();
         GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().DeathEvent += AbrirMenuMorte;
-       
+
     }
 
     public void AbrirMenuPause()
     {
- 
-        menuMorte.SetActive(false);
+        this.FecharMenus();
         menuPause.SetActive(true);
-       panelEscureBackground.SetActive(true);
+        panelEscureBackground.SetActive(true);
         Time.timeScale = 0;
         isOpen = true;
-        
     }
 
     public void AbrirMenuMorte()
     {
-      
+        this.FecharMenus();
         Time.timeScale = 0;
         menuMorte.SetActive(true);
-        menuPause.SetActive(false);
         panelEscureBackground.SetActive(true);
         isOpen = true;
     }
@@ -55,39 +52,37 @@ public class MenuFaseController : MonoBehaviour
         panelEscureBackground.SetActive(false);
         Time.timeScale = this.timeScale;
         isOpen = false;
-        
+
     }
     public void AbrirInventario()
     {
        
-        if (componenteInventario.activeSelf)
+        if (!componenteInventario.activeSelf)
         {
             this.FecharMenus();
-        }
-        else
-        {
             isOpen = true;
-           
             Time.timeScale = 0;
             componenteInventario.SetActive(true);
             InventarioUIController.Instance.RenderizaInventario();
+        }
+        else
+        {
+            this.FecharMenus();
         }
 
     }
 
     public void AbriDialogo()
-    { 
-      
-        if (objDialogoCena.activeSelf)
+    {
+        
+        if (!objDialogoCena.activeSelf)
         {
-
             this.FecharMenus();
+            objDialogoCena.SetActive(true);
         }
         else
         {
-          
-          //  Time.timeScale = 0;
-            objDialogoCena.SetActive(true);
+            this.FecharMenus();
         }
 
     }
@@ -105,11 +100,21 @@ public class MenuFaseController : MonoBehaviour
         InventarioUIController.Instance.RenderizaInventario();
     }
 
-  
-
-    public void RegarregarCena(){
+    public void RegarregarCena()
+    {
         CenaController.Instance.RecarregarCenaEmCasoMorte();
     }
 
+    public void IrParaMenuPrincipal()
+    {
+        GameObject[] gos = GameObject.FindGameObjectsWithTag("Controladores");
+
+        foreach (GameObject g in gos)
+        {
+            Destroy(g);
+        }
+
+        SceneManager.LoadScene("IN_menu_inicial");
+    }
 
 }

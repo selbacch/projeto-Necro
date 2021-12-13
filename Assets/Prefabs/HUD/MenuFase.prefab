@@ -279,7 +279,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 21300000, guid: 50fef55f9f3550c46afdfd6ae3981bb8, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 8618723f8072fb24c90219d88d604a4d, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -2051,7 +2051,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 21300000, guid: a4e97a2693452b847862342d67a6d5d7, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 8618723f8072fb24c90219d88d604a4d, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -2315,7 +2315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.83137256}
+  m_Color: {r: 0.5764706, g: 0.5529412, b: 0.36078432, a: 0.5176471}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2574,7 +2574,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 21300000, guid: 50fef55f9f3550c46afdfd6ae3981bb8, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 8618723f8072fb24c90219d88d604a4d, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -2586,7 +2586,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 347416973961070686}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6481295494479502294}
+        m_TargetAssemblyTypeName: MenuFaseController, Assembly-CSharp
+        m_MethodName: IrParaMenuPrincipal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &347416974071696913
 GameObject:
   m_ObjectHideFlags: 0
@@ -2775,7 +2787,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 21300000, guid: a4e97a2693452b847862342d67a6d5d7, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 8618723f8072fb24c90219d88d604a4d, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -2787,7 +2799,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 347416974260374405}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6481295494479502294}
+        m_TargetAssemblyTypeName: MenuFaseController, Assembly-CSharp
+        m_MethodName: IrParaMenuPrincipal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &347416974298470243
 GameObject:
   m_ObjectHideFlags: 0
@@ -2896,7 +2920,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 21300000, guid: 50fef55f9f3550c46afdfd6ae3981bb8, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 8618723f8072fb24c90219d88d604a4d, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -3109,7 +3133,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 21300000, guid: a4e97a2693452b847862342d67a6d5d7, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 8618723f8072fb24c90219d88d604a4d, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
