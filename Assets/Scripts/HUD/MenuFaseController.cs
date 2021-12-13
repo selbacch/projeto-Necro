@@ -115,12 +115,12 @@ public class MenuFaseController : MonoBehaviour
 
     public void IrParaMenuPrincipal()
     {
-        GameObject[] gos = GameObject.FindGameObjectsWithTag("Controladores");
+       // GameObject[] gos = GameObject.FindGameObjectsWithTag("Controladores");
 
-        foreach (GameObject g in gos)
-        {
-            Destroy(g);
-        }
+//        foreach (GameObject g in gos)
+  //      {
+    //        Destroy(g);
+      //  }
 
         SceneManager.LoadScene("IN_menu_inicial");
     }
