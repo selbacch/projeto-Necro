@@ -8,6 +8,7 @@ public class MenuInicial : MonoBehaviour
 
     private string CENA_NOVO_JOGO = "CS_HistoryOfSword";
     private string CENA_CONTINUAR = "IN_selecao_fase";
+    private string CENA_CREDITOS = "IN_creditos";
 
     public void CriarNovoJogo()
     {
@@ -18,6 +19,11 @@ public class MenuInicial : MonoBehaviour
     {
         CenaController.Instance.CarregarJogoSalvo();
         SceneManager.LoadScene(CENA_CONTINUAR);
+    }
+
+    public void IrParaCreditos()
+    {
+        SceneManager.LoadScene(CENA_CREDITOS);
     }
 
     public void SairJogo()
