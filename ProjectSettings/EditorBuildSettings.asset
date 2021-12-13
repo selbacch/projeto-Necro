@@ -44,6 +44,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boss/FS_BOSS2.unity
     guid: 54c98e50ef6cf3d41a89e277b771d3e6
+  - enabled: 1
+    path: Assets/Scenes/IN_creditos.unity
+    guid: 7da9215fe97f21a42889fc1dafe03115
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0a5dc2c98adc63a4f9def4a0deffcaa2,
       type: 2}
