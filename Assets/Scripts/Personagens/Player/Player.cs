@@ -69,43 +69,51 @@ public class Player : InterfaceAtacavel
 
     public void OnHabilidade1(InputValue value)//void SumonFantasma()
     {
-        if (gameObject.GetComponent<Mana>().CurMana < 1 || Death)
+        int gastoMana = 20;
+        if (gameObject.GetComponent<Mana>().CurMana < gastoMana || Death)
         {
             return;
         }
         anim.SetBool("sumon", true);
         GameObject FantasmaC = Instantiate(Fantasma, point.position, point.rotation, transform.parent);
-        gameObject.GetComponent<Mana>().LostMana(20);
+        gameObject.GetComponent<Mana>().LostMana(gastoMana);
 
     }
 
     public void OnHabilidade3(InputValue value)//
     {
-        if (gameObject.GetComponent<Mana>().CurMana < 2 || Death)
-        { return; }
+        int gastoMana = 25;
+        if (gameObject.GetComponent<Mana>().CurMana < gastoMana || Death)
+        {
+            return;
+        }
 
         // anim.SetTrigger("area");
-        GetComponent<PlayerInput>().actions.Disable();
+        // GetComponent<PlayerInput>().actions.Disable();
         this.transform.Find("PrisaoArea").gameObject.SetActive(true);
-        gameObject.GetComponent<Mana>().LostMana(25);
+        gameObject.GetComponent<Mana>().LostMana(gastoMana);
         StartCoroutine(DesativaHabilidade3());
     }
 
     public void OnHabilidade2(InputValue value)//
     {
-        if (gameObject.GetComponent<Mana>().CurMana < 1 || Death)
-        { return; }
+        int gastoMana = 40;
+        if (gameObject.GetComponent<Mana>().CurMana < gastoMana || Death)
+        {
+            return;
+        }
 
         anim.SetBool("sumon", true);
         GameObject ZombiC = Instantiate(Zombi, point.position, point.rotation, transform.parent);
-        gameObject.GetComponent<Mana>().LostMana(40);
+        gameObject.GetComponent<Mana>().LostMana(gastoMana);
 
 
     }
 
     public void OnHabilidade4(InputValue value)//especcial mutavel
     {
-        if (gameObject.GetComponent<Mana>().CurMana < 2 || Death)
+        int gastoMana = 90;
+        if (gameObject.GetComponent<Mana>().CurMana < gastoMana || Death)
         {
             return;
         }
@@ -147,7 +155,7 @@ public class Player : InterfaceAtacavel
             StartCoroutine(DesativaEfeitoMascara());
 
         }
-        gameObject.GetComponent<Mana>().LostMana(90);
+        gameObject.GetComponent<Mana>().LostMana(gastoMana);
         //mundo dos mortos inimigos em determinada area ficam paralizados  e tem parte da vida drenada e recupera a do jogador 
 
     }
