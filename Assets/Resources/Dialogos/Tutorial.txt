@@ -1,9 +1,1 @@
-Hipatia, o nivel de pressão mágica nesta area é alto;
-E já que você parece decidida em buscar a espada...;
-Lembre-se, para movimentar-se pode usar as teclas W,A,S,D;
-Ou as setas de direção;
-É uma busca perigosa, a alta concentração de magia pode trazer inimigos;
-Use a tecla enter do teclado para atacar;
-Você pode combinar os botões para realizar combos;
-Seus poderes de necromancia lhe permitem lançar feitiços e maldições;
-Usando os botões 1,2,3,4 do teclado;
+Hipatia, o nível de pressão mágica nesta área é alto;E você parece decidida a buscar a espada...;Lembre-se, para movimentar-se use as teclas W,A,S,D;É uma busca perigosa e a alta concentração de magia irá trazer inimigos;Portanto, use a tecla <ENTER> para atacar; E os botões 1,2,3,4 para ativar seus poderes de necromancia;Boa jornada
