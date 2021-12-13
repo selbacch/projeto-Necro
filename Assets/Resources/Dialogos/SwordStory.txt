@@ -1,9 +1,1 @@
-Dois amigos com o mesmo poder, mas com diferentes escolhas.;
-Um escolhe a honra... O outro, a sabedoria.;
-A honra é conhecida por criar guerreiros, a sabedoria, magos.;
-O sábio, buscou a imortalidade, o honrado, a compaixão.;
-O honrado, com o que adquiriu, criou uma espada de muito poder.;
-Já o sábio, corrompeu-se em ganância e fissurou-se pela espada.;
-E então, iniciou-se o caos.;
-O honrado escondeu a espada, para que o sábio, agora corrompido pela maldade, não a encontrasse.;
-Agora, o sábio corrompido a procura através do tempo, pois a corrupção forneceu o que ele buscava... Mas tirou o que já tinha.;
+Dois amigos com o mesmo poder, mas com diferentes escolhas.;Enquanto um escolhe o caminho da honra... O outro escolhe o caminho da sabedoria.;A honra é conhecida por criar guerreiros, a sabedoria, magos.;O sábio partiu em busca da imortalidade, enquanto o honrado trilhou o caminho benevolência e da compaixão.;Com o que adquiriu, o honrado criou uma espada de muito poder.;O sábio em sua busca por mais conhecimento e poder, corrompeu-se em ganância e fissurou-se pelo poder da espada.;E então, iniciou-se o caos.;O honrado escondeu a espada, para que o sábio, agora corrompido pela maldade, não a encontrasse.;Agora, o sábio corrompido a procura através do tempo, pois a corrupção forneceu o que ele buscava... Mas tirou o que já tinha.;

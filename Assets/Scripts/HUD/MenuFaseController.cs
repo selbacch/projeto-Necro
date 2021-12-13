@@ -29,7 +29,11 @@ public class MenuFaseController : MonoBehaviour
 
     private void OnDestroy()
     {
-        player.DeathEvent -= AbrirMenuMorte;
+        if (player != null)
+        {
+            player.DeathEvent -= AbrirMenuMorte;
+        }
+
     }
 
     public void AbrirMenuPause()
@@ -64,7 +68,7 @@ public class MenuFaseController : MonoBehaviour
     }
     public void AbrirInventario()
     {
-       
+
         if (!componenteInventario.activeSelf)
         {
             this.FecharMenus();
@@ -82,7 +86,7 @@ public class MenuFaseController : MonoBehaviour
 
     public void AbriDialogo()
     {
-        
+
         if (!objDialogoCena.activeSelf)
         {
             this.FecharMenus();
@@ -115,12 +119,12 @@ public class MenuFaseController : MonoBehaviour
 
     public void IrParaMenuPrincipal()
     {
-       // GameObject[] gos = GameObject.FindGameObjectsWithTag("Controladores");
+        // GameObject[] gos = GameObject.FindGameObjectsWithTag("Controladores");
 
-//        foreach (GameObject g in gos)
-  //      {
-    //        Destroy(g);
-      //  }
+        //        foreach (GameObject g in gos)
+        //      {
+        //        Destroy(g);
+        //  }
 
         SceneManager.LoadScene("IN_menu_inicial");
     }
