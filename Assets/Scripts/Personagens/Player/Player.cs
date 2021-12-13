@@ -28,8 +28,12 @@ public class Player : InterfaceAtacavel
     public AttackZone attackCollider;
     public MenuFaseController menuFaseController;
  
-    private Vector2 MoveInvert; 
+    private Vector2 MoveInvert;
 
+    private void Awake()
+    {
+        this.Vida.SetCurrentHealth(1);
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -38,8 +42,7 @@ public class Player : InterfaceAtacavel
         var agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-        rig = GetComponent<Rigidbody2D>(); 
-     //   NormalStatus();
+        rig = GetComponent<Rigidbody2D>();      
     }
 
 
@@ -289,9 +292,6 @@ public class Player : InterfaceAtacavel
             
         }
         }
-
-
-
         
     public void OnInventario(InputValue value)
     {
