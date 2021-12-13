@@ -27,6 +27,11 @@ public class ObjetivoDestruirInimigos : MonoBehaviour
             objetivoTxt.color = Color.green;
             inimigosRestantesTxt.color = Color.green;
         }
+        else
+        {
+            objetivoTxt.color = Color.white;
+            inimigosRestantesTxt.color = Color.white;
+        }
 
     }
 }
