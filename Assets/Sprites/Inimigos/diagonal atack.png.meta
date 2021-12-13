@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: 9856d67f19cae3c48ad16e2c5560f6ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1746456155756822404
+    second: diagonal atack_0
+  - first:
+      213: 7553799400749821314
+    second: diagonal atack_1
+  - first:
+      213: -8249426962811473085
+    second: diagonal atack_3
+  - first:
+      213: -8191137041556874888
+    second: diagonal atack_4
+  - first:
+      213: -8208311691832102123
+    second: diagonal atack_5
+  - first:
+      213: -3885793256861689192
+    second: diagonal atack_6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: diagonal atack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12168
+        width: 2229
+        height: 1938
+      alignment: 9
+      pivot: {x: 0.53824776, y: 0.40044153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c700254216753c7e0800000000000000
+      internalID: -1746456155756822404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diagonal atack_1
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 12273
+        width: 2215
+        height: 1853
+      alignment: 9
+      pivot: {x: 0.27311411, y: 0.4467265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d6042888c74d860800000000000000
+      internalID: 7553799400749821314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diagonal atack_3
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 9524
+        width: 2218
+        height: 1839
+      alignment: 9
+      pivot: {x: 0.27949005, y: 0.41948166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343b71972e5248d80800000000000000
+      internalID: -8249426962811473085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diagonal atack_4
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 7853
+        width: 1413
+        height: 2138
+      alignment: 9
+      pivot: {x: 0.4174352, y: 0.34469414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879557b524c335e80800000000000000
+      internalID: -8191137041556874888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diagonal atack_5
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 5274
+        width: 3198
+        height: 1763
+      alignment: 9
+      pivot: {x: 0.1871115, y: 0.40583012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51379aa7108361e80800000000000000
+      internalID: -8208311691832102123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diagonal atack_6
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 711
+        width: 3191
+        height: 2952
+      alignment: 9
+      pivot: {x: 0.19790192, y: 0.25374416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a9626ee93e21ac0800000000000000
+      internalID: -3885793256861689192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
