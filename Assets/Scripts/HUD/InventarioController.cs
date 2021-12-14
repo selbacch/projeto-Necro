@@ -45,7 +45,7 @@ public class InventarioController : MonoBehaviour
 
     public int AdicionarAoInventario(ItemInterface.Item itemTipo)
     {
-        if (itemTipo == ItemInterface.Item.None)
+        if (itemTipo == ItemInterface.Item.None || !Enum.IsDefined( typeof(ItemInterface.Item), itemTipo))
         {
             return 0;
         }

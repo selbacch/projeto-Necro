@@ -67,7 +67,7 @@ public class InventarioSlot : MonoBehaviour
 
         this.quantidade.text = string.Empty;
         
-        if (tipoItem != ItemInterface.Item.None)
+        if (tipoItem != ItemInterface.Item.None && prefab != null) 
         {
             
            // itemNoSlot = Instantiate(prefab, transform);
