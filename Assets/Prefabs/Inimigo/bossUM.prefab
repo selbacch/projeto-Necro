@@ -231,9 +231,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_audioClip: {fileID: 8300000, guid: 269765ed48b64d742aaadc8c43df4f5c, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.561
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -487,6 +487,7 @@ GameObject:
   - component: {fileID: 6694574229506613032}
   - component: {fileID: 2394428131761263229}
   - component: {fileID: 1752014884}
+  - component: {fileID: 4424059031765853791}
   m_Layer: 0
   m_Name: bossUM
   m_TagString: Enemy
@@ -699,6 +700,25 @@ MonoBehaviour:
   spotInvocacao: {fileID: 1689744202}
   bossIniciado: 0
   areaStart: {fileID: 859156897}
+--- !u!114 &4424059031765853791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3975056917477914117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88e123519f2391240acbd68a3feea9ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 7888860774165320140}
+  audioSourceWalk: {fileID: 7888860774165320140}
+  Enemynull: {fileID: 8300000, guid: 269765ed48b64d742aaadc8c43df4f5c, type: 3}
+  EnemyVariation: {fileID: 8300000, guid: 269765ed48b64d742aaadc8c43df4f5c, type: 3}
+  EnemyVariation1: {fileID: 8300000, guid: 269765ed48b64d742aaadc8c43df4f5c, type: 3}
+  EnemyVariation2: {fileID: 8300000, guid: 269765ed48b64d742aaadc8c43df4f5c, type: 3}
+  StingSound: {fileID: 8300000, guid: 269765ed48b64d742aaadc8c43df4f5c, type: 3}
 --- !u!1 &4222735971119671160
 GameObject:
   m_ObjectHideFlags: 0
