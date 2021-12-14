@@ -1,0 +1,2460 @@
+fileFormatVersion: 2
+guid: 296a1d3a209d6ee419c3d87c428376e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2283959521804422222
+    second: Ligthsuol_0
+  - first:
+      213: -7226109808994904897
+    second: Ligthsuol_1
+  - first:
+      213: 8726103351869040043
+    second: Ligthsuol_2
+  - first:
+      213: 927175824717095295
+    second: Ligthsuol_3
+  - first:
+      213: 5697110501330783628
+    second: Ligthsuol_4
+  - first:
+      213: 5248705707058156204
+    second: Ligthsuol_5
+  - first:
+      213: -7231139487848841156
+    second: Ligthsuol_6
+  - first:
+      213: -1963203388375294188
+    second: Ligthsuol_7
+  - first:
+      213: 5866608190263588259
+    second: Ligthsuol_8
+  - first:
+      213: 1640333803289371274
+    second: Ligthsuol_9
+  - first:
+      213: -4609085017130319387
+    second: Ligthsuol_10
+  - first:
+      213: -2432682295519229622
+    second: Ligthsuol_11
+  - first:
+      213: 5988901682454711945
+    second: Ligthsuol_12
+  - first:
+      213: 1980935199597891321
+    second: Ligthsuol_13
+  - first:
+      213: 457460515078805871
+    second: Ligthsuol_14
+  - first:
+      213: -4081037771561406909
+    second: Ligthsuol_15
+  - first:
+      213: -8827031755905646212
+    second: Ligthsuol_16
+  - first:
+      213: -3734650620457881828
+    second: Ligthsuol_17
+  - first:
+      213: 9029249852931297799
+    second: Ligthsuol_18
+  - first:
+      213: 8607504182896977279
+    second: Ligthsuol_19
+  - first:
+      213: 3279464722870491960
+    second: Ligthsuol_20
+  - first:
+      213: -6057759878690748361
+    second: Ligthsuol_21
+  - first:
+      213: 8624700890336369967
+    second: Ligthsuol_22
+  - first:
+      213: 7373091977357403467
+    second: Ligthsuol_23
+  - first:
+      213: 2169074544138014611
+    second: Ligthsuol_24
+  - first:
+      213: 2071753004059447946
+    second: Ligthsuol_25
+  - first:
+      213: -6597775438515187517
+    second: Ligthsuol_26
+  - first:
+      213: 1170938805007791511
+    second: Ligthsuol_27
+  - first:
+      213: -6984681707173858798
+    second: Ligthsuol_28
+  - first:
+      213: -571855633888692354
+    second: Ligthsuol_29
+  - first:
+      213: 2311152609611443223
+    second: Ligthsuol_30
+  - first:
+      213: 4955966336482038682
+    second: Ligthsuol_31
+  - first:
+      213: 7996740302351260208
+    second: Ligthsuol_32
+  - first:
+      213: 4952884808418824575
+    second: Ligthsuol_33
+  - first:
+      213: 7389244886144324055
+    second: Ligthsuol_34
+  - first:
+      213: -4500597721716988696
+    second: Ligthsuol_35
+  - first:
+      213: 4391235474743114270
+    second: Ligthsuol_36
+  - first:
+      213: -9119571405855054857
+    second: Ligthsuol_37
+  - first:
+      213: -6972043198173124891
+    second: Ligthsuol_38
+  - first:
+      213: -6729516646083652771
+    second: Ligthsuol_39
+  - first:
+      213: 3089274868162920621
+    second: Ligthsuol_40
+  - first:
+      213: 8776019564222209932
+    second: Ligthsuol_41
+  - first:
+      213: 5574003302864040333
+    second: Ligthsuol_42
+  - first:
+      213: 4153151657820867313
+    second: Ligthsuol_43
+  - first:
+      213: -2192081309027104069
+    second: Ligthsuol_44
+  - first:
+      213: 5015885160637141972
+    second: Ligthsuol_45
+  - first:
+      213: -9111664209084716550
+    second: Ligthsuol_46
+  - first:
+      213: 1328570726853726238
+    second: Ligthsuol_47
+  - first:
+      213: 1613175488539896198
+    second: Ligthsuol_48
+  - first:
+      213: 1324533186033366696
+    second: Ligthsuol_49
+  - first:
+      213: 4470322666135944667
+    second: Ligthsuol_50
+  - first:
+      213: 4885557577262685518
+    second: Ligthsuol_51
+  - first:
+      213: -7775239088290460224
+    second: Ligthsuol_52
+  - first:
+      213: -5363545015711552896
+    second: Ligthsuol_53
+  - first:
+      213: -3534461752416411783
+    second: Ligthsuol_54
+  - first:
+      213: -7080056461642847678
+    second: Ligthsuol_55
+  - first:
+      213: 5085663270634754951
+    second: Ligthsuol_56
+  - first:
+      213: 8467604347630373123
+    second: Ligthsuol_57
+  - first:
+      213: 6519784533605143634
+    second: Ligthsuol_58
+  - first:
+      213: 3262250186269048556
+    second: Ligthsuol_59
+  - first:
+      213: 8183704315889753407
+    second: Ligthsuol_60
+  - first:
+      213: 4359016968604011951
+    second: Ligthsuol_61
+  - first:
+      213: 5875403474906213375
+    second: Ligthsuol_62
+  - first:
+      213: 2169091232786718929
+    second: Ligthsuol_63
+  - first:
+      213: 1935225651055323918
+    second: Ligthsuol_64
+  - first:
+      213: 1114131862991046064
+    second: Ligthsuol_65
+  - first:
+      213: -216655102298313535
+    second: Ligthsuol_66
+  - first:
+      213: 5517271488965163082
+    second: Ligthsuol_67
+  - first:
+      213: 8849946055014806890
+    second: Ligthsuol_68
+  - first:
+      213: 8630792885441440379
+    second: Ligthsuol_69
+  - first:
+      213: -5292398862132315979
+    second: Ligthsuol_70
+  - first:
+      213: -7876745373468533372
+    second: Ligthsuol_71
+  - first:
+      213: 5938349017676292863
+    second: Ligthsuol_72
+  - first:
+      213: 1796315446081944452
+    second: Ligthsuol_73
+  - first:
+      213: 3453062889880219253
+    second: Ligthsuol_74
+  - first:
+      213: 8615917577047857262
+    second: Ligthsuol_75
+  - first:
+      213: 1963318248126545335
+    second: Ligthsuol_76
+  - first:
+      213: 5286151428499346203
+    second: Ligthsuol_77
+  - first:
+      213: 5143686426186782624
+    second: Ligthsuol_78
+  - first:
+      213: -3971336957228684915
+    second: Ligthsuol_79
+  - first:
+      213: -4704066638088582582
+    second: Ligthsuol_80
+  - first:
+      213: 7222133660589839043
+    second: Ligthsuol_81
+  - first:
+      213: 203600073909923847
+    second: Ligthsuol_82
+  - first:
+      213: -6401798706893196999
+    second: Ligthsuol_83
+  - first:
+      213: -1291477871174102261
+    second: Ligthsuol_84
+  - first:
+      213: 62035899440710280
+    second: Ligthsuol_85
+  - first:
+      213: 8394730805340642873
+    second: Ligthsuol_86
+  - first:
+      213: 7365414142660731400
+    second: Ligthsuol_87
+  - first:
+      213: 5788883260594927183
+    second: Ligthsuol_88
+  - first:
+      213: -5735256121465592349
+    second: Ligthsuol_89
+  - first:
+      213: -8952896703438506280
+    second: Ligthsuol_90
+  - first:
+      213: -2828476392035397516
+    second: Ligthsuol_91
+  - first:
+      213: 7458071394238346182
+    second: Ligthsuol_92
+  - first:
+      213: -8454100451775470334
+    second: Ligthsuol_93
+  - first:
+      213: -4372890684563080078
+    second: Ligthsuol_94
+  - first:
+      213: -2638151613100131076
+    second: Ligthsuol_95
+  - first:
+      213: -6018978348992787782
+    second: Ligthsuol_96
+  - first:
+      213: -5616621478930821793
+    second: Ligthsuol_97
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ligthsuol_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3f9757aeebd40e0800000000000000
+      internalID: -2283959521804422222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 504
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb494ee0a63b7bb90800000000000000
+      internalID: -7226109808994904897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5ef7104c8591970800000000000000
+      internalID: 8726103351869040043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71a79c008dfddc00800000000000000
+      internalID: 927175824717095295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 504
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d08fdf0d3301f40800000000000000
+      internalID: 5697110501330783628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca254cf180627d840800000000000000
+      internalID: 5248705707058156204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c304871b2f4d5ab90800000000000000
+      internalID: -7231139487848841156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 504
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f1c067bec41c4e0800000000000000
+      internalID: -1963203388375294188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5fe0101116a6150800000000000000
+      internalID: 5866608190263588259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82e02a37e2a3c610800000000000000
+      internalID: 1640333803289371274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 504
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e14f5ec89d3900c0800000000000000
+      internalID: -4609085017130319387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_11
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 504
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49c13457506d3ed0800000000000000
+      internalID: -2432682295519229622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_12
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 541
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ec371895adc1350800000000000000
+      internalID: 5988901682454711945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 432
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe891f8112bd7b10800000000000000
+      internalID: 1980935199597891321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 432
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f691a0c2ae9395600800000000000000
+      internalID: 457460515078805871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 432
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e612fd4cd3d57c0800000000000000
+      internalID: -4081037771561406909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 432
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71c628b265108580800000000000000
+      internalID: -8827031755905646212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 432
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f6a673c0bdb2cc0800000000000000
+      internalID: -3734650620457881828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_18
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 432
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702d738f6e65e4d70800000000000000
+      internalID: 9029249852931297799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 432
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f756348237ff37770800000000000000
+      internalID: 8607504182896977279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_20
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 432
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bde144acff28d20800000000000000
+      internalID: 3279464722870491960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_21
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 432
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73846085c738eeba0800000000000000
+      internalID: -6057759878690748361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_22
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 432
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d9e7e93c711b770800000000000000
+      internalID: 8624700890336369967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_23
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 432
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45abaec61c725660800000000000000
+      internalID: 7373091977357403467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_24
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 432
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f40be3ec91a1e10800000000000000
+      internalID: 2169074544138014611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_25
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 491
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82df4d616850cc10800000000000000
+      internalID: 2071753004059447946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_26
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 461
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c05187f13eff64a0800000000000000
+      internalID: -6597775438515187517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_27
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 461
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795b536a3a2004010800000000000000
+      internalID: 1170938805007791511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_28
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 457
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212bbb66efc611f90800000000000000
+      internalID: -6984681707173858798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_29
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 453
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77324fa45c5018f0800000000000000
+      internalID: -571855633888692354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_30
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 451
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c6b9dad0dd21020800000000000000
+      internalID: 2311152609611443223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_31
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 448
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a935ecc002127c440800000000000000
+      internalID: 4955966336482038682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_32
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 445
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a52babfe02afe60800000000000000
+      internalID: 7996740302351260208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_33
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 445
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f719b33ed7e2cb440800000000000000
+      internalID: 4952884808418824575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_34
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 419
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d11105f21fdb8660800000000000000
+      internalID: 7389244886144324055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_35
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 418
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e46020a73aaa81c0800000000000000
+      internalID: -4500597721716988696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_36
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 416
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a3825066dc0fc30800000000000000
+      internalID: 4391235474743114270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 356
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3233abf16c07180800000000000000
+      internalID: -9119571405855054857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_38
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 355
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6663696a35e3f90800000000000000
+      internalID: -6972043198173124891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_39
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 355
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d531b10d344fb92a0800000000000000
+      internalID: -6729516646083652771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_40
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 354
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0846aff1f4fda20800000000000000
+      internalID: 3089274868162920621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_41
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 354
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fd75bdb4faac970800000000000000
+      internalID: 8776019564222209932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_42
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 355
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81b01cb876da5d40800000000000000
+      internalID: 5574003302864040333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_43
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 355
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faccbead65f2a930800000000000000
+      internalID: 4153151657820867313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_44
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 355
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba8aa0e9a92491e0800000000000000
+      internalID: -2192081309027104069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_45
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 354
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d31ee17af00c9540800000000000000
+      internalID: 5015885160637141972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_46
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 354
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af96dd07daddc8180800000000000000
+      internalID: -9111664209084716550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_47
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 355
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1059197908007210800000000000000
+      internalID: 1328570726853726238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_48
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 356
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689a9c25f86236610800000000000000
+      internalID: 1613175488539896198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_49
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 411
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a63cbe3aefa16210800000000000000
+      internalID: 1324533186033366696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_50
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 405
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddf862b7c6c90e30800000000000000
+      internalID: 4470322666135944667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_51
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 400
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dd5725bbcfcc340800000000000000
+      internalID: 4885557577262685518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_52
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 399
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd07b28e3dc81490800000000000000
+      internalID: -7775239088290460224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_53
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 401
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a22b9b93cd095b0800000000000000
+      internalID: -5363545015711552896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_54
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 357
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fd30733c113fec0800000000000000
+      internalID: -3534461752416411783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_55
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24aa11ee8269ebd90800000000000000
+      internalID: -7080056461642847678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_56
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 289
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7839f65bcc7e39640800000000000000
+      internalID: 5085663270634754951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_57
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309cf077a49f28570800000000000000
+      internalID: 8467604347630373123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_58
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254de917d7dea7a50800000000000000
+      internalID: 6519784533605143634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_59
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 289
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceeb401a247d54d20800000000000000
+      internalID: 3262250186269048556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_60
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d907757bb529170800000000000000
+      internalID: 8183704315889753407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_61
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadca8f76d65e7c30800000000000000
+      internalID: 4359016968604011951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_62
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 289
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb61e9c450a98150800000000000000
+      internalID: 5875403474906213375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_63
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0aaafdbf82a1e10800000000000000
+      internalID: 2169091232786718929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_64
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b6063f97d4bda10800000000000000
+      internalID: 1935225651055323918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_65
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 289
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b58686c601367f00800000000000000
+      internalID: 1114131862991046064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_66
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 289
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccabb415594efcf0800000000000000
+      internalID: -216655102298313535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_67
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 313
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48b82dff29419c40800000000000000
+      internalID: 5517271488965163082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_68
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 169
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65f68a4c0351da70800000000000000
+      internalID: 8849946055014806890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_69
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 168
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aa4b2c66cb6c770800000000000000
+      internalID: 8630792885441440379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_70
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 167
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8fbe4764f9d86b0800000000000000
+      internalID: -5292398862132315979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_71
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 169
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dd43cc0dd20b290800000000000000
+      internalID: -7876745373468533372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_72
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 171
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2a2e608f0496250800000000000000
+      internalID: 5938349017676292863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_73
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 172
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bf244816bcde810800000000000000
+      internalID: 1796315446081944452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_74
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 95
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ee46a376ebbef20800000000000000
+      internalID: 3453062889880219253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_75
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 96
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e685bf12363e19770800000000000000
+      internalID: 8615917577047857262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_76
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 92
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdff986b8b1f3b10800000000000000
+      internalID: 1963318248126545335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_77
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 93
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1390ac87be2c5940800000000000000
+      internalID: 5286151428499346203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_78
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 94
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a79cdc5d8b026740800000000000000
+      internalID: 5143686426186782624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_79
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 96
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89e005141af2e8c0800000000000000
+      internalID: -3971336957228684915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_80
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 106
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ac6fcd05cc7beb0800000000000000
+      internalID: -4704066638088582582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_81
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 107
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c259dfbc4c2a3460800000000000000
+      internalID: 7222133660589839043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_82
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 108
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700f4a1403553d200800000000000000
+      internalID: 203600073909923847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_83
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 107
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93173188efd3827a0800000000000000
+      internalID: -6401798706893196999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_84
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 108
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03d36df7bfb31ee0800000000000000
+      internalID: -1291477871174102261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_85
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 108
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8824c7562556cd000800000000000000
+      internalID: 62035899440710280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_86
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 16
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e9b55b033108470800000000000000
+      internalID: 8394730805340642873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_87
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 15
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8026eec9325373660800000000000000
+      internalID: 7365414142660731400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_88
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 15
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4637f997ae365050800000000000000
+      internalID: 5788883260594927183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_89
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 17
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5a828b1f64860b0800000000000000
+      internalID: -5735256121465592349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_90
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 17
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d638c8f1ebe0c380800000000000000
+      internalID: -8952896703438506280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_91
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 19
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470d62515bb3fb8d0800000000000000
+      internalID: -2828476392035397516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_92
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 34
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c334132b64608760800000000000000
+      internalID: 7458071394238346182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_93
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 34
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205247c4e600daa80800000000000000
+      internalID: -8454100451775470334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_94
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 32
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cb009471f5053c0800000000000000
+      internalID: -4372890684563080078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_95
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 33
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcfa8dd517636bd0800000000000000
+      internalID: -2638151613100131076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_96
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 34
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba848dd41b487ca0800000000000000
+      internalID: -6018978348992787782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligthsuol_97
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 34
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dcf76e580cd02b0800000000000000
+      internalID: -5616621478930821793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
