@@ -376,7 +376,8 @@ MonoBehaviour:
   dropitems:
   - {fileID: 7380344293332001096, guid: 3f8252474dbb689459581ad87b174344, type: 3}
   - {fileID: 1139815134629513508, guid: 9b81c65cdc1496549a5bedcba816ac70, type: 3}
-  dropitems2: {fileID: 0}
+  dropitems2: {fileID: 8520646410799653197, guid: c93d947d0be42274cb3db010fac12f80,
+    type: 3}
 --- !u!212 &1447609473344064107
 SpriteRenderer:
   m_ObjectHideFlags: 0
