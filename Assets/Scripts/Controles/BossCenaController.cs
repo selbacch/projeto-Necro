@@ -36,7 +36,7 @@ public class BossCenaController : MonoBehaviour
         yield return new WaitForSecondsRealtime(2);
         playerInput.DeactivateInput();
         msgTermino.SetActive(true);
-        yield return new WaitForSecondsRealtime(10);
+        yield return new WaitForSecondsRealtime(6);
         msgTermino.SetActive(false);
         yield return new WaitForSecondsRealtime(2);
         SceneManager.LoadScene("IN_creditos");
