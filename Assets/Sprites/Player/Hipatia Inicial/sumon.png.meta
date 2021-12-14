@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: a731a2aa53d285c4d846e0962aa09489
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4310886682842144358
+    second: sumon_0
+  - first:
+      213: -3406849658410408342
+    second: sumon_1
+  - first:
+      213: -5160994860544476702
+    second: sumon_2
+  - first:
+      213: 6850161832689358139
+    second: sumon_3
+  - first:
+      213: 4599774817402060415
+    second: sumon_4
+  - first:
+      213: -4033440041278658758
+    second: sumon_5
+  - first:
+      213: 6829506672062787370
+    second: sumon_6
+  - first:
+      213: -7168285752177250030
+    second: sumon_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sumon_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 900
+        width: 262
+        height: 326
+      alignment: 9
+      pivot: {x: 0.4153562, y: 0.4366646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a916b3ae667ac24c0800000000000000
+      internalID: -4310886682842144358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sumon_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 884
+        width: 233
+        height: 326
+      alignment: 9
+      pivot: {x: 0.33918047, y: 0.45543048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a666943394078b0d0800000000000000
+      internalID: -3406849658410408342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sumon_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 211
+        height: 321
+      alignment: 9
+      pivot: {x: 0.7464477, y: 0.45473644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e931a9b4867068b0800000000000000
+      internalID: -5160994860544476702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sumon_3
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 462
+        width: 211
+        height: 321
+      alignment: 9
+      pivot: {x: 0.72832644, y: 0.45711872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b355363a4e9a01f50800000000000000
+      internalID: 6850161832689358139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sumon_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 43
+        width: 196
+        height: 328
+      alignment: 9
+      pivot: {x: 0.42107266, y: 0.4663114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e790663dea5df30800000000000000
+      internalID: 4599774817402060415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sumon_5
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 43
+        width: 196
+        height: 328
+      alignment: 9
+      pivot: {x: 0.4285895, y: 0.4663114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37afbc07a75608c0800000000000000
+      internalID: -4033440041278658758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sumon_6
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 0
+        width: 244
+        height: 341
+      alignment: 9
+      pivot: {x: 0.70529723, y: 0.4697561}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f667b422847ce50800000000000000
+      internalID: 6829506672062787370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sumon_7
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 0
+        width: 244
+        height: 341
+      alignment: 9
+      pivot: {x: 0.69624054, y: 0.45895472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2113bfc6612258c90800000000000000
+      internalID: -7168285752177250030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
