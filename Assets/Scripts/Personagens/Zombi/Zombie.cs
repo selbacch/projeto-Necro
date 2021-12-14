@@ -115,8 +115,8 @@ public class Zombie : InterfaceAtacavel
         if (Target == null)
             return;
         gameObject.GetComponent<NavMeshAgent>().SetDestination(Target.transform.position);
-        Vector3 direction = Target.gameObject.transform.position - transform.position;
-        direction.z = 0;
+        Vector2 direction = Target.gameObject.transform.position - transform.position;
+        //direction.z = 0;
         float distanceToTarget = direction.magnitude -1;
 
         direction.Normalize();

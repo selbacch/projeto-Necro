@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Walkl
+  m_Name: AtackUR
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 25e6ebc02a35c46459ca21c9bc43ac11, type: 3}
+      value: {fileID: 21300000, guid: 9b28c0bef60bec644968d2c004587ad3, type: 3}
     - time: 0.016666668
-      value: {fileID: 21300000, guid: ca7903660d1bffb4a877fc7cd9687518, type: 3}
+      value: {fileID: 21300000, guid: 7ae59b5add6c45e4188c3eaba7b9792f, type: 3}
     - time: 0.033333335
-      value: {fileID: 21300000, guid: eda93a08ef06fec4f8accdfc4ec14389, type: 3}
-    - time: 0.05
-      value: {fileID: 21300000, guid: bc13809278dd8964d95ec158773fd855, type: 3}
+      value: {fileID: 21300000, guid: 17bef7877e0e2ac4a9025caa1051568a, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,16 +44,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 25e6ebc02a35c46459ca21c9bc43ac11, type: 3}
-    - {fileID: 21300000, guid: ca7903660d1bffb4a877fc7cd9687518, type: 3}
-    - {fileID: 21300000, guid: eda93a08ef06fec4f8accdfc4ec14389, type: 3}
-    - {fileID: 21300000, guid: bc13809278dd8964d95ec158773fd855, type: 3}
+    - {fileID: 21300000, guid: 9b28c0bef60bec644968d2c004587ad3, type: 3}
+    - {fileID: 21300000, guid: 7ae59b5add6c45e4188c3eaba7b9792f, type: 3}
+    - {fileID: 21300000, guid: 17bef7877e0e2ac4a9025caa1051568a, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.06666667
+    m_StopTime: 0.050000004
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -74,4 +71,18 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.016666668
+    functionName: Tocar
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.016666668
+    functionName: DandoDano
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
